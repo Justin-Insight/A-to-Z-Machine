@@ -1,0 +1,43 @@
+// Colors
+$primary-color: #cd1f40;
+$secondary-color: #92981b;
+$light-gray: #f6f6f6;
+$gray: #a8a8a8;
+$black: #232323;
+$white: #ffffff;
+
+// overlays
+$white-overlay: rgba(255, 255, 255, 0.9);
+
+$blue-shadow: rgba(43, 59, 147, 0.2);
+
+// Fonts
+$primary-font: "Poppins", sans-serif;
+$secondary-font: "Poppins", sans-serif;
+
+$mobile-header: 68px;
+$desktop-header: 88px;
+
+// Scale and rhythm based on a major third
+$ic-100: 0.8rem;
+$ic-200: 1rem;
+$ic-300: 1.25rem;
+$ic-400: 1.563rem;
+$ic-500: 1.953rem;
+$ic-600: 2.441rem;
+$ic-700: 3.052rem;
+$ic-800: 3.815rem;
+$ic-900: 4.769rem;
+
+// // Scale and rhythm based on a perfect fourth
+// $ic-100: 0.75rem;
+// $ic-200: 1rem;
+// $ic-300: 1.333rem;
+// $ic-400: 1.777rem;
+// $ic-500: 2.369rem;
+// $ic-600: 3.157rem;
+// $ic-700: 4.209rem;
+
+$measure-short: 60ch;
+$measure: 80ch;
+$measure-long: 90ch;

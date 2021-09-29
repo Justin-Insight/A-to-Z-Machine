@@ -1,0 +1,7 @@
+{{ define "main" }}
+{{ partial "blog/blog-hero" . }}
+    <div class="wrapper padding-top-4 padding-bottom-4">
+        {{ .Title }}
+        {{ .Content  }}
+    </div>
+{{ end }}

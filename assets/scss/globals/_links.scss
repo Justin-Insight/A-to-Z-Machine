@@ -1,0 +1,11 @@
+a {
+  color: $primary-color;
+  transition: 0.3s ease;
+  display: inline-block;
+
+  &:hover,
+  &:focus {
+    color: $secondary-color;
+    outline-color: $secondary-color;
+  }
+}
