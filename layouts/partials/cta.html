@@ -1,0 +1,30 @@
+{{ $ctaClass := lower .Page.Title }}
+<div class="cta {{ anchorize $ctaClass }}-cta">
+  {{ $ctaimage := (.Resources.GetMatch (index .Params.cta.cta_image)) }}
+  {{ $ctasmallwebp := $ctaimage.Resize "600x q85 webp" }}
+  {{ $ctamediumwebp := $ctaimage.Resize "1000x q85 webp" }}
+  {{ $ctalargewebp := $ctaimage.Resize "1400x q85 webp" }}
+  {{ $ctaextralargewebp := $ctaimage.Resize "1800x q85 webp" }}
+  {{ $ctasmalljpg := $ctaimage.Resize "600x q85" }}
+  {{ $ctamediumjpg := $ctaimage.Resize "1000x q85" }}
+  {{ $ctalargejpg := $ctaimage.Resize "1400x q85" }}
+  {{ $ctaextralargejpg := $ctaimage.Resize "1800x q85" }}
+    <picture> 
+      <source sizes="100vw" srcset="{{ $ctasmallwebp.RelPermalink }} 600w, {{ $ctamediumwebp.RelPermalink }} 1000w, {{ $ctalargewebp.RelPermalink }} 1400w, {{ $ctaextralargewebp.RelPermalink }} 1600w" type="image/webp" > 
+      <source sizes="100vw" srcset="{{ $ctasmalljpg.RelPermalink }} 600w, {{ $ctamediumjpg.RelPermalink }} 1000w, {{ $ctalargejpg.RelPermalink }} 1400w, {{ $ctaextralargejpg.RelPermalink }} 1600w" type="image/jpg" > 
+      <img src="{{ $ctaimage.RelPermalink }}" alt="" width="{{ $ctaimage.Width }}" height="{{ $ctaimage.Height }}" class="cta__image" loading="lazy">
+    </picture>
+    <div class="cta__inner wrapper-md">
+      <div class="cta__content text-center text-white flow">
+        <div class="cta__content-inner">
+          <h2 class="cta__title short-cta__title text-white no-margin">
+            {{ .Params.cta.heading | markdownify }}
+          </h2>
+          <p>{{ .Params.cta.body | markdownify }}</p>
+          {{ with .Params.cta.button }}
+          <a href="{{ .link }}" class="btn btn-primary--rev">{{ .button_text }}</a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+</div>

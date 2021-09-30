@@ -1,0 +1,77 @@
+{{ define "main" }}
+{{ partialCached "hero" . }}
+{{ with .Params.intro_block }}
+<section class="intro block">
+  <div class="wrapper">
+    <h2 class="text-center">{{ .heading }}</h2>
+  </div>
+  <div class="wrapper flex flex-column-reverse flex-row-m">
+    <div class="w-100 w-50-m">
+      <p>{{.body }}</p>
+    </div>
+    <div class="w-100 w-50-m">
+      <div class="certifications flex flex-justify-center">
+        {{ range .certifications }}
+        <img src="{{ .logo }}" alt="">
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  {{ with .button }}
+  <div class="wrapper text-center">
+    <a href="{{ .link }}" class="btn btn-primary">{{ .button_text }}</a>
+  </div>
+  {{ end }}
+</section>
+{{ end }}
+{{ with .Params.industries_block }}
+<section class="industries block bg-black">
+  <div class="wrapper-md flex flex-column flex-row-m">
+    <div class="w-100 w-60-m text-white">
+      <h2>{{ .heading }}</h2>
+      <p>{{ .body }}</p>
+      <ul>
+        {{ range .industries }}
+        <li>{{ .industry }}</li>
+        {{ end }}
+      </ul>
+      <div class="multi-button-wrapper flex flex-column flex-row-m flex-justify-around">
+        {{ with .button }}
+        <a href="{{ .link }}" class="btn btn-primary--rev">{{ .button_text }}</a>
+        {{ end }}
+        {{ with .button2 }}
+        <a href="{{ .link }}" class="btn btn-primary--rev">{{ .button_text }}</a>
+        {{ end }}
+        </div>
+    </div>
+    <div class="stacked-images w-100 w-30-m">
+      {{with .image1 }}
+      <img src="{{ .image }}" alt="{{ .image_alt }}">
+      {{ end }}
+      {{with .image2 }}
+      <img src="{{ .image }}" alt="{{ .image_alt }}">
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ with .Params.capabilities_block }}
+<section class="capabilites block">
+  <div class="wrapper">
+    <h2 class="text-center">{{ .heading }}</h2>
+    <p>{{.body }}</p>
+    <div class="flex flex-column flex-row-m">
+      {{ range .sector }}
+      <a href="#" class="capabilities-card w-100 w-50-m cover-image">
+        <img src="{{ .service.image }}" alt="{{ .service.image_alt }}">
+        <div class="capabilities-card__title-wrapper flex flex-justify-center">
+          <span class="capabilities-card__title text-center">{{ .service.title }}</span>
+        </div>
+      </a>
+      {{end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ partialCached "cta" . }}
+{{ end }}

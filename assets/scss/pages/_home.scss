@@ -1,0 +1,79 @@
+.intro {
+  .certifications {
+    img {
+      max-width: 130px;
+      padding: $ic-100;
+    }
+  }
+}
+
+.industries {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 100%;
+    background: $white;
+    height: $ic--200;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    top: -1px;
+
+    @include breakpoint(md) {
+      height: $ic-600;
+    }
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 100%;
+    background: $primary-color;
+    height: $ic--100;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 20%);
+    top: calc(100% - 1px);
+
+    @include breakpoint(md) {
+      height: $ic-800;
+    }
+  }
+
+  ul {
+    @include breakpoint(md) {
+      columns: 2;
+    }
+  }
+}
+
+.multi-button-wrapper {
+  .btn + .btn {
+    margin-top: $ic-300;
+
+    @include breakpoint(md) {
+      margin-top: 0;
+    }
+  }
+}
+
+.stacked-images {
+  img {
+    margin-top: $ic-800;
+  }
+
+  @include breakpoint(md) {
+    position: relative;
+    z-index: 1;
+    top: -5.852rem;
+    right: -5.852rem;
+
+    img {
+      margin-top: 0;
+    }
+
+    img + img {
+      margin-top: $ic-800;
+    }
+  }
+}

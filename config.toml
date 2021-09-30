@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Quintessence"
+title = "A to Z Machine"
 enableRobotsTXT = true
 disableAliases = true
 # post pagination
@@ -10,14 +10,14 @@ summaryLength = 30
 #################### default parameters ################################
 
 [params]
-  logo = ""
+  logo = "/images/a-to-z-25-year-logo.svg"
   # Meta data
   description = "Site Description here"
   author = "Quintessence"
   # Contact Information
   phone = " "
-  email = "demo@email.com"
-  address = " "
+  email = ""
+  address = ""
   googleMapLocation = ""
   disallowSearchEngines = true
   # Google Analitycs
@@ -56,16 +56,31 @@ summaryLength = 30
   unsafe= true
 
 [[menu.main]]
-    name = "Home"
-    url  = "/"
+    name = "Capabilities"
+    url  = "/capabilities/"
     weight = 1
+
+[[menu.main]]
+    name = "Equipment"
+    url  = "/equipment/"
+    weight = 2
+
+[[menu.main]]
+    name = "Industries"
+    url  = "/industries/"
+    weight = 3
 
 [[menu.main]]
     name = "About"
     url  = "/about/"
-    weight = 2
+    weight = 4
 
 [[menu.main]]
-    name = "Blog"
-    url  = "/blog/"
-    weight = 10
+    name = "Careers"
+    url  = "/careers/"
+    weight = 5
+
+[[menu.main]]
+    name = "Contact"
+    url  = "/contact/"
+    weight = 6

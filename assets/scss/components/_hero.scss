@@ -1,12 +1,57 @@
 .hero {
   position: relative;
+  height: 50vh;
 
-  svg {
-    max-width: 100vw;
+  &::before,
+  &__inner {
     position: absolute;
-    bottom: -4%;
+    top: 0;
     left: 0;
-    right: 0;
-    margin-bottom: -1px;
+    height: 100%;
+    width: 100%;
+  }
+
+  &::before {
+    content: "";
+    background: rgba($black, 0.5);
+    background: transparent
+      linear-gradient(0deg, #333f488c 0%, #333f48 48%, #333f488c 100%) 0% 0%
+      no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: 1;
+  }
+
+  &__image {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__inner {
+    display: grid;
+    place-items: center;
+
+    h1 {
+      letter-spacing: 0.48px;
+    }
+
+    p {
+      max-width: 45ch;
+      font-size: $ic-300;
+    }
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 100%;
+    background: $primary-color;
+    height: $ic--100;
+    clip-path: polygon(0 0, 100% 0, 100% 20%, 0 100%);
+    top: calc(100% - 1px);
+
+    @include breakpoint(md) {
+      height: $ic-800;
+    }
   }
 }

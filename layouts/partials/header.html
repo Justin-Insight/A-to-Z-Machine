@@ -2,8 +2,17 @@
 <a class="screen-reader-skip-to-content" href="#main-content" tabindex="0">Skip to main content</a>
 <a class="screen-reader-skip-to-content" href="#footer" tabindex="0">Skip to footer content</a>
 <header class="site-header" role="banner">
-  <div class="nav primary-nav wrapper-wide">
-    <div class="logo-wrapper">
+  <div class="site-header__top">
+    <div class="site-header__top-inner wrapper-md flex flex-justify-end">
+      <ul class="site-header__secondary-menu flex flex-center">
+        <li><a href="/blog/">Blog</a></li>
+        <!-- TODO Add Search Toggle Here -->
+        <li><a href="/request-a-quote/" class="btn btn-primary--rev">Request a Quote</a></li>
+      </u>
+    </div>
+  </div>
+  <div class="site-header__wrapper wrapper-md">
+    <div class="site-header__logo">
       <a class="brand-logo" href="{{ site.BaseURL }}">
         {{ if site.Params.logo }}
           <img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" class="img-responsive dim" width="200" height="100">
@@ -12,12 +21,12 @@
         {{ end }}
       </a>
     </div>
-    <nav role="navigation" aria-label="primary navigation">
+    <nav class="site-header__nav" role="navigation" aria-label="primary navigation">
       {{ with .Site.Menus.main }}
-      <ul class="nav-list" role="list">
+      <ul class="site-header__nav-wrapper" role="list">
           {{ range . }}
-          <li class="nav-list__item">
-            <a class="nav-list__link" href="{{ .URL }}" aria-label="{{ .Name }}"
+          <li class="site-header__nav-item">
+            <a class="site-header__link" href="{{ .URL }}" aria-label="{{ .Name }}"
               title="{{ .Name }}">{{ .Name }}</a>
           </li>
           {{ end }}

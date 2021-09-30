@@ -1,21 +1,83 @@
 .cta {
-  padding: $ic-600 0 0 0;
-  margin: $ic-600 0 0 0;
   position: relative;
+  height: 50vh;
 
-  svg {
+  &__inner {
     position: absolute;
-    bottom: 0;
-    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
   }
 
-  img {
-    max-width: 40rem;
+  &__image {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__inner {
+    display: grid;
+    place-items: center;
+
+    h2 {
+      letter-spacing: 0.48px;
+    }
+
+    p {
+      max-width: 45ch;
+      font-size: $ic-300;
+    }
+  }
+
+  &__content {
+    position: relative;
+    padding: 0.5rem;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: $black;
+      mix-blend-mode: darken;
+      opacity: 1;
+      z-index: 1;
+    }
+
+    @include breakpoint(sm) {
+      padding: $ic-800 7rem;
+
+      &:after {
+        transform: $skew;
+      }
+    }
+  }
+
+  &__content-inner {
+    position: relative;
+    z-index: 2;
+    width: 80%;
     margin: 0 auto;
+
+    @include breakpoint(sm) {
+      width: 100%;
+    }
   }
 
-  @include breakpoint(md) {
-    padding: $ic-700 0 0 0;
-    margin: $ic-700 0 0 0;
+  &::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 100%;
+    background: $white;
+    height: $ic--200;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    top: calc(100% - 1px);
+
+    @include breakpoint(md) {
+      height: $ic-600;
+    }
   }
 }

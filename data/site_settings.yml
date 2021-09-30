@@ -1,0 +1,17 @@
+logo: "/images/a-to-z-25-year-logo.svg"
+business_name: A to Z Machine Company
+phone: 920-993-0640
+fax: 920-993-0650
+email:
+address: "2701 E. Winslow Ave. <br> Appleton, WI 54911-8647"
+hours: ""
+social_media:
+  - social:
+      title: Facebook
+      link: https://facebook.com
+  - social:
+      title: LinkedIn
+      link: https://linkedin.com
+  - social:
+      title: YouTube
+      link: https://youtube.com

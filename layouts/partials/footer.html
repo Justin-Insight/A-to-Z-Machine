@@ -1,6 +1,53 @@
-<footer class="footer" data-scroll-section>
-  <div class="footer__copyright flex-center wrapper-wide">
-    <p>© {{ dateFormat "2006" now }} {{ .Site.Params.author }} All Rights Reserved.</p>
+<footer class="footer">
+  <div class="footer__inner wrapper-md flex flex-column flex-row-m">
+    <div class="footer__col w-100 w-40-m">
+      <h2 class="underline-primary">A to Z Machine</h2>
+      <p>A to Z Machine Co. was founded in 1996 to provide machining and contract manufacturing solutions for customer-specific manufactured goods and services.</p>
+      <p>Follow us for ongoing innovations:</p>
+      <ul class="footer__social">
+        {{ range .Site.Data.site_settings.social_media }}
+        <li class="footer__social-list-item">
+          <a href="{{ .social.link }}" class="footer__social-icon" target="_blank" rel="noopener noreferrer">
+            {{ if eq .social.title "Facebook" }}
+            {{ partial "svg-icons/facebook.svg" . }}
+            {{ else if eq .social.title "LinkedIn"}}
+            {{ partial "svg-icons/linkedin.svg" . }}
+            {{ else if eq .social.title "YouTube"}}
+            {{ partial "svg-icons/youtube.svg" . }}
+            {{ end }}
+            <span class="visually-hidden">{{ .social.title }}</span>
+          </a>
+        </li>
+        {{ end }}
+        
+      </ul>
+    </div>
+    <div class="footer__col w-100 w-20-m">
+      <h2 class="h3 underline-primary">Contact Us</h2>
+      <div>
+        {{ .Site.Data.site_settings.address | markdownify }}
+        <br>
+        <strong>Phone:</strong> <a href="tel:{{ .Site.Data.site_settings.phone }}"> {{ .Site.Data.site_settings.phone }}</a>
+        <br>
+        <strong>Fax:</strong> {{ .Site.Data.site_settings.fax }}
+      </div>
+    </div>
+    <div class="footer__col w-100 w-40-m">
+      <h2 class="h3 underline-primary">Quick Links</h2>
+      <ul class="footer__quick-links">
+        <li>Capabilities</li>
+        <li>Equipment</li>
+        <li>Industries</li>
+        <li>About Us</li>
+        <li>CNC Machining</li>
+        <li>Fabrication</li>
+        <li>Request a Quote</li>
+        <li>Careers</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__copyright flex flex-center wrapper-md">
+    <p>© {{ dateFormat "2006" now }} {{ .Site.Data.site_settings.business_name }} All Rights Reserved.</p>
     <nav class="footer__nav">
       <ul class="footer__nav-list">
         <li class="footer__nav-list-item"><a href="/privacy-policy/" class="footer__nav-item">Privacy Policy</a> | </li>

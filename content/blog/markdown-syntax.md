@@ -10,6 +10,10 @@ aliases: ["migrate-from-jekyl"]
 archives: ["2019/03"]
 ---
 
+<a href="#" class="btn btn-primary">Primary Button</a>
+
+<p><a href="#" class="btn btn-primary--rev">Primary Button Reversed</a></p>
+
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
 
 <!--more-->

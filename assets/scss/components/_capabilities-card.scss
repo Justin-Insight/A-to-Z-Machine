@@ -1,0 +1,80 @@
+.capabilities-card {
+  position: relative;
+  text-decoration: none;
+
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: rgba($black, 0.5);
+    background: transparent
+      linear-gradient(0deg, #333f488c 0%, #333f48 48%, #333f488c 100%) 0% 0%
+      no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: 0;
+    transition: 0.3s ease-out;
+  }
+
+  @include breakpoint(md) {
+    &:hover,
+    &:focus {
+      color: $white;
+
+      &:before {
+        opacity: 1;
+      }
+
+      .capabilities-card__title::before {
+        background-color: $black;
+      }
+
+      .capabilities-card__title::after {
+        transform: $skew translateX(15px);
+      }
+    }
+  }
+
+  &__title-wrapper {
+    position: relative;
+    top: -21px;
+    z-index: 1;
+  }
+
+  &__title {
+    position: relative;
+    color: $white;
+    padding: 0.5rem $ic-300;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+      content: "";
+      width: 100%;
+      height: 100%;
+      background-color: $primary-color;
+      transform: $skew;
+      transition: 0.3s ease-out;
+    }
+
+    &::after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      z-index: -2;
+      content: "";
+      width: 10px;
+      height: 100%;
+      background-color: $primary-color;
+      transform: $skew translateX(0);
+      transition: 0.3s ease-out;
+    }
+  }
+}

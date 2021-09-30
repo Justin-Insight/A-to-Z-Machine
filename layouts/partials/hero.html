@@ -1,20 +1,25 @@
 {{ $heroClass := lower .Page.Title }}
-<div class="short-hero {{ anchorize $heroClass }}-hero" data-scroll-section>
-  <picture>
-    <!-- <source sizes="100vw" srcset="{{ .Site.BaseURL }}images/background-images/{{ anchorize $heroClass }}-hero-600.webp 500w, {{ .Site.BaseURL }}images/background-images/{{ anchorize $heroClass }}-hero-1000.webp 800w, {{ .Site.BaseURL }}images/background-images/{{ anchorize $heroClass }}-hero-1400.webp 1200w, {{ .Site.BaseURL }}images/background-images/{{ anchorize $heroClass }}-hero-1800.webp 1600w" type="image/webp" > -->
-    <source sizes="100vw" srcset="{{ .Site.BaseURL }}images/background-images/{{ anchorize $heroClass }}-hero-600.jpg 500w, {{ .Site.BaseURL }}images/background-images/{{ anchorize $heroClass }}-hero-1000.jpg 800w, {{ .Site.BaseURL }}images/background-images/{{ anchorize $heroClass }}-hero-1400.jpg 1200w, {{ .Site.BaseURL }}images/background-images/{{ anchorize $heroClass }}-hero-1800.jpg 1600w" type="image/jpeg" > 
-    <img src="{{ .Site.BaseURL }}images/background-images/{{ anchorize $heroClass }}-hero-1800.jpg" alt="">
-  </picture>
-  <div class="hero__inner short-hero__inner w-100">
-    {{ if (isset .Params "hero_title") }}
-    <h1 class="hero__title short-hero__title text-white no-margin">
-      {{ .Params.hero_title }}
-    </h1>
-    {{ else }}
-    <h1 class="hero__title short-hero__title text-white no-margin">
-      {{ .Page.Title }}
-    </h1>
-    {{ end }}
-    <div class="center-underline"></div>
-  </div>
+<div class="hero {{ anchorize $heroClass }}-hero">
+  {{ $heroimage := (.Resources.GetMatch (index .Params.hero.hero_image)) }}
+  {{ $herosmallwebp := $heroimage.Resize "600x q85 webp" }}
+  {{ $heromediumwebp := $heroimage.Resize "1000x q85 webp" }}
+  {{ $herolargewebp := $heroimage.Resize "1400x q85 webp" }}
+  {{ $heroextralargewebp := $heroimage.Resize "1800x q85 webp" }}
+  {{ $herosmalljpg := $heroimage.Resize "600x q85" }}
+  {{ $heromediumjpg := $heroimage.Resize "1000x q85" }}
+  {{ $herolargejpg := $heroimage.Resize "1400x q85" }}
+  {{ $heroextralargejpg := $heroimage.Resize "1800x q85" }}
+    <picture> 
+      <source sizes="100vw" srcset="{{ $herosmallwebp.RelPermalink }} 600w, {{ $heromediumwebp.RelPermalink }} 1000w, {{ $herolargewebp.RelPermalink }} 1400w, {{ $heroextralargewebp.RelPermalink }} 1600w" type="image/webp" > 
+      <source sizes="100vw" srcset="{{ $herosmalljpg.RelPermalink }} 600w, {{ $heromediumjpg.RelPermalink }} 1000w, {{ $herolargejpg.RelPermalink }} 1400w, {{ $heroextralargejpg.RelPermalink }} 1600w" type="image/jpg" > 
+      <img src="{{ $heroimage.RelPermalink }}" alt="" width="{{ $heroimage.Width }}" height="{{ $heroimage.Height }}" class="hero__image" loading="lazy">
+    </picture>
+    <div class="hero__inner short-hero__inner w-100">
+      <div class="hero__content text-center text-white">
+        <h1 class="hero__title short-hero__title text-white no-margin">
+          {{ .Params.hero.heading | markdownify }}
+        </h1>
+        <p>{{ .Params.hero.body | markdownify }}</p>
+      </div>
+    </div>
 </div>
