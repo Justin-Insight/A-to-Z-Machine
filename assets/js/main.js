@@ -2,7 +2,7 @@ import barba from '@barba/core';
 import barbaPrefetch from '@barba/prefetch';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { pageTransitionOut, pageTransitionIn, contentAnimation, updateMenu } from './partials';
+import { pageTransitionOut, pageTransitionIn, updateMenu } from './partials';
 
 barba.use(barbaPrefetch);
 gsap.registerPlugin(ScrollTrigger);
@@ -10,6 +10,44 @@ gsap.registerPlugin(ScrollTrigger);
 const menu = document.querySelector(".nav-list");
 const hamburger = document.querySelector(".hamburger");
 const navClasses = document.querySelector('.site-header');
+
+function initSlider() {
+    const slider = document.querySelector('.slider')
+    const slides = Array.from(slider.querySelectorAll('.slider__slide'))
+    const contents = slider.querySelector('.slider__content')
+    const dots = Array.from(slider.querySelectorAll('.slider__dot'))
+    const slideWidth = slides[0].getBoundingClientRect().width
+    if (!document.body.contains(slider)) return
+
+    slides.forEach((slide, index) => {
+        slide.style.left = slideWidth * index + 'px'
+    })
+
+    dots.forEach(dot => {
+        dot.addEventListener('click', event => {
+            let clickedDotIndex
+
+            for (let index = 0; index < dots.length; index++) {
+                if (dots[index] === dot) {
+                    clickedDotIndex = index
+                }
+            }
+
+        const slideToShow = slides[clickedDotIndex]
+        const destination = getComputedStyle(slideToShow).left
+        contents.style.transform = 'translateX(-' + destination + ')'
+        slides.forEach(slide => {
+            slide.classList.remove('is-selected')
+        })
+        slideToShow.classList.add('is-selected')
+        dots.forEach(dot => {
+            dot.classList.remove('is-selected')
+        })
+        dot.classList.add('is-selected')
+        })
+    })
+}
+
 let scrollState = 0;
 
 var scrollTop = function() {
@@ -140,8 +178,8 @@ function initPageTransitions() {
         transitions: [{
             name: 'fade-transition',
             once(data) {
-                contentAnimation();
                 // do something once on the initial page load
+                initSlider();
                 homepageAnimations();
             },
             async leave(data) {
@@ -154,7 +192,6 @@ function initPageTransitions() {
                 pageTransitionIn(data.next);
             },
             async beforeEnter(data) {
-                contentAnimation();
                 ScrollTrigger.getAll().forEach(t => t.kill());
             }
 

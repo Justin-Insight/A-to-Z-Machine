@@ -1,0 +1,134 @@
+.testimonials h2 {
+  max-width: 30ch;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
+
+  &__wrapper {
+    height: 45vh;
+    width: 100%;
+    margin-bottom: $ic-500;
+
+    @include breakpoint(sm) {
+      height: 20rem;
+    }
+
+    &:focus-within {
+      box-shadow: 0 0 0 0.5rem $primary-color;
+    }
+  }
+
+  &__content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+  }
+
+  &__slide {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    padding: $ic-100;
+    color: $white;
+    display: grid;
+    place-items: center;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 90%;
+      height: 100%;
+      background: $primary-color;
+      z-index: 1;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 8px;
+      width: 20px;
+      height: 100%;
+      background-color: $black;
+    }
+
+    @include breakpoint(sm) {
+      text-align: center;
+
+      &::before,
+      &::after {
+        transform: $skew;
+      }
+
+      &::after {
+        right: 54px;
+      }
+    }
+  }
+
+  &__quote {
+    position: absolute;
+    z-index: 2;
+    top: $ic-500;
+    left: $ic-300;
+    width: $ic-800;
+
+    @include breakpoint(sm) {
+      left: 0;
+    }
+  }
+
+  &__slide-content {
+    position: relative;
+    z-index: 2;
+    transform: translateX(-5%);
+  }
+
+  &__testimonial,
+  &__author {
+    width: 90%;
+    margin: $ic-200 auto;
+
+    @include breakpoint(sm) {
+      width: 70%;
+    }
+  }
+
+  &__dots {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+
+    @include breakpoint(sm) {
+      grid-column: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: $ic-100;
+    }
+  }
+
+  &__dot {
+    background: $black;
+    height: 12px;
+    width: 12px;
+    transform: scale(1);
+    border-radius: 50%;
+    border: none;
+    opacity: 0.5;
+    transition: 0.3s ease;
+  }
+
+  &__dot.is-selected {
+    opacity: 1;
+  }
+}

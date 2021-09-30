@@ -13,6 +13,11 @@
   &__image {
     height: 100%;
     object-fit: cover;
+    object-position: 80%;
+
+    @include breakpoint(md) {
+      object-position: center;
+    }
   }
 
   &__inner {

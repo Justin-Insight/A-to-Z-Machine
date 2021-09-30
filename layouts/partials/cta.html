@@ -14,16 +14,18 @@
       <source sizes="100vw" srcset="{{ $ctasmalljpg.RelPermalink }} 600w, {{ $ctamediumjpg.RelPermalink }} 1000w, {{ $ctalargejpg.RelPermalink }} 1400w, {{ $ctaextralargejpg.RelPermalink }} 1600w" type="image/jpg" > 
       <img src="{{ $ctaimage.RelPermalink }}" alt="" width="{{ $ctaimage.Width }}" height="{{ $ctaimage.Height }}" class="cta__image" loading="lazy">
     </picture>
-    <div class="cta__inner wrapper-md">
-      <div class="cta__content text-center text-white flow">
-        <div class="cta__content-inner">
-          <h2 class="cta__title short-cta__title text-white no-margin">
-            {{ .Params.cta.heading | markdownify }}
-          </h2>
-          <p>{{ .Params.cta.body | markdownify }}</p>
-          {{ with .Params.cta.button }}
-          <a href="{{ .link }}" class="btn btn-primary--rev">{{ .button_text }}</a>
-          {{ end }}
+    <div class="cta__inner">
+      <div class="wrapper-md">
+        <div class="cta__content text-center text-white flow">
+          <div class="cta__content-inner">
+            <h2 class="cta__title short-cta__title text-white no-margin">
+              {{ .Params.cta.heading | markdownify }}
+            </h2>
+            <p>{{ .Params.cta.body | markdownify }}</p>
+            {{ with .Params.cta.button }}
+            <a href="{{ .link }}" class="btn btn-primary--rev">{{ .button_text }}</a>
+            {{ end }}
+          </div>
         </div>
       </div>
     </div>

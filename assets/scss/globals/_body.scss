@@ -30,13 +30,13 @@ main:focus {
   outline: none;
 }
 
-// .site-main {
-//   margin-top: $mobile-header;
+.site-main {
+  margin-top: $mobile-header;
 
-//   @include breakpoint(lg) {
-//     margin-top: $desktop-header;
-//   }
-// }
+  @include breakpoint(md) {
+    margin-top: $desktop-header;
+  }
+}
 
 // Style highlight to match our themes colors
 ::-moz-selection {
