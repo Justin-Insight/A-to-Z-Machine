@@ -70,7 +70,7 @@
     .brand-logo {
       img {
         width: 100%;
-        max-width: 160px;
+        max-width: 170px;
         padding: $ic-100;
 
         @include breakpoint(md) {
@@ -154,6 +154,69 @@
       }
     }
   }
+
+  &__mobile-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: $black;
+    overflow: hidden;
+    transition: 0.3s ease-out;
+
+    ul {
+      padding: 0;
+
+      li {
+        list-style-type: none;
+      }
+    }
+  }
+
+  &__mobile-nav {
+    a {
+      color: $white;
+      text-decoration: none;
+      padding-bottom: $ic-300;
+      width: 100%;
+      transition: color 0.3s ease-out;
+
+      &:hover,
+      &:focus {
+        color: $primary-color;
+      }
+    }
+  }
+
+  &__mobile-nav-inner {
+    padding: $ic-500;
+  }
+
+  &__contact {
+    a {
+      width: 100%;
+      padding-bottom: 0.5rem;
+    }
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+
+    li {
+      list-style-type: none;
+      margin: 0;
+
+      a {
+        padding: $ic-100;
+      }
+    }
+
+    svg {
+      width: $ic-300;
+      fill: $white;
+    }
+  }
 }
 
 .current {
@@ -171,59 +234,6 @@
 }
 
 .nav-open {
-  transform: translateX(0);
-  opacity: 1;
-  overflow: hidden;
-  visibility: visible;
-  border-top: 3px solid $secondary-color;
-
-  .nav-list__item {
-    animation: slideIn ease-in-out 0.5s forwards 0.5s;
-    opacity: 0;
-  }
-
-  .nav-list__item:nth-child(1) {
-    animation-delay: 0.1s;
-  }
-
-  .nav-list__item:nth-child(2) {
-    animation-delay: 0.2s;
-  }
-
-  .nav-list__item:nth-child(3) {
-    animation-delay: 0.3s;
-  }
-
-  .nav-list__item:nth-child(4) {
-    animation-delay: 0.4s;
-  }
-
-  .nav-list__item:nth-child(5) {
-    animation-delay: 0.5s;
-  }
-
-  .nav-list__item:nth-child(6) {
-    animation-delay: 0.6s;
-  }
-
-  .nav-list__item:nth-child(7) {
-    animation-delay: 0.7s;
-  }
-
-  .nav-item {
-    border-bottom: 1px solid $secondary-color;
-  }
-
-  @keyframes slideIn {
-    from {
-      opacity: 0;
-      transform: translateY(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
 }
 
 .collapse {

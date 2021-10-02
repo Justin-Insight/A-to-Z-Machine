@@ -7,6 +7,7 @@
       <ul class="site-header__secondary-menu flex flex-center">
         <li><a href="/blog/">Blog</a></li>
         <!-- TODO Add Search Toggle Here -->
+        <button type="button" class="search-toggle"><span class="visually-hidden">Toggle Search</span>{{ partialCached "svg-icons/search.svg" . }}</button>
         <li><a href="/request-a-quote/" class="btn btn-primary--rev">Request a Quote</a></li>
       </u>
     </div>
@@ -33,6 +34,38 @@
         </ul>
       {{ end }}
     </nav>
+    <div class="site-header__mobile-nav">
+      <div class="site-header__mobile-nav-inner">
+        <ul  class="site-header__mobile-nav-menu">
+          <li><a href="/capabilities/">Capabilities</a></li>
+          <li><a href="/equipment/">Equipment</a></li>
+          <li><a href="/industries/">Industries</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/careers/">Careers</a></li>
+          <li><a href="/blog/">Blog</a></li>
+        </ul>
+        <ul class="site-header__contact">
+          <li><a href="/contact/" class="btn btn-primary">Contact</a></li>
+          <li><a href="/request-a-quote/" class="btn btn-primary">Request a Quote</a></li>
+        </ul>
+        <ul class="site-header__social">
+          {{ range .Site.Data.site_settings.social_media }}
+          <li class="site-header__social-list-item">
+            <a href="{{ .social.link }}" class="site-header__social-icon" target="_blank" rel="noopener noreferrer">
+              {{ if eq .social.title "Facebook" }}
+              {{ partial "svg-icons/facebook.svg" . }}
+              {{ else if eq .social.title "LinkedIn"}}
+              {{ partial "svg-icons/linkedin.svg" . }}
+              {{ else if eq .social.title "YouTube"}}
+              {{ partial "svg-icons/youtube.svg" . }}
+              {{ end }}
+              <span class="visually-hidden">{{ .social.title }}</span>
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
     <button class="hamburger hamburger--slider" type="button" aria-label="open mobile menu" aria-expanded="false">
       <span class="hamburger-box">
         <span class="hamburger-inner"></span>

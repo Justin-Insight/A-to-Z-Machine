@@ -7,9 +7,27 @@ import { pageTransitionOut, pageTransitionIn, updateMenu } from './partials';
 barba.use(barbaPrefetch);
 gsap.registerPlugin(ScrollTrigger);
 
-const menu = document.querySelector(".nav-list");
+const mobileMenu = document.querySelector(".site-header__mobile-nav");
 const hamburger = document.querySelector(".hamburger");
 const navClasses = document.querySelector('.site-header');
+const searchButton = document.querySelector('.search-toggle');
+const searchModal = document.querySelector('.search-modal');
+
+console.log(searchButton)
+console.log(searchModal)
+
+searchButton.addEventListener('click', event => {
+    console.log('search button clicked')
+    searchModal.classList.toggle('search-open')
+})
+
+// 1. set mobile nav height to 0
+const mobileMenuHeight = mobileMenu.getBoundingClientRect().height
+
+console.log(mobileMenuHeight)
+
+mobileMenu.style.height = 0
+// 2. on click and nav open set height to the original full height of the mobile navigation
 
 function initSlider() {
     const slider = document.querySelector('.slider')
@@ -81,13 +99,15 @@ window.addEventListener("scroll", function() {
 hamburger.addEventListener("click", toggleMobileMenu);
 
 function toggleMobileMenu() {
-    if(menu.classList.contains("nav-open")) {
+    if(mobileMenu.classList.contains("nav-open")) {
         this.setAttribute("aria-expanded", "false");
         this.setAttribute("aria-label", "open mobile menu");
-        menu.classList.remove("nav-open");
+        mobileMenu.classList.remove("nav-open");
+        mobileMenu.style.height = 0
         hamburger.classList.remove("is-active");
     } else {
-        menu.classList.add("nav-open");
+        mobileMenu.classList.add("nav-open");
+        mobileMenu.style.height = mobileMenuHeight + 'px'
         hamburger.classList.add("is-active");
         this.setAttribute("aria-expanded","true");
         this.setAttribute("aria-label","close mobile menu");
