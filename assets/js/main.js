@@ -12,19 +12,29 @@ const hamburger = document.querySelector(".hamburger");
 const navClasses = document.querySelector('.site-header');
 const searchButton = document.querySelector('.search-toggle');
 const searchModal = document.querySelector('.search-modal');
-
-console.log(searchButton)
-console.log(searchModal)
+const searchIcon = document.querySelector('#search')
+const closeSearchIcon = document.querySelector('#close')
 
 searchButton.addEventListener('click', event => {
-    console.log('search button clicked')
-    searchModal.classList.toggle('search-open')
+    console.log(searchModal)
+    if (searchModal.classList.contains('search-open')) {
+        // close the search modal
+        // change closed icon back to the search icon
+        searchModal.classList.remove('search-open')
+        searchIcon.classList.remove('icon-hidden')
+        closeSearchIcon.classList.add('icon-hidden')
+    } else {
+        // open the search modal
+        // change search icon to close icon
+        searchModal.classList.add('search-open')
+        searchIcon.classList.add('icon-hidden')
+        closeSearchIcon.classList.remove('icon-hidden')
+    }
 })
 
 // 1. set mobile nav height to 0
 const mobileMenuHeight = mobileMenu.getBoundingClientRect().height
 
-console.log(mobileMenuHeight)
 
 mobileMenu.style.height = 0
 // 2. on click and nav open set height to the original full height of the mobile navigation
@@ -184,6 +194,7 @@ function initPageTransitions() {
     barba.hooks.after(() => {
         homepageAnimations();
         updateAria();
+        initSlider();
         ga('set', 'page', window.location.pathname);
         ga('send', 'pageview');
     });

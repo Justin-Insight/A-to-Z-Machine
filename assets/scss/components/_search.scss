@@ -1,14 +1,24 @@
 .search-toggle {
   background: none;
   border: none;
+  position: relative;
+  top: -6px;
+  width: $ic-300;
+  height: $ic-300;
+  padding: 0;
 
   svg {
     width: $ic-300;
     height: $ic-300;
     fill: $white;
-    position: relative;
-    top: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
+}
+
+.icon-hidden {
+  opacity: 0;
 }
 
 .search-modal {
@@ -23,6 +33,7 @@
   place-items: center;
   opacity: 0;
   pointer-events: none;
+  transition: 0.3s ease-out;
 }
 
 .search-open {
