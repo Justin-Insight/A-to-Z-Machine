@@ -1,0 +1,38 @@
+{{ $image := (.Page.Resources.GetMatch (index .image)) }}
+
+{{ $src_set := ""}}
+{{ $webp_src_set := ""}}
+
+{{ $webp_src_set = (print $image.RelPermalink " " $image.Width "w") }}
+{{ $src_set = (print $image.RelPermalink " " $image.Width "w") }}
+
+{{ if ge $image.Width "500"}}
+{{ $jpg_s := $image.Resize "500x q80" }}
+{{ $src_set = (print $src_set ", "  $jpg_s.RelPermalink " 500w") }}
+
+{{ $webp_s := $image.Resize "500x q80 webp" }}
+{{ $webp_src_set = (print $webp_src_set ", "  $webp_s.RelPermalink " 500w") }}
+{{ end }}
+
+{{ if ge $image.Width "800"}}
+{{ $jpg_m := $image.Resize "800x q80" }}
+{{ $src_set = (print $src_set ", "  $jpg_m.RelPermalink " 800w") }}
+
+{{ $webp_m := $image.Resize "800x q80 webp" }}
+{{ $webp_src_set = (print $webp_src_set ", "  $webp_m.RelPermalink " 800w") }}
+{{ end }}
+
+{{ if ge $image.Width "1200"}}
+{{ $jpg_l := $image.Resize "1200x q80" }}
+{{ $src_set = (print $src_set ", "  $jpg_l.RelPermalink " 1200w") }}
+
+{{ $webp_l := $image.Resize "1200x q80 webp" }}
+{{ $webp_src_set = (print $webp_src_set ", "  $webp_l.RelPermalink " 1200w") }}
+{{ end }}
+
+<picture>
+    <source sizes="50vw" srcset="{{ $webp_src_set }}" type="image/webp" >
+    <source sizes="50vw" srcset="{{ $src_set }}" type="image/jpg" >
+    <img sizes="50vw" loading="lazy"
+        src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .alt }}">
+</picture>

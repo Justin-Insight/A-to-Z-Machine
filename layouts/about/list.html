@@ -1,0 +1,11 @@
+{{ define "main" }}
+    <div class="wrapper padding-top-4 padding-bottom-4">
+        {{ .Title }}
+        
+    </div>
+    <div class="block">
+        <div class="wrapper">
+            {{ partial "responsive-image" (dict "Page" . "image" .Params.intro.image "alt" .Params.intro.image_alt ) }}
+        </div>
+    </div>
+{{ end }}

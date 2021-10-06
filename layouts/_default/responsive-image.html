@@ -1,0 +1,9 @@
+{{ $image := (.Resources.GetMatch (index .Params.intro.image)) }}
+{{ $smallwebp := $image.Resize "600x q80 webp" }}
+{{ $smalljpg := $image.Resize "600x q80" }}
+<picture>
+    <source sizes="50vw" srcset="{{ $smallwebp.RelPermalink }}" type="image/webp" >
+    <source sizes="50vw" srcset="{{ $smalljpg.RelPermalink }}" type="image/jpg" >
+    <img sizes="50vw" loading="lazy"
+        src="{{ $image.RelPermalink }}" width="500" height="300" alt="" class="blog-card__image">
+</picture>

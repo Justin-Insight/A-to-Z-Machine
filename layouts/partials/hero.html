@@ -1,14 +1,23 @@
 {{ $heroClass := lower .Page.Title }}
 <div class="hero {{ anchorize $heroClass }}-hero">
   {{ $heroimage := (.Resources.GetMatch (index .Params.hero.hero_image)) }}
-  {{ $herosmallwebp := $heroimage.Resize "600x q85 webp" }}
-  {{ $heromediumwebp := $heroimage.Resize "1000x q85 webp" }}
-  {{ $herolargewebp := $heroimage.Resize "1400x q85 webp" }}
-  {{ $heroextralargewebp := $heroimage.Resize "1800x q85 webp" }}
-  {{ $herosmalljpg := $heroimage.Resize "600x q85" }}
-  {{ $heromediumjpg := $heroimage.Resize "1000x q85" }}
-  {{ $herolargejpg := $heroimage.Resize "1400x q85" }}
+
   {{ $heroextralargejpg := $heroimage.Resize "1800x q85" }}
+
+  {{ $heroextralargewebp := $heroextralargejpg.Resize "1800x q85 webp" }}
+
+  {{ $herolargejpg := $heroextralargejpg.Resize "1400x q85" }}
+
+  {{ $herolargewebp := $heroextralargejpg.Resize "1400x q85 webp" }}
+
+  {{ $heromediumjpg := $herolargejpg.Resize "1000x q85" }}
+
+  {{ $heromediumwebp := $herolargejpg.Resize "1000x q85 webp" }}
+
+  {{ $herosmallwebp := $herolargejpg.Fill "1000x600 right q85 webp" }}
+
+  {{ $herosmalljpg := $herolargejpg.Fill "1000x600 right q85" }}  
+  
     <picture> 
       <source sizes="100vw" srcset="{{ $herosmallwebp.RelPermalink }} 600w, {{ $heromediumwebp.RelPermalink }} 1000w, {{ $herolargewebp.RelPermalink }} 1400w, {{ $heroextralargewebp.RelPermalink }} 1600w" type="image/webp" > 
       <source sizes="100vw" srcset="{{ $herosmalljpg.RelPermalink }} 600w, {{ $heromediumjpg.RelPermalink }} 1000w, {{ $herolargejpg.RelPermalink }} 1400w, {{ $heroextralargejpg.RelPermalink }} 1600w" type="image/jpg" > 

@@ -24,10 +24,10 @@
   {{ end }}
 </section>
 {{ end }}
-{{ with .Params.industries_block }}
 <section class="industries-served block bg-black">
   <div class="wrapper-md flex flex-column flex-row-m">
     <div class="w-100 w-60-m text-white">
+      {{ with .Params.industries_block }}
       <h2>{{ .heading }}</h2>
       <p>{{ .body }}</p>
       <ul>
@@ -43,18 +43,14 @@
         <a href="{{ .link }}" class="btn btn-primary--rev">{{ .button_text }}</a>
         {{ end }}
         </div>
+        {{ end }}
     </div>
     <div class="stacked-images w-100 w-30-m">
-      {{with .image1 }}
-      <img src="{{ .image }}" alt="{{ .image_alt }}">
-      {{ end }}
-      {{with .image2 }}
-      <img src="{{ .image }}" alt="{{ .image_alt }}">
-      {{ end }}
+      {{ partial "responsive-image" (dict "Page" . "image" .Params.industries_block.image1.image "alt" .Params.industries_block.image1.image_alt ) }}
+      {{ partial "responsive-image" (dict "Page" . "image" .Params.industries_block.image2.image "alt" .Params.industries_block.image2.image_alt ) }}
     </div>
   </div>
 </section>
-{{ end }}
 {{ partialCached "testimonials-slider" . }}
 {{ with .Params.capabilities_block }}
 <section class="capabilites block">
