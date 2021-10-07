@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ partialCached "hero" . }}
+{{ partial "hero" (dict "Page" . "image" .Params.hero.hero_image "alt" .Params.hero.hero_image_alt "heading" .Params.hero.heading "body" .Params.hero.body ) }}
 {{ with .Params.intro_block }}
 <section class="intro block">
   <div class="wrapper">
@@ -46,8 +46,8 @@
         {{ end }}
     </div>
     <div class="stacked-images w-100 w-30-m">
-      {{ partial "responsive-image" (dict "Page" . "image" .Params.industries_block.image1.image "alt" .Params.industries_block.image1.image_alt ) }}
-      {{ partial "responsive-image" (dict "Page" . "image" .Params.industries_block.image2.image "alt" .Params.industries_block.image2.image_alt ) }}
+      {{ partial "responsive-image" (dict "Page" . "image" .Params.industries_block.image1.image "alt" .Params.industries_block.image1.image_alt "sizes" "20vw" ) }}
+      {{ partial "responsive-image" (dict "Page" . "image" .Params.industries_block.image2.image "alt" .Params.industries_block.image2.image_alt "sizes" "20vw" ) }}
     </div>
   </div>
 </section>

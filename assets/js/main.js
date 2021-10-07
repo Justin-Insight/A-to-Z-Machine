@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const mobileMenu = document.querySelector(".site-header__mobile-nav");
 const hamburger = document.querySelector(".hamburger");
-const navClasses = document.querySelector('.site-header');
+const siteHeader = document.querySelector('.site-header');
 const searchButton = document.querySelector('.search-toggle');
 const searchModal = document.querySelector('.search-modal');
 const searchIcon = document.querySelector('#search')
@@ -93,13 +93,13 @@ var scrollDetect = function(collapse, expand) {
 };
 
 function collapseNav() {
-  navClasses.classList.remove('expand');
-  navClasses.classList.add('collapse');
+  siteHeader.classList.remove('expand');
+  siteHeader.classList.add('collapse');
 }
 
 function expandNav() {
-  navClasses.classList.remove('collapse');
-  navClasses.classList.add('expand');
+  siteHeader.classList.remove('collapse');
+  siteHeader.classList.add('expand');
 }
 
 window.addEventListener("scroll", function() {

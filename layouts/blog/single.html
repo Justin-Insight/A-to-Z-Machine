@@ -1,0 +1,9 @@
+{{ define "main" }}
+{{ partial "hero" (dict "Page" . "image" .Params.seo.featured_image "alt" .Params.seo.featured_image_alt "heading" .Params.title ) }}
+    <div class="block">
+        <div class="wrapper-sm flow">
+            {{ .Content  }}
+            {{ partial "blog/post-navigation" . }}
+        </div>
+    </div>
+{{ end }}

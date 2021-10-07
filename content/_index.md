@@ -3,8 +3,10 @@ title: Home
 seo:
   title:
   description:
+  featured_image: a-to-z-employee-working-on-cnc-machine.jpg
 hero:
   hero_image: a-to-z-employee-working-on-cnc-machine.jpg
+  hero_image_alt:
   heading: 'Quality from <span class="underline-primary">start to finish</span>'
   body: "As a complete machining source, A to Z Machine proudly builds long-term partnerships and industry-specific manufactured goods with ultimate precision and efficiency."
 intro_block:

@@ -17,8 +17,8 @@
 {{ $webp_src_set = (print $webp_xs.RelPermalink " 400w" ", " $webp_s.RelPermalink " 600w" ", "  $webp_m.RelPermalink " 800w" ", "  $webp_l.RelPermalink " 1200w") }}
 
 <picture>
-    <source sizes="50vw" srcset="{{ $webp_src_set }}" type="image/webp" >
-    <source sizes="50vw" srcset="{{ $jpg_src_set }}" type="image/jpg" >
-    <img sizes="50vw" loading="lazy"
+    <source sizes="{{ .sizes }}" srcset="{{ $webp_src_set }}" type="image/webp" >
+    <source sizes="{{ .sizes }}" srcset="{{ $jpg_src_set }}" type="image/jpg" >
+    <img sizes="{{ .sizes }}" loading="lazy"
         src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .alt }}">
 </picture>

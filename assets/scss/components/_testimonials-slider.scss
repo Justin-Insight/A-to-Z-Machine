@@ -9,11 +9,15 @@
   margin: 0 auto;
 
   &__wrapper {
-    height: 45vh;
+    height: 34rem;
     width: 100%;
     margin-bottom: $ic-500;
 
     @include breakpoint(sm) {
+      height: 26rem;
+    }
+
+    @include breakpoint(md) {
       height: 20rem;
     }
 

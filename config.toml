@@ -4,7 +4,7 @@ title = "A to Z Machine"
 enableRobotsTXT = true
 disableAliases = true
 # post pagination
-paginate = "6"
+paginate = "9"
 summaryLength = 30
 
 #################### default parameters ################################

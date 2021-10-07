@@ -1,34 +1,38 @@
 {{ $heroClass := lower .Page.Title }}
 <div class="hero {{ anchorize $heroClass }}-hero">
-  {{ $heroimage := (.Resources.GetMatch (index .Params.hero.hero_image)) }}
+  {{ $heroimage := (.Page.Resources.GetMatch (index .image)) }}
 
-  {{ $heroextralargejpg := $heroimage.Resize "1800x q85" }}
+  {{ $webp_src_set := ""}}
+  {{ $jpg_src_set := ""}}
 
-  {{ $heroextralargewebp := $heroextralargejpg.Resize "1800x q85 webp" }}
+  {{ $jpg_xxl := $heroimage.Resize "1800x q90" }}
+  {{ $jpg_xl := $jpg_xxl.Resize "1400x q90" }}
+  {{ $jpg_l := $jpg_xl.Resize "1000x q90" }}
+  {{ $jpg_m := $jpg_l.Resize "800x q90" }}
+  {{ $jpg_s := $jpg_l.Resize "600x q90" }}
 
-  {{ $herolargejpg := $heroextralargejpg.Resize "1400x q85" }}
+  {{ $jpg_src_set = (print $jpg_s.RelPermalink " 600w" ", " $jpg_m.RelPermalink " 800w" ", "  $jpg_l.RelPermalink " 1000w" ", "  $jpg_xl.RelPermalink " 1400w" ", "  $jpg_xxl.RelPermalink " 1800w") }}
 
-  {{ $herolargewebp := $heroextralargejpg.Resize "1400x q85 webp" }}
+  {{ $webp_xxl := $heroimage.Resize "1800x q90 webp" }}
+  {{ $webp_xl := $webp_xxl.Resize "1400x q90 webp" }}
+  {{ $webp_l := $webp_xl.Resize "1000x q90 webp" }}
+  {{ $webp_m := $webp_l.Resize "800x q90 webp" }}
+  {{ $webp_s := $webp_l.Resize "600x q90 webp" }}
 
-  {{ $heromediumjpg := $herolargejpg.Resize "1000x q85" }}
+  {{ $webp_src_set = (print $webp_s.RelPermalink " 600w" ", " $webp_m.RelPermalink " 800w" ", "  $webp_l.RelPermalink " 1000w" ", "  $webp_xl.RelPermalink " 1400w" ", "  $webp_xxl.RelPermalink " 1800w") }}
 
-  {{ $heromediumwebp := $herolargejpg.Resize "1000x q85 webp" }}
-
-  {{ $herosmallwebp := $herolargejpg.Fill "1000x600 right q85 webp" }}
-
-  {{ $herosmalljpg := $herolargejpg.Fill "1000x600 right q85" }}  
-  
-    <picture> 
-      <source sizes="100vw" srcset="{{ $herosmallwebp.RelPermalink }} 600w, {{ $heromediumwebp.RelPermalink }} 1000w, {{ $herolargewebp.RelPermalink }} 1400w, {{ $heroextralargewebp.RelPermalink }} 1600w" type="image/webp" > 
-      <source sizes="100vw" srcset="{{ $herosmalljpg.RelPermalink }} 600w, {{ $heromediumjpg.RelPermalink }} 1000w, {{ $herolargejpg.RelPermalink }} 1400w, {{ $heroextralargejpg.RelPermalink }} 1600w" type="image/jpg" > 
-      <img src="{{ $heroimage.RelPermalink }}" alt="" width="{{ $heroimage.Width }}" height="{{ $heroimage.Height }}" class="hero__image" loading="lazy">
-    </picture>
-    <div class="hero__inner short-hero__inner w-100">
-      <div class="hero__content text-center text-white">
-        <h1 class="hero__title short-hero__title text-white no-margin">
-          {{ .Params.hero.heading | markdownify }}
-        </h1>
-        <p>{{ .Params.hero.body | markdownify }}</p>
-      </div>
+  <picture>
+      <source sizes="100vw" srcset="{{ $webp_src_set }}" type="image/webp" >
+      <source sizes="100vw" srcset="{{ $jpg_src_set }}" type="image/jpg" >
+      <img sizes="100vw" loading="lazy"
+          src="{{ $heroimage.RelPermalink }}" width="{{ $heroimage.Width }}" height="{{ $heroimage.Height }}" alt="" class="hero__image">
+  </picture>
+  <div class="hero__inner short-hero__inner w-100">
+    <div class="hero__content text-center text-white">
+      <h1 class="hero__title short-hero__title text-white no-margin">
+        {{ .heading | markdownify }}
+      </h1>
+      <p>{{ .body | markdownify }}</p>
     </div>
+  </div>
 </div>

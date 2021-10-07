@@ -1,0 +1,36 @@
+<article class="fade-up blog-summary">
+    <a href="{{ .Permalink }}" class="blog-summary__link">
+      <div class="flex flex-column">
+        <div class="blog-summary__image-wrap">
+          {{ $image := (.Resources.GetMatch (index .Params.seo.featured_image)) }}
+
+          {{ $webp_src_set := ""}}
+          {{ $jpg_src_set := ""}}
+
+          {{ $jpg_m := $image.Resize "600x q95" }}
+          {{ $jpg_s := $image.Resize "400x q95" }}
+
+          {{ $jpg_src_set = (print $jpg_s.RelPermalink " 400w" ", " $jpg_m.RelPermalink " 600w") }}
+
+          {{ $webp_m := $image.Resize "600x q95 webp" }}
+          {{ $webp_s := $image.Resize "400x q95 webp" }}
+
+          {{ $webp_src_set = (print $webp_s.RelPermalink " 400w" ", " $webp_m.RelPermalink " 600w") }}
+
+          <picture>
+            <source sizes="(min-width: 37.5em) 100vw, (min-width: 62em) 30vw" srcset="{{ $webp_src_set }}" type="image/webp" >
+            <source sizes="(min-width: 37.5em) 100vw, (min-width: 62em) 30vw" srcset="{{ $jpg_src_set }}" type="image/jpg" >
+            <img sizes="(min-width: 37.5em) 100vw, (min-width: 62em) 30vw" loading="lazy"
+                src="{{ $image.RelPermalink }}" width="{{ $image.Height }}" height="{{ $image.Width }}" alt="{{ .Params.seo.featured_image_alt }}" class="blog-summary__image">
+          </picture>
+        </div>
+        <div class="blog-summary__content flow">
+          <h3 class="blog-summary__title h4">{{ .Title }}</h3>
+          <p class="blog-summary__summary">
+            {{ if .Params.summary }}{{ .Params.summary | truncate 90 | safeHTML }}{{ else }}{{ .Summary  | truncate 90 | safeHTML }}{{ end }}
+          </p>
+          <span class="btn btn-primary">Read More</span>
+        </div>
+      </div>
+    </a>
+  </article>
