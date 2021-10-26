@@ -28,7 +28,7 @@ fabrication_image:
   image: sparks-flying-as-employee-uses-a-grinder-on-metal.jpg
   image_alt: Sparks flying as A to Z Machine employee uses a grinder on metal
 approach:
-  heading: The A to Z Approach
+  heading: The A to Z approach
   item:
     - subhead: Quality
       body: Our focus on quality and precision supports our zero-tolerance policy for error or variance.
@@ -41,7 +41,7 @@ approach:
       icon: handshake.svg
 cta:
   cta_image: machined-parts.jpg
-  heading: Experience is <span class="underline-primary">everything</span>.
+  heading: Experience is <span class="underline-primary">everything</span>
   body: "We’ve provided machining and contract manufacturing solutions since 1996. Our list of equipment and clients served reflects decades of experience."
   buttons:
     button:
