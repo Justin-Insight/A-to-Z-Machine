@@ -1,7 +1,7 @@
 ---
-title: Capabilities
+title: CNC Machining
 seo:
-  title: Capabilities
+  title: CNC Machining
   description: CNC Machining and Fabrication in Appleton, WI
   featured_image: large-metal-drill-bits.jpg
 hero:

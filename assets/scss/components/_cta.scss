@@ -1,7 +1,9 @@
-.cta {
+.cta,
+.home-cta {
   position: relative;
   height: 50vh;
 
+  &::before,
   &__inner {
     position: absolute;
     top: 0;
@@ -20,43 +22,12 @@
     }
   }
 
-  &__inner {
-    display: grid;
-    place-items: center;
-
-    h2 {
-      letter-spacing: 0.48px;
-    }
-
-    p {
-      max-width: 45ch;
-      font-size: $ic-300;
-    }
-  }
-
   &__content {
     position: relative;
     padding: 0.5rem;
 
-    &::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: $black;
-      mix-blend-mode: darken;
-      opacity: 1;
-      z-index: 1;
-    }
-
     @include breakpoint(sm) {
       padding: $ic-800 7rem;
-
-      &:after {
-        transform: $skew;
-      }
     }
   }
 
@@ -83,6 +54,59 @@
 
     @include breakpoint(md) {
       height: $ic-600;
+    }
+  }
+
+  .btn + .btn {
+    margin-top: $ic-200;
+
+    @include breakpoint(md) {
+      margin-top: 0;
+    }
+  }
+}
+
+.cta {
+  &::before {
+    content: "";
+    background: rgba($black, 0.5);
+    background: transparent
+      linear-gradient(0deg, #333f488c 0%, #333f48 48%, #333f488c 100%) 0% 0%
+      no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: 1;
+  }
+}
+
+.home-cta {
+  &__inner {
+    display: grid;
+    place-items: center;
+
+    p {
+      max-width: 45ch;
+      font-size: $ic-300;
+    }
+  }
+
+  &__content {
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: $black;
+      mix-blend-mode: darken;
+      opacity: 1;
+      z-index: 1;
+    }
+
+    @include breakpoint(sm) {
+      &:after {
+        transform: $skew;
+      }
     }
   }
 }

@@ -1,5 +1,5 @@
 {{ $heroClass := lower .Page.Title }}
-<div class="hero {{ anchorize $heroClass }}-hero">
+<div class="{{ anchorize $heroClass }}-hero">
   {{ $heroimage := (.Page.Resources.GetMatch (index .image)) }}
 
   {{ $webp_src_set := ""}}
@@ -27,12 +27,12 @@
       <img sizes="100vw" loading="lazy"
           src="{{ $heroimage.RelPermalink }}" width="{{ $heroimage.Width }}" height="{{ $heroimage.Height }}" alt="" class="hero__image">
   </picture>
-</div>
-<div class="block w-100">
-  <div class="wrapper-sm">
-    <h1 class="no-margin text-center">
-      {{ .heading | markdownify }}
-    </h1>
-    <p>{{ .body | markdownify }}</p>
+  <div class="home-hero__inner">
+    <div class="text-center text-white">
+      <h1 class="no-margin">
+        {{ .heading | markdownify }}
+      </h1>
+      <p>{{ .body | markdownify }}</p>
+    </div>
   </div>
 </div>

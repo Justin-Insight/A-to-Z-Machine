@@ -1,3 +1,38 @@
+.blog-hero {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 100%;
+    background: $primary-color;
+    height: $ic--100;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 20%);
+    top: calc(100% - 1px);
+
+    @include breakpoint(md) {
+      height: $ic-800;
+    }
+  }
+}
+
+.blog-title {
+  background: rebeccapurple;
+}
+
+.post-hero {
+  background-image: url("/images/machined-parts.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+}
+
+.post-meta {
+  padding-bottom: $ic-200;
+  border-bottom: 1px solid $gray;
+}
+
 .blog-container {
   display: grid;
   gap: $ic-400;

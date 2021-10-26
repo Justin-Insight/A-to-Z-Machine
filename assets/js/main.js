@@ -35,8 +35,7 @@ searchButton.addEventListener('click', event => {
 // 1. set mobile nav height to 0
 const mobileMenuHeight = mobileMenu.getBoundingClientRect().height
 
-
-mobileMenu.style.height = 0
+mobileMenu.style.height = 0 
 // 2. on click and nav open set height to the original full height of the mobile navigation
 
 function initSlider() {

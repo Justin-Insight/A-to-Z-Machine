@@ -16,4 +16,4 @@ Capacities on the machine are 4” Thru Spindle, 26” Maximum Turning Diameter 
 
 We are excited to add additional multi-tasking capabilities to our shop.
 
-Want to learn more about what we can do? Click on the “Capabilities” link at the top of our page.
+[Learn more about what we can do](/capabilities/).

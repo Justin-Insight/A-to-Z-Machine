@@ -3,7 +3,7 @@ title: "A to Z Advanced Tooling Technology"
 seo:
   title: "A to Z Advanced Tooling Technology"
   description: a test description
-  featured_image: a-to-z-logo-stacked.png
+  featured_image: tool-presetter.jpg
 date: "2021-01-13"
 categories: ["Articles"]
 ---
@@ -24,7 +24,7 @@ At A to Z Machine, we are always looking for new innovations that will help out 
 
 Here is a picture of our tool presetter:
 
-![](tool_presetter.png)
+![A to Z Machine Tool Presetter](tool-presetter.jpg)
 
 Here is a picture of the RFID chip in one of our tools(the red circle):
 ![](RFID.png)

@@ -8,7 +8,7 @@ date: "2021-01-04"
 categories: ["Articles"]
 ---
 
-![](modula-with-parts.jpg)
+![A to Z Machine Modula Ergonomic Storage Solution](modula-with-parts.jpg)
 
 Our Shipping & Receiving department has recently completed the installation of a vertical lift system which uses trays on a storage carousel to more efficiently house finished parts that will be shipped to our customers.
 
@@ -16,13 +16,13 @@ The Modula Vertical Lift Module will allow us to improve work-flow, increase pro
 
 We are excited about this new, time saving addition and the ability to better serve our customers.
 
-To learn more about what we can do, click on the “Capabilities” link at the top of our page.
+[Learn more about what we can do](/capabilities/).
 
-![](modula-01.jpg)
+![Modula parts unpacked and ready for assembly](modula-01.jpg)
 Unpacking the Modula
 
-![](modula-02.jpg)
+![Modula during assembly](modula-02.jpg)
 Assembling the Modula
 
-![](modula-03.jpg)
+![Modula ergonomic storage device complete assembly](modula-03.jpg)
 Assembly Complete

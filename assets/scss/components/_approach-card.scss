@@ -1,0 +1,40 @@
+.approach-grid {
+  gap: $ic-900;
+}
+
+.approach-card {
+  flex: 0 1 350px;
+  color: $white;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  padding: $ic-600;
+
+  &::after {
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    content: " ";
+    background: $primary-color;
+    height: 100%;
+    width: 100%;
+    transform: $skew;
+  }
+
+  img {
+    max-height: $ic-700;
+    margin: 0 auto $ic-200 auto;
+  }
+}
+
+.approach-card:nth-of-type(2) {
+  img {
+    max-height: $ic-600;
+  }
+}
+
+.approach-card:nth-of-type(3) {
+  img {
+    max-height: $ic-500;
+  }
+}

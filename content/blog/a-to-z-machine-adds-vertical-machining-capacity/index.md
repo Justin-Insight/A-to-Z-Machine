@@ -16,4 +16,4 @@ Capacities on the machine are 48” Y axis, 80” X axis and 30” under the spi
 
 We are excited to add this to our variety of resources will and it will be fully up and running by the end of the week!
 
-Check out our capabilities by clicking on the “Capabilities” link at the top of our page.
+[Check out our capabilities](/capabilities/).

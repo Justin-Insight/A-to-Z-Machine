@@ -1,4 +1,4 @@
-.hero {
+.home-hero {
   position: relative;
   height: 50vh;
 
@@ -35,10 +35,6 @@
     display: grid;
     place-items: center;
 
-    h1 {
-      letter-spacing: 0.48px;
-    }
-
     p {
       max-width: 45ch;
       font-size: $ic-300;
@@ -57,6 +53,20 @@
 
     @include breakpoint(md) {
       height: $ic-800;
+    }
+  }
+}
+
+.hero {
+  height: 30vh;
+
+  &__image {
+    height: 100%;
+    object-fit: cover;
+    object-position: 70%;
+
+    @include breakpoint(md) {
+      object-position: center;
     }
   }
 }

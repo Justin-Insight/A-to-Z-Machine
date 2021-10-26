@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ partial "hero" (dict "Page" . "image" .Params.hero.hero_image "alt" .Params.hero.hero_image_alt "heading" .Params.hero.heading "body" .Params.hero.body ) }}
+{{ partial "home-hero" (dict "Page" . "image" .Params.hero.hero_image "alt" .Params.hero.hero_image_alt "heading" .Params.hero.heading "body" .Params.hero.body ) }}
 {{ with .Params.intro_block }}
 <section class="intro block">
   <div class="wrapper">
@@ -70,5 +70,5 @@
   </div>
 </section>
 {{ end }}
-{{ partialCached "cta" . }}
+{{ partialCached "home-cta" . }}
 {{ end }}
