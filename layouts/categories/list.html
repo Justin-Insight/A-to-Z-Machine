@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="post-hero"></div>
+<div class="bg-black block">
+  <div class="wrapper">
+    {{ partial "blog/category-list" . }}
+  </div>
+</div>
+<section class="block">
+  <div class="blog-container wrapper-lg">
+    {{ $paginator := .Paginate ( where .Data.Pages "Type" "blog" ) }}
+    {{ range $paginator.Pages }}
+    {{ .Render "article" }}
+    {{ end }}
+  </div>
+  <div class="wrapper-lg">
+    {{ partial "blog/custom-pagination.html" . }}
+  </div>
+</section>
+{{ end }}

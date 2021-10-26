@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ partial "hero" (dict "Page" . "image" .Params.hero.hero_image "alt" .Params.hero.hero_image_alt "heading" .Params.hero.heading ) }}
+{{ partial "hero" (dict "Page" . "image" .Params.hero.hero_image "alt" .Params.hero.hero_image_alt "heading" .Params.hero.heading "body" .Params.hero.body ) }}
 <div class="wrapper-lg">
   <div class="block">
     <div class="flex flex-column flex-row-m">
@@ -52,14 +52,18 @@
               </li>
           </ul>
         </div>
+        {{ with .Params.careers_cta }}
         <div class="contact-careers flow">
-          <h2>Careers at A to Z Machine</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, ducimus id voluptas adipisci eius ullam.</p>
-          <a href="/careers/" class="btn btn-primary">Join Our Team</a>
+          <h2>{{ .heading| markdownify }}</h2>
+          <p>{{ .body }}</p>
+          {{ with .button }}
+          <a href="{{ .button_url }}" class="btn btn-primary">{{ .button_text }}</a>
+          {{ end }}
         </div>
+        {{ end }}
       </div>
     </div>
   </div>
 </div>
-
+{{ partialCached "careers-cta" . }}
 {{ end }}

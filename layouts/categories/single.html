@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="post-hero"></div>
+    <div class="block">
+        <div class="wrapper-sm flow">
+            <h1>{{ .Title | markdownify }}</h1>
+            <div class="post-meta">
+                By A to Z Machine | 
+                {{ if .Params.Categories }}
+                {{ range $index, $elements := .Params.Categories }}<a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}" class="categories categories__link">{{ if ne $index 0 }}{{ end }}
+                    {{ . | title }}</a> {{ end}}
+                {{ end }}
+            </div>
+            {{ .Content }}
+            {{ partial "blog/post-navigation" . }}
+        </div>
+    </div>
+{{ end }}
