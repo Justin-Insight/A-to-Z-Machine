@@ -2,7 +2,7 @@
 {{ partial "hero" (dict "Page" . "image" .Params.seo.featured_image "alt" .Params.hero.hero_image_alt "heading" .Params.hero.heading "body" .Params.hero.body ) }}
 <section class="capabilities">
   <div class="wrapper">
-    <div class="block flex flex-column flex-row-m flex-center-m">
+    <div class="flex flex-column flex-row-m flex-center-m">
       <div class="w-100 w-50-m">
         {{ partial "responsive-image" (dict "Page" . "image" .Params.cnc_machining_image.image ) }}
       </div>
@@ -12,7 +12,7 @@
         <a href="{{ .Params.cnc_machining.button.button_url }}" class="btn btn-primary">{{ .Params.cnc_machining.button.button_text }}</a>
       </div>
     </div>
-    <div class="block flex flex-column flex-row-m flex-center-m">
+    <div class="pt-9 flex flex-column flex-row-m flex-center-m">
       <div class="w-100 w-50-m">
         {{ partial "responsive-image" (dict "Page" . "image" .Params.fabrication_image.image ) }}
       </div>
