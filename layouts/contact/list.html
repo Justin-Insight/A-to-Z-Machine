@@ -1,11 +1,12 @@
 {{ define "main" }}
 {{ partial "hero" (dict "Page" . "image" .Params.hero.hero_image "alt" .Params.hero.hero_image_alt "heading" .Params.hero.heading "body" .Params.hero.body ) }}
 <div class="wrapper-lg">
-  <div class="block">
+  <div class="pb-9">
     <div class="flex flex-column flex-row-m">
       <div class="w-100 w-60-m">
-        <div class="contact-form">
-          <h4 class="no-margin">Send a Message</h4>
+        <div class="contact-form bg-gray">
+          <h4 class="no-margin">Send us a message</h4>
+          <small>Fields marked with an * are required</small>
           <div class="contact-form__wrapper">
               <form name="contact" netlify netlify-honeypot="bot-field" action="/thank-you">
                   <div hidden>
@@ -14,42 +15,81 @@
                         <input name="bot-field" />
                       </label>
                   </div>
-                  <div class="contact-form__form-group">
-                      <label for="name">Name*</label>
-                      <input name="name" type="name" class="contact-form__form-control" required>
+                  <div class="contact-form__form-group flex">
+                      <label for="first_name">First Name*</label>
+                      <input name="first_name" type="text" class="contact-form__form-control" required>
                   </div>
-                  <div class="contact-form__form-group">
+                  <div class="contact-form__form-group flex">
+                      <label for="last_name">Last Name*</label>
+                      <input name="last_name" type="text" class="contact-form__form-control" required>
+                  </div>
+                  <div class="contact-form__form-group flex">
+                      <label for="company">Company</label>
+                      <input name="company" type="text" class="contact-form__form-control">
+                  </div>
+                  <div class="contact-form__form-group flex">
                       <label for="email">Email*</label>
                       <input name="_replyto" type="email" class="contact-form__form-control" required>
                   </div>
-                  <div class="contact-form__form-group">
+                  <div class="contact-form__form-group flex">
                       <label for="email">Phone*</label>
-                      <input name="phone" type="phone" class="contact-form__form-control" required>
+                      <input name="phone" type="tel" class="contact-form__form-control" required>
                   </div>
-                  <div class="contact-form__form-group">
+                  <div class="contact-form__form-group flex">
                       <label for="message">Message*</label>
                       <textarea name="message" class="contact-form__form-control" rows="4" required></textarea>
                   </div>
                   <div style="margin-bottom: 1em;" netlify-recaptcha></div>
-                  <button target="_blank" type="submit" class="contact-form__btn btn btn-primary">Send Message</button>
+                  <div class="contact-form__form-group flex">
+                    <label></label>
+                    <button target="_blank" type="submit" class="contact-form__btn btn btn-primary">Send Message</button>
+                  </div>
               </form>
           </div>
         </div>
       </div>
       <div class="w-100 w-40-m">
-        <div class="contact-info">
+        <div class="contact-info bg-gray">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11424.118613347066!2d-88.366207!3d44.288779!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa5e9485ef031571d!2sA%20To%20Z%20Machine%20Company%2C%20Inc.!5e0!3m2!1sen!2sus!4v1633644337440!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           <ul class="contact-info__contact-list">
-              <li class="contact-info__contact-list-item">
-                <h2 class="h3">Phone</h2>
-                <a href="tel:{{.Site.Data.site_settings.phone}}" class="contact-info__contact-link flex flex-center">
-                {{ .Site.Data.site_settings.phone }}</a>
+            <li class="contact-info__contact-list-item flex">
+              <a class="brand-logo" href="{{ site.BaseURL }}">
+                  <img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" class="img-responsive dim" width="200" height="100">
+              </a>
+            </li>
+            <ul class="contact-info__social flex flex-center">
+              {{ range .Site.Data.site_settings.social_media }}
+              <li class="contact-info__social-list-item">
+                <a href="{{ .social.link }}" class="contact-info__social-icon" target="_blank" rel="noopener noreferrer">
+                  {{ if eq .social.title "Facebook" }}
+                  {{ partial "svg-icons/facebook.svg" . }}
+                  {{ else if eq .social.title "LinkedIn"}}
+                  {{ partial "svg-icons/linkedin.svg" . }}
+                  {{ else if eq .social.title "YouTube"}}
+                  {{ partial "svg-icons/youtube.svg" . }}
+                  {{ end }}
+                  <span class="visually-hidden">{{ .social.title }}</span>
+                </a>
               </li>
-              <li class="contact-info__contact-list-item">
-                <h2 class="h3">Address</h2>
-                <a href="tel:{{.Site.Data.site_settings.phone}}" class="contact-info__contact-link flex flex-center">
-                  {{ .Site.Data.site_settings.address | markdownify }}</a>
-              </li>
+              {{ end }}
+            </ul>
+            <li class="contact-info__contact-list-item flex">
+              <h2 class="h4 no-margin">Address</h2>
+              <div>
+                {{ .Site.Data.site_settings.address | markdownify }}
+                <a href="https://goo.gl/maps/4m9HhJaCU5d9XYCE8" target="_blank" rel="noopener noreferrer" class="contact-info__contact-link flex flex-center">
+                  Get Directions</a>
+              </div>
+            </li>
+            <li class="contact-info__contact-list-item flex">
+              <h2 class="h4 no-margin">Phone</h2>
+              <a href="tel:{{.Site.Data.site_settings.phone}}" class="contact-info__contact-link flex flex-center">
+              {{ .Site.Data.site_settings.phone }}</a>
+            </li>
+            <li class="contact-info__contact-list-item flex">
+              <h2 class="h4 no-margin">Fax</h2>
+              {{ .Site.Data.site_settings.fax }}
+            </li>
           </ul>
         </div>
         {{ with .Params.careers_cta }}

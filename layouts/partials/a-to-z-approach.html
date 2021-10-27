@@ -1,0 +1,14 @@
+<section class="approach block">
+  <div class="wrapper-md">
+    <h2 class="text-center">{{ .Site.Data.global_partials.approach.heading }}</h2>
+    <div class="approach-grid flex flex-wrap flex-justify-center">
+      {{ range .Site.Data.global_partials.approach.item }}
+      <div class="approach-card text-center flow">
+        <img src="/images/{{ .icon }}" alt="">
+        <h3>{{ .subhead }}</h3>
+        <p>{{ .body }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

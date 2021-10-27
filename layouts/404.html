@@ -1,9 +1,13 @@
 {{ define "main" }}
-<section class="fade-wrapper padding-top-4 padding-bottom-4" data-scroll-section>
-    <div class="container">
-        <article>
-            <p>The page you requested could not be found. <a href="{{ "/" | relURL }}">Go back to the homepage.</a></p>
-        </article>
-    </div>
-</section>
+<div class="four-oh-four-hero"></div>
+<div class="block w-100">
+  <div class="wrapper-sm">
+    <h1>
+      {{ .Title }}
+    </h1>
+    <article>
+        <p>The page you requested could not be found. <a href="{{ "/" | relURL }}">Go back to the homepage.</a></p>
+    </article>
+  </div>
+</div>
 {{ end }}

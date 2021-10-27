@@ -27,18 +27,6 @@ fabrication:
 fabrication_image:
   image: sparks-flying-as-employee-uses-a-grinder-on-metal.jpg
   image_alt: Sparks flying as A to Z Machine employee uses a grinder on metal
-approach:
-  heading: The A to Z approach
-  item:
-    - subhead: Quality
-      body: Our focus on quality and precision supports our zero-tolerance policy for error or variance.
-      icon: award.svg
-    - subhead: Innovation
-      body: We continuously invest in technology to be more flexible, efficient and precise, at a more affordable price.
-      icon: rocket.svg
-    - subhead: Partnership
-      body: Our high-quality products begin with collaboration and continue through long-term partnerships.
-      icon: handshake.svg
 cta:
   cta_image: machined-parts.jpg
   heading: Experience is <span class="underline-primary">everything</span>

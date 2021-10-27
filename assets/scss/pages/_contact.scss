@@ -1,4 +1,23 @@
+.contact,
+.request-a-quote {
+  .w-60-m + .w-40-m {
+    margin-top: $ic-900;
+
+    @include breakpoint(md) {
+      margin-top: 0;
+      margin-left: $ic-900;
+    }
+  }
+}
+
 .contact-form {
+  padding: $ic-900 $ic-600;
+
+  &__wrapper {
+    padding: $ic-900 0;
+    border-top: 1px solid $gray;
+  }
+
   &__netlify-bot-field {
     opacity: 0;
     height: 0;
@@ -6,14 +25,18 @@
     margin: 0;
   }
 
+  &__form-group label {
+    flex: 0 0 25%;
+  }
+
   .contact-form__form-group input,
-  .contact-form__form-group textarea {
-    background-color: #f6f6f6;
-    border: 1px solid #939393;
+  .contact-form__form-group textarea,
+  .contact-form__form-group select {
+    border: 1px solid rgba($gray, 0.5);
     width: 100%;
-    padding: 1rem 2rem;
-    margin-bottom: 2rem;
-    border-bottom: 2px solid $primary-color;
+    padding: $ic-400 $ic-200;
+    margin-bottom: $ic-200;
+    flex: 1 1 75%;
   }
 
   &__form-group input {
@@ -42,11 +65,49 @@
 
   &__btn {
     border: none;
+    background: transparent;
   }
 }
 
-.contact-sidebar {
-  @include breakpoint(md) {
-    margin-left: 2rem;
+.contact-info {
+  iframe {
+    height: 350px;
+  }
+
+  &__contact-list {
+    padding: $ic-600 $ic-900;
+  }
+
+  &__contact-list-item {
+    .brand-logo {
+      max-width: 200px;
+    }
+
+    h2 {
+      flex: 0 0 25%;
+    }
+
+    a {
+      flex: 1 1 75%;
+    }
+  }
+
+  &__social {
+    list-style-type: none;
+    padding: $ic-200 0;
+  }
+
+  &__social-list-item {
+    margin-top: 0;
+  }
+
+  &__social-icon {
+    padding: $ic-200;
+
+    svg {
+      fill: $primary-color;
+      height: $ic-400;
+      width: $ic-400;
+    }
   }
 }

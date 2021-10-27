@@ -1,11 +1,22 @@
 ---
 title: About
-description:
-intro:
-  image: a-to-z-employee-monitoring-cnc-machine.jpg
-  image_alt: a to z employee
+seo:
+  title: About A to Z Machine
+  description: CNC Machining and Fabrication in Appleton, WI
+  featured_image: large-metal-drill-bits.jpg
+hero:
+  hero_image: a-to-z-employees-standing-together.jpg
+  hero_image_alt:
+  heading: "About A to Z Machine"
+  body: "A to Z Machine is an innovative shop. Our expert machinists employ state-of-the-art machinery and the latest technology to uphold the highest tolerances and embrace new challenges from our customers. Decades of experience, flexibility and a constant drive for improvement guarantee machining mastery to the fullest extent … quicker turnaround, higher quality products and stronger relationships."
+cta:
+  cta_image: machined-parts.jpg
+  heading: Experience is <span class="underline-primary">everything</span>
+  body: "We’ve provided machining and contract manufacturing solutions since 1996. Our list of equipment and clients served reflects decades of experience."
+  buttons:
+    button:
+      - button_url: /industries/
+        button_text: Browse industries
+      - button_url: /careers/
+        button_text: Browse equipment
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc faucibus a pellentesque sit amet. Quam viverra orci sagittis eu volutpat odio. Purus viverra accumsan in nisl nisi scelerisque eu ultrices. In iaculis nunc sed augue lacus viverra. In hac habitasse platea dictumst. Iaculis eu non diam phasellus vestibulum lorem sed. Feugiat nibh sed pulvinar proin. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Nibh venenatis cras sed felis eget. In nisl nisi scelerisque eu. Semper viverra nam libero justo laoreet sit amet cursus. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.
-
-Massa ultricies mi quis hendrerit dolor magna eget est. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Adipiscing enim eu turpis egestas pretium. Tristique senectus et netus et malesuada fames ac turpis egestas. Nam aliquam sem et tortor consequat id. Erat pellentesque adipiscing commodo elit at. Magna fermentum iaculis eu non. Convallis convallis tellus id interdum velit laoreet id. Hendrerit dolor magna eget est lorem ipsum dolor sit amet. Lorem mollis aliquam ut porttitor leo a. Mollis nunc sed id semper risus in.

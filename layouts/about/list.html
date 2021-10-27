@@ -1,11 +1,5 @@
 {{ define "main" }}
-    <div class="wrapper padding-top-4 padding-bottom-4">
-        {{ .Title }}
-        
-    </div>
-    <div class="block">
-        <div class="wrapper">
-            {{ partial "responsive-image" (dict "Page" . "image" .Params.intro.image "alt" .Params.intro.image_alt ) }}
-        </div>
-    </div>
+{{ partial "hero" (dict "Page" . "image" .Params.hero.hero_image "alt" .Params.hero.hero_image_alt "heading" .Params.hero.heading "body" .Params.hero.body ) }}
+{{ partial "a-to-z-approach" . }}
+{{ partial "cta" . }}
 {{ end }}

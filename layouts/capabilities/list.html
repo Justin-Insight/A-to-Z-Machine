@@ -24,21 +24,6 @@
     </div>
   </div>
 </section>
-{{ with .Params.approach }}
-<section class="approach block">
-  <div class="wrapper-md">
-    <h2 class="text-center">{{ .heading }}</h2>
-    <div class="approach-grid flex flex-wrap flex-justify-center">
-      {{ range .item }}
-      <div class="approach-card text-center flow">
-        <img src="/images/{{ .icon }}" alt="">
-        <h3>{{ .subhead }}</h3>
-        <p>{{ .body }}</p>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
+{{ partial "a-to-z-approach" . }}
 {{ partial "cta" . }}
 {{ end }}
