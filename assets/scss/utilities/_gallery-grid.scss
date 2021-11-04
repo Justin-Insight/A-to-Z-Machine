@@ -1,6 +1,5 @@
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
   gap: $ic-300;
 
   &__image-wrapper {
@@ -13,5 +12,13 @@
       object-fit: cover;
       height: 100%;
     }
+  }
+
+  @include breakpoint (sm) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include breakpoint (md) {
+    grid-template-columns: repeat(4, 1fr);
   }
 }

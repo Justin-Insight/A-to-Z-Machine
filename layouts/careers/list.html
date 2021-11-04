@@ -1,0 +1,37 @@
+{{ define "main" }}
+{{ partial "careers-hero" (dict "Page" . "image" .Params.seo.featured_image "alt" .Params.seo.featured_image_alt "heading" .Params.hero.heading "body" .Params.hero.body ) }}
+<div class="wrapper-sm">
+  <h2>{{ .Params.benefits.heading }}</h2>
+  <p>{{ .Params.benefits.body }}</p>
+</div>
+<div class="block">
+  <div class="wrapper-lg">
+    <div class="benefit-cards">
+      {{ with .Params.benefits }}
+        {{ range .benefit }}
+        <div class="benefit-card">
+          <img src="/images/{{ .icon }}" alt="">
+          <h3 class="h4 text-center">{{ .heading }}</h3>
+          <p>{{ .body }}</p>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+    <div class="wrapper">
+      <small>{{ .Params.employment_disclaimer }}</small>
+    </div>
+  </div>
+</div>
+<div class="block bg-gray">
+  <div class="wrapper-lg flex flex-column flex-row-m">
+    <div class="w-100 w-50-m">
+      {{ .Params.benefits.benefits | markdownify }}
+      <h2>{{ .Params.apprenticeship.heading }}</h2>
+      <p>{{ .Params.apprenticeship.body }}</p>
+    </div>
+    <div class="w-100 w-50-m">
+      {{ .Content }}
+    </div>
+  </div>
+</div>
+{{ end }}

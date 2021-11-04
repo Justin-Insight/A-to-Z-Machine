@@ -1,0 +1,15 @@
+{{ $heroClass := lower .Page.Title }}
+<section class="{{ anchorize $heroClass }}-hero">
+  {{ partial "hero-image" . }}
+  <div class="block w-100">
+    <div class="wrapper-sm">
+      <h1 class="no-margin text-center">
+        {{ .heading | markdownify }}
+      </h1>
+      <p>{{ .body | markdownify }}</p>
+      <div class="text-center">
+        <a href="https://atozmachine.isolvedhire.com" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View job openings</a>
+      </div>
+    </div>
+  </div>
+</section>

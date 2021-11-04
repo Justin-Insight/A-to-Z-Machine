@@ -8,7 +8,6 @@ seo:
 hero:
   heading: "CNC Machining"
   body: "As an innovative shop, our CNC machining capabilities are constantly growing. We specialize in CNC Machining practices to produce a wide variety of precision machined components from the simplest to most complex parts. Currently, our machines can handle material lengths of 1-200 inches and load capabilities over 30,000 lbs."
-  request_quote: true
 capabilities:
   heading: Capabilities
   copy: >-
@@ -27,7 +26,7 @@ capabilities:
     * Assemblies
 
     * Sub-Assemblies
-  image: a-to-z-employees-working-on-machine.jpg
+  image: a-to-z-employee-monitoring-cnc-machine.jpg
 quality:
   heading: Quality from start to finish
   copy: "A to Z Machine’s focus on quality and precision supports our zero-tolerance policy for error or variance. Every manufacturing job is strictly monitored using traceable, calibrated equipment and quality control techniques that ensure all features and dimensions meet your exact specifications."

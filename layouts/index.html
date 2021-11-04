@@ -59,7 +59,7 @@
     <p>{{.body }}</p>
     <div class="flex flex-column flex-row-m">
       {{ range .sector }}
-      <a href="#" class="capabilities-card w-100 w-50-m cover-image">
+      <a href="{{ .service.link }}" class="capabilities-card w-100 w-50-m cover-image">
         <img src="{{ .service.image }}" alt="{{ .service.image_alt }}">
         <div class="capabilities-card__title-wrapper flex flex-justify-center">
           <span class="capabilities-card__title text-center">{{ .service.title }}</span>

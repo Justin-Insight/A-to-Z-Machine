@@ -1,0 +1,29 @@
+.benefit-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  .benefit-card {
+    max-width: 500px;
+    width: 100%;
+    padding: $ic-300;
+    border-bottom: 1px solid rgba($black, .1);
+    border-left: 1px solid rgba($black, .1);
+
+    img {
+      max-width: 70px;
+      margin: $ic-500 auto;
+    }
+
+    p {
+      font-size: $ic-100;
+    }
+  }
+}
+
+.benefit-cards .benefit-card:nth-child(-n+3) {
+  border-top: 1px solid rgba($black, .1);
+}
+
+.benefit-cards .benefit-card:nth-child(3n) {
+  border-right: 1px solid rgba($black, .1);
+}

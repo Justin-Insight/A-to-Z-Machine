@@ -1,6 +1,7 @@
 .image-column {
   position: relative;
   overflow: hidden;
+  max-height: 550px;
 
   &::after {
     content: "";
@@ -13,7 +14,7 @@
     background-color: $light-gray;
 
     @include breakpoint(md) {
-      clip-path: polygon(100% 0, 80% 0%, 100% 100%);
+      clip-path: polygon(100% 0, 80% 0%, 100% 105%);
       top: -1px;
     }
   }
