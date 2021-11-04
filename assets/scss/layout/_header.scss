@@ -163,6 +163,7 @@
     background: $black;
     overflow: hidden;
     transition: 0.3s ease-out;
+    height: 0;
 
     ul {
       padding: 0;
@@ -183,6 +184,10 @@
       &:focus {
         color: $primary-color;
       }
+    }
+
+    @include breakpoint(md) {
+      display: none;
     }
   }
 
@@ -338,4 +343,11 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.nav-open {
+  transform: translateX(0);
+  opacity: 1;
+  overflow: hidden;
+  visibility: visible;
 }
