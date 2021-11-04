@@ -1,8 +1,13 @@
 {{ define "main" }}
 {{ partial "careers-hero" (dict "Page" . "image" .Params.seo.featured_image "alt" .Params.seo.featured_image_alt "heading" .Params.hero.heading "body" .Params.hero.body ) }}
-<div class="wrapper-sm">
-  <h2>{{ .Params.benefits.heading }}</h2>
-  <p>{{ .Params.benefits.body }}</p>
+<div class="flex flex-column flex-row-m">
+  <div class="w-100 w-60-m image-column">
+     {{ partial "responsive-image" (dict "Page" . "image" .Params.benefits.image ) }}
+  </div>
+  <div class="w-100 w-40-m text-column bg-gray flex flex-column flex-justify-center flow">
+    <h2>{{ .Params.benefits.heading }}</h2>
+    <p>{{ .Params.benefits.body }}</p>
+  </div>
 </div>
 <div class="block">
   <div class="wrapper-lg">

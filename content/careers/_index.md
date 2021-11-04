@@ -10,7 +10,8 @@ hero:
   body: "Have you lost your tolerance for old equipment and tooling? Are you tired of changing schedules and switching from 30-hour to 50-hour weeks? Do you want to be an employee owner working with a team towards the same goal? Fuse your passions and skills with our innovative shop!"
 benefits: 
   heading: Become an employee owner
-  body: "As a growing and innovative company, we’re always hiring good, hard-working people. A to Z Machine is 100% employee-owned, allowing individuals to contribute to and benefit from the company’s success. In addition to consistent schedules and the newest machinery and tooling, our employees enjoy strong compensation, benefits and employee appreciation programs:"
+  body: "As a growing and innovative company, we’re always hiring good, hard-working people. A to Z Machine is 100% employee-owned, allowing individuals to contribute to and benefit from the company’s success. In addition to consistent schedules and the newest machinery and tooling, our employees enjoy strong compensation, benefits and employee appreciation programs."
+  image: two-a-to-z-machine-employees.jpg
   benefit: 
     - heading: Strong compensation and benefits package
       body: "7% second shift differential, Regular performance and wage reviews, Competitive wages and quarterly bonus programs, Employee Stock Ownership Program, 401(k) plan with safe harbor contribution"
