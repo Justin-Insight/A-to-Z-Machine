@@ -58,7 +58,8 @@
 }
 
 .stacked-images {
-  picture img {
+  picture img,
+  img {
     margin-top: $ic-800;
   }
 
@@ -68,7 +69,8 @@
     top: -5.852rem;
     right: -5.852rem;
 
-    picture img {
+    picture img,
+    img {
       margin-top: 0;
     }
 
@@ -76,6 +78,10 @@
       img {
         margin-top: $ic-800;
       }
+    }
+
+    img + img {
+      margin-top: $ic-800;
     }
   }
 }

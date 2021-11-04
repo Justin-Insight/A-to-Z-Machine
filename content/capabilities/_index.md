@@ -4,9 +4,8 @@ seo:
   title: Capabilities
   description: CNC Machining and Fabrication in Appleton, WI
   featured_image: large-metal-drill-bits.jpg
+  featured_image_alt: large metal drill bits
 hero:
-  hero_image: large-metal-drill-bits.jpg
-  hero_image_alt:
   heading: "Machining capabilities"
   body: "A to Z Machine is an innovative shop. Our expert machinists employ state-of-the-art machinery and the latest technology to uphold the highest tolerances and embrace new challenges from our customers. Decades of experience, flexibility and a constant drive for improvement guarantee machining mastery to the fullest extent … quicker turnaround, higher quality products and stronger relationships."
 cnc_machining:

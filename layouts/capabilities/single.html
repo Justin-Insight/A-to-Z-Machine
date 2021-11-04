@@ -1,8 +1,40 @@
 {{ define "main" }}
-    <div class="block">
-        <div class="wrapper-sm flow">
-            <h1>{{ .Title | markdownify }}</h1>
-            {{ .Content }}
-        </div>
-    </div>
+{{ partial "hero" (dict "Page" . "image" .Params.seo.featured_image "alt" .Params.seo.featured_image_alt "heading" .Params.hero.heading "body" .Params.hero.body ) }}
+<section>
+   <div class="flex flex-column flex-row-m">
+      <div class="w-100 w-60-m image-column">
+         {{ partial "responsive-image" (dict "Page" . "image" .Params.capabilities.image ) }}
+      </div>
+      <div class="w-100 w-40-m text-column bg-gray flex flex-column flex-justify-center flow">
+         <h2 class="no-margin">{{ .Params.capabilities.heading }}</h2>
+         {{ .Params.capabilities.copy | markdownify }}
+      </div>
+   </div>
+</section>
+<section class="block">
+   <div class="wrapper">
+      <h2>{{ .Params.quality.heading }}</h2>
+      <p class="h5">{{ .Params.quality.copy }}</p>
+   </div>
+</section>
+{{ partial "industries" (dict "Page" . "heading" .Params.industries_served.heading "body" .Params.industries_served.body "industries" .Params.industries_served.industries "link1" .Params.industries_served.button.link "button_text1" .Params.industries_served.button.button_text "link2" .Params.industries_served.button2.link "button_text2" .Params.industries_served.button2.button_text "image1" .Params.industries_served.image1.image "image1_alt" .Params.industries_served.image1.image_alt "image2" .Params.industries_served.image2.image "image2_alt" .Params.industries_served.image2.image_alt ) }}
+<section class="parts-gallery">
+   <div class="block">
+      <div class="wrapper text-center">
+         <h2>{{ .Title }} Gallery</h2>
+      </div>
+      <div class="wrapper-lg">
+         <div class="gallery-grid">
+            {{ with .Params.parts_gallery }}
+            {{ range .images }}
+            <div class="gallery-grid__image-wrapper">
+               <img src="{{ .image }}" alt="{{ .image_alt }}">
+            </div>
+            {{ end }}
+            {{ end }}
+         </div>
+      </div>
+   </div>
+</section>
+{{ partial "cta" . }}
 {{ end }}

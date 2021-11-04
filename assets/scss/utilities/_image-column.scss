@@ -1,0 +1,25 @@
+.image-column {
+  position: relative;
+  overflow: hidden;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    clip-path: polygon(100% 100%, 0 90%, 0 100%);
+    background-color: $light-gray;
+
+    @include breakpoint(md) {
+      clip-path: polygon(100% 0, 80% 0%, 100% 100%);
+      top: -1px;
+    }
+  }
+
+  img {
+    object-fit: cover;
+    height: 100%;
+  }
+}

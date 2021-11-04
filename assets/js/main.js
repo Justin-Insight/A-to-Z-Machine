@@ -194,6 +194,7 @@ function initPageTransitions() {
         homepageAnimations();
         updateAria();
         initSlider();
+        initImageSlider();
         ga('set', 'page', window.location.pathname);
         ga('send', 'pageview');
     });
@@ -210,6 +211,7 @@ function initPageTransitions() {
             once(data) {
                 // do something once on the initial page load
                 initSlider();
+                initImageSlider();
                 homepageAnimations();
             },
             async leave(data) {

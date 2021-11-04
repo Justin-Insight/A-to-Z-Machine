@@ -1,0 +1,20 @@
+.capabilities-hero {
+  .btn-primary {
+    display: none;
+  }
+}
+
+// .parts-gallery {
+//   position: relative;
+
+//   &::before {
+//     content: "";
+//     background: $primary-color;
+//     width: 100%;
+//     height: 300px;
+//     position: absolute;
+//     top: -100px;
+//     left: 0;
+//     z-index: -1;
+//   }
+// }
