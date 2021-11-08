@@ -1,0 +1,30 @@
+<section class="testimonials block" aria-label="Testimonial Slider">
+    <div class="wrapper-lg padding-top-10">
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                {{ range .Params.testimonials.testimonial }}
+                <div class="swiper-slide flow flex flex-column flex-center flex-justify-center">
+                    <div class="swiper-slide__quote">
+                        {{ partial "svg-icons/quote.svg" . }}
+                    </div>
+                    <p class="swiper-slide__testimonial no-margin">"{{ .body }}"</p>
+                    <div class="swiper-slide__author">
+                        {{ if .author }}
+                            <h3 class="h5 no-margin">{{ .author }}</h4>
+                        {{ end }}
+                        {{ if .job_title }}
+                        <span class="no-margin">{{ .job_title }}</span>
+                        {{ end }}
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+

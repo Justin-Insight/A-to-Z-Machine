@@ -50,6 +50,17 @@ industries_block:
   image2:
     image: a-to-z-employee-quality-checking-custom-part.jpg
     image_alt: an A to Z Machine employee quality checking a custom made part
+testimonials:
+  testimonial:
+    - body: "A to Z’s machining skills, along with their emphasis on quality and delivery, are the reasons that we entrust them with production of Pierce’s most critical suspension and steering components.  Their ability to support a product from prototype through production is a key factor in the longevity of our partnership."
+      author: Chris Campbell
+      job_title: Commodity Manager | Pierce Fire and Emergency
+    - body: "A to Z’s competitiveness and on-time delivery is a product of their machining expertise, innovative mindset and ability to truly understand their business’ capabilities, capacity and sweet spot."
+      author: Jessica Vanevenhoven
+      job_title: Commodity Manager | Oshkosh Defense, LLC
+    - body: "A to Z Machine has gone, and continues to go, above and beyond for our company time and time again. We are very pleased with their communication and transparency of when our product will be delivered. In the past year, we have implemented an inventory plan that has cut our overall lead time to our customer in half. Not to mention, on-time delivery and quality are outstanding."
+      author: Curt Wayne
+      job_title: Materials Buyer | Seabee Cylinders
 capabilities_block:
   heading: CNC Machining and Fabrication Capabilities
   body: As an innovative shop with constantly growing capabilities, A to Z Machine’s master machinists guarantee quicker turnaround, products of unparalleled quality and endless possibilities.

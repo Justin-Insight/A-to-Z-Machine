@@ -20,8 +20,10 @@
     "gsap": "^3.6.0",
     "locomotive-scroll": "^3.6.1",
     "netlify-cms-app": "^2.15.19",
+    "photoswipe": "^4.1.3",
     "postcss-cli": "^8.3.1",
-    "redux": "^4.1.0"
+    "redux": "^4.1.0",
+    "swiper": "^7.2.0"
   },
   "browserslist": [
     "last 4 Chrome versions",
