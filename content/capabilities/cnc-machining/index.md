@@ -79,20 +79,36 @@ parts_gallery:
   images:
     - image: DSC_0003.jpg
       image_alt: machined part
+      image_l: DSC_0003_l.jpg
+      image_l_alt: machined part
     - image: DSC_0013.jpg
       image_alt: machined part
+      image_l: DSC_0013.jpg
+      image_l_alt: machined part
     - image: DSC_0015.jpg
       image_alt: machined part
+      image_l: DSC_0015.jpg
+      image_l_alt: machined part
     - image: DSC_0018.jpg
       image_alt: machined part
+      image_l: DSC_0018.jpg
+      image_l_alt: machined part
     - image: DSC_0017.jpg
       image_alt: machined part
+      image_l: DSC_0017.jpg
+      image_l_alt: machined part
     - image: gallery-14.jpg
       image_alt: machined part
+      image_l: gallery-14.jpg
+      image_l_alt: machined part
     - image: gallery-15.jpg
       image_alt: machined part
+      image_l: gallery-15.jpg
+      image_l_alt: machined part
     - image: gallery-18.jpg
       image_alt: machined part
+      image_l: gallery-18.jpg
+      image_l_alt: machined part
 cta:
   cta_image: machined-parts.jpg
   heading: What’s your next <span class="underline-primary">project?</span>

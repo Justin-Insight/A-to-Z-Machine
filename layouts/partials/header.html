@@ -23,11 +23,13 @@
       </a>
     </div>
     <nav class="site-header__nav" role="navigation" aria-label="primary navigation">
+      {{ $url := .RelPermalink }}
       {{ with .Site.Menus.main }}
       <ul class="nav-list" role="list">
           {{ range . }}
+          {{ $active := eq $url .URL }}
           <li class="nav-list__item">
-            <a class="nav-list__link" href="{{ .URL }}" aria-label="{{ .Name }}"
+            <a {{if $active }}class="current nav-list__link" {{end}} class="nav-list__link" href="{{ .URL }}" aria-label="{{ .Name }}"
               title="{{ .Name }}">{{ .Name }}</a>
           </li>
           {{ end }}
