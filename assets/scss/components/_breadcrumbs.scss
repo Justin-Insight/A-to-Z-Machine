@@ -1,0 +1,10 @@
+.breadcrumbs {
+  border-top: 1px solid $light-gray;
+  border-bottom: 1px solid $light-gray;
+  margin: 0;
+  padding: 1rem 0;
+
+  &__nav {
+    padding: 0;
+  }
+}

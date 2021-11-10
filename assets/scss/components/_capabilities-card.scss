@@ -23,7 +23,7 @@
     &:focus {
       color: $white;
 
-      &:before {
+      &::before {
         opacity: 1;
       }
 

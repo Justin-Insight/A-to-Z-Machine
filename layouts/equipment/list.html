@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{ partial "hero" (dict "Page" . "image" .Params.seo.featured_image "alt" .Params.hero.hero_image_alt "heading" .Params.hero.heading "body" .Params.hero.body ) }}
+<div class="pb-10">
+    <ul class="wrapper-lg equipment-grid grid-3">
+        {{ range .Pages }}
+        <li class="equipment-card">
+            <a href="{{ .Permalink }}" class="equipment-card__link flex flex-column">
+                <div class="equipment-card__image-wrapper">
+                    <img src="{{ .Permalink }}{{ .Params.seo.featured_image }}" alt="{{ .Params.seo.featured_image_alt }}" class="equipment-card__image">
+                </div>
+                <h2 class="h6 equipment-card__title no-margin text-center">{{ .Title }}</h2>
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}

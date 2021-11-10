@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="block bg-gray">
+    <div class="wrapper">
+        <h1 class="text-center">{{ .Title }}</h1>
+    </div>
+</div>
+{{ partial "breadcrumbs" . }}
+<div class="block">
+<div class="wrapper-md flex flex-column flex-row-m">
+    <div class="w-100 w-40-m">
+        <img src="{{ .Permalink }}{{ .Params.seo.featured_image }}" alt="">
+    </div>
+    <div class="w-100 w-60-m">
+        {{ .Content }}
+        <a href="/request-a-quote/" class="btn btn-primary">Request a quote</a>
+    </div>
+</div>
+</div>
+{{ end }}
