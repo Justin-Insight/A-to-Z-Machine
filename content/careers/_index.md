@@ -13,24 +13,18 @@ benefits:
   body: "As a growing and innovative company, we’re always hiring good, hard-working people. A to Z Machine is 100% employee-owned, allowing individuals to contribute to and benefit from the company’s success. In addition to consistent schedules and the newest machinery and tooling, our employees enjoy strong compensation, benefits and employee appreciation programs."
   image: DSC_0242.jpg
   benefit:
-    - heading: Strong compensation and benefits package
-      body: "7% second shift differential, Regular performance and wage reviews, Competitive wages and quarterly bonus programs, Employee Stock Ownership Program, 401(k) plan with safe harbor contribution"
-      icon: retirement.svg
-    - heading: Flexible schedules
-      body: "Three-day weekends on second shift, anything else?"
-      icon: calendar.svg
-    - heading: Health and wellness benefits
-      body: "Health insurance (two high-deductible health plan options with Health Savings Account), Dental insurance, Short- and long-term disability insurance, Voluntary vision insurance, Company-paid life insurance (up to $25,000), Voluntary additional life or accidental death & dismemberment insurance, Generous employee assistance program (EAP)"
-      icon: wellness.svg
-    - heading: Paid time off
-      body: "Competitive PTO program, Paid vacation and holidays, Paid lunch breaks"
-      icon: calendar.svg
+    - heading: Strong compensation & savings
+      body: "7% second shift differential, regular performance/wage reviews, competitive wages, quarterly bonuses, Employee Stock Ownership Program, 401(k) plan with safe harbor contribution"
+    - heading: Health insurance benefits
+      body: "Health insurance (high-deductible health plan options with HSA), dental and vision insurance, short- and long-term disability insurance"
+    - heading: Life insurance benefits
+      body: "Voluntary company-paid life insurance (up to $25,000), voluntary additional life or accidental death and dismemberment insurance, generous employee assistance program"
+    - heading: Flexible schedules & perks
+      body: "Three-day weekends on second shift, competitive PTO program, paid vacation and holidays, plus paid lunch breaks"
     - heading: Employee appreciation events
-      body: "Anniversary and retirement lunches, Holiday party, Employee ownership month activities"
-      icon: coworkers.svg
+      body: "Anniversary and retirement lunches, holiday parties, employee ownership month activities"
     - heading: Employee reimbursements
-      body: "Steel-toe shoes, Safety glasses, Gym memberships"
-      icon: retirement.svg
+      body: "Full repayment of employees’ investments in personal safety such as steel-toe shoes, safety glasses, gym memberships"
   benefits_old: >-
     * Strong compensation and benefits package
       * 7% second shift differential

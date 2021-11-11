@@ -15,7 +15,19 @@
       {{ with .Params.benefits }}
         {{ range .benefit }}
         <div class="benefit-card">
-          <img src="/images/{{ .icon }}" alt="">
+          {{ if eq .heading "Strong compensation & savings" }}
+          {{ partial "svg-icons/salary.svg" . }}
+          {{ else if eq .heading "Health insurance benefits" }}
+          {{ partial "svg-icons/health-heart.svg" . }}
+          {{ else if eq .heading "Life insurance benefits" }}
+          {{ partial "svg-icons/life-insurance-2.svg" . }}
+          {{ else if eq .heading "Flexible schedules & perks" }}
+          {{ partial "svg-icons/calendar.svg" . }}
+          {{ else if eq .heading "Employee appreciation events" }}
+          {{ partial "svg-icons/people.svg" . }}
+          {{ else if eq .heading "Employee reimbursements" }}
+          {{ partial "svg-icons/reimbursement.svg" . }}
+          {{ end }}
           <h3 class="h4 text-center">{{ .heading }}</h3>
           <p>{{ .body }}</p>
         </div>
