@@ -34,6 +34,6 @@ cta:
     button:
       - button_url: /industries/
         button_text: Browse industries
-      - button_url: /careers/
+      - button_url: /equipment/
         button_text: Browse equipment
 ---

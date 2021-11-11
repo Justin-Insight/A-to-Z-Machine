@@ -1,5 +1,6 @@
 {{ define "main" }}
-{{ partial "hero" (dict "Page" . "image" .Params.seo.featured_image "alt" .Params.hero.hero_image_alt "heading" .Params.hero.heading "body" .Params.hero.body ) }}
+{{ partial "hero" (dict "Page" . "image" .Params.seo.featured_image "alt" .Params.hero.hero_image_alt ) }}
+{{ partial "hero-intro" . }}
 <div class="pb-10">
     <ul class="wrapper-lg equipment-grid grid-3">
         {{ range .Pages }}

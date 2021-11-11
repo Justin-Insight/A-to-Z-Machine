@@ -67,6 +67,10 @@
 }
 
 @include breakpoint(sm) {
+  .flex-s {
+    display: flex;
+  }
+
   .flex-column-s {
     flex-direction: column;
   }

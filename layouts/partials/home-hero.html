@@ -1,5 +1,5 @@
 {{ $heroClass := lower .Page.Title }}
-<div class="{{ anchorize $heroClass }}-hero">
+<section class="{{ anchorize $heroClass }}-hero">
   {{ $heroimage := (.Page.Resources.GetMatch (index .image)) }}
 
   {{ $webp_src_set := ""}}
@@ -35,4 +35,4 @@
       <p>{{ .body | markdownify }}</p>
     </div>
   </div>
-</div>
+</section>

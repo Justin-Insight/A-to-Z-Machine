@@ -1,5 +1,6 @@
 {{ define "main" }}
-{{ partial "hero" (dict "Page" . "image" .Params.seo.featured_image "alt" .Params.seo.featured_image_alt "heading" .Params.hero.heading "body" .Params.hero.body ) }}
+{{ partial "hero" (dict "Page" . "image" .Params.seo.featured_image "alt" .Params.seo.featured_image_alt ) }}
+{{ partial "hero-intro" . }}
 <section>
    <div class="flex flex-column flex-row-m">
       <div class="w-100 w-60-m image-column">

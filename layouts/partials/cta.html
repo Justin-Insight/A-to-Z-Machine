@@ -1,5 +1,5 @@
 {{ $ctaClass := lower .Page.Title }}
-<div class="cta {{ anchorize $ctaClass }}-cta">
+<section class="cta {{ anchorize $ctaClass }}-cta">
   {{ $ctaimage := (.Resources.GetMatch (index .Params.cta.cta_image)) }}
 
   {{ $webp_src_set := ""}}
@@ -47,4 +47,4 @@
       </div>
     </div>
   </div>
-</div>
+</section>

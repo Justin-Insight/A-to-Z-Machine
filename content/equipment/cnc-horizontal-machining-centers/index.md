@@ -6,6 +6,9 @@ seo:
   description: A to Z Machine has horizontal and vertical machining centers, including 5-axis machines, in a variety of sizes and configurations to meet any of your machining needs.
   featured_image: OKK-horizontal-machining-centers-2.jpg
   featured_image_alt:
+hero:
+  heading: "CNC Horizontal Machining Centers"
+  body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem sed distinctio dolorum? Accusantium minus voluptate cupiditate laborum similique, eligendi necessitatibus rem. Unde, quasi commodi harum sapiente reiciendis ea ad eos!"
 ---
 
 - (Qty 2) **OKK HM-600** \* 24.8 Pallets \* Full 4th axis \* 40 HP \* 12,000 RPM \* CAT50 Spindle

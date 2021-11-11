@@ -1,0 +1,12 @@
+{{ $heroClass := lower .Page.Title }}
+<section class="{{ anchorize $heroClass }}-hero-intro">
+  <div class="block w-100">
+    <div class="wrapper-sm">
+      {{ partial "breadcrumbs" . }}
+      <h1 class="no-margin text-center">
+        {{ .Params.hero.heading | markdownify }}
+      </h1>
+      <p>{{ .Params.hero.body | markdownify }}</p>
+    </div>
+  </div>
+</section>

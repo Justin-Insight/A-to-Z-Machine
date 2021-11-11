@@ -1,5 +1,10 @@
 <section class="testimonials block" aria-label="Testimonial Slider">
-    <div class="wrapper-lg padding-top-10">
+    <div class="wrapper-lg">
+        {{ if .Params.testimonials.heading }}
+        <div class="wrapper">
+            <h2 class="text-center no-margin">{{ .Params.testimonials.heading }}</h2>
+        </div>
+        {{ end }}
         <!-- Slider main container -->
         <div class="swiper">
             <!-- Additional required wrapper -->

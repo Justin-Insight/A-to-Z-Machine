@@ -6,6 +6,9 @@ seo:
   description: A to Z Machine's live tooling lathes offer a variety of bore sizes, bed lengths and optional features, which are capable of meeting any of your production needs.
   featured_image: puma-3100ly.jpg
   featured_image_alt: Doosan Puma 3100LY CNC live tooling lathe
+hero:
+  heading: "CNC Live Tooling Lathes"
+  body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem sed distinctio dolorum? Accusantium minus voluptate cupiditate laborum similique, eligendi necessitatibus rem. Unde, quasi commodi harum sapiente reiciendis ea ad eos!"
 ---
 
 - **Doosan Puma-MX3100** \* 15” Chuck \* 30” Max Turn Diameter \* 39.4” Swing \* 60.6” Center to Center \* 4” Bar Capacity \* Full 5-Axis \* 40 HP Turning Spindle \* 12000 RPM 30 HP C6 Capto Milling Spindle

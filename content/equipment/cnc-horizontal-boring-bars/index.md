@@ -6,6 +6,9 @@ seo:
   description:
   featured_image: kuraki-AKB-13-2.jpg
   featured_image_alt: Kuraki AKB 13 CNC Horizontal Boring Bars
+hero:
+  heading: "CNC Horizontal Boring Bars"
+  body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem sed distinctio dolorum? Accusantium minus voluptate cupiditate laborum similique, eligendi necessitatibus rem. Unde, quasi commodi harum sapiente reiciendis ea ad eos!"
 ---
 
 - **Kuraki AKB-13** \* 118.11” X Travel \* 78.74” Y Travel \* 62.99” Z Travel \* 70.87” x 78.74” Table \* 26,400 lbs. Table Load Capacity \* 40 HP \* 3,000 RPM \* Big Plus CAT50 Spindle

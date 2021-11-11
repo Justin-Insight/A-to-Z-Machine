@@ -3,15 +3,15 @@ title: Careers
 seo:
   title: Careers
   description: Build a solid career at A to Z Machine! Apply now for CNC machining, welding, fabrication, machinist and contract manufacturing jobs in Appleton, Wisconsin.
-  featured_image: DSC_0100.jpg
+  featured_image: two-a-to-z-machine-employees-working-at-workbench.jpg
   featured_image_alt: Two A to Z Machine Employees standing in front of fabrication work bench
 hero:
-  heading: "Build a solid career at A to Z Machine"
+  heading: 'Build a <span class="underline-primary">solid career</span> at A to Z Machine'
   body: "Have you lost your tolerance for old equipment and tooling? Are you tired of changing schedules and switching from 30-hour to 50-hour weeks? Do you want to be an employee owner working with a team towards the same goal? Fuse your passions and skills with our innovative shop!"
 benefits:
   heading: Become an employee owner
   body: "As a growing and innovative company, we’re always hiring good, hard-working people. A to Z Machine is 100% employee-owned, allowing individuals to contribute to and benefit from the company’s success. In addition to consistent schedules and the newest machinery and tooling, our employees enjoy strong compensation, benefits and employee appreciation programs."
-  image: two-a-to-z-machine-employees.jpg
+  image: DSC_0242.jpg
   benefit:
     - heading: Strong compensation and benefits package
       body: "7% second shift differential, Regular performance and wage reviews, Competitive wages and quarterly bonus programs, Employee Stock Ownership Program, 401(k) plan with safe harbor contribution"
@@ -73,6 +73,7 @@ apprenticeship:
 
 employment_disclaimer: "A to Z Machine Company is proud to be an equal opportunity workplace. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, marital status, disability, gender identity or veteran status."
 testimonials:
+  heading: What our employees are saying about working at A to Z Machine, Inc.
   testimonial:
     - body: "A to Z has become a great fit for me. From my initial interview and walk-through, I noticed how clean the work area was, and how friendly everyone was. I've recently completed my first year, and am very glad I accepted the position with A to Z. This is a great place to work. Everyone is friendly and helpful, and we all have a genuine goal to be successful."
       author: Steve

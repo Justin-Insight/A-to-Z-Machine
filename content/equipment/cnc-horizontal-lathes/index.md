@@ -6,6 +6,9 @@ seo:
   description: A to Z Machine's horizontal lathes offer a variety of bore sizes, bed lengths and optional features, which are capable of meeting any of your production needs.
   featured_image: PUMA_4100LB.jpg
   featured_image_alt: Doosan Puma 4100LB CNC Horizontal Lathe
+hero:
+  heading: "CNC Horizontal Lathes"
+  body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem sed distinctio dolorum? Accusantium minus voluptate cupiditate laborum similique, eligendi necessitatibus rem. Unde, quasi commodi harum sapiente reiciendis ea ad eos!"
 ---
 
 - **Doosan Puma-700L** \* 32’’ Chuck \* 10’’ to 31.5’’ Steady Rest \* 35’’ Max Turn Diameter \* 126.0” Center to Center \* 60 HP Turning Spindle

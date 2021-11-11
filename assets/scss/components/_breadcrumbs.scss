@@ -1,10 +1,46 @@
 .breadcrumbs {
-  border-top: 1px solid $light-gray;
-  border-bottom: 1px solid $light-gray;
   margin: 0;
-  padding: 1rem 0;
 
   &__nav {
     padding: 0;
+    margin: 0;
+    list-style-type: none;
   }
+
+  &__list-item {
+    display: inline-block;
+  }
+
+  &__link {
+    padding: 0 1rem;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: $primary-color;
+    }
+  }
+
+  svg {
+    stroke: $white;
+    width: $ic-100;
+    height: $ic-100;
+  }
+
+  span:last-of-type {
+    display: none;
+  }
+}
+
+.breadcrumbs .active {
+  display: none;
+}
+
+.capabilities .breadcrumbs,
+.about .breadcrumbs,
+.contact .breadcrumbs,
+.the-a-to-z-machine-blog .breadcrumbs,
+.request-a-quote .breadcrumbs,
+.equipment .breadcrumbs {
+  display: none;
 }

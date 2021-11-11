@@ -1,10 +1,11 @@
 {{ define "main" }}
-<div class="block bg-gray">
+<!-- <div class="block bg-gray">
     <div class="wrapper">
         <h1 class="text-center">{{ .Title }}</h1>
     </div>
-</div>
-{{ partial "breadcrumbs" . }}
+</div> -->
+<div class="post-hero hero"></div>
+{{ partial "hero-intro-alt" . }}
 <div class="block">
 <div class="wrapper-md flex flex-column flex-row-m">
     <div class="w-100 w-40-m">
@@ -15,5 +16,8 @@
         <a href="/request-a-quote/" class="btn btn-primary">Request a quote</a>
     </div>
 </div>
+</div>
+<div class="wrapper-md pb-10">
+    {{ partial "equipment/equipment-navigation" . }}
 </div>
 {{ end }}

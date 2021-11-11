@@ -1,5 +1,6 @@
 {{ define "main" }}
-{{ partial "hero" (dict "Page" . "image" .Params.hero.hero_image "alt" .Params.hero.hero_image_alt "heading" .Params.hero.heading "body" .Params.hero.body ) }}
+{{ partial "hero" (dict "Page" . "image" .Params.hero.hero_image "alt" .Params.hero.hero_image_alt ) }}
+{{ partial "hero-intro-alt" . }}
 {{ partial "a-to-z-approach" . }}
 {{ partial "cta" . }}
 {{ end }}

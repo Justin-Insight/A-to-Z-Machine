@@ -6,6 +6,9 @@ seo:
   description:
   featured_image: Global-Advantage_M-2.jpg
   featured_image_alt:
+hero:
+  heading: "Quality/Inspection"
+  body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem sed distinctio dolorum? Accusantium minus voluptate cupiditate laborum similique, eligendi necessitatibus rem. Unde, quasi commodi harum sapiente reiciendis ea ad eos!"
 ---
 
 - **Hexagon Ghibli 26-15-14 CMM** \* 67” x 143” Table \* 360° Renishaw scanning Probe \* PC DMIS Software

@@ -2,3 +2,20 @@
   border-top: 1px solid $gray;
   padding: 2rem 0 0 0;
 }
+
+.post-navigation__link span {
+  font-size: $ic-100;
+  font-weight: 500;
+}
+
+.equipment-navigation {
+  display: none;
+
+  @include breakpoint(sm) {
+    display: flex;
+  }
+
+  .post-navigation__link {
+    min-width: 250px;
+  }
+}

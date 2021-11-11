@@ -6,7 +6,7 @@
   </div>
 </div>
 <section class="block">
-  <div class="blog-container wrapper-lg">
+  <div class="grid-3 wrapper-lg">
     {{ $paginator := .Paginate ( where .Data.Pages "Type" "blog" ) }}
     {{ range $paginator.Pages }}
     {{ .Render "article" }}

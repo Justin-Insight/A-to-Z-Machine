@@ -6,6 +6,9 @@ seo:
   description: A to Z Machine has horizontal and vertical machining centers, including 5-axis machines, in a variety of sizes and configurations to meet any of your machining needs.
   featured_image: mazak-vcn-705D-cnc-vertical-machining-centers.jpg
   featured_image_alt: Mazak VCN 715D vertical machining center
+hero:
+  heading: "CNC Vertical Machining Centers"
+  body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem sed distinctio dolorum? Accusantium minus voluptate cupiditate laborum similique, eligendi necessitatibus rem. Unde, quasi commodi harum sapiente reiciendis ea ad eos!"
 ---
 
 - **Awea LP4025** \* 157.5” X Travel \* 98.4” Y Travel \* 30” Z Travel \* 39.4” Spindle Nose to Table \* 106.3” between columns \* 6000 RPM \* CAT50 Spindle

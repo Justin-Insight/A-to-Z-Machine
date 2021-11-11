@@ -1,6 +1,6 @@
-<div class="breadcrumbs flex flex-center">
+<div class="breadcrumbs">
     <div class="wrapper-lg">
-        <ol class="breadcrumbs__nav flex">
+        <ol class="breadcrumbs__nav flex flex-center flex-justify-center">
             {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
         </ol>
         {{ define "breadcrumbnav" }}
@@ -9,9 +9,10 @@
         {{ else if not .p1.IsHome }}
         {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
         {{ end }}
-        <li{{ if eq .p1 .p2 }} class="breadcrumbs__list-item active"{{ end }}>
+        <li{{ if eq .p1 .p2 }} class="breadcrumbs__list-item active"{{ end }} class="breadcrumbs__list-item" >
             <a href="{{ .p1.Permalink }}" class="breadcrumbs__link">{{ .p1.Title }}</a>
         </li>
+        <span>/</span>
         {{ end }}
     </div>
 </div>
