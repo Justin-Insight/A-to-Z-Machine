@@ -35,14 +35,15 @@
           {{ .Params.cta.heading | markdownify }}
         </h2>
         <p>{{ .Params.cta.body | markdownify }}</p>
-        {{ with .Params.cta.buttons }}
-        <div class="flex flex-column flex-row-m flex-justify-around">
+        
+      </div>
+      {{ with .Params.cta.buttons }}
+        <div class="button-wrapper flex flex-column flex-row-m flex-justify-around">
           {{ range .button }}
             <a href="{{ .button_url }}" class="btn btn-primary--rev">{{ .button_text }}</a>
           {{ end }}
         </div>
         {{ end }}
-      </div>
     </div>
   </div>
 </div>

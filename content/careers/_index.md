@@ -54,4 +54,6 @@ testimonials:
       job_title:
 ---
 
-{{< youtube _H31Xllc_Co >}}
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" id="video" src="//www.youtube.com/embed/_H31Xllc_Co?enablejsapi=1&html5=1" frameborder="0" allowfullscreen></iframe>
+</div>

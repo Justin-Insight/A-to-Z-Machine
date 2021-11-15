@@ -1,6 +1,81 @@
 {{ define "main" }}
 {{ partial "hero" (dict "Page" . "image" .Params.hero.hero_image "alt" .Params.hero.hero_image_alt ) }}
 {{ partial "hero-intro-alt" . }}
-{{ partial "a-to-z-approach" . }}
-{{ partial "cta" . }}
+<div class="flex flex-column flex-row-m">
+  <div class="w-100 w-60-m image-column video-trigger">
+     {{ partial "responsive-image" (dict "Page" . "image" .Params.machinist_block.image ) }}
+     <button title="open the video" aria-label="open the video popup" class="video-trigger__button">{{ partial "svg-icons/play.svg" . }}</button>
+     <div class="video-trigger__waves">
+       <div class="video-trigger__wave wave1"></div>
+       <div class="video-trigger__wave wave2"></div>
+       <div class="video-trigger__wave wave3"></div>
+     </div>
+  </div>
+  <div class="w-100 w-40-m text-column bg-gray flex flex-column flex-justify-center flow">
+    <h2>{{ .Params.machinist_block.heading | markdownify }}</h2>
+    <p>{{ .Params.machinist_block.body }}</p>
+    <button class="btn btn-primary secondary-video-trigger">Watch to learn more</button>
+  </div>
+</div>
+<div class="video-overlay">
+  <div class="video-overlay__inner">
+    <button title="close the video" aria-label="close the video popup" class="video-overlay__button">{{ partial "svg-icons/close.svg" . }}</button>
+    {{ .Content }}
+    <div id="player"></div>
+  </div>
+</div>
+<div class="block">
+  <div class="wrapper-lg">
+    <div class="building-images grid-3">
+      {{ with .Params.building_block  }}
+      {{ range .building }}
+      <div class="cover-image">
+        <img src="{{ .image }}" alt="{{ .image_alt }}">
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+    <div class="text-center pt-4">
+      <a href="/contact/" class="btn btn-primary">Contact us to tour our facility</a>
+    </div>
+  </div>
+</div>
+<div class="flex flex-column flex-row-m">
+  <div class="w-100 w-40-m text-column bg-primary text-white flex flex-column flex-justify-center flow">
+    <h2>{{ .Params.quality_block.heading | markdownify }}</h2>
+    {{ .Params.quality_block.body | markdownify }}
+  </div>
+  <div class="w-100 w-60-m image-column image-column--alt">
+     {{ partial "responsive-image" (dict "Page" . "image" .Params.quality_block.image ) }}
+  </div>
+</div>
+<div class="block">
+  <div class="wrapper-sm flow pb-4">
+    <h2 class="text-center">{{ .Params.guiding_principles.heading | markdownify }}</h2>
+    <p class="h5">{{ .Params.guiding_principles.body | markdownify }}</p>
+  </div>
+  {{ with .Params.guiding_principles }}
+  <div class="principles-grid grid-2">
+    {{ range .principles }}
+    <!-- <div class="principles-card" style="background-image: url('{{ .image }}')"> -->
+    <div class="principles-card">
+      <img src="{{ .image }}" alt="{{ .image_alt }}">
+      <div class="principles-card__overlay">
+        <div class="principles-card__content text-white flow">
+          <h2 class="h3 underline-primary">{{ .heading }}</h2>
+          <p>{{ .body }}</p>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+<div class="pb-10">
+  <div class="vision wrapper text-center">
+    <h2 class="text-primary">{{ .Params.vision.heading | markdownify }}</h2>
+    <p class="h5">{{ .Params.vision.body }}</p>
+  </div>
+</div>
+{{ partial "careers-cta" . }}
 {{ end }}

@@ -24,3 +24,45 @@
     }
 </script>
 <script> (function () { window['GoogleAnalyticsObject'] = 'ga'; window['ga'] = window['ga'] || function () { (window['ga'].q = window['ga'].q || []).push(arguments) }; if (window.ga) { ga('create', 'G-0692372BX5', 'auto'); window.addEventListener('message', function (event) { var a = ~event.origin.indexOf('digital-quote.com'); var b = event.data.type === 'rfq_submit_success'; if (a && b) { window.location.replace("http://www.atozmachine/contact/thank-you/"); } }, false); } })(); </script>
+
+<script>
+  
+// global variable for the player
+var player;
+
+// this function gets called when API is ready to use
+function onYouTubePlayerAPIReady() {
+  // create the global player from the specific iframe (#video)
+  player = new YT.Player('video', {
+    events: {
+      // call this function when player is ready to use
+      onReady: onPlayerReady
+    }
+  });
+}
+
+function onPlayerReady(event) {
+  // bind events
+  const playButton = document.querySelector('.video-trigger')
+  const secondaryPlayButton = document.querySelector('.secondary-video-trigger')
+
+  playButton.addEventListener('click', playVideo)
+  secondaryPlayButton.addEventListener('click', playVideo)
+
+  function playVideo () {
+    player.playVideo()
+  }
+
+  const pauseButton = document.querySelector('.video-overlay__button')
+  pauseButton.addEventListener('click', function () {
+    player.pauseVideo()
+  });
+}
+
+// Inject YouTube API script
+var tag = document.createElement('script')
+tag.src = '//www.youtube.com/player_api'
+var firstScriptTag = document.getElementsByTagName('script')[0]
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag)
+
+</script>

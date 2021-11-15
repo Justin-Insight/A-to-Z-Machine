@@ -1,7 +1,6 @@
 .image-column {
   position: relative;
   overflow: hidden;
-  max-height: 550px;
 
   &::after {
     content: "";
@@ -17,6 +16,10 @@
       clip-path: polygon(100% 0, 80% 0%, 100% 105%);
       top: -1px;
     }
+  }
+
+  @include breakpoint (lg) {
+    max-height: 550px;
   }
 
   img {
