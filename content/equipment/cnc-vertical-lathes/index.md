@@ -8,7 +8,7 @@ seo:
   featured_image_alt:
 hero:
   heading: "CNC Vertical Lathes"
-  body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem sed distinctio dolorum? Accusantium minus voluptate cupiditate laborum similique, eligendi necessitatibus rem. Unde, quasi commodi harum sapiente reiciendis ea ad eos!"
+  body: "CNC Lathe machines are usually designed with horizontal structures and are the most common method for people to cut cylindrical workpieces. However, a vertical lathe machine is a machine tool that rotates a workpiece on a rotating axis and performs various machining operations vertically."
 ---
 
 - **Toshiba TUE-15** \* 59” Diameter Table \* 71” Swing \* 59” Cut Height \* 12 Tool Changer

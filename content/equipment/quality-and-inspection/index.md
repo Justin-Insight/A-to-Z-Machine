@@ -8,10 +8,10 @@ seo:
   featured_image_alt:
 hero:
   heading: "Quality/Inspection"
-  body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem sed distinctio dolorum? Accusantium minus voluptate cupiditate laborum similique, eligendi necessitatibus rem. Unde, quasi commodi harum sapiente reiciendis ea ad eos!"
+  body: "CMMs typically specify a probe's position in terms of its displacement from a reference position in a three-dimensional Cartesian coordinate system (i.e., with XYZ axes). In addition to moving the probe along the X, Y, and Z axes, many machines also allow the probe angle to be controlled to allow measurement of surfaces that would otherwise be unreachable."
 ---
 
-- **Hexagon Ghibli 26-15-14 CMM** \* 67” x 143” Table \* 360° Renishaw scanning Probe \* PC DMIS Software
+- **Hexagon Ghibli 26-15-14 CMM** \* 67” x 143” Table \* 360° Renishaw Scanning Probe \* PC DMIS Software
 - **Brown & Sharpe Excel CMM** \* 36” x 48” Table \* 360° Renishaw Probe \* PC-DMIS Software
 - **Brown & Sharpe Global Blue 12.15.10 CMM** \* 69” x 114” Table \* 360° Renishaw Probe \* PC-DMIS Software
   Granite Surface Plate \* 4’ X 8’ Table

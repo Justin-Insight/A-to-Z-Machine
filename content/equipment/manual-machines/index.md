@@ -8,7 +8,7 @@ seo:
   featured_image_alt: Sunnen Honing machine
 hero:
   heading: "Manual Machines"
-  body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem sed distinctio dolorum? Accusantium minus voluptate cupiditate laborum similique, eligendi necessitatibus rem. Unde, quasi commodi harum sapiente reiciendis ea ad eos!"
+  body: "Manual machines are pieces of equipment or tools in the machine and fabrication shop that are operated by hand, such as, pressing buttons, rotating knobs, squeezing triggers or many other functions. These machines require no computer control but rather rely on the skill and the intellect of the operator."
 ---
 
 - **Bridgeport** \* 8 Spindle \* EZ Trac

@@ -1,0 +1,25 @@
+.equipment-list {
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  ul ul {
+    padding-left: 40px;
+  }
+}
+
+.miscellaneous-hero-intro,
+.welding-hero-intro {
+  p {
+    display: none;
+  }
+}
+
+.miscellaneous {
+  .equipment-list {
+    @include breakpoint(md) {
+      padding-left: 40px;
+    }
+  }
+}

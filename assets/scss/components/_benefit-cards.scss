@@ -1,6 +1,7 @@
 .benefit-cards {
   display: grid;
-  
+  border: 1px solid rgba($black, 0.1);
+
   @include breakpoint(sm) {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -13,13 +14,8 @@
     max-width: 500px;
     width: 100%;
     padding: $ic-300;
-    border: 1px solid rgba($black, .1);
+    border: 1px solid rgba($black, 0.1);
     text-align: center;
-
-    @include breakpoint(md) {
-      border-bottom: 1px solid rgba($black, .1);
-      border-left: 1px solid rgba($black, .1);
-    }
 
     svg {
       max-width: 70px;
@@ -33,14 +29,6 @@
       font-size: $ic-100;
     }
   }
-}
-
-.benefit-cards .benefit-card:nth-child(-n+3) {
-  border-top: 1px solid rgba($black, .1);
-}
-
-.benefit-cards .benefit-card:nth-child(3n) {
-  border-right: 1px solid rgba($black, .1);
 }
 
 .benefit-card:nth-of-type(3) {

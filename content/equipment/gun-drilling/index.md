@@ -8,7 +8,7 @@ seo:
   featured_image_alt: Dadson Gun Drill
 hero:
   heading: "Gun Drilling"
-  body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem sed distinctio dolorum? Accusantium minus voluptate cupiditate laborum similique, eligendi necessitatibus rem. Unde, quasi commodi harum sapiente reiciendis ea ad eos!"
+  body: "Gun Drills (through coolant drills) are straight fluted drills which allow cutting fluid (either compressed air or a suitable liquid) to be injected through the drill's hollow body to the cutting face. They are used for deep drilling. A depth-to-diameter ratio of 300:1 or more is possible."
 ---
 
-- **Dadson #DS2120.CM** Gun Drill _ 2.5” Max Diameter _ 120” Z Travel
+- **Dadson #DS2120.CM** Gun Drill \* 2.5” Max Diameter \* 120” Z Travel

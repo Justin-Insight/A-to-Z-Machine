@@ -8,7 +8,7 @@ seo:
   featured_image_alt: Kuraki AKB 13 CNC Horizontal Boring Bars
 hero:
   heading: "CNC Horizontal Boring Bars"
-  body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem sed distinctio dolorum? Accusantium minus voluptate cupiditate laborum similique, eligendi necessitatibus rem. Unde, quasi commodi harum sapiente reiciendis ea ad eos!"
+  body: "Full CNC Horizontal Boring Bars have a horizontally oriented spindle. The machine’s table can orient to any angle allowing work to be completed on multiple sides of the part in one setup. A boring mill is capable of deep hole drilling and boring as well as long reach milling due to the use of a spindle quill. This type of machine is typically very heavy duty and powerful."
 ---
 
 - **Kuraki AKB-13** \* 118.11” X Travel \* 78.74” Y Travel \* 62.99” Z Travel \* 70.87” x 78.74” Table \* 26,400 lbs. Table Load Capacity \* 40 HP \* 3,000 RPM \* Big Plus CAT50 Spindle

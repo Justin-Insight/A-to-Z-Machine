@@ -8,7 +8,7 @@ seo:
   featured_image_alt: Hyd-Mech S23A Saw
 hero:
   heading: "Sawing"
-  body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem sed distinctio dolorum? Accusantium minus voluptate cupiditate laborum similique, eligendi necessitatibus rem. Unde, quasi commodi harum sapiente reiciendis ea ad eos!"
+  body: "Sawing is often used to remove large sections of material without particular concern for tolerances, but modern CNC sawing machines can be used for finishing work as well."
 ---
 
 - **Hyd-Mech S23A** \* Automatic Shuttle \* Overhead Bundling \* 16” High x 20” Wide Capacity

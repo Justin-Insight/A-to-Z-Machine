@@ -24,3 +24,14 @@
     height: 100%;
   }
 }
+
+.image-column--alt {
+  &::after {
+    background-color: $primary-color;
+    clip-path: polygon(100% 0%, 100% 10%, 0% 0%);
+
+    @include breakpoint(md) {
+      clip-path: polygon(0% 0%, 20% 0%, 0% 105%);
+    }
+  }
+}

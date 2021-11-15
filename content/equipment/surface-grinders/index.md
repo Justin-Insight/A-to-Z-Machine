@@ -8,7 +8,7 @@ seo:
   featured_image_alt: okamoto surface grinder
 hero:
   heading: "Surface Grinders"
-  body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem sed distinctio dolorum? Accusantium minus voluptate cupiditate laborum similique, eligendi necessitatibus rem. Unde, quasi commodi harum sapiente reiciendis ea ad eos!"
+  body: "A surface grinder is a machine tool used to provide precision ground surfaces, either to a critical size or for the surface finish."
 ---
 
 - **Browne and Sharpe 1024 Micromaster** \* 12” x 24” Magnetic Chuck \* with DRO
