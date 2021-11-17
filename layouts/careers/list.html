@@ -1,10 +1,10 @@
 {{ define "main" }}
 {{ partial "careers-hero" (dict "Page" . "image" .Params.seo.featured_image "alt" .Params.seo.featured_image_alt "heading" .Params.hero.heading "body" .Params.hero.body ) }}
 <div class="flex flex-column flex-row-m">
-  <div class="w-100 w-60-m image-column">
+  <div class="w-100 w-50-m image-column">
      {{ partial "responsive-image" (dict "Page" . "image" .Params.benefits.image ) }}
   </div>
-  <div class="w-100 w-40-m text-column bg-gray flex flex-column flex-justify-center flow">
+  <div class="w-100 w-50-m text-column bg-gray flex flex-column flex-justify-center flow">
     <h2>{{ .Params.benefits.heading }}</h2>
     <p>{{ .Params.benefits.body }}</p>
   </div>
@@ -37,17 +37,17 @@
   </div>
 </div>
 <div class="flex flex-column flex-row-m">
-  <div class="w-100 w-40-m text-column bg-primary text-white flex flex-column flex-justify-center flow">
+  <div class="w-100 w-50-m text-column bg-primary text-white flex flex-column flex-justify-center flow">
     <h2>{{ .Params.employment_disclaimer.heading }}</h2>
     <p>{{ .Params.employment_disclaimer.body }}</p>
   </div>
-  <div class="w-100 w-60-m image-column image-column--alt">
+  <div class="w-100 w-50-m image-column image-column--alt">
      {{ partial "responsive-image" (dict "Page" . "image" .Params.employment_disclaimer.image ) }}
   </div>
 </div>
 {{ partial "swiper-slider" . }}
 <div class="flex flex-column flex-row-m">
-  <div class="w-100 w-60-m image-column video-trigger">
+  <div class="w-100 w-50-m image-column video-trigger">
      {{ partial "responsive-image" (dict "Page" . "image" .Params.apprenticeship.image ) }}
      <div class="video-trigger__button-container">
       <button title="open the video" aria-label="open the video popup" class="video-trigger__button">{{ partial "svg-icons/play.svg" . }}</button>
@@ -58,7 +58,7 @@
       </div>
      </div>
   </div>
-  <div class="w-100 w-40-m text-column bg-gray flex flex-column flex-justify-center flow">
+  <div class="w-100 w-50-m text-column bg-gray flex flex-column flex-justify-center flow">
     <h2>{{ .Params.apprenticeship.heading }}</h2>
     <p>{{ .Params.apprenticeship.body }}</p>
     <button class="btn btn-primary secondary-video-trigger">Watch to learn more</button>

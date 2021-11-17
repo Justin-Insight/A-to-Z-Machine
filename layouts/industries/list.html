@@ -1,0 +1,14 @@
+{{ define "main" }}
+{{ partial "hero" (dict "Page" . "image" .Params.seo.featured_image "alt" .Params.seo.featured_image_alt ) }}
+{{ partial "hero-intro" . }}
+{{ with .Params.industries }}
+<div class="industries-grid auto-grid">
+    {{ range .industry }}
+       <img src="{{ .image }}" alt="{{ .image_alt }}">
+       <h2 class="h3">{{ .heading }}</h2>
+    {{ end }}
+</div>
+{{ end }}
+{{ partial "a-to-z-approach" . }}
+{{ partial "cta" . }}
+{{ end  }}

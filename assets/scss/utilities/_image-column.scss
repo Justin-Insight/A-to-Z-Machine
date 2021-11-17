@@ -18,8 +18,8 @@
     }
   }
 
-  @include breakpoint (lg) {
-    max-height: 550px;
+  @include breakpoint(lg) {
+    max-height: 600px;
   }
 
   img {

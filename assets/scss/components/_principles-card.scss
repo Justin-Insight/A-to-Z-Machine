@@ -1,7 +1,7 @@
 .principles-card {
   position: relative;
-  min-height: 350px; 
-  max-height: 450px; 
+  min-height: 350px;
+  max-height: 450px;
   height: 100%;
   overflow: hidden;
   // background-size: cover;
@@ -15,9 +15,9 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba($black, 0.85);
-    // mix-blend-mode: multiply;
-    // opacity: 1;
+    background-color: $black;
+    mix-blend-mode: multiply;
+    opacity: 1;
   }
 
   img {
@@ -28,6 +28,7 @@
     transform: translate(-50%, -50%);
     height: 110%;
     width: 110%;
+    opacity: 0.5;
   }
 
   &__content {
@@ -35,6 +36,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 2;
     padding: $ic-400;
     max-width: 50ch;
     width: 100%;

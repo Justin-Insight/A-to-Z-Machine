@@ -25,7 +25,7 @@ Here is a picture of the Electron Microscope Lab results:
 ![](electron.png)
 
 Laser Engraver:
-![](Laser.png)
+{{< image-half image="Laser.png" image_alt="Minilase XL Laser Engraver" >}}
 
 Fume Extractor:
-![](Aero.png)
+{{< image-half image="Aero.png" image_alt="Aerox fume extractor">}}

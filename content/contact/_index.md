@@ -2,7 +2,7 @@
 title: Contact
 description:
 hero:
-  hero_image: a-to-z-employee-working-on-cnc-machine.jpg
+  hero_image: IMG_4290.jpeg
   hero_image_alt:
   heading: "Contact A to Z Machine"
   body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem sed distinctio dolorum? Accusantium minus voluptate cupiditate laborum similique, eligendi necessitatibus rem. Unde, quasi commodi harum sapiente reiciendis ea ad eos!"

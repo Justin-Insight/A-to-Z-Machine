@@ -3,12 +3,20 @@ title: Industries
 seo:
   title: Industries Served
   description: CNC Machining and Fabrication in Appleton, WI
-  featured_image: large-metal-drill-bits.jpg
+  featured_image: machined-metal-parts.jpg
 hero:
-  hero_image: large-metal-drill-bits.jpg
+  hero_image: machined-metal-parts.jpg
   hero_image_alt:
-  heading: "Hero Heading"
-  body: "A to Z Machine is an innovative shop. Our expert machinists employ state-of-the-art machinery and the latest technology to uphold the highest tolerances and embrace new challenges from our customers. Decades of experience, flexibility and a constant drive for improvement guarantee machining mastery to the fullest extent … quicker turnaround, higher quality products and stronger relationships."
+  heading: "Industries Heading"
+  body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem sed distinctio dolorum? Accusantium minus voluptate cupiditate laborum similique, eligendi necessitatibus rem. Unde, quasi commodi harum sapiente reiciendis ea ad eos!"
+industries:
+  industry:
+    - heading: Agriculture
+      image: randy-fath-dDc0vuVH_LU-unsplash.jpg
+      image_alt:
+    - heading: Heavy Industry
+      image: heavy-industry.jpg
+      image_alt:
 approach:
   heading: The A to Z approach
   item:
@@ -27,8 +35,8 @@ cta:
   body: "We’ve provided machining and contract manufacturing solutions since 1996. Our list of equipment and clients served reflects decades of experience."
   buttons:
     button:
-      - button_url: /industries/
-        button_text: Browse industries
+      - button_url: /capabilities/
+        button_text: Browse capabilities
       - button_url: /careers/
         button_text: Browse equipment
 ---

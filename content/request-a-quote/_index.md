@@ -2,7 +2,7 @@
 title: Request a Quote
 description:
 hero:
-  hero_image: a-to-z-employees-working-on-machine-together.jpg
+  hero_image: machined-metal-parts.jpg
   hero_image_alt:
   heading: "Request a Quote"
   body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem sed distinctio dolorum? Accusantium minus voluptate cupiditate laborum similique, eligendi necessitatibus rem. Unde, quasi commodi harum sapiente reiciendis ea ad eos!"
