@@ -53,10 +53,10 @@
 </section>
 {{ partial "swiper-slider" . }}
 {{ with .Params.capabilities_block }}
-<section class="capabilites block">
+<section class="capabilities block">
   <div class="wrapper">
     <h2 class="text-center">{{ .heading }}</h2>
-    <p>{{.body }}</p>
+    <p class="text-center">{{.body }}</p>
     <div class="flex flex-column flex-row-m">
       {{ range .sector }}
       <a href="{{ .service.link }}" class="capabilities-card w-100 w-50-m cover-image">

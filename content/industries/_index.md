@@ -1,42 +1,82 @@
 ---
 title: Industries
 seo:
-  title: Industries Served
-  description: CNC Machining and Fabrication in Appleton, WI
+  title: Multi-industry machining experience
+  description: A to Z Machine of Appleton, Wisconsin for CNC machining, welding & fabrication in food, engineering, construction, oil, military, trucking & medical industries.
   featured_image: machined-metal-parts.jpg
 hero:
   hero_image: machined-metal-parts.jpg
   hero_image_alt:
-  heading: "Industries Heading"
-  body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem sed distinctio dolorum? Accusantium minus voluptate cupiditate laborum similique, eligendi necessitatibus rem. Unde, quasi commodi harum sapiente reiciendis ea ad eos!"
+  heading: "Multi-industry machining experience"
+  body: "At A to Z Machine, we pride ourselves on the ability to adapt and expand to our customers’ needs. No matter your industry, no matter your business, no matter how big or small your CNC parts project may be, we have the capability to get the job done. We currently serve the following industries but are always aspiring to grow."
 industries:
   industry:
     - heading: Agriculture
       image: randy-fath-dDc0vuVH_LU-unsplash.jpg
       image_alt:
-    - heading: Heavy Industry
-      image: heavy-industry.jpg
+    - heading: Heavy Industry Trucking & Transportation
+      image: heavy-industry-trucking.jpg
       image_alt:
-approach:
-  heading: The A to Z approach
-  item:
-    - subhead: Quality
-      body: Our focus on quality and precision supports our zero-tolerance policy for error or variance.
-      icon: award.svg
-    - subhead: Innovation
-      body: We continuously invest in technology to be more flexible, efficient and precise, at a more affordable price.
-      icon: rocket.svg
-    - subhead: Partnership
-      body: Our high-quality products begin with collaboration and continue through long-term partnerships.
-      icon: handshake.svg
+    - heading: Military
+      image: military.jpg
+      image_alt:
+    - heading: Scientific Research Equipment
+      image: research-equipment.jpg
+      image_alt:
+    - heading: Electronic
+      image: electronic.jpg
+      image_alt:
+    - heading: Food Processing
+      image: food-750x750.jpg
+      image_alt:
+    - heading: Oil
+      image: oil.jpg
+      image_alt:
+    - heading: Gas
+      image: gas.jpg
+      image_alt:
+    - heading: Wind & Energy
+      image: energy.jpg
+      image_alt:
+    - heading: Marine & Oceanographic
+      image: marine.jpg
+      image_alt:
+    - heading: Material Handling
+      image: material-handling.jpg
+      image_alt:
+    - heading: Service & Repair
+      image: service-repair.jpg
+      image_alt:
+    - heading: Medical & Consumer Products
+      image: medical-products.jpg
+      image_alt:
+    - heading: Product Test Development
+      image: product-testing.jpg
+      image_alt:
+    - heading: Engineering & Construction
+      image: construction.jpg
+      image_alt:
+guiding_principles:
+  heading: How do we adapt machining services to new industries?
+  body: ""
+  principles:
+    - heading: Prototype and product development
+      body: Through solid partnerships with engineering firms, foundries and material suppliers, we meet and often exceed expectations on the most specific and demanding projects.
+      image: DSC_0026.jpg
+      image_alt:
+    - heading: Hands-on, high-tech capability
+      body: Our innovative shop has short-run and quick-range CNC machining production. Decades of experience in various industries—combined with state-of-the-art equipment—allows us to meet the tightest CNC part tolerances and have flexibility to adapt our processes for every unique request.
+      image: DSC_0065.jpg
+      image_alt:
+      button:
+        button_url: /capabilities/
+        button_text: View capabilities
 cta:
   cta_image: machined-parts.jpg
-  heading: Experience is <span class="underline-primary">everything</span>
-  body: "We’ve provided machining and contract manufacturing solutions since 1996. Our list of equipment and clients served reflects decades of experience."
+  heading: What’s your next <span class="underline-primary">project?</span>
+  body: "Collaborate with A to Z Machine’s expert machinists."
   buttons:
     button:
-      - button_url: /capabilities/
-        button_text: Browse capabilities
-      - button_url: /careers/
-        button_text: Browse equipment
+      - button_url: /request-a-quote/
+        button_text: Request a Quote
 ---

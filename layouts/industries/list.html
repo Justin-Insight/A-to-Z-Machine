@@ -2,13 +2,42 @@
 {{ partial "hero" (dict "Page" . "image" .Params.seo.featured_image "alt" .Params.seo.featured_image_alt ) }}
 {{ partial "hero-intro" . }}
 {{ with .Params.industries }}
-<div class="industries-grid auto-grid">
-    {{ range .industry }}
-       <img src="{{ .image }}" alt="{{ .image_alt }}">
-       <h2 class="h3">{{ .heading }}</h2>
-    {{ end }}
+<div class="bg-gray block">
+    <ul class="wrapper-lg industry-grid grid-4">
+        {{ range .industry }}
+        <li class="card">
+            <div class="card__image-wrapper">
+                <img src="{{ .image }}" alt="{{ .image_alt }}" class="card__image">
+            </div>
+            <h2 class="h6 card__title no-margin text-center">{{ .heading }}</h2>
+        </li>
+        {{ end }}
+    </ul>
 </div>
 {{ end }}
-{{ partial "a-to-z-approach" . }}
+{{ with .Params.guiding_principles }}
+  <div class="block">
+    <div class="wrapper-sm flow pb-4">
+        <h2 class="text-center">{{ .heading | markdownify }}</h2>
+        <p class="h5">{{ .body | markdownify }}</p>
+      </div>
+    <div class="principles-grid grid-2">
+        {{ range .principles }}
+        <!-- <div class="principles-card" style="background-image: url('{{ .image }}')"> -->
+        <div class="principles-card">
+          <img src="{{ .image }}" alt="{{ .image_alt }}">
+          <div class="principles-card__overlay"></div>
+          <div class="principles-card__content text-white flow">
+            <h2 class="h3 underline-primary">{{ .heading }}</h2>
+            <p>{{ .body }}</p>
+            {{ if .button }}
+            <a href="{{ .button.button_url }}" class="btn btn-primary--rev">{{ .button.button_text }}</a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+  </div>
+{{ end }}
 {{ partial "cta" . }}
 {{ end  }}
