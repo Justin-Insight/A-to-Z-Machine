@@ -2,7 +2,7 @@
 {{ partial "hero" (dict "Page" . "image" .Params.seo.featured_image "alt" .Params.seo.featured_image_alt ) }}
 {{ partial "hero-intro" . }}
 {{ with .Params.industries }}
-<div class="bg-gray block">
+<div class="pb-10">
     <ul class="wrapper-lg industry-grid grid-4">
         {{ range .industry }}
         <li class="card">
@@ -15,29 +15,23 @@
     </ul>
 </div>
 {{ end }}
-{{ with .Params.guiding_principles }}
-  <div class="block">
-    <div class="wrapper-sm flow pb-4">
-        <h2 class="text-center">{{ .heading | markdownify }}</h2>
-        <p class="h5">{{ .body | markdownify }}</p>
-      </div>
-    <div class="principles-grid grid-2">
-        {{ range .principles }}
-        <!-- <div class="principles-card" style="background-image: url('{{ .image }}')"> -->
-        <div class="principles-card">
-          <img src="{{ .image }}" alt="{{ .image_alt }}">
-          <div class="principles-card__overlay"></div>
-          <div class="principles-card__content text-white flow">
-            <h2 class="h3 underline-primary">{{ .heading }}</h2>
-            <p>{{ .body }}</p>
-            {{ if .button }}
-            <a href="{{ .button.button_url }}" class="btn btn-primary--rev">{{ .button.button_text }}</a>
-            {{ end }}
-          </div>
-        </div>
-        {{ end }}
-      </div>
+<div class="flex flex-column flex-row-m">
+  <div class="w-100 w-40-m image-column">
+     {{ partial "responsive-image" (dict "Page" . "image" .Params.a_to_z_adapts.image ) }}
   </div>
-{{ end }}
+  {{ with .Params.a_to_z_adapts }}
+    <div class="w-100 w-60-m text-column bg-gray flex flex-column flex-justify-center flow">
+      <h2 >{{ .heading }}</h2>
+      {{ range .methods }}
+      <h3>{{ .heading }}</h3>
+      <p>{{ .body }}</p>
+      {{ if .button }}
+        <a href="{{ .button.button_url }}" class="btn btn-primary--rev">{{ .button.button_text }}</a>
+      {{ end }}
+      {{ end }}
+    </div>
+  {{ end }}
+</div>
+{{ partial "a-to-z-approach" . }}
 {{ partial "cta" . }}
 {{ end  }}

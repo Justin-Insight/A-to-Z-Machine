@@ -59,6 +59,7 @@ industries:
 guiding_principles:
   heading: How do we adapt machining services to new industries?
   body: ""
+  image: DSC_0026.jpg
   principles:
     - heading: Prototype and product development
       body: Through solid partnerships with engineering firms, foundries and material suppliers, we meet and often exceed expectations on the most specific and demanding projects.
@@ -68,6 +69,17 @@ guiding_principles:
       body: Our innovative shop has short-run and quick-range CNC machining production. Decades of experience in various industries—combined with state-of-the-art equipment—allows us to meet the tightest CNC part tolerances and have flexibility to adapt our processes for every unique request.
       image: DSC_0065.jpg
       image_alt:
+      button:
+        button_url: /capabilities/
+        button_text: View capabilities
+a_to_z_adapts:
+  heading: How do we adapt machining services to new industries?
+  image: DSC_0026.jpg
+  methods:
+    - heading: Prototype and product development
+      body: Through solid partnerships with engineering firms, foundries and material suppliers, we meet and often exceed expectations on the most specific and demanding projects.
+    - heading: Hands-on, high-tech capability
+      body: Our innovative shop has short-run and quick-range CNC machining production. Decades of experience in various industries—combined with state-of-the-art equipment—allows us to meet the tightest CNC part tolerances and have flexibility to adapt our processes for every unique request.
       button:
         button_url: /capabilities/
         button_text: View capabilities
