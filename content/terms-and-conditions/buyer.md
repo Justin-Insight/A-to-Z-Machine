@@ -13,6 +13,7 @@ Title: Terms and Conditions – Buyer
 **5. Risk of Loss; Title:** Title to and risk of loss or of damage to the Goods shall remain with Seller until delivery to A to Z Machine Co., Inc. at the destination specified in the applicable Purchase Order. A to Z Machine Co., Inc. shall not be required to assert any claims against common carriers. Subject to A to Z Machine Co., Inc.’s right of inspection and rejection of nonconforming goods under the Uniform Commercial Code, A to Z Machine Co., Inc. shall be deemed to have accepted the Goods, and title and risk of loss or damage to such Goods shall pass to A to Z Machine Co., Inc. upon delivery to the appropriate address specified in the applicable Purchase Order unless A to Z Machine Co., Inc. notifies Seller of A to Z Machine Co., Inc.’s rejection of the Goods within a reasonable time.
 
 **6. Overshipments and Advance Shipments:** Subject to its rights of inspection and acceptance, A to Z Machine Co., Inc. shall have no obligation to accept (a) Goods which exceed the quantity specified in the applicable Purchase Order (“overshipments”), or (b) Goods delivered to the wrong A to Z Machine Co., Inc. location or prior to the delivery date designated in the applicable Purchase Order (“advance shipments”). For advance shipments A to Z Machine Co., Inc. may, at its option, either return the Goods at Seller’s sole risk and expense (including, without limitation, transportation charges) or delay paying the Purchase Price until the payment date which corresponds to the delivery date designated in the applicable Purchase Order. A to Z Machine Co., Inc. shall hold overshipments at Seller’s risk and expense for a reasonable time while awaiting shipping instructions from Seller, and any shipment of such Goods shall be at Seller’s sole risk and expense.
+
 **7. Warranty:**
 
 SELLER WARRANTS THAT:
@@ -23,30 +24,31 @@ SELLER WARRANTS THAT:
 
 3. THE MANUFACTURE, PACKAGING, LABELING AND TRANSPORTATION OF THE GOODS COMPLIES WITH ANY AND ALL FEDERAL, STATE OR LOCAL LAWS, RULES, REGULATIONS AND ORDINANCES.
 
-**2. Defective or Nonconforming Goods:** A to Z Machine Co., Inc. shall have the right but not the obligation to inspect all Goods. If any of the Goods are defective or otherwise not in conformity with the requirements of this Agreement, then in addition to the remedies contained in Article 16 below, A to Z Machine Co., Inc. shall have the right to:
+**8. Defective or Nonconforming Goods:** A to Z Machine Co., Inc. shall have the right but not the obligation to inspect all Goods. If any of the Goods are defective or otherwise not in conformity with the requirements of this Agreement, then in addition to the remedies contained in Article 16 below, A to Z Machine Co., Inc. shall have the right to:
 
-3. Reject the Goods without obligation or liability and direct Seller, at Seller’s sole risk and expense, to properly dispose of the non-conforming Goods, in accordance with industry standards and all applicable laws, rules and regulations, and return any affected equipment to its proper condition; and
+1. Reject the Goods without obligation or liability and direct Seller, at Seller’s sole risk and expense, to properly dispose of the non-conforming Goods, in accordance with industry standards and all applicable laws, rules and regulations, and return any affected equipment to its proper condition; and
 
-4. Upon notification to Seller, obtain replacement Goods from another vendor and recover from Seller the difference between the Purchase Price and the price paid by A to Z Machine Co., Inc. for such replacement Goods, plus A to Z Machine Co., Inc.’s reasonable expenses related to such replacement. Refunds to A to Z Machine Co., Inc. for rejected or replaced Goods and payment of related expenses shall be made by Seller in cash.
+2. Upon notification to Seller, obtain replacement Goods from another vendor and recover from Seller the difference between the Purchase Price and the price paid by A to Z Machine Co., Inc. for such replacement Goods, plus A to Z Machine Co., Inc.’s reasonable expenses related to such replacement. Refunds to A to Z Machine Co., Inc. for rejected or replaced Goods and payment of related expenses shall be made by Seller in cash.
    Seller shall not replace any rejected Goods without A to Z Machine Co., Inc.’s prior consent. Any replacement of the Goods shall be additionally and automatically warranted against defects and subject to these same obligations of Seller for a period of ninety (90) after the date of such replacement.
 
 **9. Changes:** Notwithstanding anything to the contrary contained herein, A to Z Machine Co., Inc. may make changes in the scope of a Purchase Order at any time, and make changes in the method of shipping or packaging and place or time of delivery, by any reasonable means of communication. If any change affect the Purchase Price or delivery schedule for the Goods, an equitable adjustment to the affected Purchase Price or delivery schedule shall be make if Seller makes a written claim for such adjustment within seven (7) days from the date A to Z Machine Co., Inc. notifies Seller of the change and A to Z Machine Co., Inc. agrees in writing to said adjustment.
 
 **9. Infringment:** Seller represents to A to Z Machine Co., Inc. that Goods do not and shall not infringe upon any existing or pending patents, copyrights, trade secrets or other proprietary rights of third parties. Seller shall defend at Seller’s sole cost and expense any suit or other proceeding for infringement or misappropriation of any patent, copyright, trade secret or other proprietary right brought against A to Z Machine Co., Inc. or A to Z Machine Co., Inc.’s successors or assigns based upon use of the Goods. Seller shall indemnify A to Z Machine Co., Inc. against liability, loss, damage, costs or expense of any kind or nature incurred in connection with any such suit or other proceeding. In addition, if A to Z Machine Co., Inc. is enjoined from using such Goods because of claims of misappropriation or infringement Seller shall at its sole expense and in the following sequence:
 
-11. Obtain for A to Z Machine Co., Inc. the right to continue using such infringing Goods; or
+1. Obtain for A to Z Machine Co., Inc. the right to continue using such infringing Goods; or
 
-12. Replace such infringing Goods with non-infringing but equivalent Goods; or
+2. Replace such infringing Goods with non-infringing but equivalent Goods; or
 
-13. Modify the Goods so that they are non-infringing but equivalent.
+3. Modify the Goods so that they are non-infringing but equivalent.
     If Seller cannot accomplish any of the aforesaid solutions to the reasonable satisfaction of A to Z Machine Co., Inc., then Seller, at A to Z Machine Co., Inc.’s option, shall purchase all infringing Goods from A to Z Machine Co., Inc. at the total Purchase Price paid by A to Z Machine Co., Inc. for all such infringing Goods and pay A to Z Machine Co., Inc. all costs and expenses incurred by A to Z Machine Co., Inc. in the removal of such Goods. All such payments to A to Z Machine Co., Inc. shall be made by Seller in cash. A to Z Machine Co., Inc. shall promptly notify Seller of any such suit for patent, copyright, trademark, trade secret or other proprietary right infringement brought against A to Z Machine Co., Inc. relating to A to Z Machine Co., Inc.’s use of the Goods.
 
 **11. Default and Termination:**
-11.1 If Seller fails to deliver Goods or related Equipment, if any, or perform the Services in accordance with the delivery and service requirements of this Contract or any Purchase Orders issued pursuant to this contract; or
 
-                11.2  If Seller fails to comply with any other material provision of this Contract and fails to remedy or cure such breach within ten (10) days after notice of such failure; or
+1. If Seller fails to deliver Goods or related Equipment, if any, or perform the Services in accordance with the delivery and service requirements of this Contract or any Purchase Orders issued pursuant to this contract; or
 
-                11.3  If Seller becomes insolvent or otherwise unable to pay its debts as they mature or a petition under federal or state  bankruptcy or receivership laws is filed by or against Seller.
+2. If Seller fails to comply with any other material provision of this Contract and fails to remedy or cure such breach within ten (10) days after notice of such failure; or
+
+3. If Seller becomes insolvent or otherwise unable to pay its debts as they mature or a petition under federal or state  bankruptcy or receivership laws is filed by or against Seller.
 
 Should any of the above circumstances occur, A to Z Machine Co., Inc. may elect to terminate this Agreement entirely or only with respect to the affected Purchase Order(s) by giving written notice to Seller of such election. In the event of such termination, A to Z Machine Co., Inc. shall not be liable to Seller for any amount (including, without limitation, incidental or consequential damages) except that Seller shall be paid for all conforming Goods ordered by A to Z Machine Co., Inc. prior to such termination and satisfactorily delivered in accordance with this Contract. Seller shall be liable to A to Z Machine Co., Inc. for any and all damages sustained by A to Z Machine Co., Inc. as a result of the default or other occurrence which resulted in such termination. Whether or not A to Z Machine Co., Inc. elects to terminate, A to Z Machine Co., Inc. may purchase replacement Goods from other suppliers and Seller shall compensate A to Z Machine Co., Inc. for all costs of obtaining such replacement goods in excess of the applicable Purchase Price.
 
@@ -68,5 +70,3 @@ Should any of the above circumstances occur, A to Z Machine Co., Inc. may elect 
 I accept the terms and conditions of this document.
 
 ---
-
-                                     Authorized Signature                                                                                            Date Signed

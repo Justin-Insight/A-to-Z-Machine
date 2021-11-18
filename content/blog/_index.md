@@ -1,10 +1,10 @@
 ---
-title: The A to Z Machine Blog
+title: Machining news, from A to Z
 seo:
-  title: The A to Z Machine Blog
-  description:
+  title: Machining news, from A to Z
+  description: Get industry news and company updates from A to Z Machine of Appleton, Wisconsin on CNC machining, welding and fabrication of all tools, parts and projects.
   featured_image: machined-parts.jpg
 hero:
-  heading: The A to Z Machine Blog
-  body: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil facilis dignissimos iste mollitia debitis vitae voluptatibus ad soluta quisquam dolorem, iusto voluptas et suscipit. Aspernatur sed excepturi rem inventore perferendis.
+  heading: Machining news, from A to Z
+  body: As experts in our field, we continuously test and develop new products, explore industry trends and report on our experiences in the many industries we serve. Read on to gain more information about A to Z Machine as a company, upcoming and past projects, plus other industry-related news. 
 ---

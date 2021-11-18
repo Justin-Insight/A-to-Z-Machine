@@ -3,7 +3,7 @@ title: "A to Z Purchases a Double Column Bridge Mill Machine"
 seo:
   title: "A to Z Purchases a Double Column Bridge Mill Machine"
   description: a test description
-  featured_image: AZLogo-stacked-tag-web.jpg
+  featured_image: double-column-bridge-mill.jpg
 date: "2021-01-09"
 categories: ["Articles"]
 ---
@@ -21,3 +21,5 @@ This high-profile Doosan machine is very rare in Wisconsin and the Midwest. Our 
 Stay tuned for a blog about another machine ordered: A new generation Mazak Horizontal Mill.
 
 Here is a generic picture of the Double Bridge Column Mill. Ours will feature additional semi-guarding:
+
+![](double-column-bridge-mill.jpg)
