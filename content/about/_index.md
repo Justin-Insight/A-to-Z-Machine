@@ -31,11 +31,11 @@ quality_block:
   image_alt:
 building_block:
   building: 
-    - image: IMG_4292.jpeg
+    - image: a-to-z-main-building-exterior.jpg
       image_alt: 
-    - image: IMG_4290.jpeg
+    - image: a-to-z-fabrication-building-exterior.jpg
       image_alt: 
-    - image: IMG_4287.jpeg
+    - image: a-to-z-main-building-interior.jpg
       image_alt: 
 guiding_principles: 
   heading: Our guiding principles

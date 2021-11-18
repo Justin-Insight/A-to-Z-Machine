@@ -13,7 +13,7 @@
     background-color: $light-gray;
 
     @include breakpoint(md) {
-      clip-path: polygon(100% 0, 80% 0%, 100% 105%);
+      clip-path: polygon(100% 0, 75% 0%, 100% 105%);
       top: -1px;
     }
   }
@@ -34,7 +34,7 @@
     clip-path: polygon(100% 0%, 100% 10%, 0% 0%);
 
     @include breakpoint(md) {
-      clip-path: polygon(0% 0%, 20% 0%, 0% 105%);
+      clip-path: polygon(0% 0%, 15% 0%, 0% 105%);
     }
   }
 }

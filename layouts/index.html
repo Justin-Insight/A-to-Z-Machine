@@ -26,7 +26,7 @@
 {{ end }}
 <section class="industries-served block bg-black">
   <div class="wrapper-md flex flex-column flex-row-m">
-    <div class="w-100 w-60-m text-white">
+    <div class="w-100 w-60-m text-white flow">
       {{ with .Params.industries_block }}
       <h2>{{ .heading }}</h2>
       <p>{{ .body }}</p>
@@ -54,7 +54,7 @@
 {{ partial "swiper-slider" . }}
 {{ with .Params.capabilities_block }}
 <section class="capabilities block">
-  <div class="wrapper">
+  <div class="wrapper flow">
     <h2 class="text-center">{{ .heading }}</h2>
     <p class="text-center">{{.body }}</p>
     <div class="flex flex-column flex-row-m">

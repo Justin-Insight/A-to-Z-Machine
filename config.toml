@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://a-to-z-machine.netlify.app/"
 languageCode = "en-us"
 title = "A to Z Machine"
 enableRobotsTXT = true

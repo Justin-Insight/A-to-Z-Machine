@@ -3,12 +3,12 @@ title: A to Z Re-Brand PR Announcement
 seo:
   title: A to Z Re-Brand PR Announcement
   description: a test description
-  featured_image: a-to-z-logo-stacked.png
+  featured_image: AZLogo-stacked-tag-web.jpg
 date: "2021-01-14"
 categories: ["Articles"]
 ---
 
-![](a-to-z-logo-stacked.png)
+![](AZLogo-stacked-tag-web.jpg)
 
 Big news! Today, after almost twenty-five years, we’re releasing an updated brand identity, which includes a new logo, colors, and font. You’ll start seeing the new look on our buildings, vehicles, website, and social media channels over the next few weeks/months.
 

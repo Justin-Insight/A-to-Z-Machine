@@ -1,13 +1,13 @@
 {{ define "main" }}
 {{ partial "hero" (dict "Page" . "image" .Params.seo.featured_image "alt" .Params.seo.featured_image_alt ) }}
 {{ partial "hero-intro" . }}
-<section class="capabilities">
+<section class="capabilities block bg-gray">
   <div class="wrapper">
     <div class="flex flex-column flex-row-m flex-center-m">
       <div class="w-100 w-50-m">
         {{ partial "responsive-image" (dict "Page" . "image" .Params.cnc_machining_image.image ) }}
       </div>
-      <div class="w-100 w-50-m">
+      <div class="w-100 w-50-m flow">
         <h2>{{ .Params.cnc_machining.heading | markdownify }}</h2>
         <p>{{ .Params.cnc_machining.body | markdownify }}</p>
         <a href="{{ .Params.cnc_machining.button.button_url }}" class="btn btn-primary">{{ .Params.cnc_machining.button.button_text }}</a>
@@ -17,7 +17,7 @@
       <div class="w-100 w-50-m">
         {{ partial "responsive-image" (dict "Page" . "image" .Params.fabrication_image.image ) }}
       </div>
-      <div class="w-100 w-50-m">
+      <div class="w-100 w-50-m flow">
         <h2>{{ .Params.fabrication.heading | markdownify }}</h2>
         <p>{{ .Params.fabrication.body | markdownify }}</p>
         <a href="{{ .Params.fabrication.button.button_url }}" class="btn btn-primary">{{ .Params.fabrication.button.button_text }}</a>

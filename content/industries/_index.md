@@ -12,7 +12,7 @@ hero:
 industries:
   industry:
     - heading: Agriculture
-      image: randy-fath-dDc0vuVH_LU-unsplash.jpg
+      image: agriculture.jpg
       image_alt:
     - heading: Heavy Industry Trucking & Transportation
       image: heavy-industry-trucking.jpg
@@ -56,25 +56,9 @@ industries:
     - heading: Engineering & Construction
       image: construction.jpg
       image_alt:
-guiding_principles:
-  heading: How do we adapt machining services to new industries?
-  body: ""
-  image: DSC_0026.jpg
-  principles:
-    - heading: Prototype and product development
-      body: Through solid partnerships with engineering firms, foundries and material suppliers, we meet and often exceed expectations on the most specific and demanding projects.
-      image: DSC_0026.jpg
-      image_alt:
-    - heading: Hands-on, high-tech capability
-      body: Our innovative shop has short-run and quick-range CNC machining production. Decades of experience in various industries—combined with state-of-the-art equipment—allows us to meet the tightest CNC part tolerances and have flexibility to adapt our processes for every unique request.
-      image: DSC_0065.jpg
-      image_alt:
-      button:
-        button_url: /capabilities/
-        button_text: View capabilities
 a_to_z_adapts:
   heading: How do we adapt machining services to new industries?
-  image: DSC_0026.jpg
+  image: DSC_1032.jpg
   methods:
     - heading: Prototype and product development
       body: Through solid partnerships with engineering firms, foundries and material suppliers, we meet and often exceed expectations on the most specific and demanding projects.

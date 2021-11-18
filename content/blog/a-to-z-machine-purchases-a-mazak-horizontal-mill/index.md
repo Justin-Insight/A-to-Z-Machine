@@ -3,7 +3,7 @@ title: "A to Z Machine Purchases a Mazak Horizontal Mill"
 seo:
   title: "A to Z Machine Purchases a Mazak Horizontal Mill"
   description: a test description
-  featured_image: a-to-z-logo-stacked.png
+  featured_image: AZLogo-stacked-tag-web.jpg
 date: "2021-01-10"
 categories: ["Articles"]
 ---
