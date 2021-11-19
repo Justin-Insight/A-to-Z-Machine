@@ -19,6 +19,20 @@ footer {
 body {
   font-family: $primary-font;
   color: $black;
+  scrollbar-width: $scrollbar-width;
+  scrollbar-color: $light-gray;
+}
+
+body::-webkit-scrollbar {
+  width: $scrollbar-width;
+}
+
+body::-webkit-scrollbar-track {
+  background: $light-gray;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $primary-color;
 }
 
 :focus {

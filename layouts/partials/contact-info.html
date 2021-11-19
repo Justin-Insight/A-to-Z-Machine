@@ -10,7 +10,7 @@
         <h2 class="h4 no-margin">Address</h2>
         <div>
           {{ .Site.Data.site_settings.address | markdownify }}
-          <a href="https://goo.gl/maps/4m9HhJaCU5d9XYCE8" target="_blank" rel="noopener noreferrer" class="contact-info__contact-link flex flex-center">
+          <a href="{{ .Site.Data.site_settings.google_map_url }}" target="_blank" rel="noopener noreferrer" class="contact-info__contact-link flex flex-center">
             Get Directions</a>
         </div>
       </li>

@@ -51,6 +51,7 @@
 
 .aa-Input {
   height: 100% !important;
+  font-size: $ic-800;
   font-size: clamp($ic-600, 4vw, $ic-1000) !important;
   color: $white !important;
 }

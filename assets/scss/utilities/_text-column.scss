@@ -1,4 +1,5 @@
 .text-column {
+  padding: $ic-1000;
   padding: clamp($ic-900, 5%, 5.852rem);
 
   .btn {

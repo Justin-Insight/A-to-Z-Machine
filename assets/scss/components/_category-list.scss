@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
 
-  li {
+  &__item {
     margin: $ic-100 auto 0 auto;
+    list-style: none;
 
     @include breakpoint(md) {
       margin: 0;

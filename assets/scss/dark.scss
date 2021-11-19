@@ -1,34 +1,92 @@
 @import "globals/variables";
+@import "globals/breakpoints";
+
+$dark-black: #1e252a;
 
 body {
   background-color: $black;
   color: $white;
 }
 
-.site-header,
-.nav-list,
-.nav-list__dropdown {
-  background-color: $black;
+.site-header {
+  background: $dark-black;
+
+  &::after {
+    background: $dark-black;
+  }
 }
 
 .nav-list__link {
   color: $white;
 }
 
-.hamburger-inner,
-.hamburger-inner:before,
-.hamburger-inner:after {
-  background-color: $white;
+.industries-served::before {
+  background: $primary-color;
 }
 
-.text-primary,
-a {
-  color: #476cb5;
+.swiper-slide::after {
+  background: $primary-color;
 }
 
-.btn-secondary {
+.cta::after,
+.careers-cta::after {
+  background: $primary-color;
+}
+
+.bg-gray,
+.bg-black {
+  background: $dark-black;
+}
+
+.equipment-main {
+  @include breakpoint(md) {
+    .w-40-m + .w-60-m {
+      margin-left: $ic-400;
+    }
+  }
+}
+
+.footer {
+  background: $dark-black;
+}
+
+.image-column::after {
+  background: $dark-black;
+}
+
+.image-column--alt::after {
+  background: $primary-color;
+}
+
+.benefit-cards,
+.benefit-cards .benefit-card {
+  border: 1px solid $dark-black;
+}
+
+.contact-form .contact-form__form-group input,
+.contact-form .contact-form__form-group textarea,
+.contact-form .contact-form__form-group select {
+  border: 1px solid $black;
+  background: $black;
+}
+
+.blog-summary {
+  border: 1px solid $dark-black;
+
+  &__link {
+    color: $white;
+  }
+}
+
+.pagination__next,
+.pagination__previous,
+.pagination__numbers,
+.post-navigation__next a,
+.post-navigation__prev a {
   &:hover,
   &:focus {
-    background-color: $black;
+    &::before {
+      background-color: $dark-black;
+    }
   }
 }
