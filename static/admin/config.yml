@@ -581,19 +581,19 @@ collections: # A list of collections the CMS should be able to edit
                     widget: "text",
                   },
                   {
-                    label: "Button",
-                    name: "button",
+                    label: "Buttons",
+                    name: "buttons",
                     widget: list,
                     fields:
                       [
                         {
-                          label: "Button Text",
-                          name: "button_text",
+                          label: "Button URL",
+                          name: "button_url",
                           widget: string,
                         },
                         {
-                          label: "Button URL",
-                          name: "button_url",
+                          label: "Button Text",
+                          name: "button_text",
                           widget: string,
                         },
                       ],
