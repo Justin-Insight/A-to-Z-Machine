@@ -9,7 +9,7 @@ hero:
   image:
     hero_image: large-metal-drill-bits.jpg
     hero_image_alt: large metal drill bits
-  heading: "Machining capabilities"
+  heading: "Full-service machining capabilities"
   body: "A to Z Machine is an innovative shop. Our expert machinists employ state-of-the-art machinery and the latest technology to uphold the highest tolerances and embrace new challenges from our customers. Decades of experience, flexibility and a constant drive for improvement guarantee machining mastery to the fullest extent … quicker turnaround, higher quality products and stronger relationships."
 cnc_machining:
   heading: CNC Machining

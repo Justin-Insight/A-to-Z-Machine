@@ -9,7 +9,7 @@ hero:
     hero_image: machined-metal-parts.jpg
     hero_image_alt:
   heading: "Multi-industry machining experience"
-  body: "At A to Z Machine, we pride ourselves on the ability to adapt and expand to our customers’ needs. No matter your industry, no matter your business, no matter how big or small your CNC parts project may be, we have the capability to get the job done. We currently serve the following industries but are always aspiring to grow."
+  body: "At A to Z Machine, we pride ourselves on the ability to adapt and expand to our customers’ needs. No matter your industry, business or how big or small your CNC parts project may be, we have the capability to get the job done. We currently serve the following industries but are always aspiring to grow."
 industries:
   industry:
     - heading: Agriculture

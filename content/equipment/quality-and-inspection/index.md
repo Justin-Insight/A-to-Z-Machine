@@ -8,7 +8,7 @@ seo:
   featured_image_alt:
 hero:
   heading: "Quality/Inspection"
-  body: "CMMs typically specify a probe's position in terms of its displacement from a reference position in a three-dimensional Cartesian coordinate system (i.e., with XYZ axes). In addition to moving the probe along the X, Y, and Z axes, many machines also allow the probe angle to be controlled to allow measurement of surfaces that would otherwise be unreachable."
+  body: "CMMs typically specify a probe's position in terms of its displacement from a reference position in a three-dimensional Cartesian coordinate system (i.e., with XYZ axes). In addition to moving the probe along the X, Y and Z axes, many machines also allow the probe angle to be controlled to allow measurement of surfaces that would otherwise be unreachable."
 ---
 
 - **Hexagon Ghibli 26-15-14 CMM** \* 67” x 143” Table \* 360° Renishaw Scanning Probe \* PC DMIS Software

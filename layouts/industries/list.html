@@ -23,7 +23,7 @@
     <div class="w-100 w-60-m text-column bg-gray flex flex-column flex-justify-center flow">
       <h2 >{{ .heading }}</h2>
       {{ range .methods }}
-      <h3>{{ .heading }}</h3>
+      <h3 class="text-primary">{{ .heading }}</h3>
       <p>{{ .body }}</p>
       {{ if .button }}
         <a href="{{ .button.button_url }}" class="btn btn-primary">{{ .button.button_text }}</a>

@@ -18,5 +18,5 @@ hero:
 - TIG Welding:
   - (Qty 2) **Miller Dynasty 350 Welders**
 - Sand Blasting:
-  - 8’ X 12’6” X 20’ Blast Booth – Aluminum Oxide Media
-  - 3’ X 3’ X 4’ Cabinet using Glass Bead for Aluminum and Stainless Steel
+  - 8’ x 12’6” x 20’ Blast Booth – Aluminum Oxide Media
+  - 3’ x 3’ x 4’ Cabinet using Glass Bead for Aluminum and Stainless Steel

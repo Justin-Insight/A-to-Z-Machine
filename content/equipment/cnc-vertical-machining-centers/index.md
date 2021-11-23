@@ -8,7 +8,7 @@ seo:
   featured_image_alt: Mazak VCN 715D vertical machining center
 hero:
   heading: "CNC Vertical Machining Centers"
-  body: "A to Z Machine is equipped with full-service CNC Machining centers including vertically oriented spindles. These machines can mill, drill, tap, bore and more. These machines are equipped for high-speed production and heavy-duty use."
+  body: "A to Z Machine is equipped with full-service CNC machining centers including vertically oriented spindles. These machines can mill, drill, tap, bore and more. These machines are equipped for high-speed production and heavy-duty use."
 ---
 
 - **Awea LP4025** \* 157.5” X Travel \* 98.4” Y Travel \* 30” Z Travel \* 39.4” Spindle Nose to Table \* 106.3” between columns \* 6000 RPM \* CAT50 Spindle

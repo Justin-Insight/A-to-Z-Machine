@@ -18,4 +18,4 @@ hero:
 - **Doosan Puma-3100 LY** \* 12” Chuck \* 0.375” to 7.25” Steady Rest \* 16.5” Max Turn Diameter \* 51” Center to Center \* 5.12” Y Axis Travel \* 7.5 HP Live Tool \* 40 HP Turning Spindle
 - **Doosan Puma-3100 ULY** \* 15” Chuck \* 0.5” to 16.5” Steady Rest \* 16.5” Max Turn Diameter \* 122.5” Center to Center \* 5.12” Y Axis Travel \* 7.5 HP Live Tool \* 40 HP Turning Spindle
 - **Smart NL-3000BLM** \* 12” Chuck \* 18.9” Max Turn Diameter \* 27.6” Swing \* 43.3” Center to Center \* 4.06” Bar Capacity \* 10 HP Live Tooling \* 47 HP Turning Spindle
-- **Smart NL-3000BLM** With **Halter Universal 35** Robotic Loader \* 12” Chuck \* 18.9” Max Turn Diameter \* 27.6” Swing \* 43.3” Center to Center \* 4.06” Bar Capacity \* 10 HP Live Tooling \* 10.63” Diameter X 9.84” Length X 77 Lbs. Max Loader Capacity
+- **Smart NL-3000BLM** With **Halter Universal 35** Robotic Loader \* 12” Chuck \* 18.9” Max Turn Diameter \* 27.6” Swing \* 43.3” Center to Center \* 4.06” Bar Capacity \* 10 HP Live Tooling \* 10.63” Diameter x 9.84” Length x 77 Lbs. Max Loader Capacity

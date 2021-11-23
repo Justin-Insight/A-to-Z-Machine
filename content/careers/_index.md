@@ -34,7 +34,7 @@ apprenticeship:
   heading: Youth apprenticeship program
   body: "We are proud to be a part of the Wisconsin Youth Apprenticeship Program. Together, with local high schools, we discover the next generation of machinists. Over a span of 12 months, youth apprentices gain experience and learn valuable skills with the help of our expert machinists in a safe learning environment. Many of our mentored apprentices choose to stay on board with us as full-time machinists."
   image:
-    image_src: DSC_0269.jpg
+    image_src: DSC_1042.jpg
     image_alt:
 
 employment_disclaimer:
@@ -44,7 +44,7 @@ employment_disclaimer:
     image_src: DSC_0114.jpg
     image_alt:
 testimonials:
-  heading: What our employees are saying about working at A to Z Machine, Inc.
+  heading: What employees say about working at A to Z Machine
   testimonial:
     - body: "A to Z has become a great fit for me. From my initial interview and walk-through, I noticed how clean the work area was, and how friendly everyone was. I've recently completed my first year, and am very glad I accepted the position with A to Z. This is a great place to work. Everyone is friendly and helpful, and we all have a genuine goal to be successful."
       author: Steve

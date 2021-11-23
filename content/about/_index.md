@@ -6,7 +6,7 @@ seo:
   featured_image: large-metal-drill-bits.jpg
 hero:
   image:
-    hero_image: DSC_0153.jpg
+    hero_image: DSC_1102.jpg
     hero_image_alt:
   heading: "About A to Z Machine"
   subhead: Your complete CNC Machining and Fabrication source
@@ -28,7 +28,7 @@ quality_block:
 
 - Offering full-service expertise, from A to Z"
 
-  image: DSC_0218.jpg
+  image: DSC_0147.jpg
   image_alt:
 building_block:
   building: 
@@ -59,7 +59,7 @@ guiding_principles:
       image: DSC_0114.jpg
       image_alt: 
 vision: 
-  heading: Our Vision
+  heading: Our vision
   body: To safely manufacture quality parts on time for our customers.
 cta:
   heading: <span class="underline-primary">Spark your career</span> at A to Z Machine

@@ -46,10 +46,10 @@ industries_block:
     * Wind & Energy
     * Marine & Oceanographic
     * Material Handling
-    * Service & Repair Companies
+    * Service & Repair
     * Medical & Consumer Products
     * Product Test Development
-    * Engineering & Construction Companies
+    * Engineering & Construction
   button:
     link: /industries/
     button_text: Browse industries
@@ -63,7 +63,7 @@ industries_block:
     image: a-to-z-employee-quality-checking-custom-part.jpg
     image_alt: an A to Z Machine employee quality checking a custom made part
 testimonials:
-  heading: Words from our clients
+  heading: Learn more from our customers’ experiences
   testimonial:
     - body: A to Z’s machining skills, along with their emphasis on quality and
         delivery, are the reasons that we entrust them with production of
@@ -87,7 +87,7 @@ testimonials:
       author: Curt Wayne
       job_title: Materials Buyer | Seabee Cylinders
 capabilities_block:
-  heading: CNC Machining and Fabrication Capabilities
+  heading: CNC machining and fabrication capabilities
   body: As an innovative shop with constantly growing capabilities, A to Z
     Machine’s master machinists guarantee quicker turnaround, products of
     unparalleled quality and endless possibilities.

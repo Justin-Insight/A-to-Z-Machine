@@ -1,12 +1,12 @@
 ---
-title: Request a Quote
+title: Request a quote
 description:
 hero:
   image:
     hero_image: machined-metal-parts.jpg
     hero_image_alt:
-  heading: "Request a Quote"
-  body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem sed distinctio dolorum? Accusantium minus voluptate cupiditate laborum similique, eligendi necessitatibus rem. Unde, quasi commodi harum sapiente reiciendis ea ad eos!"
+  heading: "Request a quote"
+  body: "Do you have a specific project in mind? We can help you get a head start! Simply complete the form below with your project details and the appropriate person at A to Z Machine will respond with an estimate and plan to get started."
 cta:
   cta_image: a-to-z-employee-working-on-cad-drawing-on-computer.jpg
   heading: Create a career <span class="underline-primary">precisely for you</span>

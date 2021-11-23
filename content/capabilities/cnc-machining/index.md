@@ -1,7 +1,7 @@
 ---
 title: CNC Machining
 seo:
-  title: CNC Machining Test
+  title: CNC Machining
   description: A to Z Machine, your leading machinists for CNC Machining with high tolerance, prototypes, assemblies, milling & turning services & axis machining in Wisconsin.
   featured_image: machining.jpg
   featured_image_alt: machined part
@@ -10,11 +10,11 @@ hero:
     hero_image: machining.jpg
     hero_image_alt:
   heading: "CNC Machining"
-  body: "As an innovative shop, our CNC machining capabilities are constantly growing. We specialize in CNC Machining practices to produce a wide variety of precision machined components from the simplest to most complex parts. Currently, our machines can handle material lengths of 1-200 inches and load capabilities over 30,000 lbs."
+  body: "As an innovative shop, our CNC machining capabilities are constantly growing. We specialize in CNC machining practices to produce a wide variety of precision machined components from the simplest to most complex parts. Currently, our machines can handle material lengths of 1-200 inches and load capabilities over 30,000 lbs."
 capabilities:
   heading: Capabilities
   body: >-
-    * 3, 4, and 5 Axis Machining
+    * 3, 4 and 5 Axis Machining
 
     * Small to large CNC Turning Machine Services
 
@@ -34,7 +34,7 @@ quality:
   heading: Quality from start to finish
   body: "A to Z Machine’s focus on quality and precision supports our zero-tolerance policy for error or variance. Every manufacturing job is strictly monitored using traceable, calibrated equipment and quality control techniques that ensure all features and dimensions meet your exact specifications."
 industries_served:
-  heading: Experience is Everything
+  heading: Experience is everything
   body: "A to Z Machine can do it all. Our team’s expertise and flexibility deliver repeatable results to an ever-growing list of industries:"
   industries: >-
     * Agriculture
@@ -59,13 +59,13 @@ industries_served:
 
     * Material Handling
 
-    * Service & Repair Companies
+    * Service & Repair
 
     * Medical & Consumer Products
 
     * Product Test Development
 
-    * Engineering & Construction Companies
+    * Engineering & Construction
   button1:
     button_url: "/industries/"
     button_text: Browse industries
@@ -73,10 +73,10 @@ industries_served:
     button_url: "/equipment/"
     button_text: Browse equipment
   image1:
-    image: custom-machined-part.jpg
+    image: DSC_1122.jpg
     image_alt: a custom machined part on a counter top
   image2:
-    image: a-to-z-employee-quality-checking-custom-part.jpg
+    image: a-to-z-employee-quality-checking-custom-part-2.jpg
     image_alt: an A to Z Machine employee quality checking a custom made part
 parts_gallery:
   images:

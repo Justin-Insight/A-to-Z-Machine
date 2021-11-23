@@ -66,11 +66,11 @@ industries_served:
     button_url: /equipment/
     button_text: Browse equipment
   image1:
-    image: custom-machined-part.jpg
-    image_alt: a custom machined part on a counter top
+    image: DSC_1056.jpg
+    image_alt: 
   image2:
-    image: a-to-z-employee-quality-checking-custom-part.jpg
-    image_alt: an A to Z Machine employee quality checking a custom made part
+    image: DSC_1062.jpg
+    image_alt: 
 parts_gallery:
   images:
     - image: DSC_0003.jpg
