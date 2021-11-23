@@ -11,7 +11,7 @@ hero:
   request_quote: true
 capabilities:
   heading: Capabilities
-  copy: >-
+  body: >-
     * Welding
 
     * Water Jetting
@@ -22,7 +22,7 @@ capabilities:
   image: sparks-flying-as-employee-uses-a-grinder-on-metal.jpg
 quality:
   heading: Quality from start to finish
-  copy: "A to Z Machine’s focus on quality and precision supports our zero-tolerance policy for error or variance. Every manufacturing job is strictly monitored using traceable, calibrated equipment and quality control techniques that ensure all features and dimensions meet your exact specifications."
+  body: "A to Z Machine’s focus on quality and precision supports our zero-tolerance policy for error or variance. Every manufacturing job is strictly monitored using traceable, calibrated equipment and quality control techniques that ensure all features and dimensions meet your exact specifications."
 industries_served:
   heading: Experience is Everything
   body: "A to Z Machine can do it all. Our team’s expertise and flexibility deliver repeatable results to an ever-growing list of industries:"
@@ -57,10 +57,10 @@ industries_served:
 
     * Engineering & Construction Companies
   button:
-    link: /industries/
+    button_url: /industries/
     button_text: Browse industries
   button2:
-    link: /equipment/
+    button_url: /equipment/
     button_text: Browse equipment
   image1:
     image: custom-machined-part.jpg
@@ -69,21 +69,20 @@ industries_served:
     image: a-to-z-employee-quality-checking-custom-part.jpg
     image_alt: an A to Z Machine employee quality checking a custom made part
 parts_gallery:
-  images:
-    - image: gallery-08.jpg
-      image_alt: machined part
-    - image: gallery-05.jpg
-      image_alt: machined part
-    - image: gallery-09.jpg
-      image_alt: machined part
-    - image: gallery-13.jpg
-      image_alt: machined part
+  - image: gallery-08.jpg
+    image_alt: machined part
+  - image: gallery-05.jpg
+    image_alt: machined part
+  - image: gallery-09.jpg
+    image_alt: machined part
+  - image: gallery-13.jpg
+    image_alt: machined part
 cta:
   cta_image: machined-parts.jpg
+  cta_image_alt: machined parts by A to Z Machine
   heading: What’s your next <span class="underline-primary">project?</span>
   body: "Collaborate with A to Z Machine’s expert machinists."
   buttons:
-    button:
-      - button_url: /request-a-quote/
-        button_text: Request a Quote
+    - button_url: /request-a-quote/
+      button_text: Request a Quote
 ---

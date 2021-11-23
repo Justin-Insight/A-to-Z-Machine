@@ -27,14 +27,14 @@
         {{ range .Site.Data.site_settings.social_media }}
         <li class="contact-info__social-list-item">
           <a href="{{ .social.link }}" class="contact-info__social-icon" target="_blank" rel="noopener noreferrer">
-            {{ if eq .social.title "Facebook" }}
+            {{ if eq .title "Facebook" }}
             {{ partial "svg-icons/facebook.svg" . }}
-            {{ else if eq .social.title "LinkedIn"}}
+            {{ else if eq .title "LinkedIn"}}
             {{ partial "svg-icons/linkedin.svg" . }}
-            {{ else if eq .social.title "YouTube"}}
+            {{ else if eq .title "YouTube"}}
             {{ partial "svg-icons/youtube.svg" . }}
             {{ end }}
-            <span class="visually-hidden">{{ .social.title }}</span>
+            <span class="visually-hidden">{{ .title }}</span>
           </a>
         </li>
         {{ end }}

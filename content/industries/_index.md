@@ -72,7 +72,6 @@ cta:
   heading: What’s your next <span class="underline-primary">project?</span>
   body: "Collaborate with A to Z Machine’s expert machinists."
   buttons:
-    button:
-      - button_url: /request-a-quote/
-        button_text: Request a Quote
+    - button_url: /request-a-quote/
+      button_text: Request a Quote
 ---

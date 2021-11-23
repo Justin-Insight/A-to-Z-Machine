@@ -36,9 +36,9 @@
             {{ .Params.cta.heading | markdownify }}
           </h2>
           <p>{{ .Params.cta.body | markdownify }}</p>
-          {{ with .Params.cta.buttons }}
+          {{ with .Params.cta }}
           <div class="flex flex-column flex-row-m flex-justify-around">
-            {{ range .button }}
+            {{ range .buttons }}
               <a href="{{ .button_url }}" class="btn btn-primary--rev">{{ .button_text }}</a>
             {{ end }}
           </div>

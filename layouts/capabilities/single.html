@@ -8,17 +8,17 @@
       </div>
       <div class="w-100 w-40-m text-column bg-gray flex flex-column flex-justify-center flow">
          <h2 class="no-margin">{{ .Params.capabilities.heading }}</h2>
-         {{ .Params.capabilities.copy | markdownify }}
+         {{ .Params.capabilities.body | markdownify }}
       </div>
    </div>
 </section>
 <section class="block">
    <div class="wrapper">
       <h2>{{ .Params.quality.heading }}</h2>
-      <p class="h5">{{ .Params.quality.copy }}</p>
+      <p class="h5">{{ .Params.quality.body }}</p>
    </div>
 </section>
-{{ partial "industries" (dict "Page" . "heading" .Params.industries_served.heading "body" .Params.industries_served.body "industries" .Params.industries_served.industries "link1" .Params.industries_served.button.link "button_text1" .Params.industries_served.button.button_text "link2" .Params.industries_served.button2.link "button_text2" .Params.industries_served.button2.button_text "image1" .Params.industries_served.image1.image "image1_alt" .Params.industries_served.image1.image_alt "image2" .Params.industries_served.image2.image "image2_alt" .Params.industries_served.image2.image_alt ) }}
+{{ partial "industries" (dict "Page" . "heading" .Params.industries_served.heading "body" .Params.industries_served.body "industries" .Params.industries_served.industries "link1" .Params.industries_served.button.button_url "button_text1" .Params.industries_served.button.button_text "link2" .Params.industries_served.button2.button_url "button_text2" .Params.industries_served.button2.button_text "image1" .Params.industries_served.image1.image "image1_alt" .Params.industries_served.image1.image_alt "image2" .Params.industries_served.image2.image "image2_alt" .Params.industries_served.image2.image_alt ) }}
 {{ partial "capabilities/image-gallery" . }}
 {{ partial "cta" . }}
 {{ end }}

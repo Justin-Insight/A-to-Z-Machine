@@ -30,19 +30,11 @@ collections: # A list of collections the CMS should be able to edit
           - {
               label: "Social Media",
               name: "social_media",
-              widget: object,
+              widget: list,
               fields:
                 [
-                  {
-                    label: "Social",
-                    name: "social",
-                    widget: list,
-                    fields:
-                      [
-                        { label: "Title", name: "title", widget: string },
-                        { label: "URL", name: "link", widget: text },
-                      ],
-                  },
+                  { label: "Title", name: "title", widget: string },
+                  { label: "URL", name: "link", widget: string },
                 ],
             }
 
@@ -90,15 +82,19 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "pages"
     label: "Pages"
+    media_folder: ""
+    public_folder: ""
+    editor:
+      preview: false
     files:
       - file: "content/_index.md"
         label: "Home Page"
         name: "home"
         fields:
-          - { label: Title, name: title, widget: string }
+          - { label: Title, name: "title", widget: string }
           - {
               label: "SEO",
-              name: seo,
+              name: "seo",
               widget: object,
               fields:
                 [
@@ -119,11 +115,552 @@ collections: # A list of collections the CMS should be able to edit
                 [
                   { label: "Heading", name: "heading", widget: string },
                   { label: "Body", name: "body", widget: "text" },
-                  { label: "Image", name: "hero_image", widget: "image" },
+                  {
+                    label: "Image",
+                    name: "hero_image",
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Image", name: "hero_image", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "hero_image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Intro Block",
+              name: intro_block,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Body", name: "body", widget: "text" },
+                  {
+                    label: "Certifications",
+                    name: "certifications",
+                    widget: list,
+                    max: 3,
+                    fields: [{ label: "Logo", name: "logo", widget: image }],
+                  },
+                  {
+                    label: "Button",
+                    name: "button",
+                    widget: object,
+                    fields:
+                      [
+                        {
+                          label: "Button Text",
+                          name: "button_text",
+                          widget: string,
+                        },
+                        { label: "Button Link", name: "link", widget: string },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Industries Block",
+              name: industries_block,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Body", name: "body", widget: "text" },
+                  { label: "Industries", name: "industries", widget: "text" },
+                  {
+                    label: "Button",
+                    name: "button",
+                    widget: object,
+                    fields:
+                      [
+                        {
+                          label: "Button Text",
+                          name: "button_text",
+                          widget: string,
+                        },
+                        { label: "Button Link", name: "link", widget: string },
+                      ],
+                  },
+                  {
+                    label: "Button 2",
+                    name: "button2",
+                    widget: object,
+                    fields:
+                      [
+                        {
+                          label: "Button Text",
+                          name: "button_text",
+                          widget: string,
+                        },
+                        { label: "Button Link", name: "link", widget: string },
+                      ],
+                  },
+                  {
+                    label: "Image 1",
+                    name: "image1",
+                    widget: object,
+                    fields:
+                      [
+                        { label: "Image", name: "image", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                  {
+                    label: "Image 2",
+                    name: "image2",
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Image", name: "image", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Client Testimonials",
+              name: testimonials,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  {
+                    label: "Testimonials",
+                    name: "testimonial",
+                    widget: list,
+                    fields:
+                      [
+                        { label: "Body", name: "body", widget: text },
+                        { label: "Name", name: "author", widget: string },
+                        {
+                          label: "Job Title",
+                          name: "job_title",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Capabilities Block",
+              name: capabilities_block,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Body", name: "body", widget: "text" },
+                  {
+                    label: "Capabilities",
+                    name: "capabilities",
+                    widget: list,
+                    fields:
+                      [
+                        { label: "Title", name: "title", widget: string },
+                        { label: "Page URL", name: "link", widget: string },
+                        {
+                          label: "Image",
+                          name: "image",
+                          widget: "object",
+                          fields:
+                            [
+                              {
+                                label: "Image",
+                                name: "image",
+                                widget: "image",
+                              },
+                              {
+                                label: "Image Alt Text",
+                                name: "image_alt",
+                                widget: string,
+                              },
+                            ],
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Call to Action Block",
+              name: cta,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: "string" },
+                  { label: "Body", name: "body", widget: "text" },
+                  {
+                    label: "Image",
+                    name: "cta_image",
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Image", name: "cta_image", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "cta_image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                  {
+                    label: "Buttons",
+                    name: "buttons",
+                    widget: list,
+                    fields:
+                      [
+                        {
+                          label: "Button URL",
+                          name: "button_url",
+                          widget: string,
+                        },
+                        {
+                          label: "Button Text",
+                          name: "button_text",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+      - file: "content/capabilities/_index.md"
+        label: "Capabilities"
+        name: "capabilities"
+        fields:
+          - { label: Title, name: "title", widget: string }
+          - {
+              label: "SEO",
+              name: "seo",
+              widget: object,
+              fields:
+                [
+                  { label: "Title", name: "title", widget: string },
+                  { label: "Description", name: "description", widget: "text" },
+                  {
+                    label: "Featured Image",
+                    name: "featured_image",
+                    widget: "image",
+                  },
+                ],
+            }
+          - {
+              label: "Hero Block",
+              name: hero,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Body", name: "body", widget: "text" },
+                  {
+                    label: "Image",
+                    name: "hero_image",
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Image", name: "hero_image", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "hero_image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "CNC Machining Block",
+              name: cnc_machining,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Body", name: "body", widget: "string" },
+                  {
+                    label: "Button",
+                    name: "button",
+                    widget: object,
+                    fields:
+                      [
+                        {
+                          label: "Button Text",
+                          name: "button_text",
+                          widget: string,
+                        },
+                        {
+                          label: "Button Link",
+                          name: "button_url",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Image",
+              name: "cnc_machining_image",
+              widget: "object",
+              fields:
+                [
+                  { label: "Image", name: "image", widget: "image" },
                   {
                     label: "Image Alt Text",
-                    name: "hero_image_alt",
+                    name: "image_alt",
                     widget: string,
+                  },
+                ],
+            }
+          - {
+              label: "Fabrication Block",
+              name: fabrication,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Body", name: "body", widget: "string" },
+                  {
+                    label: "Button",
+                    name: "button",
+                    widget: object,
+                    fields:
+                      [
+                        {
+                          label: "Button Text",
+                          name: "button_text",
+                          widget: string,
+                        },
+                        {
+                          label: "Button Link",
+                          name: "button_url",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Image",
+              name: "fabrication_image",
+              widget: "object",
+              fields:
+                [
+                  { label: "Image", name: "image", widget: "image" },
+                  {
+                    label: "Image Alt Text",
+                    name: "image_alt",
+                    widget: string,
+                  },
+                ],
+            }
+          - {
+              label: "Call to Action Block",
+              name: cta,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: "string" },
+                  { label: "Body", name: "body", widget: "text" },
+                  {
+                    label: "Image",
+                    name: "cta_image",
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Image", name: "cta_image", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "cta_image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                  {
+                    label: "Buttons",
+                    name: "buttons",
+                    widget: list,
+                    fields:
+                      [
+                        {
+                          label: "Button URL",
+                          name: "button_url",
+                          widget: string,
+                        },
+                        {
+                          label: "Button Text",
+                          name: "button_text",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+      - file: "content/capabilities/cnc-machining/index.md"
+        label: "CNC Machining"
+        name: "cnc-machining"
+        fields:
+          - { label: Title, name: "title", widget: string }
+          - {
+              label: "SEO",
+              name: "seo",
+              widget: object,
+              fields:
+                [
+                  { label: "Title", name: "title", widget: string },
+                  { label: "Description", name: "description", widget: "text" },
+                  {
+                    label: "Featured Image",
+                    name: "featured_image",
+                    widget: "image",
+                  },
+                ],
+            }
+          - {
+              label: "Hero Block",
+              name: hero,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Body", name: "body", widget: "text" },
+                  {
+                    label: "Image",
+                    name: "hero_image",
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Image", name: "hero_image", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "hero_image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Capabilities Block",
+              name: capabilities,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Body", name: "body", widget: "text" },
+                ],
+            }
+          - {
+              label: "Quality Block",
+              name: quality,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Body", name: "body", widget: "text" },
+                ],
+            }
+          - {
+              label: "Industries Served",
+              name: industries_served,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Body", name: "body", widget: "text" },
+                  {
+                    label: "Industries Served",
+                    name: "industries",
+                    widget: "text",
+                  },
+                  {
+                    label: "Button",
+                    name: "button",
+                    widget: list,
+                    fields:
+                      [
+                        {
+                          label: "Button Text",
+                          name: "button_text",
+                          widget: string,
+                        },
+                        {
+                          label: "Button URL",
+                          name: "button_url",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+          # - {
+          #     label: "Parts Gallery",
+          #     name: "parts_gallery",
+          #     widget: list,
+          #     fields:
+          #       [
+          #         {
+          #           label: "Image",
+          #           name: "cta_image",
+          #           widget: "object",
+          #           fields:
+          #             [
+          #               { label: "Image", name: "cta_image", widget: "image" },
+          #               {
+          #                 label: "Image Alt Text",
+          #                 name: "cta_image_alt",
+          #                 widget: string,
+          #               },
+          #             ],
+          #         },
+          #       ],
+          #   }
+          - {
+              label: "Call to Action Block",
+              name: cta,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: "string" },
+                  { label: "Body", name: "body", widget: "text" },
+                  {
+                    label: "Image",
+                    name: "cta_image",
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Image", name: "cta_image", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "cta_image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                  {
+                    label: "Buttons",
+                    name: "buttons",
+                    widget: list,
+                    fields:
+                      [
+                        {
+                          label: "Button URL",
+                          name: "button_url",
+                          widget: string,
+                        },
+                        {
+                          label: "Button Text",
+                          name: "button_text",
+                          widget: string,
+                        },
+                      ],
                   },
                 ],
             }

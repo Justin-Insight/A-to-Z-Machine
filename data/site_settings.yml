@@ -5,17 +5,11 @@ fax: 920-993-0650
 email: admin@atozmachine.com
 address: 2701 E. Winslow Ave. <br> Appleton, WI 54911-8647
 google_map_url: https://goo.gl/maps/hSNGrJqguo1frPqD8
-social:
-  - title: test
-    link: test
 hours: ""
 social_media:
-  - social:
-      title: Facebook
-      link: https://www.facebook.com/pages/A-to-Z-Machine/322951141066148
-  - social:
-      title: LinkedIn
-      link: https://www.linkedin.com/company/a-to-z-machine/
-  - social:
-      title: YouTube
-      link: https://www.youtube.com/channel/UCpgC820P1hUbZja_GA_7UMw
+  - title: Facebook
+    link: https://www.facebook.com/pages/A-to-Z-Machine/322951141066148
+  - title: LinkedIn
+    link: https://www.linkedin.com/company/a-to-z-machine/
+  - title: YouTube
+    link: https://www.youtube.com/channel/UCpgC820P1hUbZja_GA_7UMw

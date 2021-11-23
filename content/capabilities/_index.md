@@ -6,6 +6,8 @@ seo:
   featured_image: large-metal-drill-bits.jpg
   featured_image_alt: large metal drill bits
 hero:
+  hero_image: large-metal-drill-bits.jpg
+  hero_image_alt: large metal drill bits
   heading: "Machining capabilities"
   body: "A to Z Machine is an innovative shop. Our expert machinists employ state-of-the-art machinery and the latest technology to uphold the highest tolerances and embrace new challenges from our customers. Decades of experience, flexibility and a constant drive for improvement guarantee machining mastery to the fullest extent … quicker turnaround, higher quality products and stronger relationships."
 cnc_machining:
@@ -28,12 +30,12 @@ fabrication_image:
   image_alt: Sparks flying as A to Z Machine employee uses a grinder on metal
 cta:
   cta_image: machined-parts.jpg
+  cta_image_alt: machined parts by A to Z Machine
   heading: Experience is <span class="underline-primary">everything</span>
   body: "We’ve provided machining and contract manufacturing solutions since 1996. Our list of equipment and clients served reflects decades of experience."
   buttons:
-    button:
-      - button_url: /industries/
-        button_text: Browse industries
-      - button_url: /equipment/
-        button_text: Browse equipment
+    - button_url: "/industries/"
+      button_text: Browse industries
+    - button_url: "/equipment/"
+      button_text: Browse equipment
 ---

@@ -30,11 +30,7 @@
       {{ with .Params.industries_block }}
       <h2>{{ .heading }}</h2>
       <p>{{ .body }}</p>
-      <ul>
-        {{ range .industries }}
-        <li>{{ .industry }}</li>
-        {{ end }}
-      </ul>
+      {{ .industries | markdownify }}
       <div class="multi-button-wrapper flex flex-column flex-row-m flex-justify-around">
         {{ with .button }}
         <a href="{{ .link }}" class="btn btn-primary--rev">{{ .button_text }}</a>
@@ -58,11 +54,11 @@
     <h2 class="text-center">{{ .heading }}</h2>
     <p class="text-center">{{.body }}</p>
     <div class="flex flex-column flex-row-m">
-      {{ range .sector }}
-      <a href="{{ .service.link }}" class="capabilities-card w-100 w-50-m cover-image">
-        <img src="{{ .service.image }}" alt="{{ .service.image_alt }}">
+      {{ range .capabilities }}
+      <a href="{{ .link }}" class="capabilities-card w-100 w-50-m cover-image">
+        <img src="{{ .image }}" alt="{{ .image_alt }}">
         <div class="capabilities-card__title-wrapper flex flex-justify-center">
-          <span class="capabilities-card__title text-center">{{ .service.title }}</span>
+          <span class="capabilities-card__title text-center">{{ .title }}</span>
         </div>
       </a>
       {{end }}

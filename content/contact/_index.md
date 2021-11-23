@@ -14,7 +14,6 @@ cta:
   heading: Create a career <span class="underline-primary">precisely for you</span>
   body: "A to Z Machine’s employee-owners enjoy a safety-first culture, team atmosphere, on-the-job training, plus great pay and benefits."
   buttons:
-    button:
-      - button_url: /careers/
-        button_text: View opportunities
+    - button_url: /careers/
+      button_text: View opportunities
 ---

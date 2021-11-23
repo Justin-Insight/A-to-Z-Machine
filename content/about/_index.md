@@ -65,9 +65,8 @@ cta:
   heading: <span class="underline-primary">Spark your career</span> at A to Z Machine
   body: "We are proud to be a part of the Wisconsin Youth Apprenticeship Program. Together, with local high schools, we discover the next generation of machinists. Many of our mentored apprentices choose to stay on board with us as full-time machinists. "
   buttons:
-    button:
-      - button_url: /careers/
-        button_text: Learn more about our youth apprenticeships
+    - button_url: /careers/
+      button_text: Learn more about our youth apprenticeships
 ---
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">

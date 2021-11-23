@@ -1,7 +1,7 @@
 ---
 title: Home
 seo:
-  title:
+  title: CNC machine shop in Northeast Wisconsin | A to Z Machine
   description:
   featured_image: a-to-z-employee-working-on-cnc-machine.jpg
 hero:
@@ -22,22 +22,36 @@ intro_block:
 industries_block:
   heading: Mastery machining right in Appleton, Wisconsin
   body: "Whether you need precision machining, contract manufacturing or welding and fabrication, A to Z Machine can do it all. We understand each customer’s unique needs for either low mix, high volume parts or high mix, low volume parts. Our team’s expertise and flexibility deliver repeatable results to an ever-growing list of industries:"
-  industries:
-    - industry: Agriculture
-    - industry: Heavy Industry Trucking & Transportation
-    - industry: Military
-    - industry: Scientific Research Equipment
-    - industry: Electronic
-    - industry: Food Processing
-    - industry: Oil
-    - industry: Gas
-    - industry: Wind & Energy
-    - industry: Marine & Oceanographic
-    - industry: Material Handling
-    - industry: Service & Repair Companies
-    - industry: Medical & Consumer Products
-    - industry: Product Test Development
-    - industry: Engineering & Construction Companies
+  industries: >-
+    * Agriculture
+
+    * Heavy Industry Trucking & Transportation
+
+    * Military
+
+    * Scientific Research Equipment
+
+    * Electronic
+
+    * Food Processing
+
+    * Oil
+
+    * Gas
+
+    * Wind & Energy
+
+    * Marine & Oceanographic
+
+    * Material Handling
+
+    * Service & Repair Companies
+
+    * Medical & Consumer Products
+
+    * Product Test Development
+
+    * Engineering & Construction Companies
   button:
     link: /industries/
     button_text: Browse industries
@@ -51,6 +65,7 @@ industries_block:
     image: a-to-z-employee-quality-checking-custom-part.jpg
     image_alt: an A to Z Machine employee quality checking a custom made part
 testimonials:
+  heading:
   testimonial:
     - body: "A to Z’s machining skills, along with their emphasis on quality and delivery, are the reasons that we entrust them with production of Pierce’s most critical suspension and steering components.  Their ability to support a product from prototype through production is a key factor in the longevity of our partnership."
       author: Chris Campbell
@@ -64,23 +79,21 @@ testimonials:
 capabilities_block:
   heading: CNC Machining and Fabrication Capabilities
   body: As an innovative shop with constantly growing capabilities, A to Z Machine’s master machinists guarantee quicker turnaround, products of unparalleled quality and endless possibilities.
-  sector:
-    - service:
-        title: CNC Machining
-        link: /capabilities/cnc-machining/
-        image: a-to-z-employee-monitoring-cnc-machine.jpg
-        image_alt: A to Z employee monitoring a CNC machine
-    - service:
-        title: Fabrication
-        link: /capabilities/fabrication/
-        image: sparks-flying-as-employee-uses-a-grinder-on-metal.jpg
-        image_alt: sparks flying as an A to Z Machine employee uses a grinder on a peice of metal
+  capabilities:
+    - title: CNC Machining
+      link: /capabilities/cnc-machining/
+      image: a-to-z-employee-monitoring-cnc-machine.jpg
+      image_alt: A to Z employee monitoring a CNC machine
+    - title: Fabrication
+      link: /capabilities/fabrication/
+      image: sparks-flying-as-employee-uses-a-grinder-on-metal.jpg
+      image_alt: sparks flying as an A to Z Machine employee uses a grinder on a peice of metal
 cta:
   cta_image: a-to-z-employee-working-on-cad-drawing-on-computer.jpg
+  cta_image_alt: A to Z Machine employee working on CAD drawing on computer screen
   heading: Create a career <span class="underline-primary">precisely for you</span>
   body: "A to Z Machine’s employee-owners enjoy a safety-first culture, team atmosphere, on-the-job training, plus great pay and benefits."
   buttons:
-    button:
-      - button_url: /careers/
-        button_text: View opportunities
+    - button_url: /careers/
+      button_text: View opportunities
 ---
