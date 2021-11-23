@@ -80,6 +80,162 @@ collections: # A list of collections the CMS should be able to edit
         }
       - { label: "Body", name: "body", widget: "markdown" }
 
+  - name: "equipment" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Equipment" # Used in the UI, ie.: "New Post"
+    folder: "content/equipment" # The path to the folder where the documents are stored
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - { label: Title, name: "title", widget: string }
+      - {
+          label: "SEO",
+          name: "seo",
+          widget: object,
+          fields:
+            [
+              { label: "Title", name: "title", widget: string },
+              { label: "Description", name: "description", widget: "text" },
+              {
+                label: "Featured Image",
+                name: "featured_image",
+                widget: "image",
+              },
+            ],
+        }
+      - {
+          label: "Hero Block",
+          name: hero,
+          widget: object,
+          fields:
+            [
+              { label: "Heading", name: "heading", widget: string },
+              { label: "Body", name: "body", widget: "text" },
+              {
+                label: "Image",
+                name: "image",
+                widget: "object",
+                fields:
+                  [
+                    { label: "Image", name: "hero_image", widget: "image" },
+                    {
+                      label: "Image Alt Text",
+                      name: "hero_image_alt",
+                      widget: string,
+                    },
+                  ],
+              },
+            ],
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # - name: "industries" # Used in routes, ie.: /admin/collections/:slug/edit
+  #   label: "Industries" # Used in the UI, ie.: "New Post"
+  #   folder: "content/industries" # The path to the folder where the documents are stored
+  #   path: "{{slug}}/index"
+  #   media_folder: ""
+  #   public_folder: ""
+  #   editor:
+  #     preview: false
+  #   create: true # Allow users to create new documents in this collection
+  #   fields: # The fields each document in this collection have
+  #     - { label: Title, name: "title", widget: string }
+  #     - {
+  #         label: "SEO",
+  #         name: "seo",
+  #         widget: object,
+  #         fields:
+  #           [
+  #             { label: "Title", name: "title", widget: string },
+  #             { label: "Description", name: "description", widget: "text" },
+  #             {
+  #               label: "Featured Image",
+  #               name: "featured_image",
+  #               widget: "image",
+  #             },
+  #           ],
+  #       }
+  #     - {
+  #         label: "Hero Block",
+  #         name: hero,
+  #         widget: object,
+  #         fields:
+  #           [
+  #             { label: "Heading", name: "heading", widget: string },
+  #             { label: "Body", name: "body", widget: "text" },
+  #             {
+  #               label: "Image",
+  #               name: "image",
+  #               widget: "object",
+  #               fields:
+  #                 [
+  #                   { label: "Image", name: "hero_image", widget: "image" },
+  #                   {
+  #                     label: "Image Alt Text",
+  #                     name: "hero_image_alt",
+  #                     widget: string,
+  #                   },
+  #                 ],
+  #             },
+  #           ],
+  #       }
+  #     - { label: "Body", name: "body", widget: "markdown" }
+
+  # - name: "simple" # Used in routes, ie.: /admin/collections/:slug/edit
+  #   label: "Simple Pages" # Used in the UI, ie.: "New Post"
+  #   folder: "content/" # The path to the folder where the documents are stored
+  #   path: "{{slug}}/index"
+  #   media_folder: ""
+  #   public_folder: ""
+  #   editor:
+  #     preview: false
+  #   create: true # Allow users to create new documents in this collection
+  #   fields: # The fields each document in this collection have
+  #     - { label: Title, name: "title", widget: string }
+  #     - {
+  #         label: "SEO",
+  #         name: "seo",
+  #         widget: object,
+  #         fields:
+  #           [
+  #             { label: "Title", name: "title", widget: string },
+  #             { label: "Description", name: "description", widget: "text" },
+  #             {
+  #               label: "Featured Image",
+  #               name: "featured_image",
+  #               widget: "image",
+  #             },
+  #           ],
+  #       }
+  #     - {
+  #         label: "Hero Block",
+  #         name: hero,
+  #         widget: object,
+  #         fields:
+  #           [
+  #             { label: "Heading", name: "heading", widget: string },
+  #             { label: "Body", name: "body", widget: "text" },
+  #             {
+  #               label: "Image",
+  #               name: "image",
+  #               widget: "object",
+  #               fields:
+  #                 [
+  #                   { label: "Image", name: "hero_image", widget: "image" },
+  #                   {
+  #                     label: "Image Alt Text",
+  #                     name: "hero_image_alt",
+  #                     widget: string,
+  #                   },
+  #                 ],
+  #             },
+  #           ],
+  #       }
+  #     - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "pages"
     label: "Pages"
     media_folder: ""
@@ -88,7 +244,7 @@ collections: # A list of collections the CMS should be able to edit
       preview: false
     files:
       - file: "content/_index.md"
-        label: "Home Page"
+        label: "Home"
         name: "home"
         fields:
           - { label: Title, name: "title", widget: string }
@@ -117,7 +273,7 @@ collections: # A list of collections the CMS should be able to edit
                   { label: "Body", name: "body", widget: "text" },
                   {
                     label: "Image",
-                    name: "hero_image",
+                    name: "image",
                     widget: "object",
                     fields:
                       [
@@ -363,7 +519,7 @@ collections: # A list of collections the CMS should be able to edit
                   { label: "Body", name: "body", widget: "text" },
                   {
                     label: "Image",
-                    name: "hero_image",
+                    name: "image",
                     widget: "object",
                     fields:
                       [
@@ -533,7 +689,7 @@ collections: # A list of collections the CMS should be able to edit
                   { label: "Body", name: "body", widget: "text" },
                   {
                     label: "Image",
-                    name: "hero_image",
+                    name: "image",
                     widget: "object",
                     fields:
                       [
@@ -581,9 +737,27 @@ collections: # A list of collections the CMS should be able to edit
                     widget: "text",
                   },
                   {
-                    label: "Buttons",
-                    name: "buttons",
-                    widget: list,
+                    label: "Button 1",
+                    name: "button1",
+                    widget: object,
+                    fields:
+                      [
+                        {
+                          label: "Button URL",
+                          name: "button_url",
+                          widget: string,
+                        },
+                        {
+                          label: "Button Text",
+                          name: "button_text",
+                          widget: string,
+                        },
+                      ],
+                  },
+                  {
+                    label: "Button 2",
+                    name: "button2",
+                    widget: object,
                     fields:
                       [
                         {
@@ -603,13 +777,13 @@ collections: # A list of collections the CMS should be able to edit
           - {
               label: "Parts Gallery",
               name: "parts_gallery",
-              widget: list,
+              widget: object,
               fields:
                 [
                   {
                     label: "Image",
-                    name: "image",
-                    widget: "object",
+                    name: "images",
+                    widget: "list",
                     fields:
                       [
                         { label: "Image", name: "image", widget: "image" },
@@ -633,7 +807,7 @@ collections: # A list of collections the CMS should be able to edit
                   { label: "Body", name: "body", widget: "text" },
                   {
                     label: "Image",
-                    name: "cta_image",
+                    name: "image",
                     widget: "object",
                     fields:
                       [
@@ -665,20 +839,537 @@ collections: # A list of collections the CMS should be able to edit
                   },
                 ],
             }
-      - file: "contact/_index.md"
-        label: "Contact Page"
+      - file: "content/capabilities/fabrication/index.md"
+        label: "Fabrication"
+        name: "fabrication"
+        fields:
+          - { label: Title, name: "title", widget: string }
+          - {
+              label: "SEO",
+              name: "seo",
+              widget: object,
+              fields:
+                [
+                  { label: "Title", name: "title", widget: string },
+                  { label: "Description", name: "description", widget: "text" },
+                  {
+                    label: "Featured Image",
+                    name: "featured_image",
+                    widget: "image",
+                  },
+                ],
+            }
+          - {
+              label: "Hero Block",
+              name: hero,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Body", name: "body", widget: "text" },
+                  {
+                    label: "Image",
+                    name: "image",
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Image", name: "hero_image", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "hero_image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Capabilities Block",
+              name: capabilities,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Body", name: "body", widget: "text" },
+                ],
+            }
+          - {
+              label: "Quality Block",
+              name: quality,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Body", name: "body", widget: "text" },
+                ],
+            }
+          - {
+              label: "Industries Served",
+              name: industries_served,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Body", name: "body", widget: "text" },
+                  {
+                    label: "Industries Served",
+                    name: "industries",
+                    widget: "text",
+                  },
+                  {
+                    label: "Button 1",
+                    name: "button1",
+                    widget: object,
+                    fields:
+                      [
+                        {
+                          label: "Button URL",
+                          name: "button_url",
+                          widget: string,
+                        },
+                        {
+                          label: "Button Text",
+                          name: "button_text",
+                          widget: string,
+                        },
+                      ],
+                  },
+                  {
+                    label: "Button 2",
+                    name: "button2",
+                    widget: object,
+                    fields:
+                      [
+                        {
+                          label: "Button URL",
+                          name: "button_url",
+                          widget: string,
+                        },
+                        {
+                          label: "Button Text",
+                          name: "button_text",
+                          widget: string,
+                        },
+                      ],
+                  },
+                  {
+                    label: "Image 1",
+                    name: "image1",
+                    widget: object,
+                    fields:
+                      [
+                        { label: "Image", name: "image", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                  {
+                    label: "Image 2",
+                    name: "image2",
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Image", name: "image", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Parts Gallery",
+              name: "parts_gallery",
+              widget: object,
+              fields:
+                [
+                  {
+                    label: "Image",
+                    name: "images",
+                    widget: "list",
+                    fields:
+                      [
+                        { label: "Image", name: "image", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "image_alt",
+                          widget: string,
+                        },
+                        { label: "Image", name: "image_l", widget: "image" },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Call to Action Block",
+              name: cta,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: "string" },
+                  { label: "Body", name: "body", widget: "text" },
+                  {
+                    label: "Image",
+                    name: "image",
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Image", name: "cta_image", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "cta_image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                  {
+                    label: "Buttons",
+                    name: "buttons",
+                    widget: list,
+                    fields:
+                      [
+                        {
+                          label: "Button URL",
+                          name: "button_url",
+                          widget: string,
+                        },
+                        {
+                          label: "Button Text",
+                          name: "button_text",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+      - file: "content/industries/_index.md"
+        label: "Industries"
+        name: "industries"
+        fields:
+          - { label: Title, name: "title", widget: string }
+          - {
+              label: "SEO",
+              name: "seo",
+              widget: object,
+              fields:
+                [
+                  { label: "Title", name: "title", widget: string },
+                  { label: "Description", name: "description", widget: "text" },
+                  {
+                    label: "Featured Image",
+                    name: "featured_image",
+                    widget: "image",
+                  },
+                ],
+            }
+          - {
+              label: "Hero Block",
+              name: hero,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Body", name: "body", widget: "text" },
+                  {
+                    label: "Image",
+                    name: "image",
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Image", name: "hero_image", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "hero_image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+      - file: "content/about/_index.md"
+        label: "About"
+        name: "about"
+        fields:
+          - { label: Title, name: "title", widget: string }
+          - {
+              label: "SEO",
+              name: "seo",
+              widget: object,
+              fields:
+                [
+                  { label: "Title", name: "title", widget: string },
+                  { label: "Description", name: "description", widget: "text" },
+                  {
+                    label: "Featured Image",
+                    name: "featured_image",
+                    widget: "image",
+                  },
+                ],
+            }
+          - {
+              label: "Hero Block",
+              name: hero,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Body", name: "body", widget: "text" },
+                  {
+                    label: "Image",
+                    name: "image",
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Image", name: "hero_image", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "hero_image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+      - file: "content/careers/_index.md"
+        label: "Careers"
+        name: "careers"
+        fields:
+          - { label: Title, name: "title", widget: string }
+          - {
+              label: "SEO",
+              name: "seo",
+              widget: object,
+              fields:
+                [
+                  { label: "Title", name: "title", widget: string },
+                  { label: "Description", name: "description", widget: "text" },
+                  {
+                    label: "Featured Image",
+                    name: "featured_image",
+                    widget: "image",
+                  },
+                ],
+            }
+          - {
+              label: "Hero Block",
+              name: hero,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Body", name: "body", widget: "text" },
+                  {
+                    label: "Image",
+                    name: "image",
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Image", name: "hero_image", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "hero_image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Benefits Block",
+              name: benefits,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Body", name: "body", widget: "text" },
+                  {
+                    label: "Image",
+                    name: "image",
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Image", name: "image_src", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                  {
+                    label: "Benefits",
+                    name: "benefit",
+                    widget: list,
+                    fields:
+                      [
+                        { label: "Heading", name: "heading", widget: text },
+                        { label: "Body", name: "body", widget: text },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Equal Opportunity Block",
+              name: employment_disclaimer,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Body", name: "body", widget: "text" },
+                  {
+                    label: "Image",
+                    name: "image",
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Image", name: "image_src", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Employee Testimonials",
+              name: testimonials,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  {
+                    label: "Testimonials",
+                    name: "testimonial",
+                    widget: list,
+                    fields:
+                      [
+                        { label: "Body", name: "body", widget: text },
+                        { label: "Name", name: "author", widget: string },
+                        {
+                          label: "Job Title",
+                          name: "job_title",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Apprenticeship Block",
+              name: apprenticeship,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Body", name: "body", widget: "text" },
+                  {
+                    label: "Image",
+                    name: "image",
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Image", name: "image_src", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+      - file: "content/contact/_index.md"
+        label: "Contact"
         name: "contact"
         fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Logo, name: logo, widget: image }
-          - { label: Body, name: body, widget: markdown }
-          - label: Contact Entries
-            name: contact_entries
-            widget: list
-            fields:
-              - label: Heading
-                name: heading
-                widget: string
-              - label: Text
-                name: text
-                widget: text
+          - { label: Title, name: "title", widget: string }
+          - {
+              label: "SEO",
+              name: "seo",
+              widget: object,
+              fields:
+                [
+                  { label: "Title", name: "title", widget: string },
+                  { label: "Description", name: "description", widget: "text" },
+                  {
+                    label: "Featured Image",
+                    name: "featured_image",
+                    widget: "image",
+                  },
+                ],
+            }
+          - {
+              label: "Hero Block",
+              name: hero,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Body", name: "body", widget: "text" },
+                  {
+                    label: "Image",
+                    name: "image",
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Image", name: "hero_image", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "hero_image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+      - file: "content/request-a-quote/_index.md"
+        label: "Request a Quote"
+        name: "request-a-quote"
+        fields:
+          - { label: Title, name: "title", widget: string }
+          - {
+              label: "SEO",
+              name: "seo",
+              widget: object,
+              fields:
+                [
+                  { label: "Title", name: "title", widget: string },
+                  { label: "Description", name: "description", widget: "text" },
+                  {
+                    label: "Featured Image",
+                    name: "featured_image",
+                    widget: "image",
+                  },
+                ],
+            }
+          - {
+              label: "Hero Block",
+              name: hero,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Body", name: "body", widget: "text" },
+                  {
+                    label: "Image",
+                    name: "image",
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Image", name: "hero_image", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "hero_image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }

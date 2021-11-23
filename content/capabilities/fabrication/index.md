@@ -59,7 +59,7 @@ industries_served:
     * Product Test Development
 
     * Engineering & Construction Companies
-  button:
+  button1:
     button_url: /industries/
     button_text: Browse industries
   button2:
@@ -73,6 +73,18 @@ industries_served:
     image_alt: an A to Z Machine employee quality checking a custom made part
 parts_gallery:
   images:
+    - image: DSC_0003.jpg
+      image_alt: machined part
+      image_l: DSC_0003_l.jpg
+    - image: DSC_0013.jpg
+      image_alt: machined part
+      image_l: DSC_0013.jpg
+    - image: DSC_0015.jpg
+      image_alt: machined part
+      image_l: DSC_0015.jpg
+    - image: DSC_0018.jpg
+      image_alt: machined part
+      image_l: DSC_0018.jpg
 cta:
   heading: What’s your next <span class="underline-primary">project?</span>
   body: "Collaborate with A to Z Machine’s expert machinists."

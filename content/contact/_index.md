@@ -3,7 +3,7 @@ title: Contact
 seo:
   title: Contact A to Z Machine
   description: Contact A to Z Machine of Appleton, Wisconsin for CNC machining, welding & fabrication for food, engineering, construction, oil, military, trucking & medical.
-  featured_image: machined-parts.jpg
+  featured_image: a-to-z-machine-main-building-exterior.jpg
 hero:
   image:
     hero_image: a-to-z-machine-main-building-exterior.jpg

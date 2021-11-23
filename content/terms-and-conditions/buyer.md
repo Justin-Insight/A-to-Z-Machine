@@ -1,5 +1,5 @@
 ---
-Title: Terms and Conditions – Buyer
+title: Terms and Conditions – Buyer
 ---
 
 **1. Signed Contract:** These Terms and Conditions and A to Z Machine Co., Inc.’s Purchase Order to Seller are the “Contract.” All terms and conditions contained in any prior or subsequent oral or written communications, including, without limitation, terms and conditions contained in Seller’s Purchase Order or Acknowledgement, which are different from or in addition to the Contract are hereby rejected and shall not be binding on A to Z Machine Co., Inc. and A to Z Machine Co., Inc. hereby objects thereto.
