@@ -297,12 +297,10 @@ collections: # A list of collections the CMS should be able to edit
               widget: object,
               fields:
                 [
-                  { label: "Heading", name: "heading", widget: "string" },
-                  { label: "Body", name: "body", widget: "text" },
                   {
                     label: "Image",
-                    name: "cta_image",
-                    widget: "object",
+                    name: "image",
+                    widget: object,
                     fields:
                       [
                         { label: "Image", name: "cta_image", widget: "image" },
@@ -313,6 +311,8 @@ collections: # A list of collections the CMS should be able to edit
                         },
                       ],
                   },
+                  { label: "Heading", name: "heading", widget: "string" },
+                  { label: "Body", name: "body", widget: "text" },
                   {
                     label: "Buttons",
                     name: "buttons",

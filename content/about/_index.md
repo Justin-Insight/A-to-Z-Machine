@@ -5,8 +5,9 @@ seo:
   description: A to Z Machine of Appleton is a leading source for quality CNC and precision machining, welding, fabrication and contract manufacturing in Northeast Wisconsin.
   featured_image: large-metal-drill-bits.jpg
 hero:
-  hero_image: DSC_0153.jpg
-  hero_image_alt:
+  image:
+    hero_image: DSC_0153.jpg
+    hero_image_alt:
   heading: "About A to Z Machine"
   subhead: Your complete CNC Machining and Fabrication source
   body: "A to Z Machine is a large-scale, full-service machine shop located in Appleton, Wisconsin. We proudly build long-term partnerships and industry-specific manufactured goods with ultimate precision and efficiency. Our sprawling facility includes three buildings: one dedicated to staff and production, another for welding and fabrication, and the largest building houses our most impressive machines and the majority of our skilled workforce."
@@ -61,12 +62,14 @@ vision:
   heading: Our Vision
   body: To safely manufacture quality parts on time for our customers.
 cta:
-  cta_image: DSC_0271.jpg
   heading: <span class="underline-primary">Spark your career</span> at A to Z Machine
   body: "We are proud to be a part of the Wisconsin Youth Apprenticeship Program. Together, with local high schools, we discover the next generation of machinists. Many of our mentored apprentices choose to stay on board with us as full-time machinists. "
   buttons:
     - button_url: /careers/
       button_text: Learn more about our youth apprenticeships
+  image:
+    cta_image_alt: 
+    cta_image: DSC_0271.jpg
 ---
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">

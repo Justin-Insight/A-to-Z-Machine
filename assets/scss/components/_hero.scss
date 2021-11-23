@@ -1,5 +1,4 @@
 .home-hero {
-  position: relative;
   height: 50vh;
 
   &::before,
@@ -40,6 +39,25 @@
       font-size: $ic-300;
     }
   }
+}
+
+.hero {
+  height: 40vh;
+
+  &__image {
+    height: 100%;
+    object-fit: cover;
+    object-position: 70%;
+
+    @include breakpoint(md) {
+      object-position: center;
+    }
+  }
+}
+
+.home-hero,
+.hero {
+  position: relative;
 
   &::after {
     position: absolute;
@@ -53,20 +71,6 @@
 
     @include breakpoint(md) {
       height: $ic-800;
-    }
-  }
-}
-
-.hero {
-  height: 40vh;
-
-  &__image {
-    height: 100%;
-    object-fit: cover;
-    object-position: 70%;
-
-    @include breakpoint(md) {
-      object-position: center;
     }
   }
 }

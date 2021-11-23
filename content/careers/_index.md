@@ -6,6 +6,9 @@ seo:
   featured_image: two-a-to-z-machine-employees-working-at-workbench.jpg
   featured_image_alt: Two A to Z Machine Employees standing in front of fabrication work bench
 hero:
+  image:
+    hero_image: two-a-to-z-machine-employees-working-at-workbench.jpg
+    hero_image_alt:
   heading: 'Build a <span class="underline-primary">solid career</span> at A to Z Machine'
   body: "Have you lost your tolerance for old equipment and tooling? Are you tired of changing schedules and switching from 30-hour to 50-hour weeks? Do you want to be an employee owner working with a team towards the same goal? Fuse your passions and skills with our innovative shop!"
 benefits:

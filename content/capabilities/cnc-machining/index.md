@@ -6,6 +6,9 @@ seo:
   featured_image: machining.jpg
   featured_image_alt: machined part
 hero:
+  image:
+    hero_image: machining.jpg
+    hero_image_alt:
   heading: "CNC Machining"
   body: "As an innovative shop, our CNC machining capabilities are constantly growing. We specialize in CNC Machining practices to produce a wide variety of precision machined components from the simplest to most complex parts. Currently, our machines can handle material lengths of 1-200 inches and load capabilities over 30,000 lbs."
 capabilities:
@@ -63,11 +66,12 @@ industries_served:
     * Product Test Development
 
     * Engineering & Construction Companies
-  buttons:
-    - button_url: "/industries/"
-      button_text: Browse industries
-    - button_url: "/equipment/"
-      button_text: Browse equipment
+  button1:
+    button_url: "/industries/"
+    button_text: Browse industries
+  button2:
+    button_url: "/equipment/"
+    button_text: Browse equipment
   image1:
     image: custom-machined-part.jpg
     image_alt: a custom machined part on a counter top
@@ -75,36 +79,38 @@ industries_served:
     image: a-to-z-employee-quality-checking-custom-part.jpg
     image_alt: an A to Z Machine employee quality checking a custom made part
 parts_gallery:
-  - image: DSC_0003.jpg
-    image_alt: machined part
-    image_l: DSC_0003_l.jpg
-  - image: DSC_0013.jpg
-    image_alt: machined part
-    image_l: DSC_0013.jpg
-  - image: DSC_0015.jpg
-    image_alt: machined part
-    image_l: DSC_0015.jpg
-  - image: DSC_0018.jpg
-    image_alt: machined part
-    image_l: DSC_0018.jpg
-  - image: DSC_0017.jpg
-    image_alt: machined part
-    image_l: DSC_0017.jpg
-  - image: gallery-14.jpg
-    image_alt: machined part
-    image_l: gallery-14.jpg
-  - image: gallery-15.jpg
-    image_alt: machined part
-    image_l: gallery-15.jpg
-  - image: gallery-18.jpg
-    image_alt: machined part
-    image_l: gallery-18.jpg
+  images:
+    - image: DSC_0003.jpg
+      image_alt: machined part
+      image_l: DSC_0003_l.jpg
+    - image: DSC_0013.jpg
+      image_alt: machined part
+      image_l: DSC_0013.jpg
+    - image: DSC_0015.jpg
+      image_alt: machined part
+      image_l: DSC_0015.jpg
+    - image: DSC_0018.jpg
+      image_alt: machined part
+      image_l: DSC_0018.jpg
+    - image: DSC_0017.jpg
+      image_alt: machined part
+      image_l: DSC_0017.jpg
+    - image: gallery-14.jpg
+      image_alt: machined part
+      image_l: gallery-14.jpg
+    - image: gallery-15.jpg
+      image_alt: machined part
+      image_l: gallery-15.jpg
+    - image: gallery-18.jpg
+      image_alt: machined part
+      image_l: gallery-18.jpg
 cta:
-  cta_image: machined-parts.jpg
-  cta_image_alt: machined parts by A to Z Machine
   heading: What’s your next <span class="underline-primary">project?</span>
   body: "Collaborate with A to Z Machine’s expert machinists."
   buttons:
     - button_url: /request-a-quote/
       button_text: Request a Quote
+  image:
+    cta_image_alt: machined part by A to Z Machine
+    cta_image: machined-parts.jpg
 ---

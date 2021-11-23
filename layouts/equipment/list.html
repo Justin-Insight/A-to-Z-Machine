@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ partial "hero" (dict "Page" . "image" .Params.seo.featured_image "alt" .Params.hero.hero_image_alt ) }}
+{{ partial "hero" (dict "Page" . "image" .Params.hero.image.hero_image "alt" .Params.hero.image.hero_image_alt ) }}
 {{ $heroClass := lower .Page.Title }}
 <section class="{{ anchorize $heroClass }}-hero-intro">
   <div class="block w-100">

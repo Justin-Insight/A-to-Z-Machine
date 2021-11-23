@@ -1,6 +1,6 @@
 {{ $ctaClass := lower .Page.Title }}
 <div class="careers-cta {{ anchorize $ctaClass }}-cta">
-  {{ $ctaimage := (.Resources.GetMatch (index .Params.cta.cta_image)) }}
+  {{ $ctaimage := (.Resources.GetMatch (index .Params.cta.image.cta_image)) }}
 
   {{ $webp_src_set := ""}}
   {{ $jpg_src_set := ""}}

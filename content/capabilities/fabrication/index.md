@@ -6,6 +6,9 @@ seo:
   featured_image: a-to-z-fabrication-and-welding.jpg
   featured_image_alt: machined part
 hero:
+  image:
+    hero_image: a-to-z-fabrication-and-welding.jpg
+    hero_image_alt:
   heading: "Fabrication"
   body: "A to Z Machine’s full-service fabrication facility includes four weld stations equipped with various table sizes and rotary positioners capable of over 10,000 lbs. We have three waterjets to cut all materials prior to welding, plus a five-axis head to prepare weld bevels. Our stress relieve oven has a six-foot cube capacity and our blast booth is 8’ x 12’ x 20’."
   request_quote: true
@@ -69,20 +72,14 @@ industries_served:
     image: a-to-z-employee-quality-checking-custom-part.jpg
     image_alt: an A to Z Machine employee quality checking a custom made part
 parts_gallery:
-  - image: gallery-08.jpg
-    image_alt: machined part
-  - image: gallery-05.jpg
-    image_alt: machined part
-  - image: gallery-09.jpg
-    image_alt: machined part
-  - image: gallery-13.jpg
-    image_alt: machined part
+  images:
 cta:
-  cta_image: machined-parts.jpg
-  cta_image_alt: machined parts by A to Z Machine
   heading: What’s your next <span class="underline-primary">project?</span>
   body: "Collaborate with A to Z Machine’s expert machinists."
   buttons:
     - button_url: /request-a-quote/
       button_text: Request a Quote
+  image:
+    cta_image_alt: machined part by A to Z Machine
+    cta_image: machined-parts.jpg
 ---

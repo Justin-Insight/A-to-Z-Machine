@@ -4,8 +4,9 @@
         <h2>{{ .Title }} Gallery</h2>
      </div>
      <div class="wrapper-lg">
+      {{ with .Params.parts_gallery }}
       <div class="gallery-grid" itemscope itemtype="http://schema.org/ImageGallery">
-        {{ range .Params.parts_gallery }}
+        {{ range .images }}
         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
           <a href="{{ .image_l }}" class="gallery-grid__image-wrapper" itemprop="contentUrl" data-size="1600x1600">
               <img src="{{ .image }}" class="gallery-grid__image" itemprop="thumbnail" alt="{{ .image_alt }}" />
@@ -13,6 +14,7 @@
         </figure>
         {{ end }}
        </div>
+      {{ end }}
       <!-- Root element of PhotoSwipe. Must have class pswp. -->
       <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
         <!-- Background of PhotoSwipe. 

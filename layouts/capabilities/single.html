@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ partial "hero" (dict "Page" . "image" .Params.seo.featured_image "alt" .Params.seo.featured_image_alt ) }}
+{{ partial "hero" (dict "Page" . "image" .Params.hero.image.hero_image "alt" .Params.hero.image.hero_image_alt ) }}
 {{ partial "hero-intro" . }}
 <section>
    <div class="flex flex-column flex-row-m">
@@ -18,7 +18,7 @@
       <p class="h5">{{ .Params.quality.body }}</p>
    </div>
 </section>
-{{ partial "industries" (dict "Page" . "heading" .Params.industries_served.heading "body" .Params.industries_served.body "industries" .Params.industries_served.industries "link1" .Params.industries_served.button.button_url "button_text1" .Params.industries_served.button.button_text "link2" .Params.industries_served.button2.button_url "button_text2" .Params.industries_served.button2.button_text "image1" .Params.industries_served.image1.image "image1_alt" .Params.industries_served.image1.image_alt "image2" .Params.industries_served.image2.image "image2_alt" .Params.industries_served.image2.image_alt ) }}
+{{ partial "industries" (dict "Page" . "heading" .Params.industries_served.heading "body" .Params.industries_served.body "industries" .Params.industries_served.industries "link1" .Params.industries_served.button1.button_url "button_text1" .Params.industries_served.button1.button_text "link2" .Params.industries_served.button2.button_url "button_text2" .Params.industries_served.button2.button_text "image1" .Params.industries_served.image1.image "image1_alt" .Params.industries_served.image1.image_alt "image2" .Params.industries_served.image2.image "image2_alt" .Params.industries_served.image2.image_alt ) }}
 {{ partial "capabilities/image-gallery" . }}
 {{ partial "cta" . }}
 {{ end }}

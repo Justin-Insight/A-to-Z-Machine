@@ -2,13 +2,15 @@
 title: Home
 seo:
   title: CNC machine shop in Northeast Wisconsin | A to Z Machine
-  description: A to Z Machine of Appleton is a leading source for quality CNC and
+  description:
+    A to Z Machine of Appleton is a leading source for quality CNC and
     precision machining, welding, fabrication and contract manufacturing in
     Northeast Wisconsin.
   featured_image: a-to-z-employee-working-on-cnc-machine.jpg
 hero:
-  hero_image: a-to-z-employee-working-on-cnc-machine.jpg
-  hero_image_alt: null
+  image:
+    hero_image: a-to-z-employee-working-on-cnc-machine.jpg
+    hero_image_alt: null
   heading: Quality from <span class="underline-primary">start to finish</span>
   body: As a complete machining source, A to Z Machine proudly builds long-term
     partnerships and industry-specific manufactured goods with ultimate
@@ -75,7 +77,8 @@ testimonials:
         their business’ capabilities, capacity and sweet spot.
       author: Jessica Vanevenhoven
       job_title: Commodity Manager | Oshkosh Defense, LLC
-    - body: A to Z Machine has gone, and continues to go, above and beyond for our
+    - body:
+        A to Z Machine has gone, and continues to go, above and beyond for our
         company time and time again. We are very pleased with their
         communication and transparency of when our product will be delivered. In
         the past year, we have implemented an inventory plan that has cut our
@@ -96,11 +99,10 @@ capabilities_block:
     - title: Fabrication
       link: /capabilities/fabrication/
       image: sparks-flying-as-employee-uses-a-grinder-on-metal.jpg
-      image_alt: sparks flying as an A to Z Machine employee uses a grinder on a peice
+      image_alt:
+        sparks flying as an A to Z Machine employee uses a grinder on a peice
         of metal
 cta:
-  cta_image: a-to-z-employee-working-on-cad-drawing-on-computer.jpg
-  cta_image_alt: A to Z Machine employee working on CAD drawing on computer screen
   heading: Create a career <span class="underline-primary">precisely for you</span>
   body: A to Z Machine’s employee-owners enjoy a safety-first culture, team
     atmosphere, on-the-job training, plus great pay and benefits.
