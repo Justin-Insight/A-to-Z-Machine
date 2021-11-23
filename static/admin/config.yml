@@ -600,28 +600,29 @@ collections: # A list of collections the CMS should be able to edit
                   },
                 ],
             }
-          # - {
-          #     label: "Parts Gallery",
-          #     name: "parts_gallery",
-          #     widget: list,
-          #     fields:
-          #       [
-          #         {
-          #           label: "Image",
-          #           name: "cta_image",
-          #           widget: "object",
-          #           fields:
-          #             [
-          #               { label: "Image", name: "cta_image", widget: "image" },
-          #               {
-          #                 label: "Image Alt Text",
-          #                 name: "cta_image_alt",
-          #                 widget: string,
-          #               },
-          #             ],
-          #         },
-          #       ],
-          #   }
+          - {
+              label: "Parts Gallery",
+              name: "parts_gallery",
+              widget: list,
+              fields:
+                [
+                  {
+                    label: "Image",
+                    name: "image",
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Image", name: "image", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "image_alt",
+                          widget: string,
+                        },
+                        { label: "Image", name: "image_l", widget: "image" },
+                      ],
+                  },
+                ],
+            }
           - {
               label: "Call to Action Block",
               name: cta,
