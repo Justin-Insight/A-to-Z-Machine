@@ -28,7 +28,7 @@ quality_block:
 
 - Offering full-service expertise, from A to Z"
 
-  image: DSC_0147.jpg
+  image: DSC_0218.jpg
   image_alt:
 building_block:
   building: 

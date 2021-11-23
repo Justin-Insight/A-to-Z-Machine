@@ -74,10 +74,10 @@ industries_served:
     button_text: Browse equipment
   image1:
     image: DSC_1122.jpg
-    image_alt: a custom machined part on a counter top
+    image_alt: 
   image2:
-    image: a-to-z-employee-quality-checking-custom-part-2.jpg
-    image_alt: an A to Z Machine employee quality checking a custom made part
+    image: DSC_1138.jpg
+    image_alt: 
 parts_gallery:
   images:
     - image: DSC_0003.jpg
