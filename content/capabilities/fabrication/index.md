@@ -52,13 +52,13 @@ industries_served:
 
     * Material Handling
 
-    * Service & Repair Companies
+    * Service & Repair
 
     * Medical & Consumer Products
 
     * Product Test Development
 
-    * Engineering & Construction Companies
+    * Engineering & Construction
   button1:
     button_url: /industries/
     button_text: Browse industries
@@ -67,10 +67,10 @@ industries_served:
     button_text: Browse equipment
   image1:
     image: DSC_1056.jpg
-    image_alt: 
+    image_alt:
   image2:
     image: DSC_1062.jpg
-    image_alt: 
+    image_alt:
 parts_gallery:
   images:
     - image: DSC_0003.jpg
@@ -90,7 +90,7 @@ cta:
   body: "Collaborate with A to Z Machine’s expert machinists."
   buttons:
     - button_url: /request-a-quote/
-      button_text: Request a Quote
+      button_text: Request a quote
   image:
     cta_image_alt: machined part by A to Z Machine
     cta_image: machined-parts.jpg

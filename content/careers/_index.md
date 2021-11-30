@@ -15,7 +15,7 @@ benefits:
   heading: Become an employee owner
   body: "As a growing and innovative company, we’re always hiring good, hard-working people. A to Z Machine is 100% employee-owned, allowing individuals to contribute to and benefit from the company’s success. In addition to consistent schedules and the newest machinery and tooling, our employees enjoy strong compensation, benefits and employee appreciation programs."
   image:
-    image_src: DSC_0242.jpg
+    image_src: DSC_1046.jpg
     image_alt:
   benefit:
     - heading: Strong compensation & savings

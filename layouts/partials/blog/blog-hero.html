@@ -1,11 +1,16 @@
 {{ $heroClass := lower .Page.Title }}
-<div class="blog-hero bg-black block"></div>
-<div class="blog-title w-100">
-  <div class="wrapper bg-white text-center">
-    <div class="block">
-      <h1 class="no-margin">
-        {{ .Title | markdownify }}
-      </h1>
+<div class="blog-hero hero">
+ <div class="block">
+  <div class="wrapper-sm flow">
+    {{ partial "breadcrumbs" . }}
+    <h1 class="no-margin text-center">{{ .Title | markdownify }}</h1>
+    <div class="post-meta text-center">
+        By A to Z Machine | 
+        {{ if .Params.Categories }}
+        {{ range $index, $elements := .Params.Categories }}<a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}" class="categories categories__link">{{ if ne $index 0 }}{{ end }}
+            {{ . | title }}</a> {{ end}}
+        {{ end }}
     </div>
   </div>
+ </div>
 </div>

@@ -106,8 +106,9 @@
   }
 
   &__nav-item {
-    padding: 0 .5rem;
+    padding: 0 0.5rem;
     letter-spacing: 0.56px;
+    font-size: $ic--200;
   }
 
   svg {

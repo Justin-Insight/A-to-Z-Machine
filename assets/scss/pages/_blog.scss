@@ -1,18 +1,18 @@
 .blog-hero {
-  position: relative;
+  background: $primary-color;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 
-  &::after {
-    position: absolute;
-    content: "";
-    left: 0;
-    width: 100%;
-    background: $primary-color;
-    height: $ic--100;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 20%);
-    top: calc(100% - 1px);
+  a {
+    color: $white;
+    text-decoration: none;
 
-    @include breakpoint(md) {
-      height: $ic-800;
+    &:hover,
+    &:focus {
+      color: $black;
     }
   }
 }
@@ -29,7 +29,6 @@
 
 .post-meta {
   padding-bottom: $ic-200;
-  border-bottom: 1px solid $gray;
 }
 
 .blog-content {

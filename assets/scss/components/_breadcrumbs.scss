@@ -14,10 +14,15 @@
   &__link {
     padding: 0 1rem;
     text-decoration: none;
+    font-size: $ic--200;
 
     &:hover,
     &:focus {
       color: $primary-color;
+    }
+
+    @include breakpoint(md) {
+      font-size: $ic-200;
     }
   }
 

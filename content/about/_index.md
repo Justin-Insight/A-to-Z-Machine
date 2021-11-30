@@ -9,7 +9,7 @@ hero:
     hero_image: DSC_1102.jpg
     hero_image_alt:
   heading: "About A to Z Machine"
-  subhead: Your complete CNC Machining and Fabrication source
+  subhead: Your complete CNC machining and fabrication source
   body: "A to Z Machine is a large-scale, full-service machine shop located in Appleton, Wisconsin. We proudly build long-term partnerships and industry-specific manufactured goods with ultimate precision and efficiency. Our sprawling facility includes three buildings: one dedicated to staff and production, another for welding and fabrication, and the largest building houses our most impressive machines and the majority of our skilled workforce."
 machinist_block: 
   heading: Founded by machinists <span class="underline-primary">for machinists</span>

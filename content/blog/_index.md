@@ -6,7 +6,7 @@ seo:
   featured_image: machined-parts.jpg
 hero:
   image:
-    hero_image: machined-parts.jpg
+    hero_image: DSC_0269.jpg
     hero_image_alt:
   heading: Machining news, <span>from A to Z</span>
   body: As experts in our field, we continuously test and develop new products, explore industry trends and report on our experiences in the many industries we serve. Read on to gain more information about A to Z Machine as a company, upcoming and past projects, plus other industry-related news.
