@@ -2,7 +2,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { pageTransitionOut, pageTransitionIn, updateMenu } from './partials';
 
-console.log('%c Crafted by Insight Creative, Inc. Coded by Justin Parsons', 'background: Tomato')
+console.log('%c Crafted by Insight Creative, Inc. Coded by Justin Parsons', 'background: #1d1d1d; color: white; padding: 5px 10px;')
 
 var initPhotoSwipeFromDOM = function(gallerySelector) {
 

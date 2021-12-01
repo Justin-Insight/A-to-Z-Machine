@@ -1,10 +1,14 @@
 .site-header {
   width: 100%;
-  position: fixed;
+  position: relative;
   top: 0;
   right: 0;
   z-index: 9;
   background-color: $white;
+
+  @include breakpoint(md) {
+    position: fixed;
+  }
 
   &::after {
     position: absolute;

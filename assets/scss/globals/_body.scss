@@ -45,8 +45,6 @@ main:focus {
 }
 
 .site-main {
-  margin-top: $mobile-header;
-
   @include breakpoint(md) {
     margin-top: $desktop-header;
   }
