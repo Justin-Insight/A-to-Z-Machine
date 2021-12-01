@@ -2,6 +2,8 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { pageTransitionOut, pageTransitionIn, updateMenu } from './partials';
 
+console.log('%c Crafted by Insight Creative, Inc. Coded by Justin Parsons', 'background: Tomato')
+
 var initPhotoSwipeFromDOM = function(gallerySelector) {
 
     // parse slide data (url, title, size ...) from DOM elements 

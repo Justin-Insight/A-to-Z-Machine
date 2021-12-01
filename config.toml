@@ -6,6 +6,7 @@ disableAliases = true
 # post pagination
 paginate = "9"
 summaryLength = 30
+timeout = 200000
 
 #################### default parameters ################################
 
