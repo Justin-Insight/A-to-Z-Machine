@@ -1,0 +1,7 @@
+.image-thumbnail {
+  width: 50%;
+
+  @include breakpoint(md) {
+    width: 25%;
+  }
+}

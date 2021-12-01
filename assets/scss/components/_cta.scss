@@ -127,3 +127,11 @@
     }
   }
 }
+
+.about-cta {
+  height: 75vh;
+
+  @include breakpoint(md) {
+    height: 55vh;
+  }
+}

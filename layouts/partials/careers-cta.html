@@ -7,17 +7,17 @@
 
   {{ $jpg_xxl := $ctaimage.Resize "1800x q80" }}
   {{ $jpg_xl := $jpg_xxl.Resize "1400x q80" }}
-  {{ $jpg_l := $jpg_xl.Resize "1000x q80" }}
-  {{ $jpg_m := $jpg_l.Resize "800x q80" }}
-  {{ $jpg_s := $jpg_l.Fill "600x600 q80" }}
+  {{ $jpg_l := $jpg_xxl.Resize "1000x q80" }}
+  {{ $jpg_m := $jpg_xxl.Resize "800x q80" }}
+  {{ $jpg_s := $jpg_xxl.Fill "600x600 q80" }}
 
   {{ $jpg_src_set = (print $jpg_s.RelPermalink " 600w" ", " $jpg_m.RelPermalink " 800w" ", "  $jpg_l.RelPermalink " 1000w" ", "  $jpg_xl.RelPermalink " 1400w" ", "  $jpg_xxl.RelPermalink " 1800w") }}
 
   {{ $webp_xxl := $ctaimage.Resize "1800x q80 webp" }}
   {{ $webp_xl := $webp_xxl.Resize "1400x q80 webp" }}
-  {{ $webp_l := $webp_xl.Resize "1000x q80 webp" }}
-  {{ $webp_m := $webp_l.Resize "800x q80 webp" }}
-  {{ $webp_s := $webp_l.Fill "600x600 center q80 webp" }}
+  {{ $webp_l := $webp_xxl.Resize "1000x q80 webp" }}
+  {{ $webp_m := $webp_xxl.Resize "800x q80 webp" }}
+  {{ $webp_s := $webp_xxl.Fill "600x600 center q80 webp" }}
 
   {{ $webp_src_set = (print $webp_s.RelPermalink " 600w" ", " $webp_m.RelPermalink " 800w" ", "  $webp_l.RelPermalink " 1000w" ", "  $webp_xl.RelPermalink " 1400w" ", "  $webp_xxl.RelPermalink " 1800w") }}
 
