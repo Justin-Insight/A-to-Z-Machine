@@ -3,11 +3,11 @@ title: Careers
 seo:
   title: Careers
   description: Build a solid career at A to Z Machine! Apply now for CNC machining, welding, fabrication, machinist and contract manufacturing jobs in Appleton, Wisconsin.
-  featured_image: two-a-to-z-machine-employees-working-at-workbench.jpg
+  featured_image: DSC_1081.jpg
   featured_image_alt: Two A to Z Machine Employees standing in front of fabrication work bench
 hero:
   image:
-    hero_image: two-a-to-z-machine-employees-working-at-workbench.jpg
+    hero_image: DSC_1081.jpg
     hero_image_alt:
   heading: 'Build a <span class="underline-primary">solid career</span> at A to Z Machine'
   body: "Have you lost your tolerance for old equipment and tooling? Are you tired of changing schedules and switching from 30-hour to 50-hour weeks? Do you want to be an employee owner working with a team towards the same goal? Fuse your passions and skills with our innovative shop!"
@@ -29,7 +29,7 @@ benefits:
     - heading: Employee appreciation events
       body: "Anniversary and retirement lunches, holiday parties, employee ownership month activities"
     - heading: Employee reimbursements
-      body: "Full repayment of employees’ investments in personal safety such as steel-toe shoes, safety glasses, gym memberships"
+      body: "Full repayment of employees’ personal safety gear such as steel-toe shoes and safety glasses, plus partial repayment of gym memberships"
 apprenticeship:
   heading: Youth apprenticeship program
   body: "We are proud to be a part of the Wisconsin Youth Apprenticeship Program. Together, with local high schools, we discover the next generation of machinists. Over a span of 12 months, youth apprentices gain experience and learn valuable skills with the help of our expert machinists in a safe learning environment. Many of our mentored apprentices choose to stay on board with us as full-time machinists."
