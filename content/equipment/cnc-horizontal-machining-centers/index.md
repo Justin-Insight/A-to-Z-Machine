@@ -3,7 +3,7 @@ title: CNC Horizontal Machining Centers
 weight: 3
 seo:
   title: CNC Horizontal Machining Centers
-  description: A to Z Machine has horizontal and vertical machining centers, including 5-axis machines, in a variety of sizes and configurations to meet any of your machining needs.
+  description: A to Z Machine in Appleton, WI has horizontal and vertical machining centers, including 5-axis machines, in a variety of sizes and configurations to meet any of your machining needs.
   featured_image: OKK-horizontal-machining-centers-2.jpg
   featured_image_alt:
 hero:

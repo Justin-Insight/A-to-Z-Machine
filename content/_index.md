@@ -1,7 +1,7 @@
 ---
 title: Home
 seo:
-  title: CNC machine shop in Northeast Wisconsin | A to Z Machine
+  title: CNC machine shop in Northeast Wisconsin
   description:
     A to Z Machine of Appleton is a leading source for quality CNC and
     precision machining, welding, fabrication and contract manufacturing in
@@ -22,8 +22,11 @@ intro_block:
     we employ Certified Solid Works professionals.
   certifications:
     - logo: iso-9001.png
+      name: ISO 9001 Certification
     - logo: solid-works-certified.png
+      name: Solid Works Professional Certificate
     - logo: ITAR.png
+      name: ITAR Certificate
   button:
     link: /about/
     button_text: Learn about us

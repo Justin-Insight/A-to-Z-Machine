@@ -1,6 +1,12 @@
 ---
 title: Request a quote
-description:
+seo:
+  title: Request a CNC machining or custom fabrication quote
+  description:
+    A to Z Machine of Appleton is a leading source for quality CNC and
+    precision machining, welding, fabrication and contract manufacturing in
+    Northeast Wisconsin.
+  featured_image: machined-metal-parts.jpg
 hero:
   image:
     hero_image: machined-metal-parts.jpg

@@ -53,7 +53,7 @@
         <ul class="site-header__social">
           {{ range .Site.Data.site_settings.social_media }}
           <li class="site-header__social-list-item">
-            <a href="{{ .social.link }}" class="site-header__social-icon" target="_blank" rel="noopener noreferrer">
+            <a href="{{ .link }}" class="site-header__social-icon" target="_blank" rel="noopener noreferrer">
               {{ if eq .title "Facebook" }}
               {{ partial "svg-icons/facebook.svg" . }}
               {{ else if eq .title "LinkedIn"}}

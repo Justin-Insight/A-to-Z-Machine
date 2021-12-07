@@ -40,7 +40,8 @@
       opacity: 0;
     }
 
-    &:hover {
+    &:hover,
+    &:focus {
       &::before {
         opacity: 1;
       }
@@ -65,9 +66,7 @@
     gap: $ic-400;
 
     @include breakpoint(md) {
-      display: grid;
       grid-template-columns: repeat(5, 1fr);
-      gap: $ic-400;
     }
   }
 

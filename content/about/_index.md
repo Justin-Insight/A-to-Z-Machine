@@ -11,6 +11,15 @@ hero:
   heading: "About A to Z Machine"
   subhead: Your complete CNC machining and fabrication source
   body: "A to Z Machine is a large-scale, full-service machine shop located in Appleton, Wisconsin. We proudly build long-term partnerships and industry-specific manufactured goods with ultimate precision and efficiency. Our sprawling facility includes three buildings: one dedicated to staff and production, another for welding and fabrication, and the largest building houses our most impressive machines and the majority of our skilled workforce."
+building_block:
+  building: 
+    - image: a-to-z-main-building-exterior.jpg
+      image_alt: 
+    - image: a-to-z-fabrication-building-exterior.jpg
+      image_alt: 
+    - image: a-to-z-main-building-interior.jpg
+      image_alt: 
+  body: Our three facilities have a combined total of over 77,000 square feet of manufacturing space with over 60 different machining centers of varying capabilities. We have more than 150 employee owners spread across two shifts.
 machinist_block: 
   heading: Founded by machinists <span class="underline-primary">for machinists</span>
   body: Founded in 1996, A to Z Machine began with a team of co-owners. In 2019, we expanded to an employee-owned leadership team so every team member could have a voice. Our Employee Stock Ownership Program (ESOP) allows our machinists to be part-owners of the company, resulting in an enhanced sense of responsibility to provide the highest quality parts and services.
@@ -30,14 +39,6 @@ quality_block:
 
   image: DSC_0218.jpg
   image_alt:
-building_block:
-  building: 
-    - image: a-to-z-main-building-exterior.jpg
-      image_alt: 
-    - image: a-to-z-fabrication-building-exterior.jpg
-      image_alt: 
-    - image: a-to-z-main-building-interior.jpg
-      image_alt: 
 guiding_principles: 
   heading: Our guiding principles
   body: "Quality is at the core of everything we do. Our guiding principles inspire our team’s every action, while highlighting what’s most important to our daily operations. "

@@ -1,7 +1,7 @@
 ---
 title: Careers
 seo:
-  title: Careers
+  title: CNC Machining and Fabrication Careers in Appleton, WI
   description: Build a solid career at A to Z Machine! Apply now for CNC machining, welding, fabrication, machinist and contract manufacturing jobs in Appleton, Wisconsin.
   featured_image: DSC_1081.jpg
   featured_image_alt: Two A to Z Machine Employees standing in front of fabrication work bench

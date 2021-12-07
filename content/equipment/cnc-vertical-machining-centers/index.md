@@ -3,7 +3,7 @@ title: CNC Vertical Machining Centers
 weight: 1
 seo:
   title: CNC Vertical Machining Centers
-  description: A to Z Machine has horizontal and vertical machining centers, including 5-axis machines, in a variety of sizes and configurations to meet any of your machining needs.
+  description: A to Z Machine in Appleton, WI has horizontal and vertical machining centers, including 5-axis machines, in a variety of sizes and configurations to meet any of your machining needs.
   featured_image: mazak-vcn-705D-cnc-vertical-machining-centers.jpg
   featured_image_alt: Mazak VCN 715D vertical machining center
 hero:

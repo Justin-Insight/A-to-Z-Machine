@@ -1,0 +1,22 @@
+.industries {
+  .card {
+    @include breakpoint(md) {
+      &:hover,
+      &:focus {
+        color: $white;
+
+        .card__image-wrapper::before {
+          opacity: 0;
+        }
+
+        .card__title::before {
+          background-color: $primary-color;
+        }
+
+        .card__title::after {
+          transform: $skew translateX(0);
+        }
+      }
+    }
+  }
+}

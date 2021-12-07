@@ -3,7 +3,7 @@ title: Manual Machines
 weight: 11
 seo:
   title: Manual Machines
-  description:
+  description: A to Z Machine's manual machines require no computer control and rely on the skill and the intellect of the operator.
   featured_image: sunnen-honing-machine-2.jpg
   featured_image_alt: Sunnen Honing machine
 hero:

@@ -1,6 +1,4 @@
 .home-hero {
-  height: 50vh;
-
   &::before,
   &__inner {
     position: absolute;
@@ -43,8 +41,6 @@
 }
 
 .hero {
-  height: 50vh;
-
   &__image {
     height: 100%;
     object-fit: cover;
@@ -58,6 +54,7 @@
 
 .home-hero,
 .hero {
+  height: 50vh;
   position: relative;
 
   &::after {

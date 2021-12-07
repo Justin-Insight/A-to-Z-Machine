@@ -7,12 +7,6 @@
   padding: 0.5rem $ic-300;
   text-decoration: none;
   transition: 0.3s ease-in-out;
-}
-
-.btn-primary {
-  color: $white;
-  position: relative;
-  z-index: 1;
 
   &::before {
     position: absolute;
@@ -22,8 +16,6 @@
     bottom: 0;
     z-index: -1;
     content: "";
-    width: 100%;
-    height: 100%;
     background-color: $primary-color;
     transform: $skew;
     transition: 0.3s ease-out;
@@ -37,11 +29,14 @@
     z-index: -2;
     content: "";
     width: 10px;
-    height: 100%;
     background-color: $primary-color;
     transform: $skew translateX(0);
     transition: 0.3s ease-out;
   }
+}
+
+.btn-primary {
+  color: $white;
 
   &:hover,
   &:focus {
@@ -59,37 +54,15 @@
 
 .btn-primary--rev {
   color: $white;
-  position: relative;
-  z-index: 1;
   transition: 0.3s ease-out;
 
   &::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    content: "";
-    width: 100%;
-    height: 100%;
     background-color: $primary-color;
-    transform: $skew;
-    transition: 0.3s ease-out;
   }
 
   &::after {
-    position: absolute;
-    top: 0;
     right: 5px;
-    bottom: 0;
-    z-index: -2;
-    content: "";
-    width: 10px;
-    height: 100%;
     background-color: $white;
-    transform: $skew translateX(0);
-    transition: 0.3s ease-out;
   }
 
   &:hover,

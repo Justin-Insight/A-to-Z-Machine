@@ -3,12 +3,12 @@ title: Welding
 weight: 13
 seo:
   title: Welding
-  description:
+  description: A to Z Machine in Appleton, WI is a AWS D1.1 shop certified welder. We have the equipment and staff to complete all of your welding needs.
   featured_image: miller-welder-2.jpg
   featured_image_alt: Blue Miller welder with cables
 hero:
   heading: "Welding"
-  body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem sed distinctio dolorum? Accusantium minus voluptate cupiditate laborum similique, eligendi necessitatibus rem. Unde, quasi commodi harum sapiente reiciendis ea ad eos!"
+  body: ""
 ---
 
 - Shop Certified \* AWS D1.1 \* ASME Section 9 \* **Hypotherm Powermax 105** Plasma Cutter \* Weld positioners from 1500 lbs. to 2,000 lbs.
