@@ -3,10 +3,10 @@ title: Industries
 seo:
   title: Multi-industry machining experience
   description: A to Z Machine of Appleton, Wisconsin for CNC machining, welding & fabrication in food, engineering, construction, oil, military, trucking & medical industries.
-  featured_image: machined-metal-parts.jpg
+  featured_image: cnc-machining-tools-on-shelf.jpg
 hero:
   image:
-    hero_image: DSC_0040.jpg
+    hero_image: cnc-machining-tools-on-shelf.jpg
     hero_image_alt:
   heading: "Multi-industry machining experience"
   body: "At A to Z Machine, we pride ourselves on the ability to adapt and expand to our customers’ needs. No matter your industry, business or how big or small your CNC parts project may be, we have the capability to get the job done. We currently serve the following industries but are always aspiring to grow."
