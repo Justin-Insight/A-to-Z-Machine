@@ -22,19 +22,18 @@
   {{ $webp_src_set = (print $webp_s.RelPermalink " 600w" ", " $webp_m.RelPermalink " 800w" ", "  $webp_l.RelPermalink " 1000w" ", "  $webp_xl.RelPermalink " 1400w" ", "  $webp_xxl.RelPermalink " 1800w") }}
 
   <picture>
-      <source sizes="100vw" srcset="{{ $webp_src_set }}" type="image/webp" />
-      <source sizes="100vw" srcset="{{ $jpg_src_set }}" type="image/jpg" />
-      <img sizes="100vw" src="{{ $heroimage.RelPermalink }}" width="{{ $heroimage.Width }}" height="{{ $heroimage.Height }}" alt="" class="hero__image" />
+      <source sizes="100vw" srcset="{{ $webp_src_set }}" type="image/webp" >
+      <source sizes="100vw" srcset="{{ $jpg_src_set }}" type="image/jpg" >
+      <img sizes="100vw"
+          src="{{ $heroimage.RelPermalink }}" width="{{ $heroimage.Width }}" height="{{ $heroimage.Height }}" alt="" class="hero__image">
   </picture>
   <div class="home-hero__inner">
     <div class="wrapper-lg">
       <div class="text-center text-white">
-      <h1 class="no-margin editable">
-      	Quality from <span class="underline-primary">start to finish</span>
+      <h1 class="no-margin">
+        {{ .heading | markdownify }}
       </h1>
-      <p class="editable">
-      	As a complete machining source, A to Z Machine proudly builds long-term partnerships and industry-specific manufactured goods with ultimate precision and efficiency.
-      </p>
+      <p>{{ .body | markdownify }}</p>
     </div>
     </div>
   </div>

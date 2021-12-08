@@ -5,8 +5,8 @@
       {{ range .Site.Data.global_partials.approach.item }}
       <div class="approach-card text-center flow">
         <img src="/images/{{ .icon }}" alt="">
-        <h3 class="editable">{{ .subhead }}</h3>
-        <p class="editable">{{ .body }}</p>
+        <h3>{{ .subhead }}</h3>
+        <p>{{ .body }}</p>
       </div>
       {{ end }}
     </div>

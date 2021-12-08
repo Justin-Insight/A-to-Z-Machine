@@ -22,20 +22,19 @@
   {{ $webp_src_set = (print $webp_s.RelPermalink " 600w" ", " $webp_m.RelPermalink " 800w" ", "  $webp_l.RelPermalink " 1000w" ", "  $webp_xl.RelPermalink " 1400w" ", "  $webp_xxl.RelPermalink " 1800w") }}
 
   <picture>
-      <source sizes="100vw" srcset="{{ $webp_src_set }}" type="image/webp" />
-      <source sizes="100vw" srcset="{{ $jpg_src_set }}" type="image/jpg" />
-      <img sizes="100vw" loading="lazy" src="{{ $ctaimage.RelPermalink }}" width="{{ $ctaimage.Width }}" height="{{ $ctaimage.Height }}" alt="" class="cta__image" />
+      <source sizes="100vw" srcset="{{ $webp_src_set }}" type="image/webp" >
+      <source sizes="100vw" srcset="{{ $jpg_src_set }}" type="image/jpg" >
+      <img sizes="100vw" loading="lazy"
+          src="{{ $ctaimage.RelPermalink }}" width="{{ $ctaimage.Width }}" height="{{ $ctaimage.Height }}" alt="" class="cta__image">
   </picture>
     
   <div class="careers-cta__inner">
     <div class="careers-cta__content text-center text-white flow">
       <div class="careers-cta__content-inner flow">
-        <h2 class="careers-cta__title short-cta__title text-white no-margin editable">
-        	Create a career <span class="underline-primary">precisely for you</span>
+        <h2 class="careers-cta__title short-cta__title text-white no-margin">
+          {{ .Params.cta.heading | markdownify }}
         </h2>
-        <p class="editable">
-        	A to Z Machine&rsquo;s employee-owners enjoy a safety-first culture, team atmosphere, on-the-job training, plus great pay and benefits.
-        </p>
+        <p>{{ .Params.cta.body | markdownify }}</p>
         
       </div>
       <div class="wrapper button-wrapper flex flex-column flex-row-m flex-justify-around">
