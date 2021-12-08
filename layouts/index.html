@@ -19,18 +19,18 @@
   </div>
   {{ with .button }}
   <div class="wrapper text-center">
-    <a href="{{ .link }}" class="btn btn-primary editable">{{ .button_text }}</a>
+    <a href="{{ .link }}" class="btn btn-primary">{{ .button_text }}</a>
   </div>
   {{ end }}
 </section>
 {{ end }}
 <section class="industries-served block bg-black">
   <div class="wrapper-md flex flex-column flex-row-m">
-    <div class="w-100 w-60-m text-white flow editable">
+    <div class="w-100 w-60-m text-white flow">
       {{ with .Params.industries_block }}
-      <h2>{{ .heading }}</h2>
-      <p>{{ .body }}</p>
-      {{ .industries | markdownify }}
+      <h2 class="editable">{{ .heading }}</h2>
+      <p class="editable">{{ .body }}</p>
+      <span class="editable">{{ .industries | markdownify }}</span>
       <div class="multi-button-wrapper flex flex-column flex-row-m flex-justify-around">
         {{ with .button }}
         <a href="{{ .link }}" class="btn btn-primary--rev">{{ .button_text }}</a>
@@ -55,7 +55,7 @@
     <p class="text-center editable">{{.body }}</p>
     <div class="flex flex-column flex-row-m">
       {{ range .capabilities }}
-      <a href="{{ .link }}" class="capabilities-card w-100 w-50-m cover-image editable">
+      <a href="{{ .link }}" class="capabilities-card w-100 w-50-m cover-image">
         <img src="{{ .image }}" alt="{{ .image_alt }}">
         <div class="capabilities-card__title-wrapper flex flex-justify-center">
           <span class="capabilities-card__title text-center">{{ .title }}</span>

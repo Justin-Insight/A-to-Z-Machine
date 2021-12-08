@@ -8,8 +8,8 @@
         {{ partial "responsive-image" (dict "Page" . "image" .Params.cnc_machining_image.image ) }}
       </div>
       <div class="w-100 w-50-m flow">
-        <h2>{{ .Params.cnc_machining.heading | markdownify }}</h2>
-        <p>{{ .Params.cnc_machining.body | markdownify }}</p>
+        <h2 class="editable">{{ .Params.cnc_machining.heading | markdownify }}</h2>
+        <p class="editable">{{ .Params.cnc_machining.body | markdownify }}</p>
         <a href="{{ .Params.cnc_machining.button.button_url }}" class="btn btn-primary">{{ .Params.cnc_machining.button.button_text }}</a>
       </div>
     </div>
@@ -18,8 +18,8 @@
         {{ partial "responsive-image" (dict "Page" . "image" .Params.fabrication_image.image ) }}
       </div>
       <div class="w-100 w-50-m flow">
-        <h2>{{ .Params.fabrication.heading | markdownify }}</h2>
-        <p>{{ .Params.fabrication.body | markdownify }}</p>
+        <h2 class="editable">{{ .Params.fabrication.heading | markdownify }}</h2>
+        <p class="editable">{{ .Params.fabrication.body | markdownify }}</p>
         <a href="{{ .Params.fabrication.button.button_url }}" class="btn btn-primary">{{ .Params.fabrication.button.button_text }}</a>
       </div>
     </div>

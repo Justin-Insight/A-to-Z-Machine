@@ -39,33 +39,33 @@ industries_block:
     ever-growing list of industries:"
   industries: >-
     * Agriculture
-    
+
     * Heavy Industry Trucking & Transportation
-    
+
     * Military
-    
+
     * Scientific Research Equipment
-    
+
     * Electronic
-    
+
     * Food Processing
-    
+
     * Oil
-    
+
     * Gas
-    
+
     * Wind & Energy
-    
+
     * Marine & Oceanographic
-    
+
     * Material Handling
-    
+
     * Service & Repair
-    
+
     * Medical & Consumer Products
-    
+
     * Product Test Development
-    
+
     * Engineering & Construction
   button:
     link: /industries/
