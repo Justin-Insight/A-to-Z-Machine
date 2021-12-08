@@ -1,4 +1,9 @@
 .home-hero {
+  background-image: url("/images/a-to-z-employee-working-on-cnc-machine.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
   &::before,
   &__inner {
     position: absolute;
