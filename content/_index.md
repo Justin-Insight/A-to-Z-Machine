@@ -37,21 +37,35 @@ industries_block:
     unique needs for either low mix, high volume parts or high mix, low volume
     parts. Our team’s expertise and flexibility deliver repeatable results to an
     ever-growing list of industries:"
-  industries: |-
+  industries: >-
     * Agriculture
+    
     * Heavy Industry Trucking & Transportation
+    
     * Military
+    
     * Scientific Research Equipment
+    
     * Electronic
+    
     * Food Processing
+    
     * Oil
+    
     * Gas
+    
     * Wind & Energy
+    
     * Marine & Oceanographic
+    
     * Material Handling
+    
     * Service & Repair
+    
     * Medical & Consumer Products
+    
     * Product Test Development
+    
     * Engineering & Construction
   button:
     link: /industries/
