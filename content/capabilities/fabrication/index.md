@@ -8,7 +8,7 @@ seo:
 hero:
   image:
     hero_image: a-to-z-fabrication-and-welding.jpg
-    hero_image_alt:
+    hero_image_alt: An A to Z Machine employee welding two large pieces of metal
   heading: "Fabrication"
   body: "A to Z Machine’s full-service fabrication facility includes four weld stations equipped with various table sizes and rotary positioners capable of over 10,000 lbs. We have three waterjets to cut all materials prior to welding, plus a five-axis head to prepare weld bevels. Our stress relieve oven has a six-foot cube capacity and our blast booth is 8’ x 12’ x 20’."
   request_quote: true
@@ -27,64 +27,32 @@ quality:
   heading: Quality from start to finish
   body: "A to Z Machine’s focus on quality and precision supports our zero-tolerance policy for error or variance. Every manufacturing job is strictly monitored using traceable, calibrated equipment and quality control techniques that ensure all features and dimensions meet your exact specifications."
 industries_served:
-  heading: Experience is Everything
-  body: "A to Z Machine can do it all. Our team’s expertise and flexibility deliver repeatable results to an ever-growing list of industries:"
-  industries: >-
-    * Agriculture
-
-    * Heavy Industry Trucking & Transportation
-
-    * Military
-
-    * Scientific Research Equipment
-
-    * Electronic
-
-    * Food Processing
-
-    * Oil
-
-    * Gas
-
-    * Wind & Energy
-
-    * Marine & Oceanographic
-
-    * Material Handling
-
-    * Service & Repair
-
-    * Medical & Consumer Products
-
-    * Product Test Development
-
-    * Engineering & Construction
-  button1:
-    button_url: /industries/
-    button_text: Browse industries
-  button2:
-    button_url: /equipment/
-    button_text: Browse equipment
   image1:
-    image: DSC_1056.jpg
-    image_alt:
+    image: a-to-z-employee-working-on-custom-fab-piece.jpg
+    image_alt: An A to Z Machine employee working on large custom fabrication project
   image2:
-    image: DSC_1062.jpg
-    image_alt:
+    image: custom-fabricated-metal-a-to-z.jpg
+    image_alt: a large custom fabricated metal component by A to Z Machine in Appleton, WI
 parts_gallery:
   images:
-    - image: DSC_0003.jpg
-      image_alt: machined part
-      image_l: DSC_0003_l.jpg
-    - image: DSC_0013.jpg
-      image_alt: machined part
-      image_l: DSC_0013.jpg
-    - image: DSC_0015.jpg
-      image_alt: machined part
-      image_l: DSC_0015.jpg
-    - image: DSC_0018.jpg
-      image_alt: machined part
-      image_l: DSC_0018.jpg
+    - image: custom-fabrication-1-s.jpg
+      image_alt: a large custom fabricated component by A to Z Machine in Appleton, WI
+      image_l: custom-fabrication-1-l.jpg
+    - image: custom-fabrication-2-s.jpg
+      image_alt: a large custom fabricated component on a pallet
+      image_l: custom-fabrication-2-l.jpg
+    - image: custom-fabrication-3-s.jpg
+      image_alt: a large custom fabricated tank by A to Z Machine in Appleton, WI
+      image_l: custom-fabrication-3-l.jpg
+    - image: custom-fabrication-4-s.jpg
+      image_alt: a large custom fabricated component
+      image_l: custom-fabrication-4-l.jpg
+    - image: custom-fabrication-5-s.jpg
+      image_alt: a large custom fabricated frame by A to Z Machine in Appleton, WI
+      image_l: custom-fabrication-5-l.jpg
+    - image: custom-fabrication-6-s.jpg
+      image_alt: a large custom fabricated frame
+      image_l: custom-fabrication-6-l.jpg
 cta:
   heading: What’s your next <span class="underline-primary">project?</span>
   body: "Collaborate with A to Z Machine’s expert machinists."

@@ -7,7 +7,7 @@ seo:
 hero:
   image:
     hero_image: DSC_1102.jpg
-    hero_image_alt:
+    hero_image_alt: An A to Z Machine machinist inspecting a custom metal part
   heading: Machining news, <span>from A to Z</span>
   body: As experts in our field, we continuously test and develop new products, explore industry trends and report on our experiences in the many industries we serve. Read on to gain more information about A to Z Machine as a company, upcoming and past projects, plus other industry-related news.
 ---

@@ -16,7 +16,7 @@ benefits:
   body: "As a growing and innovative company, we’re always hiring good, hard-working people. A to Z Machine is 100% employee-owned, allowing individuals to contribute to and benefit from the company’s success. In addition to consistent schedules and the newest machinery and tooling, our employees enjoy strong compensation, benefits and employee appreciation programs."
   image:
     image_src: DSC_1046.jpg
-    image_alt:
+    image_alt: 5 A to Z machine fabricators standing in their fabrication shop
   benefit:
     - heading: Strong compensation & savings
       body: "7% second shift differential, regular performance/wage reviews, competitive wages, quarterly bonuses, Employee Stock Ownership Program, 401(k) plan with safe harbor contribution"
@@ -35,14 +35,14 @@ apprenticeship:
   body: "We are proud to be a part of the Wisconsin Youth Apprenticeship Program. Together, with local high schools, we discover the next generation of machinists. Over a span of 12 months, youth apprentices gain experience and learn valuable skills with the help of our expert machinists in a safe learning environment. Many of our mentored apprentices choose to stay on board with us as full-time machinists."
   image:
     image_src: DSC_1042.jpg
-    image_alt:
+    image_alt: A machinist and a young A to Z Machine employee
 
 employment_disclaimer:
   heading: An equal opportunity workplace
   body: "A to Z Machine Company is proud to be an equal opportunity workplace. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, marital status, disability, gender identity or veteran status."
   image:
     image_src: DSC_0114.jpg
-    image_alt:
+    image_alt: Two women smiling and collaborating at a desk in an office
 testimonials:
   heading: What employees say about working at A to Z Machine
   testimonial:

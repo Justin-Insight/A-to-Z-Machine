@@ -10,3 +10,42 @@ approach:
     - subhead: Partnership
       body: Our high-quality products begin with collaboration and continue through long-term partnerships.
       icon: handshake.svg
+industries_served:
+  heading: Experience is everything
+  body: "A to Z Machine can do it all. Our team’s expertise and flexibility deliver repeatable results to an ever-growing list of industries:"
+  industries: >-
+    * Agriculture
+
+    * Heavy Industry Trucking & Transportation
+
+    * Military
+
+    * Scientific Research Equipment
+
+    * Electronic
+
+    * Food Processing
+
+    * Oil
+
+    * Gas
+
+    * Wind & Energy
+
+    * Marine & Oceanographic
+
+    * Material Handling
+
+    * Service & Repair
+
+    * Medical & Consumer Products
+
+    * Product Test Development
+
+    * Engineering & Construction
+  button1:
+    button_url: /industries/
+    button_text: Browse industries
+  button2:
+    button_url: /equipment/
+    button_text: Browse equipment

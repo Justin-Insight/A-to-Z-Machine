@@ -5,7 +5,6 @@ select,
 optgroup,
 textarea {
   font-family: $primary-font;
-  font-display: swap;
   font-size: $ic-200;
   line-height: 1.5;
 }
@@ -18,7 +17,6 @@ h5,
 h6 {
   font-family: $secondary-font;
   font-weight: 700;
-  font-display: swap;
   line-height: calc(2px + 2ex + 2px);
   margin-bottom: 0.65em;
   letter-spacing: 0.48px;

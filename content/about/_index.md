@@ -14,17 +14,17 @@ hero:
 building_block:
   building: 
     - image: a-to-z-main-building-exterior.jpg
-      image_alt: 
+      image_alt: A to Z Machine Main Building Exterior
     - image: a-to-z-fabrication-building-exterior.jpg
-      image_alt: 
+      image_alt: A to Z Machine Fabrication Building Exterior
     - image: a-to-z-main-building-interior.jpg
-      image_alt: 
+      image_alt: A to Z Machine building interior with A to Z Machine graphics on glass windows and door
   body: Our three facilities have a combined total of over 77,000 square feet of manufacturing space with over 60 different machining centers of varying capabilities. We have more than 150 employee owners spread across two shifts.
 machinist_block: 
   heading: Founded by machinists <span class="underline-primary">for machinists</span>
   body: Founded in 1996, A to Z Machine began with a team of co-owners. In 2019, we expanded to an employee-owned leadership team so every team member could have a voice. Our Employee Stock Ownership Program (ESOP) allows our machinists to be part-owners of the company, resulting in an enhanced sense of responsibility to provide the highest quality parts and services.
   image: DSC_0203.jpg
-  image_alt: 
+  image_alt: An A to Z machinist working on large metal component
 quality_block: 
   heading: 'Our promise: Quality from <span class="underline-white">start to finish</span>'
   body: "A to Z Machine is committed to providing the highest quality machined parts and assemblies to our customers by: 
@@ -38,7 +38,7 @@ quality_block:
 - Offering full-service expertise, from A to Z"
 
   image: DSC_0218.jpg
-  image_alt:
+  image_alt: 
 guiding_principles: 
   heading: Our guiding principles
   body: "Quality is at the core of everything we do. Our guiding principles inspire our team’s every action, while highlighting what’s most important to our daily operations. "
@@ -46,19 +46,19 @@ guiding_principles:
     - heading: Quality people
       body: We have over 140 employee owners, each bringing specialized skillsets. Together, they work as a well-oiled machine to serve our customers and deliver high-quality products daily. Their ability to mentor new team members and youth is another testament to the quality of our people.
       image: DSC_0026.jpg
-      image_alt: 
+      image_alt: Three A to Z employees working around work bench
     - heading: Quality processes
       body: A streamlined workflow through the plant creates many efficiencies from quotes, order entry and document control to manufacturing, inspection and final shipping. With a quality process, each worker’s expertise is emphasized to create repeatable results. 
       image: DSC_0065.jpg
-      image_alt: 
+      image_alt: TED A to Z Machines autonomous robot carrying parts from one station to another
     - heading: Quality products
       body: Through a team of highly skilled machinists and a robust management system, we manufacture products that meet, and often exceed, customer expectations. We manage quality and on-time delivery needs on a variety of high mix, low volume parts or low volume, high mix parts.
       image: DSC_0120.jpg
-      image_alt: 
+      image_alt: An A to Z Machine employee quality a checking a custom made part sitting on a table
     - heading: Quality partnerships
       body: Our customers and clients are true partners in business. Together, we develop the best design for manufacturing, quality, efficiency and on-time delivery. With shared goals, we manufacture, store and deliver products that are beneficial to all parties.
       image: DSC_0114.jpg
-      image_alt: 
+      image_alt: Two women smiling and collaborating at a desk in an office
 vision: 
   heading: Our vision
   body: To safely manufacture quality parts on time for our customers.
@@ -69,7 +69,7 @@ cta:
     - button_url: /careers/
       button_text: Learn more about our youth apprenticeships
   image:
-    cta_image_alt: 
+    cta_image_alt: A pile of large metal shavings
     cta_image: DSC_0271.jpg
 ---
 

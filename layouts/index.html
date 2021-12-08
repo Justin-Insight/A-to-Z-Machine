@@ -7,26 +7,26 @@
   </div>
   <div class="wrapper flex flex-column-reverse flex-row-m">
     <div class="w-100 w-50-m">
-      <p>{{.body }}</p>
+      <p class="editable">{{.body }}</p>
     </div>
     <div class="w-100 w-50-m">
       <div class="certifications flex flex-justify-center">
         {{ range .certifications }}
-        <img src="{{ .logo }}" alt="{{ .name }}" height="130" width="130">
+        <img src="{{ .logo }}" alt="{{ .name }}" height="130" width="130" class="editable">
         {{ end }}
       </div>
     </div>
   </div>
   {{ with .button }}
   <div class="wrapper text-center">
-    <a href="{{ .link }}" class="btn btn-primary">{{ .button_text }}</a>
+    <a href="{{ .link }}" class="btn btn-primary editable">{{ .button_text }}</a>
   </div>
   {{ end }}
 </section>
 {{ end }}
 <section class="industries-served block bg-black">
   <div class="wrapper-md flex flex-column flex-row-m">
-    <div class="w-100 w-60-m text-white flow">
+    <div class="w-100 w-60-m text-white flow editable">
       {{ with .Params.industries_block }}
       <h2>{{ .heading }}</h2>
       <p>{{ .body }}</p>
@@ -51,11 +51,11 @@
 {{ with .Params.capabilities_block }}
 <section class="capabilities block bg-gray">
   <div class="wrapper flow">
-    <h2 class="text-center">{{ .heading }}</h2>
-    <p class="text-center">{{.body }}</p>
+    <h2 class="text-center editable">{{ .heading }}</h2>
+    <p class="text-center editable">{{.body }}</p>
     <div class="flex flex-column flex-row-m">
       {{ range .capabilities }}
-      <a href="{{ .link }}" class="capabilities-card w-100 w-50-m cover-image">
+      <a href="{{ .link }}" class="capabilities-card w-100 w-50-m cover-image editable">
         <img src="{{ .image }}" alt="{{ .image_alt }}">
         <div class="capabilities-card__title-wrapper flex flex-justify-center">
           <span class="capabilities-card__title text-center">{{ .title }}</span>

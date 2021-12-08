@@ -2,7 +2,7 @@
     <div class="wrapper-lg">
         {{ if .Params.testimonials.heading }}
         <div class="wrapper">
-            <h2 class="text-center no-margin">{{ .Params.testimonials.heading }}</h2>
+            <h2 class="text-center no-margin editable">{{ .Params.testimonials.heading }}</h2>
         </div>
         {{ end }}
         <!-- Slider main container -->
@@ -15,13 +15,13 @@
                     <div class="swiper-slide__quote">
                         {{ partial "svg-icons/quote.svg" . }}
                     </div>
-                    <p class="swiper-slide__testimonial no-margin">"{{ .body }}"</p>
+                    <p class="swiper-slide__testimonial no-margin editable">"{{ .body }}"</p>
                     <div class="swiper-slide__author">
                         {{ if .author }}
-                            <h3 class="h5 no-margin">{{ .author }}</h4>
+                            <h3 class="h5 no-margin editable">{{ .author }}</h4>
                         {{ end }}
                         {{ if .job_title }}
-                        <span class="no-margin">{{ .job_title }}</span>
+                        <span class="no-margin editable">{{ .job_title }}</span>
                         {{ end }}
                     </div>
                 </div>

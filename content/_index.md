@@ -102,9 +102,7 @@ capabilities_block:
     - title: Fabrication
       link: /capabilities/fabrication/
       image: sparks-flying-as-employee-uses-a-grinder-on-metal.jpg
-      image_alt:
-        sparks flying as an A to Z Machine employee uses a grinder on a peice
-        of metal
+      image_alt: sparks flying as an A to Z Machine employee uses a grinder on a peiceof metal
 cta:
   heading: Create a career <span class="underline-primary">precisely for you</span>
   body: A to Z Machine’s employee-owners enjoy a safety-first culture, team
