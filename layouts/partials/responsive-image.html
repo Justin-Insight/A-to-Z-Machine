@@ -17,8 +17,7 @@
 {{ $webp_src_set = (print $webp_xs.RelPermalink " 400w" ", " $webp_s.RelPermalink " 600w" ", "  $webp_m.RelPermalink " 800w" ", "  $webp_l.RelPermalink " 1200w") }}
 
 <picture>
-    <source sizes="{{ .sizes }}" srcset="{{ $webp_src_set }}" type="image/webp" >
-    <source sizes="{{ .sizes }}" srcset="{{ $jpg_src_set }}" type="image/jpg" >
-    <img sizes="{{ .sizes }}" class="editable" loading="lazy"
-        src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .alt }}">
+    <source sizes="{{ .sizes }}" srcset="{{ $webp_src_set }}" type="image/webp" />
+    <source sizes="{{ .sizes }}" srcset="{{ $jpg_src_set }}" type="image/jpg" />
+    <img sizes="20vw" class="editable" loading="lazy" src="/a-to-z-employee-quality-checking-custom-part.jpg" width="600" height="450" alt="an A to Z Machine employee quality checking a custom made part" />
 </picture>

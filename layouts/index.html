@@ -3,16 +3,20 @@
 {{ with .Params.intro_block }}
 <section class="intro block">
   <div class="wrapper">
-    <h2 class="text-center editable">{{ .heading }}</h2>
+    <h2 class="text-center editable">
+    	The leading CNC machine shop in Northeast Wisconsin
+    </h2>
   </div>
   <div class="wrapper flex flex-column-reverse flex-row-m">
     <div class="w-100 w-50-m">
-      <p class="editable">{{.body }}</p>
+      <p class="editable">
+      	We are an employee-owned team, founded in 1996 by machinists for machinists. A to Z Machine is ISO 9001:2015 certified, ITAR registered, and we employ Certified Solid Works professionals.
+      </p>
     </div>
     <div class="w-100 w-50-m">
       <div class="certifications flex flex-justify-center">
         {{ range .certifications }}
-        <img src="{{ .logo }}" alt="{{ .name }}" height="130" width="130" class="editable">
+        <img src="ITAR.jpg" alt="ITAR Certificate" height="130" width="130" class="editable" />
         {{ end }}
       </div>
     </div>
@@ -28,9 +32,30 @@
   <div class="wrapper-md flex flex-column flex-row-m">
     <div class="w-100 w-60-m text-white flow">
       {{ with .Params.industries_block }}
-      <h2 class="editable">{{ .heading }}</h2>
-      <p class="editable">{{ .body }}</p>
-      <span class="editable">{{ .industries | markdownify }}</span>
+      <h2 class="editable">
+      	Mastery machining right in Appleton, Wisconsin
+      </h2>
+      <p class="editable">
+      	Whether you need precision machining, contract manufacturing or welding and fabrication, A to Z Machine can do it all. We understand each customer&rsquo;s unique needs for either low mix, high volume parts or high mix, low volume parts. Our team&rsquo;s expertise and flexibility deliver repeatable results to an ever-growing list of industries:
+      </p>
+      <span class="editable"><ul>
+<li>Agriculture test</li>
+<li>Heavy Industry Trucking &amp; Transportation</li>
+<li>Military</li>
+<li>Scientific Research Equipment</li>
+<li>Electronic</li>
+<li>Food Processing</li>
+<li>Oil</li>
+<li>Gas</li>
+<li>Wind &amp; Energy</li>
+<li>Marine &amp; Oceanographic</li>
+<li>Material Handling</li>
+<li>Service &amp; Repair</li>
+<li>Medical &amp; Consumer Products</li>
+<li>Product Test Development</li>
+<li>Engineering &amp; Construction</li>
+</ul>
+</span>
       <div class="multi-button-wrapper flex flex-column flex-row-m flex-justify-around">
         {{ with .button }}
         <a href="{{ .link }}" class="btn btn-primary--rev">{{ .button_text }}</a>
@@ -51,12 +76,16 @@
 {{ with .Params.capabilities_block }}
 <section class="capabilities block bg-gray">
   <div class="wrapper flow">
-    <h2 class="text-center editable">{{ .heading }}</h2>
-    <p class="text-center editable">{{.body }}</p>
+    <h2 class="text-center editable">
+    	CNC machining and fabrication capabilities
+    </h2>
+    <p class="text-center editable">
+    	As an innovative shop with constantly growing capabilities, A to Z Machine&rsquo;s master machinists guarantee quicker turnaround, products of unparalleled quality and endless possibilities.
+    </p>
     <div class="flex flex-column flex-row-m">
       {{ range .capabilities }}
       <a href="{{ .link }}" class="capabilities-card w-100 w-50-m cover-image">
-        <img src="{{ .image }}" alt="{{ .image_alt }}">
+        <img src="{{ .image }}" alt="{{ .image_alt }}" />
         <div class="capabilities-card__title-wrapper flex flex-justify-center">
           <span class="capabilities-card__title text-center">{{ .title }}</span>
         </div>

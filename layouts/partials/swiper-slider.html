@@ -2,7 +2,9 @@
     <div class="wrapper-lg">
         {{ if .Params.testimonials.heading }}
         <div class="wrapper">
-            <h2 class="text-center no-margin editable">{{ .Params.testimonials.heading }}</h2>
+            <h2 class="text-center no-margin editable">
+            	Learn more from our customers&rsquo; experiences
+            </h2>
         </div>
         {{ end }}
         <!-- Slider main container -->
@@ -15,15 +17,17 @@
                     <div class="swiper-slide__quote">
                         {{ partial "svg-icons/quote.svg" . }}
                     </div>
-                    <p class="swiper-slide__testimonial no-margin editable">"{{ .body }}"</p>
+                    <p class="swiper-slide__testimonial no-margin editable">
+                    	"A to Z Machine has gone, and continues to go, above and beyond for our company time and time again. We are very pleased with their communication and transparency of when our product will be delivered. In the past year, we have implemented an inventory plan that has cut our overall lead time to our customer in half. Not to mention, on-time delivery and quality are outstanding."
+                    </p>
                     <div class="swiper-slide__author">
                         {{ if .author }}
-                            <h3 class="h5 no-margin editable">{{ .author }}</h4>
+                            <h3 class="h5 no-margin editable">{{ .author }}
                         {{ end }}
                         {{ if .job_title }}
-                        <span class="no-margin editable">{{ .job_title }}</span>
+                        <span class="no-margin editable">Materials Buyer | Seabee Cylinders</span>
                         {{ end }}
-                    </div>
+                    </h3></div>
                 </div>
                 {{ end }}
             </div>
@@ -32,4 +36,3 @@
         </div>
     </div>
 </section>
-
