@@ -1,11 +1,3 @@
-[[_collection_groups]]
-  heading = "Blogging"
-  collections = ["blog"]
-
-[[_collection_groups]]
-  heading = "Other"
-  collections = ["posts", "drafts", "features"]
-
 baseURL = "https://a-to-z-machine.netlify.app/"
 languageCode = "en-us"
 title = "A to Z Machine"
