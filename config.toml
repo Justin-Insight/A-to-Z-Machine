@@ -86,3 +86,11 @@ timeout = 200000
     name = "Contact"
     url  = "/contact/"
     weight = 6
+
+[[_collection_groups]]
+  heading = "Blogging"
+  collections = ["posts", "drafts"]
+
+[[_collection_groups]]
+  heading = "Other"
+  collections = ["posts", "drafts", "features"]
