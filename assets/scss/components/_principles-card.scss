@@ -4,9 +4,6 @@
   max-height: 450px;
   height: 100%;
   overflow: hidden;
-  // background-size: cover;
-  // background-position: center;
-  // background-repeat: no-repeat;
 
   &__overlay {
     position: absolute;
@@ -20,22 +17,22 @@
     opacity: 1;
   }
 
-  img {
-    object-fit: cover;
+  img,
+  &__content {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  img {
+    object-fit: cover;
     height: 110%;
     width: 110%;
     opacity: 0.5;
   }
 
   &__content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     z-index: 2;
     padding: $ic-400;
     max-width: 50ch;

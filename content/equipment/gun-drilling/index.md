@@ -3,7 +3,7 @@ title: Gun Drilling
 weight: 8
 seo:
   title: Gun Drilling
-  description:
+  description: A to Z Machine in Appleton, WI is equipped with gun drilling machines capable of meeting any of your deep drilling needs.
   featured_image: Dadson-DS7530-KM-Deep-Hole-Gundrill-43080-2.jpg
   featured_image_alt: Dadson Gun Drill
 hero:

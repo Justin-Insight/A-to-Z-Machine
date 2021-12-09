@@ -3,7 +3,7 @@ title: Quality/Inspection
 weight: 9
 seo:
   title: Quality/Inspection
-  description:
+  description: A to Z Machine in Appleton, WI is equipped with a variety of quality and inspection tools capable of measuring some of the most unreachable surfaces.
   featured_image: Global-Advantage_M-2.jpg
   featured_image_alt:
 hero:

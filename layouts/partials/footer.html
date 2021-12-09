@@ -7,7 +7,7 @@
       <ul class="footer__social">
         {{ range .Site.Data.site_settings.social_media }}
         <li class="footer__social-list-item">
-          <a href="{{ .social.link }}" class="footer__social-icon flex flex-center" target="_blank" rel="noopener noreferrer">
+          <a href="{{ .link }}" class="footer__social-icon flex flex-center" target="_blank" rel="noopener noreferrer">
             {{ if eq .title "Facebook" }}
             {{ partial "svg-icons/facebook.svg" . }}
             {{ else if eq .title "LinkedIn"}}

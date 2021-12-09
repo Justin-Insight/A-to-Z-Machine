@@ -1,5 +1,9 @@
 .home-hero {
-  height: 50vh;
+  // background-image: url("/images/a-to-z-employee-working-on-cnc-machine.jpg");
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // overflow: hidden;
 
   &::before,
   &__inner {
@@ -43,8 +47,6 @@
 }
 
 .hero {
-  height: 50vh;
-
   &__image {
     height: 100%;
     object-fit: cover;
@@ -58,6 +60,7 @@
 
 .home-hero,
 .hero {
+  height: 50vh;
   position: relative;
 
   &::after {

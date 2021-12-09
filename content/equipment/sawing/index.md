@@ -3,7 +3,7 @@ title: Sawing
 weight: 7
 seo:
   title: Sawing
-  description:
+  description: A to Z Machine is equipped with a variety of CNC sawing machines capable of meeting any of your production needs.
   featured_image: S-23A-machineshot-2.jpg
   featured_image_alt: Hyd-Mech S23A Saw
 hero:

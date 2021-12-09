@@ -1,18 +1,3 @@
-// .parts-gallery {
-//   position: relative;
-
-//   &::before {
-//     content: "";
-//     background: $primary-color;
-//     width: 100%;
-//     height: 300px;
-//     position: absolute;
-//     top: -100px;
-//     left: 0;
-//     z-index: -1;
-//   }
-// }
-
 .capabilities {
   .w-50-m + .w-50-m {
     margin-top: $ic-300;

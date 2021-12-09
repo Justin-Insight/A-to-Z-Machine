@@ -1,7 +1,7 @@
 ---
 title: Home
 seo:
-  title: CNC machine shop in Northeast Wisconsin | A to Z Machine
+  title: CNC machine shop in Northeast Wisconsin
   description:
     A to Z Machine of Appleton is a leading source for quality CNC and
     precision machining, welding, fabrication and contract manufacturing in
@@ -21,9 +21,12 @@ intro_block:
     machinists. A to Z Machine is ISO 9001:2015 certified, ITAR registered, and
     we employ Certified Solid Works professionals.
   certifications:
-    - logo: iso-9001.png
-    - logo: solid-works-certified.png
-    - logo: ITAR.png
+    - logo: iso-9001.jpg
+      name: ISO 9001 Certification
+    - logo: solid-works-certified.jpg
+      name: Solid Works Professional Certificate
+    - logo: ITAR.jpg
+      name: ITAR Certificate
   button:
     link: /about/
     button_text: Learn about us
@@ -34,21 +37,35 @@ industries_block:
     unique needs for either low mix, high volume parts or high mix, low volume
     parts. Our team’s expertise and flexibility deliver repeatable results to an
     ever-growing list of industries:"
-  industries: |-
+  industries: >-
     * Agriculture
+
     * Heavy Industry Trucking & Transportation
+
     * Military
+
     * Scientific Research Equipment
+
     * Electronic
+
     * Food Processing
+
     * Oil
+
     * Gas
+
     * Wind & Energy
+
     * Marine & Oceanographic
+
     * Material Handling
+
     * Service & Repair
+
     * Medical & Consumer Products
+
     * Product Test Development
+
     * Engineering & Construction
   button:
     link: /industries/
@@ -99,9 +116,7 @@ capabilities_block:
     - title: Fabrication
       link: /capabilities/fabrication/
       image: sparks-flying-as-employee-uses-a-grinder-on-metal.jpg
-      image_alt:
-        sparks flying as an A to Z Machine employee uses a grinder on a peice
-        of metal
+      image_alt: sparks flying as an A to Z Machine employee uses a grinder on a peiceof metal
 cta:
   heading: Create a career <span class="underline-primary">precisely for you</span>
   body: A to Z Machine’s employee-owners enjoy a safety-first culture, team
@@ -113,3 +128,4 @@ cta:
     cta_image_alt: A to Z Machine employee working on CAD drawing on computer screen
     cta_image: a-to-z-employee-working-on-cad-drawing-on-computer.jpg
 ---
+

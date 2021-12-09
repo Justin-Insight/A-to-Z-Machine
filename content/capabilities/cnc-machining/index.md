@@ -1,14 +1,14 @@
 ---
 title: CNC Machining
 seo:
-  title: CNC Machining
+  title: CNC Machining in Appleton, WI
   description: A to Z Machine, your leading machinists for CNC Machining with high tolerance, prototypes, assemblies, milling & turning services & axis machining in Wisconsin.
   featured_image: machining.jpg
   featured_image_alt: machined part
 hero:
   image:
     hero_image: machining.jpg
-    hero_image_alt:
+    hero_image_alt: CNC Machine drilling holes in large metal block
   heading: "CNC Machining"
   body: "As an innovative shop, our CNC machining capabilities are constantly growing. We specialize in CNC machining practices to produce a wide variety of precision machined components from the simplest to most complex parts. Currently, our machines can handle material lengths of 1-200 inches and load capabilities over 30,000 lbs."
 capabilities:
@@ -34,76 +34,38 @@ quality:
   heading: Quality from start to finish
   body: "A to Z Machine’s focus on quality and precision supports our zero-tolerance policy for error or variance. Every manufacturing job is strictly monitored using traceable, calibrated equipment and quality control techniques that ensure all features and dimensions meet your exact specifications."
 industries_served:
-  heading: Experience is everything
-  body: "A to Z Machine can do it all. Our team’s expertise and flexibility deliver repeatable results to an ever-growing list of industries:"
-  industries: >-
-    * Agriculture
-
-    * Heavy Industry Trucking & Transportation
-
-    * Military
-
-    * Scientific Research Equipment
-
-    * Electronic
-
-    * Food Processing
-
-    * Oil
-
-    * Gas
-
-    * Wind & Energy
-
-    * Marine & Oceanographic
-
-    * Material Handling
-
-    * Service & Repair
-
-    * Medical & Consumer Products
-
-    * Product Test Development
-
-    * Engineering & Construction
-  button1:
-    button_url: "/industries/"
-    button_text: Browse industries
-  button2:
-    button_url: "/equipment/"
-    button_text: Browse equipment
   image1:
-    image: DSC_1122.jpg
-    image_alt:
+    image: two-a-to-z-employee-collaborating.jpg
+    image_alt: two A to Z Machine employee looking at design plans on a workbench
   image2:
-    image: DSC_1138.jpg
-    image_alt:
+    image: a-to-z-machine-machinist-polishing-machined-part.jpg
+    image_alt: an A to Z Machine machinist polishing a custom metal part on a workbench
 parts_gallery:
   images:
-    - image: DSC_0003.jpg
-      image_alt: machined part
-      image_l: DSC_0003_l.jpg
-    - image: DSC_0013.jpg
-      image_alt: machined part
-      image_l: DSC_0013.jpg
-    - image: DSC_0015.jpg
-      image_alt: machined part
-      image_l: DSC_0015.jpg
-    - image: DSC_0018.jpg
-      image_alt: machined part
-      image_l: DSC_0018.jpg
-    - image: DSC_0017.jpg
-      image_alt: machined part
-      image_l: DSC_0017.jpg
-    - image: gallery-14.jpg
-      image_alt: machined part
-      image_l: gallery-14.jpg
-    - image: gallery-15.jpg
-      image_alt: machined part
-      image_l: gallery-15.jpg
-    - image: gallery-18.jpg
-      image_alt: machined part
-      image_l: gallery-18.jpg
+    - image: custom-machined-metal-gear-s.jpg
+      image_alt: a custom machined gear laying on a table
+      image_l: custom-machined-metal-gear-l.jpg
+    - image: custom-machined-metal-gear-3-s.jpg
+      image_alt: a custom machined gear sitting upright on a table
+      image_l: custom-machined-metal-gear-3-l.jpg
+    - image: custom-machined-metal-gear-2-s.jpg
+      image_alt: a custom machined gear sitting upright on a table and turned to get a side profile
+      image_l: custom-machined-metal-gear-2-l.jpg
+    - image: custom-machined-metal-flange-s.jpg
+      image_alt: a custom machined flange laying on a table
+      image_l: custom-machined-metal-flange-l.jpg
+    - image: custom-machined-metal-coupler-s.jpg
+      image_alt: a custom machined coupler laying on a table
+      image_l: custom-machined-metal-coupler-l.jpg
+    - image: custom-machined-metal-coupler-2-s.jpg
+      image_alt: a custom machined coupler laying on a table
+      image_l: custom-machined-metal-coupler-2-l.jpg
+    - image: custom-machined-metal-valve-s.jpg
+      image_alt: a custom machined valve laying on a table
+      image_l: custom-machined-metal-valve-l.jpg
+    - image: custom-machined-metal-handle-s.jpg
+      image_alt: a custom machined metal handle laying on a table
+      image_l: custom-machined-metal-handle-l.jpg
 cta:
   heading: What’s your next <span class="underline-primary">project?</span>
   body: "Collaborate with A to Z Machine’s expert machinists."

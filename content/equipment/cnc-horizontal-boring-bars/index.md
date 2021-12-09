@@ -3,7 +3,7 @@ title: CNC Horizontal Boring Bars
 weight: 2
 seo:
   title: CNC Horizontal Boring Bars
-  description:
+  description: A to Z Machine in Appleton, WI is equipped with a variety of CNC Horizontal Boring Bars capable of meeting any of your deep hole drilling and boring needs.
   featured_image: kuraki-AKB-13-2.jpg
   featured_image_alt: Kuraki AKB 13 CNC Horizontal Boring Bars
 hero:

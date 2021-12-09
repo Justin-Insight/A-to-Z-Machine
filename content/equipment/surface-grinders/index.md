@@ -3,7 +3,7 @@ title: Surface Grinders
 weight: 10
 seo:
   title: Surface Grinders
-  description:
+  description: A to Z Machine in Appleton, WI has the equipment to handle all of your surface grinding needs.
   featured_image: okamoto-surface-grinder-2.jpg
   featured_image_alt: okamoto surface grinder
 hero:

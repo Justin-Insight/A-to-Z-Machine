@@ -12,7 +12,7 @@
     <div class="w-100 w-50-m">
       <div class="certifications flex flex-justify-center">
         {{ range .certifications }}
-        <img src="{{ .logo }}" alt="">
+        <img src="{{ .logo }}" alt="{{ .name }}" height="130" width="130">
         {{ end }}
       </div>
     </div>
@@ -30,7 +30,7 @@
       {{ with .Params.industries_block }}
       <h2>{{ .heading }}</h2>
       <p>{{ .body }}</p>
-      {{ .industries | markdownify }}
+      <span>{{ .industries | markdownify }}</span>
       <div class="multi-button-wrapper flex flex-column flex-row-m flex-justify-around">
         {{ with .button }}
         <a href="{{ .link }}" class="btn btn-primary--rev">{{ .button_text }}</a>

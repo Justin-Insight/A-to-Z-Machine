@@ -3,7 +3,7 @@ title: Water Jet
 weight: 12
 seo:
   title: Water Jet
-  description:
+  description: A to Z Machine is equipped with water jet technology to provide unlimited cutting capabilites for any of your production needs.
   featured_image: maxiem-1515-centerlow.jpg
   featured_image_alt: Maxiem 1515 centerlow water jet
 hero:

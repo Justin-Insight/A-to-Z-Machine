@@ -9,15 +9,15 @@ media_folder: "site/static/images" # Folder where user uploaded files should go
 public_folder: ""
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "site_settings"
-    label: "Site Settings"
+  - name: "data"
+    label: "Data"
     media_folder: "/static/images/"
     public_folder: "/images/"
     editor:
       preview: false
     files:
       - file: "/data/site_settings.yml"
-        name: "site_settings"
+        name: "site_setting"
         label: "Site Settings"
         fields:
           - { label: Logo, name: logo, widget: image }
@@ -35,6 +35,80 @@ collections: # A list of collections the CMS should be able to edit
                 [
                   { label: "Title", name: "title", widget: string },
                   { label: "URL", name: "link", widget: string },
+                ],
+            }
+      - file: "/data/global_partials.yml"
+        name: "global_partials"
+        label: "Global Partials"
+        fields:
+          - {
+              label: "The A to Z Approach",
+              name: approach,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  {
+                    label: "item",
+                    name: "item",
+                    widget: list,
+                    fields:
+                      [
+                        { label: "Subhead", name: "subhead", widget: string },
+                        { label: "Body", name: "body", widget: string },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Industries Served",
+              name: industries_served,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Body", name: "body", widget: "text" },
+                  {
+                    label: "Industries Served",
+                    name: "industries",
+                    widget: "text",
+                  },
+                  {
+                    label: "Button 1",
+                    name: "button1",
+                    widget: object,
+                    fields:
+                      [
+                        {
+                          label: "Button URL",
+                          name: "button_url",
+                          widget: string,
+                        },
+                        {
+                          label: "Button Text",
+                          name: "button_text",
+                          widget: string,
+                        },
+                      ],
+                  },
+                  {
+                    label: "Button 2",
+                    name: "button2",
+                    widget: object,
+                    fields:
+                      [
+                        {
+                          label: "Button URL",
+                          name: "button_url",
+                          widget: string,
+                        },
+                        {
+                          label: "Button Text",
+                          name: "button_text",
+                          widget: string,
+                        },
+                      ],
+                  },
                 ],
             }
 
@@ -729,45 +803,30 @@ collections: # A list of collections the CMS should be able to edit
               widget: object,
               fields:
                 [
-                  { label: "Heading", name: "heading", widget: string },
-                  { label: "Body", name: "body", widget: "text" },
                   {
-                    label: "Industries Served",
-                    name: "industries",
-                    widget: "text",
-                  },
-                  {
-                    label: "Button 1",
-                    name: "button1",
+                    label: "Image 1",
+                    name: "image1",
                     widget: object,
                     fields:
                       [
+                        { label: "Image", name: "image", widget: "image" },
                         {
-                          label: "Button URL",
-                          name: "button_url",
-                          widget: string,
-                        },
-                        {
-                          label: "Button Text",
-                          name: "button_text",
+                          label: "Image Alt Text",
+                          name: "image_alt",
                           widget: string,
                         },
                       ],
                   },
                   {
-                    label: "Button 2",
-                    name: "button2",
-                    widget: object,
+                    label: "Image 2",
+                    name: "image2",
+                    widget: "object",
                     fields:
                       [
+                        { label: "Image", name: "image", widget: "image" },
                         {
-                          label: "Button URL",
-                          name: "button_url",
-                          widget: string,
-                        },
-                        {
-                          label: "Button Text",
-                          name: "button_text",
+                          label: "Image Alt Text",
+                          name: "image_alt",
                           widget: string,
                         },
                       ],
@@ -909,49 +968,6 @@ collections: # A list of collections the CMS should be able to edit
               widget: object,
               fields:
                 [
-                  { label: "Heading", name: "heading", widget: string },
-                  { label: "Body", name: "body", widget: "text" },
-                  {
-                    label: "Industries Served",
-                    name: "industries",
-                    widget: "text",
-                  },
-                  {
-                    label: "Button 1",
-                    name: "button1",
-                    widget: object,
-                    fields:
-                      [
-                        {
-                          label: "Button URL",
-                          name: "button_url",
-                          widget: string,
-                        },
-                        {
-                          label: "Button Text",
-                          name: "button_text",
-                          widget: string,
-                        },
-                      ],
-                  },
-                  {
-                    label: "Button 2",
-                    name: "button2",
-                    widget: object,
-                    fields:
-                      [
-                        {
-                          label: "Button URL",
-                          name: "button_url",
-                          widget: string,
-                        },
-                        {
-                          label: "Button Text",
-                          name: "button_text",
-                          widget: string,
-                        },
-                      ],
-                  },
                   {
                     label: "Image 1",
                     name: "image1",

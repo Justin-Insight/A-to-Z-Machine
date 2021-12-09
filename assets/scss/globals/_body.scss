@@ -35,11 +35,6 @@ body::-webkit-scrollbar-thumb {
   background-color: $primary-color;
 }
 
-:focus {
-  outline: 2px dashed get-color("primary");
-  outline-offset: 0.25rem;
-}
-
 main:focus {
   outline: none;
 }
