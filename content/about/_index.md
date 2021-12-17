@@ -44,7 +44,7 @@ guiding_principles:
   body: "Quality is at the core of everything we do. Our guiding principles inspire our team’s every action, while highlighting what’s most important to our daily operations. "
   principles: 
     - heading: Quality people
-      body: We have over 140 employee owners, each bringing specialized skillsets. Together, they work as a well-oiled machine to serve our customers and deliver high-quality products daily. Their ability to mentor new team members and youth is another testament to the quality of our people.
+      body: We have over 150 employee owners, each bringing specialized skillsets. Together, they work as a well-oiled machine to serve our customers and deliver high-quality products daily. Their ability to mentor new team members and youth is another testament to the quality of our people.
       image: a-to-z-employees-around-workbench.jpg
       image_alt: Three A to Z employees working around work bench
     - heading: Quality processes
