@@ -15,7 +15,7 @@
 
 [[redirects]]
   from = "/index.php/pages/about-us"
-  to = "/about-us/"
+  to = "/about/"
 
 [[redirects]]
   from = "/index.php/pages/facility-list"
@@ -48,15 +48,3 @@
 [[redirects]]
   from = "/index.php/frontpage/terms-and-conditions"
   to = "/terms-and-conditions/"
-
-[[redirects]]
-  from = "/index.php?option=com_content&view=article&id=127&catid=8"
-  to = "/terms-and-conditions/subcontractors/"
-
-[[redirects]]
-  from = "/index.php?option=com_content&view=article&id=128&catid=8"
-  to = "/terms-and-conditions/suppliers/"
-
-[[redirects]]
-  from = "/index.php?option=com_content&view=article&id=129&catid=8"
-  to = "/terms-and-conditions/buyer/"
