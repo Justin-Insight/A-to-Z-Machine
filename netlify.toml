@@ -4,3 +4,59 @@
 [build]
   command = "hugo"
   publish = "public"
+
+[[redirects]]
+  from = "/index.php/pages/careers"
+  to = "/careers/"
+
+[[redirects]]
+  from = "/index.php/pages/industries-served"
+  to = "/industries/"
+
+[[redirects]]
+  from = "/index.php/pages/about-us"
+  to = "/about-us/"
+
+[[redirects]]
+  from = "/index.php/pages/facility-list"
+  to = "/equipment/"
+
+[[redirects]]
+  from = "/index.php/pages/capabilities"
+  to = "/capabilities/"
+
+[[redirects]]
+  from = "/index.php/pages/gallery"
+  to = "/capabilities/"
+
+[[redirects]]
+  from = "/index.php/blog/"
+  to = "/blog/"
+
+[[redirects]]
+  from = "/index.php/news/"
+  to = "/blog/"
+
+[[redirects]]
+  from = "/index.php/pages/contact"
+  to = "/contact/"
+
+[[redirects]]
+  from = "/index.php/pages/careers"
+  to = "/careers/"
+
+[[redirects]]
+  from = "/index.php/frontpage/terms-and-conditions"
+  to = "/terms-and-conditions/"
+
+[[redirects]]
+  from = "/index.php?option=com_content&view=article&id=127&catid=8"
+  to = "/terms-and-conditions/subcontractors/"
+
+[[redirects]]
+  from = "/index.php?option=com_content&view=article&id=128&catid=8"
+  to = "/terms-and-conditions/suppliers/"
+
+[[redirects]]
+  from = "/index.php?option=com_content&view=article&id=129&catid=8"
+  to = "/terms-and-conditions/buyer/"
