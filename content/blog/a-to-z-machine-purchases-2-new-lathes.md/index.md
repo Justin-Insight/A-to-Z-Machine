@@ -3,7 +3,7 @@ title: "A to Z Machine Purchases 2 New Lathes"
 seo:
   title: "A to Z Machine Purchases 2 New Lathes"
   description: a test description
-  featured_image: tool-presetter.jpg
+  featured_image: doosan-puma-gt3100.jpg
 date: "2022-01-03"
 categories: ["Articles"]
 ---
