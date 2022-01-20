@@ -43,11 +43,11 @@
 </div>
 <div class="flex flex-column flex-row-m">
   <div class="w-100 w-50-m text-column bg-primary text-white flex flex-column flex-justify-center flow">
-    <h2>{{ .Params.quality_block.heading | markdownify }}</h2>
-    {{ .Params.quality_block.body | markdownify }}
+    <h2>{{ .Params.quality.heading | markdownify }}</h2>
+    {{ .Params.quality.body | markdownify }}
   </div>
   <div class="w-100 w-50-m image-column image-column--alt">
-     {{ partial "responsive-image" (dict "Page" . "image" .Params.quality_block.image.image "alt" .Params.quality_block.image.image_alt ) }}
+     {{ partial "responsive-image" (dict "Page" . "image" .Params.quality.image.image "alt" .Params.quality.image.image_alt ) }}
   </div>
 </div>
 <div class="block">

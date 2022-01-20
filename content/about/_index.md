@@ -2,12 +2,14 @@
 title: About
 seo:
   title: About A to Z Machine
-  description: A to Z Machine of Appleton is a leading source for quality CNC and
+  description:
+    A to Z Machine of Appleton is a leading source for quality CNC and
     precision machining, welding, fabrication and contract manufacturing in
     Northeast Wisconsin.
   featured_image: two-a-to-z-machine-employees-looking-at-screen.jpg
 hero:
   heading: About A to Z Machine
+  subhead: Your complete CNC machining and fabrication source
   body: "A to Z Machine is a large-scale, full-service machine shop located in
     Appleton, Wisconsin. We proudly build long-term partnerships and
     industry-specific manufactured goods with ultimate precision and efficiency.
@@ -27,7 +29,8 @@ building_images:
       image_alt: A to Z Machine Fabrication Building Exterior
   - image:
       image: a-to-z-main-building-interior.jpg
-      image_alt: A to Z Machine building interior with A to Z Machine graphics on
+      image_alt:
+        A to Z Machine building interior with A to Z Machine graphics on
         glass windows and door
 building_block:
   body: Our three facilities have a combined total of over 77,000 square feet of
@@ -72,12 +75,14 @@ quality:
     image_alt: a custom part being machined
 guiding_principles:
   heading: Our guiding principles
-  body: Quality is at the core of everything we do. Our guiding principles inspire
+  body:
+    Quality is at the core of everything we do. Our guiding principles inspire
     our team’s every action, while highlighting what’s most important to our
     daily operations.
   principles:
     - heading: Quality people
-      body: We have over 150 employee owners, each bringing specialized skillsets.
+      body:
+        We have over 150 employee owners, each bringing specialized skillsets.
         Together, they work as a well-oiled machine to serve our customers and
         deliver high-quality products daily. Their ability to mentor new team
         members and youth is another testament to the quality of our people.
@@ -85,13 +90,15 @@ guiding_principles:
         image: a-to-z-employees-around-workbench.jpg
         image_alt: Three A to Z employees working around work bench
     - heading: Quality processes
-      body: "A streamlined workflow through the plant creates many efficiencies from
+      body:
+        "A streamlined workflow through the plant creates many efficiencies from
         quotes, order entry and document control to manufacturing, inspection
         and final shipping. With a quality process, each worker’s expertise is
         emphasized to create repeatable results. "
       image:
         image: ted-carrying-parts.jpg
-        image_alt: TED A to Z Machines autonomous robot carrying parts from one station
+        image_alt:
+          TED A to Z Machines autonomous robot carrying parts from one station
           to another
     - heading: Quality products
       body: Through a team of highly skilled machinists and a robust management
@@ -99,11 +106,13 @@ guiding_principles:
         expectations. We manage quality and on-time delivery needs on a variety
         of high mix, low volume parts or low volume, high mix parts.
       image:
-        image_alt: An A to Z Machine employee quality a checking a custom made part
+        image_alt:
+          An A to Z Machine employee quality a checking a custom made part
           sitting on a table
         image: a-to-z-machine-employee-inspecting-part.jpg
     - heading: Quality partnerships
-      body: Our customers and clients are true partners in business. Together, we
+      body:
+        Our customers and clients are true partners in business. Together, we
         develop the best design for manufacturing, quality, efficiency and
         on-time delivery. With shared goals, we manufacture, store and deliver
         products that are beneficial to all parties.
@@ -123,11 +132,12 @@ cta:
     - button_url: /careers/
       button_text: Learn more about our youth apprenticeships
 ---
+
 <!--StartFragment-->
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 
-  <iframe title="A To Z Promotional Video 2021" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" id="video" src="//www.youtube.com/embed/3P3pS8dyYEY?enablejsapi=1&html5=1" frameborder="0" allowfullscreen></iframe>
+<iframe title="A To Z Promotional Video 2021" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" id="video" src="//www.youtube.com/embed/3P3pS8dyYEY?enablejsapi=1&html5=1" frameborder="0" allowfullscreen></iframe>
 
 </div>
 
