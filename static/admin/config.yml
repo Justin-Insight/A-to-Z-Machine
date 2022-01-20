@@ -1283,6 +1283,197 @@ collections: # A list of collections the CMS should be able to edit
                   },
                 ],
             }
+          - {
+              label: "Building Images",
+              name: building_images,
+              widget: list,
+              fields:
+                [
+                  {
+                    label: "Image",
+                    name: "image",
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Image", name: "image", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+            label: "Building Block",
+            name: building_block,
+            widget: object,
+            fields:
+              [
+                { label: "Body", name: "body", widget: "text" },
+                {
+                  label: "Button",
+                  name: "button",
+                  widget: object,
+                  fields:
+                    [
+                      {
+                        label: "Button URL",
+                        name: "button_url",
+                        widget: string,
+                      },
+                      {
+                        label: "Button Text",
+                        name: "button_text",
+                        widget: string,
+                      },
+                    ],
+                },
+              ],
+          }
+        - {
+          label: "For Machinist Block",
+          name: machinist_block,
+          widget: object,
+          fields:
+            [
+              { label: "Heading", name: "heading", widget: "string" },
+              { label: "Body", name: "body", widget: "text" },
+              {
+                label: "Image",
+                name: "image",
+                widget: "object",
+                fields:
+                  [
+                    { label: "Image", name: "image", widget: "image" },
+                    {
+                      label: "Image Alt Text",
+                      name: "image_alt",
+                      widget: string,
+                    },
+                  ],
+              }
+            ],
+          }
+        - {
+          label: "Vision Block",
+          name: vision,
+          widget: object,
+          fields:
+            [
+              { label: "Heading", name: "heading", widget: "string" },
+              { label: "Body", name: "body", widget: "text" },
+            ],
+          }
+        - {
+          label: "Quality Block",
+          name: quality,
+          widget: object,
+          fields:
+            [
+              { label: "Heading", name: "heading", widget: "string" },
+              { label: "Body", name: "body", widget: "text" },
+              {
+                label: "Image",
+                name: "image",
+                widget: "object",
+                fields:
+                  [
+                    { label: "Image", name: "image", widget: "image" },
+                    {
+                      label: "Image Alt Text",
+                      name: "image_alt",
+                      widget: string,
+                    },
+                  ],
+              },
+            ],
+          }
+        - {
+          label: "Guiding Principles Block",
+          name: guiding_principles,
+          widget: object,
+          fields:
+            [
+              { label: "Heading", name: "heading", widget: "string" },
+              { label: "Body", name: "body", widget: "text" },
+              {
+                label: "Principles",
+                name: "principles",
+                widget: list,
+                fields:
+                  [
+                    {
+                      label: "Heading",
+                      name: "heading",
+                      widget: string,
+                    },
+                    {
+                      label: "Body",
+                      name: "body",
+                      widget: text,
+                    },
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "object",
+                      fields:
+                        [
+                          { label: "Image", name: "image", widget: "image" },
+                          {
+                            label: "Image Alt Text",
+                            name: "image_alt",
+                            widget: string,
+                          },
+                        ],
+                    },
+                  ],
+              },
+            ],
+          }
+        - {
+          label: "Call to Action Block",
+          name: cta,
+          widget: object,
+          fields:
+            [
+              { label: "Heading", name: "heading", widget: "string" },
+              { label: "Body", name: "body", widget: "text" },
+              {
+                label: "Image",
+                name: "image",
+                widget: "object",
+                fields:
+                  [
+                    { label: "Image", name: "cta_image", widget: "image" },
+                    {
+                      label: "Image Alt Text",
+                      name: "cta_image_alt",
+                      widget: string,
+                    },
+                  ],
+              },
+              {
+                label: "Buttons",
+                name: "buttons",
+                widget: list,
+                fields:
+                  [
+                    {
+                      label: "Button URL",
+                      name: "button_url",
+                      widget: string,
+                    },
+                    {
+                      label: "Button Text",
+                      name: "button_text",
+                      widget: string,
+                    },
+                  ],
+              },
+            ],
+          }
       - file: "content/careers/_index.md"
         label: "Careers"
         name: "careers"
