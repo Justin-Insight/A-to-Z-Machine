@@ -66,9 +66,9 @@ a_to_z_adapts:
       body: Through solid partnerships with engineering firms, foundries and material suppliers, we meet and often exceed expectations on the most specific and demanding projects.
     - heading: Hands-on, high-tech capability
       body: Our innovative shop has short-run and quick-range CNC machining production. Decades of experience in various industries—combined with state-of-the-art equipment—allows us to meet the tightest CNC part tolerances and have flexibility to adapt our processes for every unique request.
-      button:
-        button_url: /capabilities/
-        button_text: View capabilities
+  button:
+    button_url: /capabilities/
+    button_text: View capabilities
 cta:
   heading: What’s your next <span class="underline-primary">project?</span>
   body: "Collaborate with A to Z Machine’s expert machinists."

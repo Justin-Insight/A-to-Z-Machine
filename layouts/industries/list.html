@@ -23,9 +23,9 @@
       {{ range .methods }}
       <h3 class="h4 text-primary">{{ .heading }}</h3>
       <p>{{ .body }}</p>
+      {{ end }}
       {{ if .button }}
         <a href="{{ .button.button_url }}" class="btn btn-primary">{{ .button.button_text }}</a>
-      {{ end }}
       {{ end }}
     </div>
   {{ end }}
