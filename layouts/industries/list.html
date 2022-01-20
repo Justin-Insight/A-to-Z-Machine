@@ -1,10 +1,9 @@
 {{ define "main" }}
 {{ partial "hero" (dict "Page" . "image" .Params.hero.image.hero_image "alt" .Params.hero.image.hero_image_alt ) }}
 {{ partial "hero-intro" . }}
-{{ with .Params.industries }}
 <div class="pb-10">
     <ul class="wrapper-lg industry-grid grid-3">
-        {{ range .industry }}
+        {{ range .Params.industries }}
         <li class="card">
             <div class="card__image-wrapper">
                 <img src="{{ .image }}" alt="{{ .image_alt }}" class="card__image">
@@ -14,10 +13,9 @@
         {{ end }}
     </ul>
 </div>
-{{ end }}
 <div class="flex flex-column flex-row-m">
   <div class="w-100 w-40-m image-column">
-     {{ partial "responsive-image" (dict "Page" . "image" .Params.a_to_z_adapts.image ) }}
+     {{ partial "responsive-image" (dict "Page" . "image" .Params.a_to_z_adapts.image.image "alt" .Params.a_to_z_adapts.image.image_alt ) }}
   </div>
   {{ with .Params.a_to_z_adapts }}
     <div class="w-100 w-60-m text-column bg-gray flex flex-column flex-justify-center flow">

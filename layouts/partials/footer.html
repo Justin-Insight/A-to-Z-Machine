@@ -6,6 +6,7 @@
       <p>Follow us for ongoing innovations:</p>
       <ul class="footer__social">
         {{ range .Site.Data.site_settings.social_media }}
+        {{ if .link }}
         <li class="footer__social-list-item">
           <a href="{{ .link }}" class="footer__social-icon flex flex-center" target="_blank" rel="noopener noreferrer">
             {{ if eq .title "Facebook" }}
@@ -14,17 +15,24 @@
             {{ partial "svg-icons/linkedin.svg" . }}
             {{ else if eq .title "YouTube"}}
             {{ partial "svg-icons/youtube.svg" . }}
+            {{ else if eq .title "Instagram"}}
+            {{ partial "svg-icons/instagram.svg" . }}
+            {{ else if eq .title "Twitter"}}
+            {{ partial "svg-icons/twitter.svg" . }}
             {{ end }}
             <span class="visually-hidden">{{ .title }}</span>
           </a>
         </li>
+        {{ end }}
         {{ end }}
       </ul>
     </div>
     <div class="footer__col w-100 w-20-m">
       <h2 class="h3 underline-primary">Contact Us</h2>
       <div>
-        {{ .Site.Data.site_settings.address | markdownify }}
+        {{ .Site.Data.site_settings.address.street }}
+        <br>
+        {{ .Site.Data.site_settings.address.city }}, {{ .Site.Data.site_settings.address.state }} {{ .Site.Data.site_settings.address.zip }}
         <br>
         <strong>Phone:</strong> <a href="tel:{{ .Site.Data.site_settings.phone }}"> {{ .Site.Data.site_settings.phone }}</a>
         <br>

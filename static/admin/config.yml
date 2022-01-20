@@ -701,7 +701,7 @@ collections: # A list of collections the CMS should be able to edit
                   { label: "Body", name: "body", widget: "text" },
                   {
                     label: "Image",
-                    name: "cta_image",
+                    name: "image",
                     widget: "object",
                     fields:
                       [
@@ -845,13 +845,21 @@ collections: # A list of collections the CMS should be able to edit
                     widget: "list",
                     fields:
                       [
-                        { label: "Image", name: "image", widget: "image" },
+                        {
+                          label: "Image Small",
+                          name: "image",
+                          widget: "image",
+                        },
                         {
                           label: "Image Alt Text",
                           name: "image_alt",
                           widget: string,
                         },
-                        { label: "Image", name: "image_l", widget: "image" },
+                        {
+                          label: "Image Large",
+                          name: "image_l",
+                          widget: "image",
+                        },
                       ],
                   },
                 ],
@@ -1010,13 +1018,21 @@ collections: # A list of collections the CMS should be able to edit
                     widget: "list",
                     fields:
                       [
-                        { label: "Image", name: "image", widget: "image" },
+                        {
+                          label: "Image Small",
+                          name: "image",
+                          widget: "image",
+                        },
                         {
                           label: "Image Alt Text",
                           name: "image_alt",
                           widget: string,
                         },
-                        { label: "Image", name: "image_l", widget: "image" },
+                        {
+                          label: "Image Large",
+                          name: "image_l",
+                          widget: "image",
+                        },
                       ],
                   },
                 ],
@@ -1101,6 +1117,122 @@ collections: # A list of collections the CMS should be able to edit
                         {
                           label: "Image Alt Text",
                           name: "hero_image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Industries Block",
+              name: "industries",
+              widget: object,
+              fields:
+                [
+                  {
+                    label: "Image",
+                    name: "images",
+                    widget: "list",
+                    fields:
+                      [
+                        { label: "Image", name: "image", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "image_alt",
+                          widget: string,
+                        },
+                        { label: "Heading", name: "heading", widget: "text" },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "A to Z Adapts Block",
+              name: a_to_z_adapts,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: "string" },
+                  {
+                    label: "Image",
+                    name: "image",
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Image", name: "image", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                  {
+                    label: "Methods",
+                    name: "methods",
+                    widget: "list",
+                    fields:
+                      [
+                        { label: "Heading", name: "heading", widget: "text" },
+                        { label: "Body", name: "body", widget: "string" },
+                      ],
+                  },
+                  {
+                    label: "Button",
+                    name: "button",
+                    widget: list,
+                    fields:
+                      [
+                        {
+                          label: "Button URL",
+                          name: "button_url",
+                          widget: string,
+                        },
+                        {
+                          label: "Button Text",
+                          name: "button_text",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Call to Action Block",
+              name: cta,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: "string" },
+                  { label: "Body", name: "body", widget: "text" },
+                  {
+                    label: "Image",
+                    name: "image",
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Image", name: "cta_image", widget: "image" },
+                        {
+                          label: "Image Alt Text",
+                          name: "cta_image_alt",
+                          widget: string,
+                        },
+                      ],
+                  },
+                  {
+                    label: "Buttons",
+                    name: "buttons",
+                    widget: list,
+                    fields:
+                      [
+                        {
+                          label: "Button URL",
+                          name: "button_url",
+                          widget: string,
+                        },
+                        {
+                          label: "Button Text",
+                          name: "button_text",
                           widget: string,
                         },
                       ],

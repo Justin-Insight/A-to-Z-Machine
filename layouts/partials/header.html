@@ -52,6 +52,7 @@
         </ul>
         <ul class="site-header__social">
           {{ range .Site.Data.site_settings.social_media }}
+          {{ if .link }}
           <li class="site-header__social-list-item">
             <a href="{{ .link }}" class="site-header__social-icon" target="_blank" rel="noopener noreferrer">
               {{ if eq .title "Facebook" }}
@@ -60,10 +61,15 @@
               {{ partial "svg-icons/linkedin.svg" . }}
               {{ else if eq .title "YouTube"}}
               {{ partial "svg-icons/youtube.svg" . }}
+              {{ else if eq .title "Instagram"}}
+              {{ partial "svg-icons/instagram.svg" . }}
+              {{ else if eq .title "Twitter"}}
+              {{ partial "svg-icons/twitter.svg" . }}
               {{ end }}
               <span class="visually-hidden">{{ .title }}</span>
             </a>
           </li>
+          {{ end }}
           {{ end }}
         </ul>
       </div>
