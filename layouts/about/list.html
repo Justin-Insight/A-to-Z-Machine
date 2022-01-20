@@ -4,7 +4,7 @@
 <div class="pb-10">
   <div class="wrapper-lg">
     <div class="building-images grid-3">
-      {{ range .Params.building_images }}
+      {{ range .Params.building_images.images }}
       <div class="cover-image">
         <img src="{{ .image.image }}" alt="{{ .image.image_alt }}">
       </div>

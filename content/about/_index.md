@@ -21,17 +21,18 @@ hero:
     hero_image: two-a-to-z-machine-employees-looking-at-screen.jpg
     hero_image_alt: Two A to Z Machine employees looking at screen on a CNC Machine
 building_images:
-  - image:
-      image: a-to-z-main-building-exterior.jpg
-      image_alt: A to Z Machine Main Building Exterior
-  - image:
-      image: a-to-z-fabrication-building-exterior.jpg
-      image_alt: A to Z Machine Fabrication Building Exterior
-  - image:
-      image: a-to-z-main-building-interior.jpg
-      image_alt:
-        A to Z Machine building interior with A to Z Machine graphics on
-        glass windows and door
+  images:
+    - image:
+        image: a-to-z-main-building-exterior.jpg
+        image_alt: A to Z Machine Main Building Exterior
+    - image:
+        image: a-to-z-fabrication-building-exterior.jpg
+        image_alt: A to Z Machine Fabrication Building Exterior
+    - image:
+        image: a-to-z-main-building-interior.jpg
+        image_alt:
+          A to Z Machine building interior with A to Z Machine graphics on
+          glass windows and door
 building_block:
   body: Our three facilities have a combined total of over 77,000 square feet of
     manufacturing space with over 60 different machining centers of varying

@@ -784,7 +784,7 @@ collections: # A list of collections the CMS should be able to edit
               fields:
                 [
                   { label: "Heading", name: "heading", widget: string },
-                  { label: "Body", name: "body", widget: "text" },
+                  { label: "Body", name: "body", widget: "markdown" },
                 ],
             }
           - {
@@ -957,7 +957,7 @@ collections: # A list of collections the CMS should be able to edit
               fields:
                 [
                   { label: "Heading", name: "heading", widget: string },
-                  { label: "Body", name: "body", widget: "text" },
+                  { label: "Body", name: "body", widget: "markdown" },
                 ],
             }
           - {
@@ -1180,7 +1180,7 @@ collections: # A list of collections the CMS should be able to edit
                   {
                     label: "Button",
                     name: "button",
-                    widget: list,
+                    widget: object,
                     fields:
                       [
                         {
@@ -1287,13 +1287,13 @@ collections: # A list of collections the CMS should be able to edit
           - {
               label: "Building Images",
               name: building_images,
-              widget: list,
+              widget: object,
               fields:
                 [
                   {
                     label: "Image",
-                    name: "image",
-                    widget: "object",
+                    name: "images",
+                    widget: "list",
                     fields:
                       [
                         { label: "Image", name: "image", widget: "image" },
