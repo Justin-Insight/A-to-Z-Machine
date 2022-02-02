@@ -47,7 +47,7 @@ benefits:
       body: Anniversary and retirement lunches, holiday parties, employee ownership
         month activities
     - heading: Employee reimbursements
-      body: Full repayment of employees’ personal safety gear such as steel-toe shoes
+      body: Reimbursement of employees’ personal safety gear such as steel-toe shoes
         and safety glasses, plus partial repayment of gym memberships
 employment_disclaimer:
   heading: An equal opportunity workplace
