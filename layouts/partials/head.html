@@ -48,8 +48,6 @@
     <link rel="mask-icon" href="mask-icon.svg" color="#000000">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-    {{ template "_internal/google_analytics.html" . }}
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
@@ -80,5 +78,10 @@
     </script>
 
     <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    {{ if hugo.IsProduction }}
+    {{ template "_internal/google_analytics.html" . }}
+    <script async src='https://tag.simpli.fi/sifitag/dd699df0-18ec-0136-ccf0-06a9ed4ca31b'></script>
+    {{ end }}
 
 </head>
