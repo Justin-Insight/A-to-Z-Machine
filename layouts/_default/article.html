@@ -20,8 +20,7 @@
           <picture>
             <source sizes="(min-width: 37.5em) 100vw, (min-width: 62em) 30vw" srcset="{{ $webp_src_set }}" type="image/webp" >
             <source sizes="(min-width: 37.5em) 100vw, (min-width: 62em) 30vw" srcset="{{ $jpg_src_set }}" type="image/jpg" >
-            <img sizes="(min-width: 37.5em) 100vw, (min-width: 62em) 30vw" loading="lazy"
-                src="{{ $image.RelPermalink }}" width="{{ $image.Height }}" height="{{ $image.Width }}" alt="{{ .Params.seo.featured_image_alt }}" class="blog-summary__image">
+            <img loading="lazy" src="{{ $image.RelPermalink }}" width="{{ $image.Height }}" height="{{ $image.Width }}" alt="{{ .Params.seo.featured_image_alt }}" class="blog-summary__image">
           </picture>
         </div>
         <div class="blog-summary__content flow">

@@ -1,14 +1,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="referrer" content="no-referrer">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <title>{{ if .Params.seo.title }}{{ .Params.seo.title | markdownify }}{{ else }}{{ .Title }}{{ end }} | {{ .Site.Title }}</title>
-
-    <meta itemprop="name" content="{{ .Title }}">
-    <meta itemprop="description" content="{{ .Params.seo.description }}">
-    <meta itemprop="image" content="{{ if .Params.seo.featured_image }}{{ .Permalink }}{{ .Params.seo.featured_image }}{{ end }}">
-
+    
     <meta property="og:site_name" content="{{ .Site.Title }}">
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ if .Params.seo.title }}{{ .Params.seo.title  | markdownify }}{{ else }}{{ .Title }}{{ end }} | {{ .Site.Title }}">
@@ -59,7 +54,23 @@
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+    <script>
+    algoliasearchNetlify({
+    appId: 'K5YSK8T107',
+    apiKey: 'efc5aef64f53b444b7d4b51d3f87e0a1',
+    siteId: 'd7ea10c4-0d62-47b7-bda3-beec8ddc36e0',
+    branch: 'master',
+    selector: 'div#search',
+    theme: {
+    mark: '#fff',
+    background: '#23263b',
+    selected: '#111432',
+    text: '#d6d6e7',
+    colorSourceIcon: '#d6d6e7'
+  }
+    });
+    </script>
 
     <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 

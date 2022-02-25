@@ -24,8 +24,7 @@
   <picture>
       <source sizes="100vw" srcset="{{ $webp_src_set }}" type="image/webp" >
       <source sizes="100vw" srcset="{{ $jpg_src_set }}" type="image/jpg" >
-      <img sizes="100vw" loading="lazy"
-          src="{{ $ctaimage.RelPermalink }}" width="{{ $ctaimage.Width }}" height="{{ $ctaimage.Height }}" alt="" class="cta__image">
+      <img loading="lazy" src="{{ $ctaimage.RelPermalink }}" width="{{ $ctaimage.Width }}" height="{{ $ctaimage.Height }}" alt="" class="cta__image">
   </picture>
     
   <div class="cta__inner flex flex-center">

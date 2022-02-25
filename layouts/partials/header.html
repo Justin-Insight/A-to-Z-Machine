@@ -1,15 +1,14 @@
 {{ "<!-- Header -->" | safeHTML }}
 <a class="screen-reader-skip-to-content" href="#main-content" tabindex="0">Skip to main content</a>
 <a class="screen-reader-skip-to-content" href="#footer" tabindex="0">Skip to footer content</a>
-<header class="site-header" role="banner">
+<header class="site-header">
   <div class="site-header__top">
     <div class="site-header__top-inner wrapper-md flex flex-justify-end">
       <ul class="site-header__secondary-menu flex flex-center">
         <li><a href="/blog/">Blog</a></li>
-        <!-- TODO Add Search Toggle Here -->
         <li><button type="button" class="search-toggle" aria-label="search-toggle">{{ partialCached "svg-icons/search.svg" . }}{{ partialCached "svg-icons/close.svg" . }}</button></li>
         <li><a href="/request-a-quote/" class="btn btn-primary--rev">Request a quote</a></li>
-      </u>
+      </ul>
     </div>
   </div>
   <div class="site-header__wrapper wrapper-md">
@@ -22,10 +21,10 @@
         {{ end }}
       </a>
     </div>
-    <nav class="site-header__nav" role="navigation" aria-label="primary navigation">
+    <nav class="site-header__nav" aria-label="primary navigation">
       {{ $url := .RelPermalink }}
       {{ with .Site.Menus.main }}
-      <ul class="nav-list" role="list">
+      <ul class="nav-list">
           {{ range . }}
           {{ $active := eq $url .URL }}
           <li class="nav-list__item">

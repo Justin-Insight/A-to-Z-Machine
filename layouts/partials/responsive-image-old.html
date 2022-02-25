@@ -33,6 +33,5 @@
 <picture>
     <source sizes="50vw" srcset="{{ $webp_src_set }}" type="image/webp" >
     <source sizes="50vw" srcset="{{ $src_set }}" type="image/jpg" >
-    <img sizes="50vw" loading="lazy"
-        src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .alt }}">
+    <img loading="lazy" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .alt }}">
 </picture>
