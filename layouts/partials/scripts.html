@@ -12,7 +12,17 @@
 {{ $mainDev := resources.Get "js/main.js" | resources.Fingerprint "sha512" }}
 <script src="{{ $mainDev.RelPermalink }}" integrity="{{ $mainDev.Data.Integrity }}"></script>
 {{ end }}
-
+<script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on('init', (user) => {
+        if (!user) {
+          window.netlifyIdentity.on('login', () => {
+            document.location.href = '/admin/';
+          });
+        }
+      });
+    }
+</script>
 <script> (function () { window['GoogleAnalyticsObject'] = 'ga'; window['ga'] = window['ga'] || function () { (window['ga'].q = window['ga'].q || []).push(arguments) }; if (window.ga) { ga('create', 'G-0692372BX5', 'auto'); window.addEventListener('message', function (event) { var a = ~event.origin.indexOf('digital-quote.com'); var b = event.data.type === 'rfq_submit_success'; if (a && b) { window.location.replace("https://www.atozmachine.com/contact/thank-you/"); } }, false); } })(); </script>
 <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
 <script>
