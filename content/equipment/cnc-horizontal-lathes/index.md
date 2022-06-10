@@ -19,4 +19,6 @@ hero:
 * **Doosan Puma-4100LB** \* 21” Chuck \* 18” Steady Rest \* 30.3” Swing Over Bed \* 23.2” Swing Over Saddle \* 22.4” Max Turning Diameter \* 82.4” Max Turning Length * 50 HP Turning Spindle
 * **Doosan Puma-400LB** \* 21” Chuck \* 18” Steady Rest \* 30.3” Swing Over Bed \* 23.2” Swing Over Saddle \* 22.4” Max Turning Diameter \* 82.4” Max Turning Length * 50 HP Turning Spindle
 * **Doosan Puma-400B** \* 21” Chuck \* 18” Steady Rest \* 30.3” Swing Over Bed \* 23.2” Swing Over Saddle \* 22.4” Max Turning Diameter \* 44” Max Turning Length * 50 HP Turning Spindle
-* **Doosan Puma-300** \* 12” Chuck \* 20” Swing \* 28” Center to Center \* 30 HP Turning Spindle
+* **Doosan GT3100L** * 15’’ Chuck *\** 28.3’’ Swing Over Bed *23.2” Swing Over Saddle *\** 18.9” Max Turning Diameter *50.2’’ Max Turning Length *\** 47 HP Turning Spindle
+* **Doosan GT3100** *15’’ Chuck *\** 28.3’’ Swing Over Bed *23.2” Swing Over Saddle *\** 18.9” Max Turning Diameter *29.7’’ Max Turning Length *\** 47 HP Turning Spindle
+* **Doosan Puma-300** \* 12” Chuck \* 20” Swing \* 28” Max Turning Diameter \* 30 HP Turning Spindle
