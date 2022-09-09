@@ -15,7 +15,7 @@
     <div class="site-header__logo">
       <a class="brand-logo" href="{{ site.BaseURL }}">
         {{ if site.Params.logo }}
-          <img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" class="img-responsive dim" width="200" height="100">
+          <img src="{{ site.Data.site_settings.logo | absURL }}" alt="{{ site.Title }} logo" class="img-responsive dim" width="200" height="100">
         {{ else }}
           <h1>{{ site.Title }}</h1>
         {{ end }}
