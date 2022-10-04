@@ -6,7 +6,7 @@ seo:
   featured_image: mms-top-shops-logo.jpg
 date: "2022-10-03"
 categories: ["News"]
-draft: true
+draft: false
 ---
 
 We are proud to announce A to Z Machine has earned a [2022 Top Shops designation](https://www.mmsonline.com/articles/2022-top-shops-honorees-announced-2)
