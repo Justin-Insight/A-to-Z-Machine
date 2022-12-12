@@ -11,11 +11,10 @@ hero:
   heading: Welding
   body: Welding
 ---
-* Shop Certified \* AWS D1.1 \* ASME Section 9 * **Hypotherm Powermax 105** Plasma Cutter * Weld positioners from 1500 lbs. to 2,000 lbs.
+* Shop Certified \* AWS D1.1 \* ASME Section 9 * **Hypotherm Powermax 105** Plasma Cutter*  Weld positioners from 1500 lbs. to 2,000 lbs.
 * MIG Welding:
 
   * (Qty 3) **ESAB 4002CW** * Water cooled
-  * (Qty 1) **Miller Axcess 450 DI** - .062 Metal Core
   * (﻿Qty 3) **Miller Invision 352** Welders
   * (﻿Qty 1) **Miller XMT 350** Welder
 * TIG Welding:
