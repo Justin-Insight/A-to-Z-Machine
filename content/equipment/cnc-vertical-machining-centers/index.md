@@ -15,6 +15,7 @@ hero:
     bore and more. These machines are equipped for high-speed production and
     heavy-duty use.
 ---
+* **Doosan DCM 2740F II** \* 167” X Travel \* 126” Y Travel \* 39.4” Z Travel \* 57" W Travel \* 92.5” Spindle Nose to Table \* 106.3” between columns \* 60 HP \* 4000 RPM \* Big Plus CAT50 Spindle \* Universal and Right Angle Head Attachments
 * **Awea LP4025** \* 157.5” X Travel \* 98.4” Y Travel \* 30” Z Travel \* 39.4” Spindle Nose to Table \* 106.3” between columns \* 6000 RPM * CAT50 Spindle
 * **Awea VP3012** \* 118.1” X Travel \* 47.2” Y Travel \* 30” Z Travel \* 39.4” Spindle Nose to Table \* 51.81” between columns \* 6000 RPM * CAT50 Spindle
 * **Awea VP2012HD** \* 78.7” X Travel \* 47.2” Y Travel \* 30” Z Travel \* 37.8” Spindle Nose to Table \* 51.81” between columns \* 6000 RPM * CAT50 Spindle
