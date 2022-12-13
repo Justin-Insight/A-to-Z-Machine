@@ -1,9 +1,0 @@
-.request-a-quote .contact-form {
-  iframe {
-    height: 1525px;
-
-    @include breakpoint(md) {
-      height: 1300px;
-    }
-  }
-}
