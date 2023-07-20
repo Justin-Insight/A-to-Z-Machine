@@ -17,7 +17,6 @@
   "dependencies": {
     "@barba/core": "^2.9.7",
     "@barba/prefetch": "^2.1.10",
-    "gsap": "^3.6.0",
     "locomotive-scroll": "^3.6.1",
     "netlify-cms-app": "^2.15.19",
     "photoswipe": "^4.1.3",
