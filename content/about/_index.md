@@ -31,7 +31,7 @@ building_images:
 building_block:
   body: Our three facilities have a combined total of over 77,000 square feet of
     manufacturing space with over 60 different machining centers of varying
-    capabilities. We have more than 150 employee owners spread across two
+    capabilities. We have more than 130 employee owners spread across two
     shifts.
   button:
     button_url: /contact/
