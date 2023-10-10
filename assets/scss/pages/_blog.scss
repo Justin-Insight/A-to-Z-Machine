@@ -122,3 +122,8 @@
     margin: 1rem 0;
   }
 }
+
+article.flow h2,
+article.flow h3 {
+  margin-top: $ic-600;
+}

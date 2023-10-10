@@ -1,9 +1,9 @@
 {{ define "main" }}
 {{ partial "blog/blog-hero" . }}
     <div class="block">
-        <div class="wrapper-sm">
+        <article class="wrapper-sm flow">
             {{ .Content }}
             {{ partial "blog/post-navigation" . }}
-        </div>
+        </article>
     </div>
 {{ end }}
