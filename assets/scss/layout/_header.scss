@@ -68,19 +68,21 @@
     }
   }
 
+  &__logo-wrap {
+    padding: $ic-200;
+  }
+
   &__logo {
-    display: grid;
-
-    .brand-logo {
-      img {
-        width: 100%;
-        max-width: 170px;
-        padding: $ic-100;
-
-        @include breakpoint(md) {
-          max-width: 275px;
-        }
-      }
+    display: block;
+    block-size: 26px;
+    inline-size: 170px;
+    background-image: url("/images/a-to-z-logo.svg");
+    background-size: 170px 26px;
+  
+    @include breakpoint(lg) {
+      block-size: 43px;
+      inline-size: 275px;
+      background-size: 275px 43px;
     }
   }
 

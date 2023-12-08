@@ -16,6 +16,10 @@ body {
   }
 }
 
+.site-header__logo {
+  background-image: url("/images/a-to-z-logo-white.svg");
+}
+
 .nav-list__link {
   color: $white;
 }

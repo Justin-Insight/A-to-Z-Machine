@@ -12,13 +12,9 @@
     </div>
   </div>
   <div class="site-header__wrapper wrapper-md">
-    <div class="site-header__logo">
-      <a class="brand-logo" href="{{ site.BaseURL }}">
-        {{ if site.Params.logo }}
-          <img src="{{ site.Data.site_settings.logo | absURL }}" alt="{{ site.Title }} logo" class="img-responsive dim" width="200" height="100">
-        {{ else }}
-          <h1>{{ site.Title }}</h1>
-        {{ end }}
+    <div class="site-header__logo-wrap">
+      <a class="site-header__logo" href="{{ site.BaseURL }}">
+        <span class="visually-hidden">Home</span>
       </a>
     </div>
     <nav class="site-header__nav" aria-label="primary navigation">
