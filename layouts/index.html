@@ -47,6 +47,17 @@
     </div>
   </div>
 </section>
+{{ with .Params.true_north_block }}
+<section class="block">
+  <div class="wrapper text-center">
+    <h2>{{ .heading }}</h2>
+    <p style="margin-inline: auto;">{{.body }}</p>
+    {{ with .button }}
+      <a href="{{ .link }}" class="btn btn-primary">{{ .button_text }}</a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
 {{ partial "swiper-slider" . }}
 {{ with .Params.capabilities_block }}
 <section class="capabilities block bg-gray">

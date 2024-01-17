@@ -80,6 +80,31 @@
   }
 }
 
+.btn-white {
+  color: $primary-color;
+
+  &::before {
+    background-color: $white;
+  }
+
+  &::after {
+    background-color: $white;
+  }
+
+  &:hover,
+  &:focus {
+    color: $white;
+
+    &::before {
+      background-color: $black;
+    }
+
+    &::after {
+      transform: $skew translateX(15px);
+    }
+  }
+}
+
 button {
   cursor: pointer;
 }

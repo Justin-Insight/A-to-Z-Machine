@@ -79,6 +79,16 @@ industries_block:
   image2:
     image: a-to-z-employee-quality-checking-custom-part.jpg
     image_alt: an A to Z Machine employee quality checking a custom made part
+true_north_block:
+  heading: Our True North Philosophy
+  body: "Whether you need precision machining, contract manufacturing or welding
+    and fabrication, A to Z Machine can do it all. We understand each customer’s
+    unique needs for either low mix, high volume parts or high mix, low volume
+    parts. Our team’s expertise and flexibility deliver repeatable results to an
+    ever-growing list of industries:"
+  button:
+    link: /true-north/
+    button_text: Learn more about our True North values
 testimonials:
   heading: Learn more from our customers’ experiences
   testimonial:

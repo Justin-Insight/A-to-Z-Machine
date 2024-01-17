@@ -1,0 +1,53 @@
+{{ define "main" }}
+{{ partial "hero" (dict "Page" . "image" .Params.hero.image.hero_image "alt" .Params.hero.image.hero_image_alt ) }}
+{{ partial "hero-intro-alt" . }}
+<!-- <div class="flex flex-column flex-row-m">
+  <div class="w-100 w-50-m image-column">
+     {{ partial "responsive-image" (dict "Page" . "image" .Params.why_a_to_z_block.image.image "alt" .Params.why_a_to_z_block.image.image_alt ) }}
+  </div>
+  <div class="w-100 w-50-m text-column bg-gray flex flex-column flex-justify-center flow">
+    <h2>{{ .Params.why_a_to_z_block.heading | markdownify }}</h2>
+    <p>{{ .Params.why_a_to_z_block.body }}</p>
+    <a href="{{ .Params.why_a_to_z_block.button.button_url | markdownify }}" class="btn btn-primary">{{ .Params.why_a_to_z_block.button.button_text }}</a>
+  </div>
+</div>
+<div class="flex flex-column flex-row-m">
+  <div class="w-100 w-50-m text-column bg-primary text-white flex flex-column flex-justify-center flow">
+    <h2>{{ .Params.why_work_with_us_block.heading | markdownify }}</h2>
+    <p>{{ .Params.why_work_with_us_block.body | markdownify }}</p>
+    <a href="{{ .Params.why_work_with_us_block.button.button_url | markdownify }}" class="btn btn-white">{{ .Params.why_work_with_us_block.button.button_text }}</a>
+  </div>
+  <div class="w-100 w-50-m image-column image-column--alt">
+     {{ partial "responsive-image" (dict "Page" . "image" .Params.why_work_with_us_block.image.image "alt" .Params.why_work_with_us_block.image.image_alt ) }}
+  </div>
+</div> -->
+<section class="capabilities block bg-gray">
+  <div class="wrapper-md">
+    <div class="flex flex-column flex-row-m flex-center-m">
+      <div class="w-100 w-50-m flow">
+        <h2>{{ .Params.why_a_to_z_block.heading | markdownify }}</h2>
+        <p>{{ .Params.why_a_to_z_block.body }}</p>
+        <a href="{{ .Params.why_a_to_z_block.button.button_url | markdownify }}" class="btn btn-primary">{{ .Params.why_a_to_z_block.button.button_text }}</a>
+      </div>
+      <div class="w-100 w-50-m">
+        {{ partial "responsive-image" (dict "Page" . "image" .Params.why_a_to_z_block.image.image "alt" .Params.why_a_to_z_block.image.image_alt ) }}
+      </div>
+    </div>
+  </div>
+</section>
+<section class="capabilities block">
+  <div class="wrapper-md">
+    <div class="flex flex-column flex-row-m flex-center-m">
+      <div class="w-100 w-50-m">
+        {{ partial "responsive-image" (dict "Page" . "image" .Params.why_work_with_us_block.image.image "alt" .Params.why_work_with_us_block.image.image_alt ) }}
+      </div>
+      <div class="w-100 w-50-m flow">
+        <h2>{{ .Params.why_work_with_us_block.heading | markdownify }}</h2>
+        <p>{{ .Params.why_work_with_us_block.body }}</p>
+        <a href="{{ .Params.why_work_with_us_block.button.button_url | markdownify }}" class="btn btn-primary">{{ .Params.why_work_with_us_block.button.button_text }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+{{ partial "cta" . }}
+{{ end }}

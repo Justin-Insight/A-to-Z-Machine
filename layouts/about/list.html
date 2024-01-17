@@ -45,6 +45,7 @@
   <div class="w-100 w-50-m text-column bg-primary text-white flex flex-column flex-justify-center flow">
     <h2>{{ .Params.quality.heading | markdownify }}</h2>
     {{ .Params.quality.body | markdownify }}
+    <a href="{{ .Params.quality.button.button_url | markdownify }}" class="btn btn-white">{{ .Params.quality.button.button_text }}</a>
   </div>
   <div class="w-100 w-50-m image-column image-column--alt">
      {{ partial "responsive-image" (dict "Page" . "image" .Params.quality.image.image "alt" .Params.quality.image.image_alt ) }}

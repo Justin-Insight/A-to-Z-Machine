@@ -69,6 +69,9 @@ quality:
   image:
     image: DSC_0218.jpg
     image_alt: a custom part being machined
+  button:
+    button_url: /true-north/
+    button_text: Learn more about our True North promise
 guiding_principles:
   heading: Our guiding principles
   body:
