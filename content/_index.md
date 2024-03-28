@@ -21,6 +21,8 @@ intro_block:
     machinists. A to Z Machine is ISO 9001:2015 certified, ITAR registered, and
     we employ Certified Solid Works professionals.
   certifications:
+    - logo: a-to-z-esop.jpg
+      name: 100% Employee Owned
     - logo: iso-9001.jpg
       name: ISO 9001 Certification
     - logo: solid-works-certified.jpg

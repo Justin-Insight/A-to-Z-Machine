@@ -1,9 +1,18 @@
 .intro {
   .certifications {
+    flex-wrap: wrap;
+    gap: $ic-100;
+
+    @include breakpoint(md) {
+      flex-wrap: nowrap;
+    }
+
     img {
       max-width: 130px;
       height: 100%;
-      padding: $ic-100;
+      margin-block: auto;
+      margin-inline: auto;
+      padding: .5rem;
     }
   }
 }
