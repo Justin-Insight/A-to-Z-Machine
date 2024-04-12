@@ -83,11 +83,7 @@ industries_block:
     image_alt: an A to Z Machine employee quality checking a custom made part
 true_north_block:
   heading: Our True North Philosophy
-  body: "Whether you need precision machining, contract manufacturing or welding
-    and fabrication, A to Z Machine can do it all. We understand each customer’s
-    unique needs for either low mix, high volume parts or high mix, low volume
-    parts. Our team’s expertise and flexibility deliver repeatable results to an
-    ever-growing list of industries:"
+  body: "As the machining industry’s supplier of choice, A to Z commits to quality from start to finish. That promise extends beyond our high-quality components, reaching into our relationships with our customers and how we work together in our shop every day."
   button:
     link: /true-north/
     button_text: Learn more about our True North values
