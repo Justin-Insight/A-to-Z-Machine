@@ -8,7 +8,7 @@ date: "2024-06-18"
 categories: ["Articles"]
 ---
 
-<img src="two-a-to-z-machine-employees.jpg" alt="CNC machined parts on pallet">    
+![A to Z Machine Youth Apprentice With Mentor](two-a-to-z-machine-employees.jpg)   
 
 As a precision machine shop, A to Z Machine is always working on ways to build its skilled workforce—and one important way it develops those workers is through its Youth Apprenticeship (YA) program. 
 

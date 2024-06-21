@@ -8,7 +8,7 @@ date: "2024-05-15"
 categories: ["Articles"]
 ---
 
-<img src="cnc-machined-parts-on-pallet.jpg" alt="CNC machined parts on pallet">
+![A large order of CNC machined parts on a pallet](cnc-machined-parts-on-pallet.jpg)   
 
 As one of the largest precision machine shops in Northeast Wisconsin, A to Z Machine works with customers from many industries and is always ready to answer any questions about their CNC machining capabilities. 
 
