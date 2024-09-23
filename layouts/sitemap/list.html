@@ -7,12 +7,13 @@
             <div class="w-100 w-40-m">
                 <h3>Pages</h3>
                 <ul class="sitemap-nav-list">
-                    {{ $pages := where .Site.Pages "Type" "not in" (slice "blog" "tags" "categories" "sitemap") }}
-                    {{ range $pages }}
-                        <li class="sitemap-nav-list-item">
-                            <a class="sitemap-nav-item" class="sitemap-nav-item" href="{{ .RelPermalink }}"
-                                title="{{ .Name }}">{{ .Title }}</a>
-                        </li>
+                    {{ range where .Site.Pages "Type" "not in" (slice "blog" "tags" "categories" "sitemap") }}
+                        {{ if not (in (slice "Thank You" "Sitemap" "Website Credits") .Title) }}
+                            <li class="sitemap-nav-list-item">
+                                <a class="sitemap-nav-item" class="sitemap-nav-item" href="{{ .RelPermalink }}"
+                                    title="{{ .Name }}">{{ .Title }}</a>
+                            </li>
+                        {{ end }}
                     {{ end }}
                 </ul>
             </div>
