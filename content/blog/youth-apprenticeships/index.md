@@ -48,7 +48,7 @@ A to Z Machine was recognized in 2022 by the Northeast Wisconsin Manufacturing A
 
 “We are employee-owned, so each employee has a vested interest in the success of the youth apprenticeship program,” Al says.  
 
-The success of the YA program is evident, with more than 15 percent of the A to Z manufacturing workforce as current or former youth apprentices. “It’s impressive when you think about it,” Al says. “We currently have three youth apprentices completing their cycle, and all are coming on board full-time this year.” 
+The success of the YA program is evident, with over 20 percent of the A to Z manufacturing workforce as current or former youth apprentices. “It’s impressive when you think about it,” Al says. “We currently have three youth apprentices completing their cycle, and all are coming on board full-time this year.” 
 
 ## Interested in joining A to Z?      
 
