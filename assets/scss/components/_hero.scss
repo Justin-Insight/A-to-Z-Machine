@@ -64,9 +64,10 @@
   position: relative;
 
   &::after {
-    position: absolute;
     content: "";
+    position: absolute;
     left: 0;
+    z-index: 8;
     width: 100%;
     background: $primary-color;
     height: $ic--100;

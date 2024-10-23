@@ -24,6 +24,10 @@ body {
   color: $white;
 }
 
+.home .image-column::after {
+  background-color: $black;
+}
+
 .industries-served::before {
   background: $primary-color;
 }

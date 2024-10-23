@@ -1,28 +1,36 @@
 {{ define "main" }}
 {{ partial "home-hero" (dict "Page" . "image" .Params.hero.image.hero_image "alt" .Params.hero.hero_image_alt "heading" .Params.hero.heading "body" .Params.hero.body ) }}
-{{ with .Params.intro_block }}
-<section class="intro block">
-  <div class="wrapper">
-    <h2 class="text-center">{{ .heading }}</h2>
+<section class="intro flex flex-column flex-row-m">
+  <div class="w-100 w-50-m image-column video-trigger">
+    {{ partial "responsive-image" (dict "Page" . "image" .Params.intro_block.image.image "alt" .Params.intro_block.image.image_alt ) }}
+    {{ if .Params.intro_block.youtube_video_id }}
+      {{ partialCached "video-button" . }}
+    {{ end }}
   </div>
-  <div class="wrapper flex flex-column-reverse flex-row-m">
-    <div class="w-100 w-50-m">
-      <p>{{.body }}</p>
+  <div class="w-100 w-50-m text-column flex flex-column flex-justify-center flow">
+    <h2>{{ .Params.intro_block.heading }}</h2>
+    <p>{{ .Params.intro_block.body }}</p>
+    {{ with .Params.intro_block.button }}
+      <a href="{{ .link }}" class="btn btn-primary secondary-video-trigge">{{ .button_text }}</a>
+    {{ end }}
+    <div class="certifications flex flex-justify-center">
+      {{ range .Params.intro_block.certifications }}
+      <img src="{{ .logo }}" alt="{{ .name }}" height="130" width="130">
+      {{ end }}
     </div>
-    <div class="w-100 w-50-m">
-      <div class="certifications flex flex-justify-center">
-        {{ range .certifications }}
-        <img src="{{ .logo }}" alt="{{ .name }}" height="130" width="130">
-        {{ end }}
+  </div>
+</section>
+{{ if .Params.intro_block.youtube_video_id }}
+  <div class="video-overlay">
+    <div class="video-overlay__inner">
+      <button title="close the video" aria-label="close the video popup" class="video-overlay__button">{{ partial "svg-icons/close.svg" . }}</button>
+      <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+
+        <iframe title="A To Z - Your Valued Partner" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" id="video" src="//www.youtube.com/embed/{{ .Params.intro_block.youtube_video_id }}?enablejsapi=1&html5=1" frameborder="0" allowfullscreen></iframe>
+        
       </div>
     </div>
   </div>
-  {{ with .button }}
-  <div class="wrapper text-center">
-    <a href="{{ .link }}" class="btn btn-primary">{{ .button_text }}</a>
-  </div>
-  {{ end }}
-</section>
 {{ end }}
 <section class="industries-served block bg-black">
   <div class="wrapper-md flex flex-column flex-row-m">

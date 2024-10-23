@@ -20,6 +20,12 @@ intro_block:
   body: We are an employee-owned team, founded in 1996 by machinists for
     machinists. A to Z Machine is ISO 9001:2015 certified, ITAR registered, and
     we employ Certified Solid Works professionals.
+  image:
+    image: a-to-z-employee-moving-large-metal-on-lift.jpg
+    image_alt: null
+  button:
+    link: /about/
+    button_text: Learn about us
   certifications:
     - logo: a-to-z-esop.jpg
       name: 100% Employee Owned
@@ -29,9 +35,7 @@ intro_block:
       name: Solid Works Professional Certificate
     - logo: ITAR.jpg
       name: ITAR Certificate
-  button:
-    link: /about/
-    button_text: Learn about us
+  youtube_video_id: 4WqDPFqpebM
 industries_block:
   heading: Mastery machining right in Appleton, Wisconsin
   body: "Whether you need precision machining, contract manufacturing or welding

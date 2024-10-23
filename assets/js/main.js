@@ -19,9 +19,12 @@ function initVideoTrigger () {
         videoOverlay.classList.add('video-overlay--open')
     })
 
-    secondaryVideoTrigger.addEventListener('click', event => {
-        videoOverlay.classList.add('video-overlay--open')
-    })
+    if (document.body.contains(secondaryVideoTrigger)) {
+      secondaryVideoTrigger.addEventListener('click', event => {
+          videoOverlay.classList.add('video-overlay--open')
+      })
+    }
+
     
     closeVideoBtn.addEventListener('click', event => {
         videoOverlay.classList.remove('video-overlay--open')
