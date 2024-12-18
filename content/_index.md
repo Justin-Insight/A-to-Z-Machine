@@ -80,10 +80,10 @@ industries_block:
     link: /equipment/
     button_text: Browse equipment
   image1:
-    image: custom-machined-part.jpg
+    image: machinist-quality-checking-machined-part.jpg
     image_alt: a custom machined part on a counter top
   image2:
-    image: a-to-z-employee-quality-checking-custom-part.jpg
+    image: machinist-measuring-metal-component.jpg
     image_alt: an A to Z Machine employee quality checking a custom made part
 true_north_block:
   heading: Our True North Philosophy
