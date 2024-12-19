@@ -5,11 +5,11 @@ seo:
   description: Build a solid career at A to Z Machine! Apply now for CNC
     machining, welding, fabrication, machinist and contract manufacturing jobs
     in Appleton, Wisconsin.
-  featured_image: DSC_1081.jpg
+  featured_image: a-to-z-machine-fab-welding-group.jpg
   featured_image_alt: Two A to Z Machine Employees standing in front of fabrication work bench
 hero:
   image:
-    hero_image: DSC_1081.jpg
+    hero_image: a-to-z-machine-fab-welding-group.jpg
     hero_image_alt: null
   heading: Build a <span class="underline-primary">solid career</span> at A to Z Machine
   body: Have you lost your tolerance for old equipment and tooling? Are you tired
@@ -25,8 +25,8 @@ benefits:
     employees enjoy strong compensation, benefits and employee appreciation
     programs.
   image:
-    image_src: DSC_1046.jpg
-    image_alt: 5 A to Z machine fabricators standing in their fabrication shop
+    image_src: two-a-to-z-machine-employees-standing-in-machine-shop.jpg
+    image_alt: Two A to Z machine machinists standing in their machine shop
   benefit:
     - heading: Strong compensation & savings
       body: 7% second shift differential, regular performance/wage reviews,
@@ -56,8 +56,8 @@ employment_disclaimer:
     ancestry, religion, sex, national origin, sexual orientation, age, marital
     status, disability, gender identity or veteran status.
   image:
-    image_src: two-women-collaborating-at-desk.jpg
-    image_alt: Two women smiling and collaborating at a desk in an office
+    image_src: young-woman-driving-a-forklift.jpg
+    image_alt: Young woman driving a forklift at A to Z Machine
 testimonials:
   heading: What employees say about working at A to Z Machine
   testimonial:

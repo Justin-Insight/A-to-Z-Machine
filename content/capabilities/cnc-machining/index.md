@@ -35,8 +35,8 @@ quality:
   body: "A to Z Machine’s focus on quality and precision supports our zero-tolerance policy for error or variance. Every manufacturing job is strictly monitored using traceable, calibrated equipment and quality control techniques that ensure all features and dimensions meet your exact specifications."
 industries_served:
   image1:
-    image: two-a-to-z-employee-collaborating.jpg
-    image_alt: two A to Z Machine employee looking at design plans on a workbench
+    image: a-to-z-machinist-using-drill-press.jpg
+    image_alt: A man is engaged in using a drill press
   image2:
     image: a-to-z-machine-machinist-polishing-machined-part.jpg
     image_alt: an A to Z Machine machinist polishing a custom metal part on a workbench

@@ -41,8 +41,8 @@ machinist_block:
     machinists to be part-owners of the company, resulting in an enhanced sense
     of responsibility to provide the highest quality parts and services.
   image:
-    image_alt: An A to Z machinist working on large metal component
-    image: a-to-z-machinist-working-on-large-metal-component.jpg
+    image_alt: An A to Z Machine employee with glasses and a black shirt is engaged in operating a machine
+    image: machinist-operating-cnc-machine.jpg
 vision:
   heading: Our vision
   body: To safely manufacture quality parts on time for our customers.
@@ -64,8 +64,8 @@ quality:
 
     - Offering full-service expertise, from A to Z
   image:
-    image: DSC_0218.jpg
-    image_alt: a custom part being machined
+    image: a-to-z-machine-employee-inspecting-part.jpg
+    image_alt: An A to Z Machine employee quality checking a custom made part sitting on a table
   button:
     button_url: /true-north/
     button_text: Learn more about our True North promise
@@ -83,8 +83,8 @@ guiding_principles:
         deliver high-quality products daily. Their ability to mentor new team
         members and youth is another testament to the quality of our people.
       image:
-        image: a-to-z-employees-around-workbench.jpg
-        image_alt: Three A to Z employees working around work bench
+        image: two-a-to-z-machine-employee-giving-thumbs-up-together.jpg
+        image_alt: Two A to Z Machine employees giving thumbs up together
     - heading: Quality processes
       body:
         "A streamlined workflow through the plant creates many efficiencies from
@@ -102,10 +102,8 @@ guiding_principles:
         expectations. We manage quality and on-time delivery needs on a variety
         of high mix, low volume parts or low volume, high mix parts.
       image:
-        image_alt:
-          An A to Z Machine employee quality a checking a custom made part
-          sitting on a table
-        image: a-to-z-machine-employee-inspecting-part.jpg
+        image_alt: Machined metal parts on a pallet
+        image: machined-metal-parts.jpg
     - heading: Quality partnerships
       body:
         Our customers and clients are true partners in business. Together, we

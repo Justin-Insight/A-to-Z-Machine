@@ -9,7 +9,7 @@ seo:
   featured_image: a-to-z-employee-working-on-cnc-machine.jpg
 hero:
   image:
-    hero_image: a-to-z-employee-working-on-cnc-machine.jpg
+    hero_image: employee-inspecting-machined-part.jpg
     hero_image_alt: null
   heading: Quality from <span class="underline-primary">start to finish</span>
   body: As a complete machining source, A to Z Machine proudly builds long-term
@@ -80,7 +80,7 @@ industries_block:
     link: /equipment/
     button_text: Browse equipment
   image1:
-    image: machinist-quality-checking-machined-part.jpg
+    image: a-to-z-employee-moving-metal-part-with-lift.jpg
     image_alt: a custom machined part on a counter top
   image2:
     image: machinist-measuring-metal-component.jpg

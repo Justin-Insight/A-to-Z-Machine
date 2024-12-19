@@ -3,12 +3,12 @@ title: Capabilities
 seo:
   title: CNC Machining and Fabrication Capabilities
   description: A to Z Machine of Appleton, Wisconsin provides CNC machining, welding & fabrication & contract manufacturing for food, oil, military, trucking, medical & more.
-  featured_image: large-metal-drill-bits.jpg
-  featured_image_alt: large metal drill bits
+  featured_image: woman-wearing-glasses-stands-confidently-by-large-machine.jpg
+  featured_image_alt: A woman wearing glasses stands confidently in front of a large machine
 hero:
   image:
-    hero_image: large-metal-drill-bits.jpg
-    hero_image_alt: large metal drill bits
+    hero_image: woman-wearing-glasses-stands-confidently-by-large-machine.jpg
+    hero_image_alt: A woman wearing glasses stands confidently in front of a large machine
   heading: "Full-service machining capabilities"
   body: "A to Z Machine is an innovative shop. Our expert machinists employ state-of-the-art machinery and the latest technology to uphold the highest tolerances and embrace new challenges from our customers. Decades of experience, flexibility and a constant drive for improvement guarantee machining mastery to the fullest extent … quicker turnaround, higher quality products and stronger relationships."
 cnc_machining:
