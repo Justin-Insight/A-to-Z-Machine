@@ -1,9 +1,15 @@
 .bg-black {
   background-color: $black;
+  color: $white;
+
+  details:not(details[open]) {
+    color: $black;
+  }
 }
 
 .bg-primary {
   background-color: $primary-color;
+  color: $white;
 }
 
 .bg-white {

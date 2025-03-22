@@ -18,54 +18,39 @@
       </a>
     </div>
     <nav class="site-header__nav" aria-label="primary navigation">
-      <ul class="nav-list">
-        {{ $url := .RelPermalink }}
-        {{ range .Site.Menus.main }}
-          {{ $active := eq $url .URL }}
-          {{ if .HasChildren }}
-          <li class="nav-list__item has-sub-menu">
-            <a {{if $active }}class="current nav-list__link sub-menu-toggle" {{end}} class="nav-list__link sub-menu-toggle" id="menu-item-{{ .Name | lower | urlize }}" href="{{ .URL }}" aria-label="{{ .Name }}" title="{{ .Name }}" aria-haspopup="true" aria-controls="submenu-{{ .Name | lower | urlize }}" aria-expanded="false">{{ .Name }}<span class="nav-list__sub-menu-indicator"></span></a>
-            <div class="nav-list__sub-menu bg-white" role="navigation" id="submenu-{{ .Name | lower | urlize }}" aria-labelledby="menu-item-{{ .Name | lower | urlize }}">
-              <div class="nav-list__sub-menu-inner">
-                <ul class="nav-list__sub-menu-list">
-                  {{ range .Children }}
-                    {{ template "menu-node" .}}
-                  {{ end }}
-                </ul>                            
-              </div>
+      {{ $url := .RelPermalink }}
+      {{ range .Site.Menus.main }}
+        {{ $active := eq $url .URL }}
+        {{ if .HasChildren }}
+        <li class="nav-list__item has-sub-menu">
+          <a {{if $active }}class="current nav-list__link sub-menu-toggle" {{end}} class="nav-list__link sub-menu-toggle" id="menu-item-{{ .Name | lower | urlize }}" href="{{ .URL }}" aria-label="{{ .Name }}" title="{{ .Name }}" aria-haspopup="true" aria-controls="submenu-{{ .Name | lower | urlize }}" aria-expanded="false">{{ .Name }}<span class="nav-list__sub-menu-indicator"></span></a>
+          <div class="nav-list__sub-menu bg-white" role="navigation" id="submenu-{{ .Name | lower | urlize }}" aria-labelledby="menu-item-{{ .Name | lower | urlize }}">
+            <div class="nav-list__sub-menu-inner">
+              <ul class="nav-list__sub-menu-list">
+                {{ range .Children }}
+                  {{ template "menu-node" .}}
+                {{ end }}
+              </ul>                            
             </div>
-          </li>
-          {{ else }}
-          <li class="nav-list__item">
-            <a {{if $active }}class="current nav-list__link" {{end}} class="nav-list__link" href="{{ .URL }}" aria-label="{{ .Name }}"
-              title="{{ .Name }}">{{ .Name }}</a>
-          </li>
-          {{ end }}    
-        {{ end }}
-      </ul>
+          </div>
+        </li>
+        {{ else }}
+        <li class="nav-list__item">
+          <a {{if $active }}class="current nav-list__link" {{end}} class="nav-list__link" href="{{ .URL }}" aria-label="{{ .Name }}"
+            title="{{ .Name }}">{{ .Name }}</a>
+        </li>
+        {{ end }}    
+      {{ end }}
     </nav>
     <div class="site-header__mobile-nav">
       <div class="site-header__mobile-nav-inner">
-        <ul class="site-header__mobile-nav-menu">
-          {{ range .Site.Menus.main }}
-            {{ if .HasChildren }}
-              <li class="site-header__mobile-nav-item nav-item-has-dropdown">
-                <a class="site-header__mobile-nav-link parent fw-500" href="{{ .URL }}" aria-label="{{ .Name }}" aria-haspopup="true" aria-controls="mobile-submenu-{{ .Name | lower | urlize }}" aria-expanded="false" title="{{ .Name }}">{{ .Name }}</a>
-                <button class="toggle-mobile-dropdown" aria-label="open mobile dropdown menu"></button>
-                <ul class="site-header__mobile-dropdown" id="mobile-submenu-{{ .Name | lower | urlize }}" aria-labelledby="mobile-submenu-{{ .Name | lower | urlize }}">
-                  {{ range .Children }}
-                    <li class="site-header__mobile-nav-item">
-                      <a class="site-header__mobile-dropdown-link" href="{{ .URL }}" aria-label="{{ .Name }}" title="{{ .Name }}">{{ .Name }}</a>
-                    </li>
-                  {{ end }}
-                </ul>
-              </li>
-              {{ else }}
-            <li class="site-header__mobile-nav-item">
-              <a class="site-header__mobile-nav-link fw-500" href="{{ .URL }}" aria-label="{{ .Name }}" title="{{ .Name }}">{{ .Name }}</a>
-            </li>
-            {{ end }}
-          {{ end }}
+        <ul  class="site-header__mobile-nav-menu">
+          <li><a href="/capabilities/">Capabilities</a></li>
+          <li><a href="/equipment/">Equipment</a></li>
+          <li><a href="/industries/">Industries</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/careers/">Careers</a></li>
+          <li><a href="/blog/">Blog</a></li>
         </ul>
         <ul class="site-header__contact">
           <li><a href="/contact/" class="btn btn-primary">Contact</a></li>

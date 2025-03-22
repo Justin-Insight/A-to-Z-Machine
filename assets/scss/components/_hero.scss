@@ -60,8 +60,12 @@
 
 .home-hero,
 .hero {
-  height: 50vh;
+  height: 30vh;
   position: relative;
+
+  @include breakpoint(md) {
+    height: 60vh;
+  }
 
   &::after {
     content: "";

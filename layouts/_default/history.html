@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+{{ partial "hero-new" . }}
+
+{{ with .Params.history }}
+<section class="history block{{ if .background_color }} bg-{{ .background_color }}{{ end }}{{ if .css_classes }} {{ .css_classes }}{{ end }}" {{ if .heading }}aria-labelledby="{{ .heading | urlize }}"{{ end }}>
+  <div class="wrapper">
+    <h2 class="text-center">{{ .heading | markdownify }}</h2>
+  </div>
+  <div class="timeline">
+    {{ range .milestones }}
+      {{ partial "history-block" . }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.cta }}
+  {{ partial "cta-new" . }}
+{{ end }}
+
+{{ end }}

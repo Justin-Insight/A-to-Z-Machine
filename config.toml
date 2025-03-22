@@ -63,6 +63,18 @@ timeout = 200000
     weight = 1
 
 [[menu.main]]
+    name = "CNC Machining"
+    url  = "/capabilities/cnc-machining/"
+    weight = 1
+    parent = "Capabilities"
+
+[[menu.main]]
+    name = "Fabrication"
+    url  = "/capabilities/fabrication/"
+    weight = 2
+    parent = "Capabilities"
+
+[[menu.main]]
     name = "Equipment"
     url  = "/equipment/"
     weight = 2
@@ -76,6 +88,24 @@ timeout = 200000
     name = "About"
     url  = "/about/"
     weight = 4
+
+[[menu.main]]
+    name = "True North"
+    url  = "/true-north/"
+    weight = 1
+    parent = "About"
+
+[[menu.main]]
+    name = "Culture"
+    url  = "/about/culture/"
+    weight = 2
+    parent = "About"
+
+[[menu.main]]
+    name = "History"
+    url  = "/about/history/"
+    weight = 3
+    parent = "About"
 
 [[menu.main]]
     name = "Careers"

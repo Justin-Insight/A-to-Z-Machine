@@ -54,7 +54,7 @@ It speaks to the skill, expertise and team approach that A to Z offers to its cu
 
 “We want our customers coming back to us,” Doug said. “We like the challenge. We like the work that we’re doing and the difference it’s making. It’s a really neat, wide range of projects that keeps the shop floor engaged in what they’re doing and excited about what the next project is.” 
 
-## Interested in working for A to Z’s high-tech machine shop?      
+## Interested in working for A to Z’s high-tech machine shop?
 
 Read more about our employee-owned company and become a part of A to Z’s precision machining team. 
 

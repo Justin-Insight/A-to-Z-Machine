@@ -1,0 +1,71 @@
+details {
+    background-color: $white;
+    cursor: pointer;
+    padding: $ic-100 $ic-300;
+    margin-bottom: $ic-100;
+
+    summary::marker {
+        color: $primary-color;
+    }
+}
+
+/* Hide default arrow */
+details > summary::-webkit-details-marker {
+    display: none;
+}
+  
+details > summary {
+    position: relative;
+    list-style: none;
+    padding: $ic--200 $ic-700 $ic--200 0;
+    transition: $transition;
+}
+  
+details > summary::before,
+details > summary::after {
+  content: "";
+  inline-size: 1rem;
+  block-size: 2px;
+  background-color: $black;
+  position: absolute;
+  transition: 0.3s ease;
+  inset-block-start: 26px;
+  inset-inline-end: 16px;
+  transform: translate(-30%, -30%);
+}
+
+details > summary::before {
+    transform: translate(-30%, -30%) rotate(90deg);
+}
+
+/* Change marker when details is open */
+details[open] {
+    background-color: $primary-color;
+    color: $white;
+}
+
+details[open] > summary:before {
+    transform: translate(-30%, -30%) rotate(0deg);
+}
+
+details[open] > summary {
+    // border-top-right-radius: $radius;
+    // border-top-left-radius: $radius;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+details[open] > summary::before,
+details[open] > summary::after {
+    background-color: $white;
+}
+
+details p,
+details img {
+    padding-inline-end: $ic-100;
+    margin-block-end: $ic-100 !important;
+}
+
+details p {
+    max-width: none;
+}

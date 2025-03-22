@@ -1,0 +1,43 @@
+.media-details {
+    position: relative;
+
+    &::after {
+        position: absolute;
+        content: "";
+        left: 0;
+        width: 100%;
+        background: $primary-color;
+        height: $ic--100;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 20%);
+        top: calc(100% - 1px);
+
+        @include breakpoint(md) {
+        height: $ic-800;
+        }
+    }
+}
+
+@include breakpoint(md) {
+    .media-details:has(.media-details__details-left) {
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            z-index: 8;
+            width: 100%;
+            background: $primary-color;
+            height: $ic-800;
+            clip-path: polygon(0 0, 100% 0, 100% 20%, 0 100%);
+            top: calc(100% - 1px);
+        }
+    }
+
+    .media-details__details-left .media-details__images {
+        order: 2;
+    }
+    
+    .media-details__details-left .media-details__details {
+        order: 1;
+    }
+
+}

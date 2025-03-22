@@ -1,0 +1,35 @@
+{{ define "main" }}
+{{ partial "hero-new" . }}
+{{ with .Params.quality }}
+  {{ partial "media-text-angled" . }}
+{{ end }}
+{{ with .Params.true_north_block }}
+<section class="block">
+  <div class="wrapper text-center">
+    <h2>{{ .heading }}</h2>
+    <p style="margin-inline: auto;">{{.body }}</p>
+    {{ if .button.enabled }}
+      {{ with .button }}
+          <a class="btn btn-{{ .button_color }}" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
+      {{ end }}
+  {{ end }}
+  </div>
+</section>
+{{ end }}
+{{ with .Params.ted_block }}
+  {{ partial "media-text-angled" . }}
+{{ end }}
+{{ partial "swiper-slider" . }}
+{{ with .Params.core_values }}
+  {{ partial "media-plus-details" . }}
+{{ end }}
+{{ with .Params.guiding_principles }}
+  {{ partial "media-plus-details" . }}
+{{ end }}
+{{ with .Params.commitments_block }}
+  {{ partial "media-text" . }}
+{{ end }}
+{{ with .Params.cta }}
+  {{ partial "cta-new" . }}
+{{ end }}
+{{ end }}

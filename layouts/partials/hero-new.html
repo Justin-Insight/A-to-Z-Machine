@@ -1,0 +1,30 @@
+{{ $heroClass := lower .Page.Title }}
+{{ with .Params.hero_new }}
+<div class="{{ anchorize $heroClass }}-hero hero">
+    {{ if .image.image_url }}
+    <picture>
+        <source sizes="100vw" srcset="https://res.cloudinary.com/atozmachine/image/upload/f_avif,q_85,w_400{{ .image.image_url }} 400w, https://res.cloudinary.com/atozmachine/image/upload/f_avif,q_85,w_600{{ .image.image_url }} 600w, https://res.cloudinary.com/atozmachine/image/upload/f_avif,q_85,w_800{{ .image.image_url }} 800w, https://res.cloudinary.com/atozmachine/image/upload/f_avif,q_85,w_1000{{ .image.image_url }} 1000w, https://res.cloudinary.com/atozmachine/image/upload/f_avif,q_85,w_1200{{ .image.image_url }} 1200w, https://res.cloudinary.com/atozmachine/image/upload/f_avif,q_85,w_1400{{ .image.image_url }} 1400w, https://res.cloudinary.com/atozmachine/image/upload/f_avif,q_85,w_1600{{ .image.image_url }} 1600w, https://res.cloudinary.com/atozmachine/image/upload/f_avif,q_85,w_1800{{ .image.image_url }} 1800w, https://res.cloudinary.com/atozmachine/image/upload/f_avif,q_85,w_2000{{ .image.image_url }} 2000w" type="image/avif">
+    
+        <source sizes="100vw" srcset="https://res.cloudinary.com/atozmachine/image/upload/f_webp,q_85,w_400{{ .image.image_url }} 400w, https://res.cloudinary.com/atozmachine/image/upload/f_webp,q_85,w_600{{ .image.image_url }} 600w, https://res.cloudinary.com/atozmachine/image/upload/f_webp,q_85,w_800{{ .image.image_url }} 800w, https://res.cloudinary.com/atozmachine/image/upload/f_webp,q_85,w_1000{{ .image.image_url }} 1000w, https://res.cloudinary.com/atozmachine/image/upload/f_webp,q_85,w_1200{{ .image.image_url }} 1200w, https://res.cloudinary.com/atozmachine/image/upload/f_webp,q_85,w_1400{{ .image.image_url }} 1400w, https://res.cloudinary.com/atozmachine/image/upload/f_webp,q_85,w_1600{{ .image.image_url }} 1600w, https://res.cloudinary.com/atozmachine/image/upload/f_webp,q_85,w_1800{{ .image.image_url }} 1800w, https://res.cloudinary.com/atozmachine/image/upload/f_webp,q_85,w_2000{{ .image.image_url }} 2000w" type="image/webp">
+      
+        <img class="cta__image" src="https://res.cloudinary.com/atozmachine/image/upload{{ .backgroung_image.image_url }}" srcset="https://res.cloudinary.com/atozmachine/image/upload/f_jpg,q_85,w_400{{ .image.image_url }} 400w, https://res.cloudinary.com/atozmachine/image/upload/f_jpg,q_85,w_600{{ .image.image_url }} 600w, https://res.cloudinary.com/atozmachine/image/upload/f_jpg,q_85,w_800{{ .image.image_url }} 800w, https://res.cloudinary.com/atozmachine/image/upload/f_jpg,q_85,w_1000{{ .image.image_url }} 1000w, https://res.cloudinary.com/atozmachine/image/upload/f_jpg,q_85,w_1200{{ .image.image_url }} 1200w, https://res.cloudinary.com/atozmachine/image/upload/f_jpg,q_85,w_1400{{ .image.image_url }} 1400w, https://res.cloudinary.com/atozmachine/image/upload/f_jpg,q_85,w_1600{{ .image.image_url }} 1600w, https://res.cloudinary.com/atozmachine/image/upload/f_jpg,q_85,w_1800{{ .image.image_url }} 1800w, https://res.cloudinary.com/atozmachine/image/upload/f_jpg,q_85,w_2000{{ .image.image_url }} 2000w" alt="{{ .image.image_alt }}" width="1920" height="800" loading="lazy" decoding="async">   
+      </picture>  
+    {{ end }}
+</div>
+{{ end }}
+<section class="{{ anchorize $heroClass }}-hero-intro">
+    <div class="block w-100">
+        <div class="wrapper-sm flow">
+            {{ partial "breadcrumbs" . }}
+            <h1 class="no-margin text-center">{{ .Params.hero_new.heading | markdownify }}</h1>
+            <p>{{ .Params.hero_new.body | markdownify }}</p>
+            <div class="text-center">
+                {{ if .Params.hero_new.button.enabled }}
+                    {{ with .Params.hero_new.button }}
+                        <a class="btn btn-{{ .button_color }} {{ if .icon }}flex flex-center gap-xs{{ end }}" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
+                    {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
