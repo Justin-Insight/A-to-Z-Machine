@@ -66,15 +66,32 @@ ted_block:
 testimonials:
   heading: What employees say about working at A to Z Machine
   testimonial:
-    - body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      author: Name Here
-      job_title: Job Title
-    - body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      author: Name Here
-      job_title: Job Title
-    - body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      author: Name Here
-      job_title: Job Title
+    - body: A to Z has become a great fit for me. From my initial interview and
+        walk-through, I noticed how clean the work area was, and how friendly
+        everyone was. I've recently completed my first year, and am very glad I
+        accepted the position with A to Z. This is a great place to work.
+        Everyone is friendly and helpful, and we all have a genuine goal to be
+        successful.
+      author: Steve
+      job_title: Shipping & Receiving Specialist
+    - body: I started at A to Z through a school to work program knowing nothing about
+        machining. Between the people and the training opportunities I received.
+        It has turned into a very satisfying and lucrative career.
+      author: Aaron
+      job_title: Machinist
+    - body: I work in a clean safe shop at A to Z Machine running high quality
+        machinery making high tolerance parts. I make more money than I have
+        ever made at any other place with good benefits also. I have the support
+        of an experienced team to make the best parts possible.
+      author: Dustin
+      job_title: Machinist
+    - body: I learned about A to Z’s apprenticeship opportunity thru my Tech -Ed
+        instructor. I noticed the attention to detail and friendly atmosphere
+        and knew it would help me grow. A to Z trust in its team has offered me
+        a career and has begun a valuable skillset that I hope will continue to
+        grow. I’m thankful and proud to be a member here.
+      author: Nicholas
+      job_title: Machinist
 core_values: 
   heading: Core Values
   body: >-
