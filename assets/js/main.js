@@ -175,3 +175,155 @@ hasSubMenu.forEach((link) => {
     subMenuLink.addEventListener("blur", closeSubMenu);
   });
 });
+
+// Load the YouTube IFrame Player API
+var tag = document.createElement('script');
+tag.src = 'https://www.youtube.com/iframe_api';
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+function createPlayer(video, index) {
+  var videoURL = new URL(video.src);
+  // Extracts video ID from the URL path
+  var videoId = videoURL.pathname.split('/').pop(); 
+  
+  // Append parameters for YouTube player
+  videoURL.searchParams.set('enablejsapi', '1');
+  videoURL.searchParams.set('autoplay', '1');
+  videoURL.searchParams.set('mute', '1');
+  videoURL.searchParams.set('rel', '0');
+  videoURL.searchParams.set('loop', '1');
+  videoURL.searchParams.set('origin', window.location.origin);
+  videoURL.searchParams.set('playlist', videoId);
+  
+  // Set the modified source URL back to the iframe
+  video.src = videoURL.href;
+
+  return new YT.Player(video, {
+    events: {
+      'onReady': function(event) {
+        bindControlButton(event.target, index);
+      }
+    }
+  });
+}
+
+function bindControlButton(player, index) {
+  var button = document.querySelectorAll('.video-controls')[index];
+  if (button) {
+    button.addEventListener('click', function() {
+      var playerState = player.getPlayerState();
+      togglePlayback(player, button, playerState);
+    });
+  }
+}
+
+function togglePlayback(player, button, playerState) {
+  if (playerState === YT.PlayerState.PLAYING) {
+    button.classList.replace('video-playing', 'video-paused');
+    button.setAttribute('aria-label', 'play the video');
+    button.setAttribute('title', 'play the video');
+    player.pauseVideo();
+  } else {
+    button.classList.replace('video-paused', 'video-playing');
+    button.setAttribute('aria-label', 'pause the video');
+    button.setAttribute('title', 'pause the video');
+    player.playVideo();
+  }
+}
+
+function removeIframes() {
+  var iframes = document.querySelectorAll('.home-hero__video iframe');
+  iframes.forEach(function(iframe) {
+    iframe.parentNode.removeChild(iframe);
+  });
+}
+
+function initializeVideos() {
+  var videos = document.querySelectorAll('.home-hero__video iframe');
+  videos.forEach(createPlayer);
+}
+
+function checkScreenSize() {
+  if (window.matchMedia('(min-width: 62em)').matches) {
+    initializeVideos();
+  } else {
+    removeIframes();
+  }
+}
+
+window.onYouTubeIframeAPIReady = checkScreenSize;
+window.addEventListener('resize', checkScreenSize);
+
+// Controls/logic for the custom button overlay on YouTube videos
+const videoPlayButtons = document.querySelectorAll('.video-block__overlay');
+
+videoPlayButtons.forEach((button) => {
+  button.addEventListener('click', (event) => {
+    console.log("button was clicked")
+    button.style.display = "none";
+    const youtubeVideoContainer = button.nextElementSibling;
+    const youtubeVideo = youtubeVideoContainer.querySelector('iframe');
+
+    createYouTubePlayer(youtubeVideo);
+  })
+});
+
+function createYouTubePlayer(video) {
+  var videoURL = new URL(video.src);
+  var videoId = videoURL.pathname.split('/').pop();
+
+  videoURL.searchParams.set('enablejsapi', '1');
+  videoURL.searchParams.set('rel', '0');
+  videoURL.searchParams.set('origin', window.location.origin);
+  videoURL.searchParams.set('playlist', videoId);
+  video.src = videoURL.href;
+
+  return new YT.Player(video, {
+    events: {
+      'onReady': function(event) {
+        // Play the video when ready
+        event.target.playVideo();
+      }
+    }
+  });
+}
+
+function initSwiper() {
+  const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      centeredSlides: true,
+      grabCursor: true,
+      setWrapperSize: true, 
+    
+      breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 50
+          },
+          600: {
+            slidesPerView: "auto",
+            spaceBetween: 90
+          },
+      },
+  
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true,
+      },
+  
+      a11y: {
+          enabled: true,
+          firstSlideMessage: 'This is the first slide',
+          prevSlideMessage: 'Previous slide',
+          nextSlideMessage: 'Next slide',
+          lastSlideMessage: 'This is the last slide'
+        },
+  
+    });
+}
+
+initSwiper()

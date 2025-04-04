@@ -1,0 +1,44 @@
+{{ define "main" }}
+
+{{ partial "hero-new" . }}
+
+{{ with .Params.university }}
+  {{ partial "media-text-angled" . }}
+{{ end }}
+
+{{ with .Params.questions_hunter }}
+  {{ partial "media-plus-details" . }}
+{{ end }}
+
+{{ with .Params.questions_scott }}
+  {{ partial "media-plus-details" . }}
+{{ end }}
+
+<section class="video-block block" aria-labelledby="hurckman-mechanical-service">
+  <div class="wrapper flow">
+    <div class="video-block__content text-center">
+      <h2 class="no-margin" id="hurckman-mechanical-service">Learn More in Our Youth Apprentice Video</h2>
+    </div>
+    <div class="video-block__media">
+      <div class="video-block__overlay">
+        <div class="video-trigger__button-container">
+          <button class="video-trigger__button video-trigger__button-white" title="Play video" aria-label="Play video"><svg class="video-block__play-button" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" aria-hidden="true"><polygon points="96 448 416 256 96 64 96 448"></polygon></svg></button>
+          <div class="video-trigger__waves">
+            <div class="video-trigger__wave video-trigger__wave-white wave1"></div>
+            <div class="video-trigger__wave video-trigger__wave-white wave2"></div>
+            <div class="video-trigger__wave video-trigger__wave-white wave3"></div>
+          </div>
+        </div>
+      </div>
+      <div class="video-block__video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_H31Xllc_Co?si=vFHpfmIfH3wpb2Dp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ with .Params.cta }}
+  {{ partial "cta-new" . }}
+{{ end }}
+
+{{ end }}

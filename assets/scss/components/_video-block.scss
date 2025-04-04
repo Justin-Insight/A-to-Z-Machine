@@ -1,0 +1,81 @@
+.video-block__media {
+    position: relative;
+}
+
+.video-block .video-block__overlay {
+    top: 0;
+    transform: none;
+    height: 100%;
+    max-width: none;
+}
+
+.video-block__overlay {
+    position: absolute;
+    top: 50%;
+    z-index: 3;
+    transform: translateY(-50%);
+    height: 105%;
+    width: 100%;
+    background-color: rgba($black, .6);
+    background-image: linear-gradient(315deg, rgba($primary-color, 0.93) 10%, rgba($black, 0.08) 100%);
+    transition: $transition;
+    border: none;
+    cursor: pointer;
+}
+
+.video-block__play-icon {
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100px;
+    background-color: $primary-color;
+    border-radius: 50%;
+}
+
+.video-block__play-icon svg {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 3px;
+}
+
+.video-block__image {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 4/1;
+}
+
+.video-block__video {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.video-block__image {
+    z-index: 1;
+}
+
+.video-trigger__button-white.video-trigger__button-white {
+    background-color: $white;
+}
+
+.video-trigger__wave-white.video-trigger__wave-white {
+    background: rgba(255, 255, 255, .5);
+}
+
+.video-block__play-button {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    fill: $primary-color;
+    padding: 1rem;
+    left: 5px;
+}

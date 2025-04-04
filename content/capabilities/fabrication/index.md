@@ -38,21 +38,33 @@ parts_gallery:
     - image: custom-fabrication-1-s.jpg
       image_alt: a large custom fabricated component by A to Z Machine in Appleton, WI
       image_l: custom-fabrication-1-l.jpg
+      image_l_width: 1600
+      image_l_height: 1600
     - image: custom-fabrication-2-s.jpg
       image_alt: a large custom fabricated component on a pallet
       image_l: custom-fabrication-2-l.jpg
+      image_l_width: 1600
+      image_l_height: 1600
     - image: custom-fabrication-3-s.jpg
       image_alt: a large custom fabricated tank by A to Z Machine in Appleton, WI
       image_l: custom-fabrication-3-l.jpg
+      image_l_width: 1600
+      image_l_height: 1600
     - image: custom-fabrication-4-s.jpg
       image_alt: a large custom fabricated component
       image_l: custom-fabrication-4-l.jpg
+      image_l_width: 1600
+      image_l_height: 1600
     - image: custom-fabrication-5-s.jpg
       image_alt: a large custom fabricated frame by A to Z Machine in Appleton, WI
       image_l: custom-fabrication-5-l.jpg
+      image_l_width: 1600
+      image_l_height: 1600
     - image: custom-fabrication-6-s.jpg
       image_alt: a large custom fabricated frame
       image_l: custom-fabrication-6-l.jpg
+      image_l_width: 1600
+      image_l_height: 1600
 cta:
   heading: What’s your next <span class="underline-primary">project?</span>
   body: "Collaborate with A to Z Machine’s expert machinists."

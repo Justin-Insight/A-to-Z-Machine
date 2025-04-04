@@ -45,27 +45,43 @@ parts_gallery:
     - image: custom-machined-metal-gear-s.jpg
       image_alt: a custom machined gear laying on a table
       image_l: custom-machined-metal-gear-l.jpg
+      image_l_width: 1600
+      image_l_height: 1600
     - image: custom-machined-metal-gear-3-s.jpg
       image_alt: a custom machined gear sitting upright on a table
       image_l: custom-machined-metal-gear-3-l.jpg
+      image_l_width: 1600
+      image_l_height: 1600
     - image: custom-machined-metal-gear-2-s.jpg
       image_alt: a custom machined gear sitting upright on a table and turned to get a side profile
       image_l: custom-machined-metal-gear-2-l.jpg
+      image_l_width: 1600
+      image_l_height: 1600
     - image: custom-machined-metal-flange-s.jpg
       image_alt: a custom machined flange laying on a table
       image_l: custom-machined-metal-flange-l.jpg
+      image_l_width: 1600
+      image_l_height: 1600
     - image: custom-machined-metal-coupler-s.jpg
       image_alt: a custom machined coupler laying on a table
       image_l: custom-machined-metal-coupler-l.jpg
+      image_l_width: 1600
+      image_l_height: 1600
     - image: custom-machined-metal-coupler-2-s.jpg
       image_alt: a custom machined coupler laying on a table
       image_l: custom-machined-metal-coupler-2-l.jpg
+      image_l_width: 1600
+      image_l_height: 1600
     - image: custom-machined-metal-valve-s.jpg
       image_alt: a custom machined valve laying on a table
       image_l: custom-machined-metal-valve-l.jpg
+      image_l_width: 1600
+      image_l_height: 1600
     - image: custom-machined-metal-handle-s.jpg
       image_alt: a custom machined metal handle laying on a table
       image_l: custom-machined-metal-handle-l.jpg
+      image_l_width: 1600
+      image_l_height: 1600
 cta:
   heading: What’s your next <span class="underline-primary">project?</span>
   body: "Collaborate with A to Z Machine’s expert machinists."

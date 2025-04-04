@@ -69,3 +69,17 @@ var firstScriptTag = document.getElementsByTagName('script')[0]
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag)
 
 </script>
+
+<script type="module">
+
+  import PhotoSwipeLightbox from '/plugins/photoswipe/photoswipe-lightbox.esm.js';
+  import PhotoSwipe from '/plugins/photoswipe/photoswipe.esm.js';
+
+  const lightbox = new PhotoSwipeLightbox({
+  gallery: '#my-gallery',
+  children: 'a',
+  pswpModule: PhotoSwipe
+  });
+
+  lightbox.init();
+</script>

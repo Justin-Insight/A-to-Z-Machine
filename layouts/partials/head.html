@@ -46,9 +46,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
-    <link rel="stylesheet" href="/plugins/photoswipe/css/photoswipe.css">
-    <link rel="stylesheet" href="/plugins/photoswipe/css/default-skin.css">
-
     <script defer src="/plugins/photoswipe/js/photoswipe.min.js"></script>
     <script defer src="/plugins/photoswipe/js/photoswipe-ui-default.min.js"></script>
 
@@ -97,6 +94,10 @@
           "postalCode" : "54911"
         }
       }
-      </script>
+    </script>
+
+    {{ if or ( eq .Title "CNC Machining" ) ( eq .Title "Fabrication" ) }}
+      <link rel="stylesheet" href="/plugins/photoswipe/photoswipe.css">
+    {{ end }}
 
 </head>
