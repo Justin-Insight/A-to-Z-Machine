@@ -5,7 +5,7 @@ seo:
   title: A to Z Machine Company Culture
   description:
     Discover the culture at A to Z Machine in Appleton, WI, where teamwork, respect and continuous improvement drive everything we do. 
-  featured_image: machined-parts.jpg
+  featured_image: /two-young-machinists-a-to-z-machine-3_mwj7bs.jpg
 hero_new:
   heading: A to Z Machine Company Culture  
   subhead: 

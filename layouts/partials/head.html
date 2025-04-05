@@ -9,7 +9,7 @@
     <meta property="og:title" content="{{ if .Params.seo.title }}{{ .Params.seo.title  | markdownify }}{{ else }}{{ .Title }}{{ end }} | {{ .Site.Title }}">
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:locale" content="en_US">
-    <meta property="og:image" content="{{ if .Params.seo.featured_image }}{{ .Permalink }}{{ .Params.seo.featured_image }}{{ end }}">
+    <meta property="og:image" content="{{ if .Params.seo.featured_image }}https://res.cloudinary.com/atozmachine/image/upload{{ .Params.seo.featured_image }}{{ end }}">
     <meta property="og:description" content="{{ .Params.seo.description }}">
     <meta name="description" content="{{ .Params.seo.description }}">
 
@@ -20,7 +20,7 @@
     <meta property="twitter:title" content="{{ .Params.seo.title }}">
     <meta property="twitter:description" content="{{ .Params.seo.description }}">
     <meta property="twitter:site" content="@">
-    <meta property="twitter:image" content="{{ if .Params.seo.featured_image }}{{ .Permalink }}{{ .Params.seo.featured_image }}{{ end }}">
+    <meta property="twitter:image" content="{{ if .Params.seo.featured_image }}https://res.cloudinary.com/atozmachine/image/upload{{ .Params.seo.featured_image }}{{ end }}">
 
     {{ with resources.Get "scss/critical.scss" | toCSS | resources.PostCSS | minify }}
     <style>{{ .Content | safeCSS }}</style>

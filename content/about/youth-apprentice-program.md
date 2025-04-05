@@ -6,7 +6,7 @@ seo:
   title: Youth Apprentice Program
   description:
     Kickstart your manufacturing career with A to Z Machine’s Youth Apprentice Program in Appleton, WI. Gain hands-on experience and earn while you learn. 
-  featured_image: machined-parts.jpg
+  featured_image: /two-a-to-z-machine-employees_zo1bai.jpg
 hero_new:
   heading: Youth Apprentice Program  
   subhead: 

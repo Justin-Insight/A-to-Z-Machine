@@ -3,7 +3,7 @@ title: Fabrication
 seo:
   title: Fabrication in Appleton, WI
   description: A to Z Machine, your leading machinists for welding and fabrication including water jetting, sandblasting, stress relieving in Wisconsin.
-  featured_image: a-to-z-fabrication-and-welding.jpg
+  featured_image: /a-to-z-fabrication-and-welding_zebth1.jpg
   featured_image_alt: machined part
 hero:
   image:

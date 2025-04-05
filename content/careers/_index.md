@@ -5,7 +5,7 @@ seo:
   description: Build a solid career at A to Z Machine! Apply now for CNC
     machining, welding, fabrication, machinist and contract manufacturing jobs
     in Appleton, Wisconsin.
-  featured_image: a-to-z-machine-fab-welding-group.jpg
+  featured_image: /a-to-z-machine-fab-welding-group_tw4j9o.jpg
   featured_image_alt: Two A to Z Machine Employees standing in front of fabrication work bench
 hero:
   image:

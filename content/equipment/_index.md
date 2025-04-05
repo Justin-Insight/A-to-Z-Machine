@@ -3,7 +3,7 @@ title: Equipment
 seo:
   title: CNC Machining Equipment
   description: A to Z Machine CNC Machining, Welding and Fabrication Shop houses full-service custom tools, drills, lathes, saws, grinders, water jets and quality inspections.
-  featured_image: Doosan-horizontal-lathe.jpg
+  featured_image: /Doosan-horizontal-lathe_tqcptm.jpg
   featured_image_alt: Doosan Puma 4100LB
 hero:
   image:

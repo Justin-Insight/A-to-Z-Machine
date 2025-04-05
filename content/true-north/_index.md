@@ -4,7 +4,7 @@ seo:
   title: True North
   description:
     A to Z Machine stands out through its True North promise, committing to high-quality precision machining, partnerships with customers, and an intentional workplace.
-  featured_image: employee-wrenching-on-machined-part.jpg
+  featured_image: /employee-wrenching-on-machined-part_bzvmb7.jpg
 hero:
   heading: What is Our True North?
   subhead: "It’s our purpose: Being the machining industry's supplier and employer of choice"

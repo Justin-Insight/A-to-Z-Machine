@@ -3,7 +3,7 @@ title: Machining news, from A to Z
 seo:
   title: Machining news, from A to Z
   description: Get industry news and company updates from A to Z Machine of Appleton, Wisconsin on CNC machining, welding and fabrication of all tools, parts and projects.
-  featured_image: DSC_1102.jpg
+  featured_image: /DSC_1102_o3dq3d.jpg
 hero:
   image:
     hero_image: DSC_1102.jpg

@@ -5,7 +5,7 @@ seo:
   title: A to Z Machine History
   description:
     Get to know the history of A to Z Machine, a CNC machining shop in Appleton, WI, where we collaborate as a team to achieve our True North.
-  featured_image: machined-parts.jpg
+  featured_image: /a-to-z-machine-main-building-exterior_ft4we4.jpg
 hero_new:
   heading: A to Z Machine History
   subhead: 
