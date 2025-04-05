@@ -6,7 +6,7 @@ seo:
     A to Z Machine of Appleton is a leading source for quality CNC and
     precision machining, welding, fabrication and contract manufacturing in
     Northeast Wisconsin.
-  featured_image: two-a-to-z-machine-employees-looking-at-screen.jpg
+  featured_image: /two-a-to-z-machine-employees-looking-at-screen_uomfxj.jpg
 hero:
   heading: About A to Z Machine
   subhead: Your complete CNC machining and fabrication source
