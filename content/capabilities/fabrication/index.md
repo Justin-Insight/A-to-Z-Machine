@@ -34,37 +34,24 @@ industries_served:
     image: custom-fabricated-metal-a-to-z.jpg
     image_alt: a large custom fabricated metal component by A to Z Machine in Appleton, WI
 parts_gallery:
-  images:
-    - image: custom-fabrication-1-s.jpg
-      image_alt: a large custom fabricated component by A to Z Machine in Appleton, WI
-      image_l: custom-fabrication-1-l.jpg
-      image_l_width: 1600
-      image_l_height: 1600
-    - image: custom-fabrication-2-s.jpg
-      image_alt: a large custom fabricated component on a pallet
-      image_l: custom-fabrication-2-l.jpg
-      image_l_width: 1600
-      image_l_height: 1600
-    - image: custom-fabrication-3-s.jpg
-      image_alt: a large custom fabricated tank by A to Z Machine in Appleton, WI
-      image_l: custom-fabrication-3-l.jpg
-      image_l_width: 1600
-      image_l_height: 1600
-    - image: custom-fabrication-4-s.jpg
-      image_alt: a large custom fabricated component
-      image_l: custom-fabrication-4-l.jpg
-      image_l_width: 1600
-      image_l_height: 1600
-    - image: custom-fabrication-5-s.jpg
-      image_alt: a large custom fabricated frame by A to Z Machine in Appleton, WI
-      image_l: custom-fabrication-5-l.jpg
-      image_l_width: 1600
-      image_l_height: 1600
-    - image: custom-fabrication-6-s.jpg
-      image_alt: a large custom fabricated frame
-      image_l: custom-fabrication-6-l.jpg
-      image_l_width: 1600
-      image_l_height: 1600
+  - image:
+      image_url: /custom-fabrication-1-l_dqrhs8.jpg
+      image_alt: Welded custom metal fabrication assembly featuring brackets and platework by A to Z Machine in Appleton, Wisconsin.
+  - image:
+      image_url: /custom-fabrication-2-l_g054xv.jpg
+      image_alt: Custom-fabricated metal frame structure with welded joints by A to Z Machine in Appleton, Wisconsin.
+  - image:
+      image_url: /custom-fabrication-3-l_wqbqfw.jpg
+      image_alt: Heavy-duty custom metal fabrication with reinforced welded frame by A to Z Machine in Appleton, Wisconsin.
+  - image:
+      image_url: /custom-fabrication-4-l_ypzaie.jpg
+      image_alt: Custom-fabricated metal platform weldment with support braces by A to Z Machine in Appleton, Wisconsin.
+  - image:
+      image_url: /custom-fabrication-5-l_riulah.jpg
+      image_alt: Custom-fabricated metal base for industrial machinery by A to Z Machine in Appleton, Wisconsin.
+  - image:
+      image_url: /custom-fabrication-6-l_ilokcg.jpg
+      image_alt: Precision-machined custom metal mounting bracket with multiple bolt holes by A to Z Machine in Appleton, Wisconsin.
 cta:
   heading: What’s your next <span class="underline-primary">project?</span>
   body: "Collaborate with A to Z Machine’s expert machinists."

@@ -327,3 +327,23 @@ function initSwiper() {
 }
 
 initSwiper()
+
+document.addEventListener('DOMContentLoaded', () => {
+  const galleryImages = document.querySelectorAll('.pswp-gallery__image');
+
+  galleryImages.forEach(img => {
+    if (img.complete) {
+      updateDimensions(img);
+    } else {
+      img.addEventListener('load', () => updateDimensions(img));
+    }
+  });
+
+  function updateDimensions(img) {
+    const link = img.closest('a.pswp-gallery__image-link');
+    if (link) {
+      link.setAttribute('data-pswp-width', img.naturalWidth);
+      link.setAttribute('data-pswp-height', img.naturalHeight);
+    }
+  }
+});

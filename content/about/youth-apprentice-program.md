@@ -1,5 +1,5 @@
 ---
-title: Our Culture
+title: Youth Apprentice Program
 draft: false
 layout: youth-apprentice
 seo:

@@ -4,24 +4,22 @@
          <h2>{{ .Title }} product gallery</h2>
       </div>
       <div class="wrapper-lg">
-         {{ with .Params.parts_gallery }}
            <div class="pswp-gallery gallery-grid" id="my-gallery">
-              {{ range .images }}
-              <a
-                 href="{{ .image_l }}"
-                 data-pswp-width="{{ .image_l_width }}"
-                 data-pswp-height="{{ .image_l_height }}"
-                 data-cropped="true"
-                 target="_blank"
-              >
-                 <img class="pswp-gallery__image"
-                    src="{{ .image }}"
-                    alt="{{ .image_alt }}"
-                 />
-              </a>
-              {{ end }}
+               {{ range .Params.parts_gallery }}
+                  <a class="pswp-gallery__image-link"
+                  href="https://res.cloudinary.com/atozmachine/image/upload{{ .image.image_url }}"
+                  data-pswp-width=""
+                  data-pswp-height=""
+                  data-cropped="true"
+                  target="_blank"
+                  >
+                  <img class="pswp-gallery__image"
+                  src="https://res.cloudinary.com/atozmachine/image/upload{{ .image.image_url }}"
+                  alt="{{ .image.image_alt }}"
+                  />
+               </a>
+            {{ end }}
            </div>
-        {{ end }}
       </div>
     </div> 
  </section>

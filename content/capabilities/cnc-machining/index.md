@@ -41,47 +41,30 @@ industries_served:
     image: a-to-z-machine-machinist-polishing-machined-part.jpg
     image_alt: an A to Z Machine machinist polishing a custom metal part on a workbench
 parts_gallery:
-  images:
-    - image: custom-machined-metal-gear-s.jpg
-      image_alt: a custom machined gear laying on a table
-      image_l: custom-machined-metal-gear-l.jpg
-      image_l_width: 1600
-      image_l_height: 1600
-    - image: custom-machined-metal-gear-3-s.jpg
-      image_alt: a custom machined gear sitting upright on a table
-      image_l: custom-machined-metal-gear-3-l.jpg
-      image_l_width: 1600
-      image_l_height: 1600
-    - image: custom-machined-metal-gear-2-s.jpg
-      image_alt: a custom machined gear sitting upright on a table and turned to get a side profile
-      image_l: custom-machined-metal-gear-2-l.jpg
-      image_l_width: 1600
-      image_l_height: 1600
-    - image: custom-machined-metal-flange-s.jpg
-      image_alt: a custom machined flange laying on a table
-      image_l: custom-machined-metal-flange-l.jpg
-      image_l_width: 1600
-      image_l_height: 1600
-    - image: custom-machined-metal-coupler-s.jpg
-      image_alt: a custom machined coupler laying on a table
-      image_l: custom-machined-metal-coupler-l.jpg
-      image_l_width: 1600
-      image_l_height: 1600
-    - image: custom-machined-metal-coupler-2-s.jpg
-      image_alt: a custom machined coupler laying on a table
-      image_l: custom-machined-metal-coupler-2-l.jpg
-      image_l_width: 1600
-      image_l_height: 1600
-    - image: custom-machined-metal-valve-s.jpg
-      image_alt: a custom machined valve laying on a table
-      image_l: custom-machined-metal-valve-l.jpg
-      image_l_width: 1600
-      image_l_height: 1600
-    - image: custom-machined-metal-handle-s.jpg
-      image_alt: a custom machined metal handle laying on a table
-      image_l: custom-machined-metal-handle-l.jpg
-      image_l_width: 1600
-      image_l_height: 1600
+  - image:
+      image_url: /custom-machined-metal-gear-l_llifp3.jpg
+      image_alt: Custom-machined metal gear with precision-cut teeth, manufactured by A to Z Machine in Appleton, Wisconsin.
+  - image:
+      image_url: /custom-machined-metal-gear-3-l_ykpz56.jpg
+      image_alt: Side view of a custom-machined metal gear showing detailed teeth, produced by A to Z Machine in Appleton, Wisconsin.
+  - image:
+      image_url: /custom-machined-metal-gear-2-l_bgj3od.jpg
+      image_alt: Close-up of precision-machined metal gear teeth manufactured by A to Z Machine in Appleton, Wisconsin.
+  - image:
+      image_url: /custom-machined-metal-flange-l_hqvqpd.jpg
+      image_alt: Custom-machined metal flange with precision bolt holes, made by A to Z Machine in Appleton, Wisconsin.
+  - image:
+      image_url: /custom-machined-metal-coupler-l_yq2v3t.jpg
+      image_alt: Precision-machined metal coupler with smooth finish, manufactured by A to Z Machine in Appleton, Wisconsin.
+  - image:
+      image_url: /custom-machined-metal-coupler-2-l_qe5gjh.jpg
+      image_alt: End view of a custom-machined metal coupler with detailed interior, made by A to Z Machine in Appleton, Wisconsin.
+  - image:
+      image_url: /custom-machined-metal-valve-l_vqqzji.jpg
+      image_alt: Custom-machined metal valve component with precision detailing, produced by A to Z Machine in Appleton, Wisconsin.
+  - image:
+      image_url: /custom-machined-metal-handle-l_wpqina.jpg
+      image_alt: Custom-machined metal handle with ergonomic curves and smooth finish by A to Z Machine in Appleton, Wisconsin.
 cta:
   heading: What’s your next <span class="underline-primary">project?</span>
   body: "Collaborate with A to Z Machine’s expert machinists."
