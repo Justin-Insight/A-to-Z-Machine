@@ -3,7 +3,7 @@ title: "Why our customers value us a machining partner and not just a good part"
 seo:
   title: "Why our customers value us a machining partner and not just a good part"
   description: In our latest blog, learn how A to Z Machine sets itself apart as a machining partner for our customers. 
-  featured_image: a-to-z-machine-employee-inspecting-part-2.jpg
+  featured_image: /a-to-z-machine-employee-inspecting-part-2_sw1vbi.jpg
 date: "2025-01-28"
 categories: ["Articles"]
 ---

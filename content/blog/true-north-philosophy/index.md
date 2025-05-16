@@ -3,7 +3,7 @@ title: "True North: Our Purpose, Principles and Values"
 seo:
   title: "True North: Our Purpose, Principles and Values"
   description: Learn how A to Z Machine’s True North philosophy helps guide company culture! 
-  featured_image: an-a-to-z-machine-employee-training-another.jpg
+  featured_image: /an-a-to-z-machine-employee-training-another_rirw0l.jpg
 date: "2024-11-20"
 categories: ["Articles"]
 ---

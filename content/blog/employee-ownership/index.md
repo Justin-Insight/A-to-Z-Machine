@@ -3,7 +3,7 @@ title: "Why Employee Ownership Benefits Both the Company and Employees"
 seo:
   title: "Why Employee Ownership Benefits Both the Company and Employees"
   description: Learn why A to Z Machine’s employee ownership program makes the company stand out! 
-  featured_image: a-to-z-esop-badge.jpg
+  featured_image: /a-to-z-esop-badge_zgrytg.jpg
 date: "2024-04-09"
 categories: ["Articles"]
 ---

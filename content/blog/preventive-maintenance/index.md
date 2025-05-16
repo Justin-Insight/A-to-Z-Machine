@@ -3,7 +3,7 @@ title: "Preventive Maintenance–why it is critical to our company."
 seo:
   title: "Preventive Maintenance–why it is critical to our company."
   description: Learn why A to Z Machine’s regular preventive maintenance is a part of our company culture! 
-  featured_image: young-woman-working-on-cnc-machine.jpg
+  featured_image: /young-woman-working-on-cnc-machine_rtnupf.jpg
 date: "2024-11-20"
 categories: ["Articles"]
 ---

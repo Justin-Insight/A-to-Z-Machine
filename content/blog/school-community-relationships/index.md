@@ -3,7 +3,7 @@ title: "How We Foster School and Community Relationships"
 seo:
   title: "How We Foster School and Community Relationships"
   description: Learn how the A to Z Machine team engages area schools with programs like career fairs and youth apprenticeships! 
-  featured_image: high-school-students-on-facility-tour.jpg
+  featured_image: /high-school-students-on-facility-tour_xrhmme.jpg
 date: "2024-09-25"
 categories: ["Articles"]
 ---

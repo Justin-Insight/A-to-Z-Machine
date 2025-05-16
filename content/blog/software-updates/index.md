@@ -3,7 +3,7 @@ title: "Staying Up-To-Date With Our Software"
 seo:
   title: "Staying Up-To-Date With Our Software"
   description: Learn about the many types of software used by the A to Z Machine team and how they stay on top of updates!
-  featured_image: a-to-z-employee-working-on-cad-drawing-on-computer.jpg
+  featured_image: /a-to-z-employee-working-on-cad-drawing-on-computer_etffje.jpg
 date: "2024-08-13"
 categories: ["Articles"]
 ---

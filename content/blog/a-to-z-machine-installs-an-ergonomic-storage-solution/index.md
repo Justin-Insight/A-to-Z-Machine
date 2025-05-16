@@ -3,7 +3,7 @@ title: "A to Z Machine Installs an Ergonomic Storage Solution"
 seo:
   title: "A to Z Machine Installs an Ergonomic Storage Solution"
   description: a test description
-  featured_image: modula-with-parts.jpg
+  featured_image: /modula-with-parts_ifnzum.jpg
 date: "2021-01-04"
 categories: ["Articles"]
 ---

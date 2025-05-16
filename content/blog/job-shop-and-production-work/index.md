@@ -3,7 +3,7 @@ title: "Strategic Thinking Behind Job Shop and Production Work at A to Z Machine
 seo:
   title: "Strategic Thinking Behind Job Shop and Production Work at A to Z Machine"
   description: Learn the difference between “job shop” and “production” projects at A to Z Machine — and who works on each!
-  featured_image: a-to-z-machinist-working-on-cnc-machine.jpg
+  featured_image: /a-to-z-machinist-working-on-cnc-machine_sxtgok.jpg
 date: "2024-02-27"
 categories: ["Articles"]
 ---

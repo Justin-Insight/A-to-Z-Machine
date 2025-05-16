@@ -3,7 +3,7 @@ title: "A to Z Orders a Laser Engraver"
 seo:
   title: "A to Z Orders a Laser Engraver"
   description: a test description
-  featured_image: Laser.png
+  featured_image: /Laser_vzaiue.png
 date: "2021-01-12"
 categories: ["Articles"]
 ---

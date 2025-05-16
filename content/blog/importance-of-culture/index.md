@@ -3,7 +3,7 @@ title: "Company culture: And why it’s important"
 seo:
   title: "Company culture: And why it’s important"
   description: Learn how the A to Z Machine team in Appleton, Wisconsin, builds its company culture and why it’s important! 
-  featured_image: a-to-z-machine-employee-appreciation-event.jpg
+  featured_image: /a-to-z-machine-employee-appreciation-event_w8j9rs.jpg
 date: "2024-10-18"
 categories: ["Articles"]
 ---

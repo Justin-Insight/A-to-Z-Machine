@@ -3,7 +3,7 @@ title: "A Tale of Two Tool Rooms"
 seo:
   title: "A Tale of Two Tool Rooms"
   description: Read how A to Z Machine set up a new tool room to enhance efficiency for its clients!
-  featured_image: a-to-z-machine-tool-room.jpg
+  featured_image: /a-to-z-machine-tool-room_cz3eoc.jpg
 date: "2024-07-09"
 categories: ["Articles"]
 ---

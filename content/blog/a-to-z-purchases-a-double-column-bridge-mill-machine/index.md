@@ -3,7 +3,7 @@ title: "A to Z Purchases a Double Column Bridge Mill Machine"
 seo:
   title: "A to Z Purchases a Double Column Bridge Mill Machine"
   description: a test description
-  featured_image: double-column-bridge-mill.jpg
+  featured_image: /double-column-bridge-mill_u1hkov.jpg
 date: "2021-01-09"
 categories: ["Articles"]
 ---

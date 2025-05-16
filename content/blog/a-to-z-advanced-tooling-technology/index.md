@@ -3,7 +3,7 @@ title: "A to Z Advanced Tooling Technology"
 seo:
   title: "A to Z Advanced Tooling Technology"
   description: a test description
-  featured_image: tool-presetter.jpg
+  featured_image: /tool-presetter_emwk62.jpg
 date: "2021-01-13"
 categories: ["Articles"]
 ---

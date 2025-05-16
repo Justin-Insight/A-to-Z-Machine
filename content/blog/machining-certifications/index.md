@@ -3,7 +3,7 @@ title: "What Do Our Certifications & Registrations Stand for?"
 seo:
   title: "What Do Manufacturing Certifications & Registrations Stand for?"
   description: In A to Z Machine’s latest blog, discover the importance of certifications and registrations in the manufacturing industry.
-  featured_image: industrial-turning-threading-machine.jpg
+  featured_image: /industrial-turning-threading-machine_xtwimy.jpg
 date: 2023-06-20
 categories: ["Articles"]
 draft: false

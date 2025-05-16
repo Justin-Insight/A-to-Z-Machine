@@ -3,7 +3,7 @@ title: "A to Z Machine New Technology: Palletech"
 seo:
   title: "A to Z Machine New Technology: Palletech"
   description: a test description
-  featured_image: mazak-hnc-6800-palletech-machine.jpg
+  featured_image: /mazak-hnc-6800-palletech-machine_r1lexm.jpg
 date: "2021-01-06"
 categories: ["Articles"]
 ---

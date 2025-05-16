@@ -3,7 +3,7 @@ title: Investing in Youth
 seo:
   title: Investing in Youth
   description: a test description
-  featured_image: a-to-z-employee-with-local-youth.jpg
+  featured_image: /a-to-z-employee-with-local-youth_e4rsni.jpg
 date: "2021-01-01"
 categories: ["Articles"]
 ---

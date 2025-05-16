@@ -3,7 +3,7 @@ title: "A to Z Machine Breaks Ground on 30,000-square-foot Production Facility t
 seo:
   title: "A to Z Machine Breaks Ground on 30,000-square-foot Production Facility to Support Continued Growth"
   description: A to Z Machine broke ground on a 30,000-square-foot production facility in Appleton, WI, the first expansion as an employee-owned entity
-  featured_image: a-to-z-breaks-ground-30000-sq-ft-facility.jpg
+  featured_image: /a-to-z-breaks-ground-30000-sq-ft-facility_vxkrne.jpg
 date: 2023-05-03
 categories: ["News"]
 draft: false

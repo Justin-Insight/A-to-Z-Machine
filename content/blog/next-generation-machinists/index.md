@@ -3,7 +3,7 @@ title: How Can We Inspire the Next Generation of Machinists?
 seo:
   title: How Can We Inspire the Next Generation of Machinists?
   description: Read how to inspire the next generation of machinists in the latest blog from A to Z Machine, a premier manufacturer providing quality from start to finish.
-  featured_image: high-school-students-on-facility-tour.jpg
+  featured_image: /high-school-students-on-facility-tour_xrhmme.jpg
 date: "2023-09-18"
 categories: ["Articles"]
 ---

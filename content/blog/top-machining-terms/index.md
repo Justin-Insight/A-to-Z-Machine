@@ -3,7 +3,7 @@ title: "Test Your Skills: Do You Know These Top Machining Terms?"
 seo:
   title:
   description: Test your knowledge of common machining terms with the latest blog from A to Z Machine, proudly located in Appleton, Wisconsin.
-  featured_image: vertical-cnc-steel-milling-with-external-water-coolant-streams.jpg
+  featured_image: /vertical-cnc-steel-milling-with-external-water-coolant-streams_edawat.jpg
 date: "2023-10-05"
 categories: ["Articles"]
 ---

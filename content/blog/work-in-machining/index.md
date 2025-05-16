@@ -3,7 +3,7 @@ title: "Top Reasons to Work in Machining"
 seo:
   title: "Top Reasons to Work in Machining"
   description: Learn the top reasons to work in machining from A to Z Machine employees in this month’s blog.
-  featured_image: cnc-machining.jpg
+  featured_image: /cnc-machining_buslg8.jpg
 date: 2023-05-18
 categories: ["Articles"]
 draft: false

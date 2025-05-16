@@ -3,7 +3,7 @@ title: "A to Z Machine Adds Smart Robots"
 seo:
   title: "A to Z Machine Adds Smart Robots"
   description: 
-  featured_image: a-to-z-smart-robots.jpg
+  featured_image: /a-to-z-smart-robots_pxt8fe.png
 date: "2021-01-05"
 categories: ["Articles"]
 ---

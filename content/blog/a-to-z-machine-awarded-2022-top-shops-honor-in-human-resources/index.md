@@ -3,7 +3,7 @@ title: "A to Z Machine Awarded 2022 Top Shops Honor in Human Resources"
 seo:
   title: "A to Z Machine Awarded 2022 Top Shops Honor in Human Resources"
   description: Chosen from over 3,000 surveyed shops within the CNC machine and metalwork industry, A to Z Machine thanks their employee owners for this award
-  featured_image: mms-top-shops-logo.jpg
+  featured_image: /mms-top-shops-logo_krwxpr.jpg
 date: "2022-10-03"
 categories: ["News"]
 draft: false

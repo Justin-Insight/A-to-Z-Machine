@@ -3,7 +3,7 @@ title: "What to Look for When Choosing a Precision Machine Shop"
 seo:
   title: "What to Look for When Choosing a Precision Machine Shop"
   description: Learn what makes a great precision machine shop, and how A to Z Machine makes its work stand out!
-  featured_image: a-to-z-machinist-reviewing-screen.jpg
+  featured_image: /a-to-z-machinist-reviewing-screen_x5pzb4.jpg
 date: "2024-03-21"
 categories: ["Articles"]
 ---

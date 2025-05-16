@@ -3,7 +3,7 @@ title: "A to Z Machine's Winning Formula: A Deep Dive into Our DN Solutions Part
 seo:
   title: 
   description: Discover A to Z Machine’s DN machining capabilities, including chip management, ergonomics, accuracy and more in our latest blog.
-  featured_image: puma-4100l.jpg
+  featured_image: /puma-4100l_w5h6wq.jpg
 date: "2023-11-13"
 categories: ["Articles"]
 ---

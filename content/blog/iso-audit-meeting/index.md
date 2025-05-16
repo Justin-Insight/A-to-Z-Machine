@@ -3,7 +3,7 @@ title: ISO Audit Meeting
 seo:
   title: ISO Audit Meeting
   description: a test description
-  featured_image: AZLogo-stacked-tag-web.jpg
+  featured_image: /AZLogo-stacked-tag-web_mpjphq.jpg
 date: "2021-01-07"
 categories: ["Articles"]
 ---

@@ -3,7 +3,7 @@ title: "From Agriculture to Military: How Our Parts Are Used in Vital Industries
 seo:
   title: "From Agriculture to Military: How Our Parts Are Used in Vital Industries"
   description: Learn how A to Z Machine in Appleton, WI, manufactures high-quality precision parts used to support vital industries nationwide.
-  featured_image: batch-of-aerospace-parts.jpg
+  featured_image: /batch-of-aerospace-parts_gnxg2r.jpg
 date: 2023-07-14
 categories: ["Articles"]
 draft: false

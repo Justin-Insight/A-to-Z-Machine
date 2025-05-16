@@ -3,7 +3,7 @@ title: "A to Z Machine Adding an Hvac to the South Building"
 seo:
   title: "A to Z Machine Adding an Hvac to the South Building"
   description: a test description
-  featured_image: ventilation_layout.png
+  featured_image: /ventilation_layout_lub6kn.png
 date: "2021-01-08"
 categories: ["Articles"]
 ---

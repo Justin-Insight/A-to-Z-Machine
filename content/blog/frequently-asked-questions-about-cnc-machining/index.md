@@ -3,7 +3,7 @@ title: "Frequently Asked Questions About CNC Machining"
 seo:
   title: "Frequently Asked Questions About CNC Machining"
   description: Learn how A to Z Machine’s customer managers answer questions about machining!
-  featured_image: cnc-machined-parts-on-pallet.jpg
+  featured_image: /cnc-machined-parts-on-pallet_vrv2ra.jpg
 date: "2024-05-15"
 categories: ["Articles"]
 ---

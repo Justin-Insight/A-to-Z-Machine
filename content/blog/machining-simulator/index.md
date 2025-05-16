@@ -3,7 +3,7 @@ title: "How our special ‘machining simulator’ helps train next-gen machinist
 seo:
   title: "How our special ‘machining simulator’ helps train next-gen machinists"
   description: In our latest blog, learn how A to Z Machine’s machining simulator helps train technicians and introduces machining to students!
-  featured_image: a-to-z-machine-machining-simulator.jpg
+  featured_image: /a-to-z-machine-machining-simulator_ucg0mj.jpg
 date: "2025-03-17"
 categories: ["Articles"]
 ---

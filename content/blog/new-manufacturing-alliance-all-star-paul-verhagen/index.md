@@ -3,7 +3,7 @@ title: Supervisor-Mills, Paul Verhagen
 seo:
   title: Supervisor-Mills, Paul Verhagen
   description: a test description
-  featured_image: paul-verhagen.jpg
+  featured_image: /paul-verhagen_qmpan9.jpg
 date: "2021-01-1"
 categories: ["News"]
 ---

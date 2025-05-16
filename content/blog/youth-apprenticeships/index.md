@@ -3,7 +3,7 @@ title: "Youth Apprenticeships—how the program started and how it has grown"
 seo:
   title: "Youth Apprenticeships—how the program started and how it has grown"
   description: Learn about A to Z Machine’s internal youth apprenticeship program and how it’s grown! 
-  featured_image: two-a-to-z-machine-employees.jpg
+  featured_image: /two-a-to-z-machine-employees_n3il7k.jpg
 date: "2024-06-18"
 categories: ["Articles"]
 ---

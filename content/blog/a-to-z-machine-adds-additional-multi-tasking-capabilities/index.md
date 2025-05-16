@@ -3,7 +3,7 @@ title: "A to Z Machine Adds Additional Multi-Tasking Capabilities"
 seo:
   title: "A to Z Machine Adds Additional Multi-Tasking Capabilities"
   description: a test description
-  featured_image: doosan-puma-smx3100.jpg
+  featured_image: /doosan-puma-smx3100_cocq0u.jpg
 date: "2021-01-03"
 categories: ["Articles"]
 ---

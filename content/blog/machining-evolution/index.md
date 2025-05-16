@@ -3,7 +3,7 @@ title: "The Evolution of Machining: Past, Present and Future "
 seo:
   title: "The Evolution of Machining: Past, Present and Future "
   description: See the evolution of machining, past, present and future, in the latest blog from A to Z Machine, a premier manufacturer in Appleton, Wisconsin.
-  featured_image: a-to-z-machine-old-machine.jpg
+  featured_image: /a-to-z-machine-old-machine_tf3dcz.jpg
 date: 2023-08-10
 categories: ["Articles"]
 draft: false

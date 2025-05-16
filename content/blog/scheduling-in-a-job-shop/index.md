@@ -3,7 +3,7 @@ title: "How scheduling in a job shop keeps production moving at A to Z Machine!"
 seo:
   title: 
   description: In our latest blog, learn how A to Z Machine keeps all the work moving and customers happy through careful scheduling! 
-  featured_image: machinist-operating-cnc-machine.jpg
+  featured_image: /machinist-operating-cnc-machine_hiujz4.jpg
 date: "2025-05-07"
 categories: ["Articles"]
 ---

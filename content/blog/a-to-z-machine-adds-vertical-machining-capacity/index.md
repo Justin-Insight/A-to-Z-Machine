@@ -3,7 +3,7 @@ title: "A to Z Machine Adds Vertical Machining Capacity"
 seo:
   title: "A to Z Machine Adds Vertical Machining Capacity"
   description: a test description
-  featured_image: awea.jpg
+  featured_image: /awea_bhmtoq.jpg
 date: "2021-01-02"
 categories: ["Articles"]
 ---

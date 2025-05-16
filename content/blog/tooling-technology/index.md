@@ -3,7 +3,7 @@ title: "Using Tooling Technology to Make Precision Parts"
 seo:
   title: "Using Tooling Technology to Make Precision Parts"
   description: Learn how machinists use tooling technology to fill precision orders!
-  featured_image: cnc-machine-tools-on-shelf.jpg
+  featured_image: /cnc-machine-tools-on-shelf_kck8iq.jpg
 date: "2024-01-23"
 categories: ["Articles"]
 ---

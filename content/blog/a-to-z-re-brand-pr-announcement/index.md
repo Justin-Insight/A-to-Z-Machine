@@ -3,7 +3,7 @@ title: A to Z Re-Brand PR Announcement
 seo:
   title: A to Z Re-Brand PR Announcement
   description: a test description
-  featured_image: AZLogo-stacked-tag-web.jpg
+  featured_image: /AZLogo-stacked-tag-web_mpjphq.jpg
 date: "2021-01-14"
 categories: ["Articles"]
 ---

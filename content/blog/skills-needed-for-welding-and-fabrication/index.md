@@ -3,7 +3,7 @@ title: "What Skills are Needed for Welding & Fabrication?"
 seo:
   title:
   description: Learn what qualities A to Z Machine seeks in its Welding & Fabrication team!
-  featured_image: welder-working-on-large-metal-project.jpg
+  featured_image: /welder-working-on-large-metal-project_un6g4u.jpg
 date: "2023-12-06"
 categories: ["Articles"]
 ---
