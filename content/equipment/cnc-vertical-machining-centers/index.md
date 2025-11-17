@@ -9,11 +9,19 @@ seo:
   featured_image: mazak-vcn-705D-cnc-vertical-machining-centers.jpg
   featured_image_alt: Mazak VCN 715D vertical machining center
 hero:
+  image:
+    image_url: /Doosan-horizontal-lathe_xwqovm.jpg
+    image_alt: Doosan horizontal lathe
+  preheading: 
   heading: CNC Vertical Machining Centers
-  body: A to Z Machine is equipped with full-service CNC machining centers
-    including vertically oriented spindles. These machines can mill, drill, tap,
-    bore and more. These machines are equipped for high-speed production and
-    heavy-duty use.
+  body: >-
+    A to Z Machine is equipped with full-service CNC machining centers including vertically oriented spindles. These machines can mill, drill, tap, bore and more. These machines are equipped for high-speed production and heavy-duty use.
+  button:
+    enabled: true
+    button_url: /contact/
+    button_text: Schedule Tour
+    button_color: white
+    open_in_new_tab: false
 ---
 * **Doosan DCM 2740F II** \* 167” X Travel \* 126” Y Travel \* 39.4” Z Travel \* 57" W Travel \* 92.5” Spindle Nose to Table \* 106.3” between columns \* 60 HP \* 4000 RPM \* Big Plus CAT50 Spindle \* Universal and Right Angle Head Attachments
 * **Awea LP4025** \* 157.5” X Travel \* 98.4” Y Travel \* 30” Z Travel \* 39.4” Spindle Nose to Table \* 106.3” between columns \* 6000 RPM * CAT50 Spindle

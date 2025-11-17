@@ -6,12 +6,19 @@ seo:
     A to Z Machine stands out through its True North promise, committing to high-quality precision machining, partnerships with customers, and an intentional workplace.
   featured_image: /employee-wrenching-on-machined-part_bzvmb7.jpg
 hero:
-  heading: What is Our True North?
-  subhead: "It’s our purpose: Being the machining industry's supplier and employer of choice"
-  body: "We come to work each day with our customers’ expectations in mind. And we know providing excellent service to our customers goes far beyond machining high-quality parts. It also means acting as their partner throughout every step of the process—and it means having a workplace culture where our skilled team members thrive and take ownership in the valuable work they provide."
   image:
-    hero_image: employee-wrenching-on-machined-part.jpg
-    hero_image_alt: Two A to Z Machine employees looking at screen on a CNC Machine
+    image_url: /employee-wrenching-on-machined-part_bzvmb7.jpg
+    image_alt: Employee wrenching on a machined part
+  preheading: What is Our True North?
+  heading: "It’s Our Purpose: Being the Machining Industry’s Supplier and Employer of Choice"
+  body: >-
+    We come to work each day with our customers’ expectations in mind. And we know providing excellent service to our customers goes far beyond machining high-quality parts. It also means acting as their partner throughout every step of the process—and it means having a workplace culture where our skilled team members thrive and take ownership in the valuable work they provide.
+  button:
+    enabled: false
+    button_url: 
+    button_text:
+    button_color: white
+    open_in_new_tab: false
 why_a_to_z_block:
   heading: Why customers come to us (and stay)
   body: We are a partner to our customers throughout their process with us—and we’re ready for any challenging machining need. We provide value beyond other shops by working together to innovate solutions and the best designs for manufacturing, quality, efficiency and on-time delivery. Additionally, the top-quality equipment we work with every day means we can handle complex parts with tolerances others in our field cannot meet. We’re not satisfied with “the way we’ve always done it”—we strive for the next level.

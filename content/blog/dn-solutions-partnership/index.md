@@ -9,7 +9,7 @@ categories: ["Articles"]
 ---
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe title="DN House: A to Z Machine" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/UQlpkIOJPFM?si=eT6iYFcuB4fdn97c&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe title="DN House: A to Z Machine" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/UQlpkIOJPFM?si=eT6iYFcuB4fdn97c&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 A to Z Machine in Appleton, Wisconsin, relies on precision engineering to meet the growing needs of customers and employees alike. “We use DN Solutions machines because we believe in them,” shared **Marc Manteufel**, the manufacturing engineering manager and IT manager at A to Z. “The DN product supports our manufacturing efforts, and in return, we provide testimonials to support DN’s marketing campaigns.”
@@ -52,4 +52,4 @@ Marc highlighted that million-dollar-plus investments such as A to Z’s latest 
 
 Join our employee-owned company as we continually invest in the best shop systems, software, machines and cutting tools. Marc added, “If you want to use the latest technology, come to A to Z.”
 
-<a class="btn btn-primary" href="https://atozmachine.isolvedhire.com/jobs/" target="_blank">Apply now!</a>
+<a class="btn btn--primary" href="https://atozmachine.isolvedhire.com/jobs/" target="_blank">Apply now!</a>

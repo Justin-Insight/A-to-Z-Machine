@@ -62,4 +62,4 @@ Besides the main equipment that the crew maintains, A to Z Machine also schedule
 
 Learn more about our company and how our True North philosophy shows up in everything we do. 
 
-<a class="btn btn-primary" href="/careers/">Apply now!</a>
+<a class="btn btn--primary" href="/careers/">Apply now!</a>

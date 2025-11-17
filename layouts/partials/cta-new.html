@@ -17,7 +17,7 @@
           <p>{{ .body | markdownify }}</p>
           <div class="flex flex-column flex-row-m flex-justify-around">
             {{ range .buttons }}
-              <a class="btn btn-{{ .button_color }}" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
+              <a class="btn btn--{{ .button_color }}" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
             {{ end }}
           </div>
         </div>

@@ -1,0 +1,77 @@
+<section class="split-hero flex flex-column flex-row-m">
+    <div class="w-100 w-50-m text-column bg-black text-white flex flex-column flex-justify-center flow">
+      <header>
+        {{ if .preheading }}
+          <h1 class="hero__preheading text-style-slub">{{ .preheading }}</h1>
+          <h2 class="hero__heading h1">{{ .heading | markdownify }}</h2>
+        {{ else }}
+          <h1>{{ .heading | markdownify }}</h1>
+        {{ end }}
+        {{ if .subheading }}
+          <p class="hero__subheading">{{ .subheading | markdownify }}</p>
+        {{ end }}
+      </header>
+      {{ if .body }}
+        {{ if in .body "\n" }}
+          {{ .body | markdownify }}
+        {{ else }}
+          <p>{{ .body | markdownify }}</p>
+        {{ end }}
+      {{ end }}
+      {{ if .button.enabled }}
+        {{ with .button }}
+          <a class="btn btn--{{ .button_color }}" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>
+            {{ .button_text }}
+          </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  <div class="w-100 w-50-m image-column image-column--alt">
+      <picture class="background-image">
+          <!-- AVIF -->
+          <source 
+              sizes="100vw"
+              srcset="
+              https://res.cloudinary.com/atozmachine/image/upload/f_avif,q_85,w_600,c_fill{{ .image.image_url }} 600w,
+              https://res.cloudinary.com/atozmachine/image/upload/f_avif,q_85,w_1000,c_fill{{ .image.image_url }} 1000w,
+              https://res.cloudinary.com/atozmachine/image/upload/f_avif,q_85,w_1400,c_fill{{ .image.image_url }} 1400w,
+              https://res.cloudinary.com/atozmachine/image/upload/f_avif,q_85,w_1800,c_fill{{ .image.image_url }} 1800w,
+              https://res.cloudinary.com/atozmachine/image/upload/f_avif,q_85,w_2200,c_fill{{ .image.image_url }} 2200w,
+              https://res.cloudinary.com/atozmachine/image/upload/f_avif,q_85,w_2600,c_fill{{ .image.image_url }} 2600w,
+              https://res.cloudinary.com/atozmachine/image/upload/f_avif,q_85,w_3200,c_fill{{ .image.image_url }} 3200w
+              "
+              type="image/avif">
+          <!-- WebP -->
+          <source 
+              sizes="100vw"
+              srcset="
+              https://res.cloudinary.com/atozmachine/image/upload/f_webp,q_85,w_600,c_fill{{ .image.image_url }} 600w,
+              https://res.cloudinary.com/atozmachine/image/upload/f_webp,q_85,w_1000,c_fill{{ .image.image_url }} 1000w,
+              https://res.cloudinary.com/atozmachine/image/upload/f_webp,q_85,w_1400,c_fill{{ .image.image_url }} 1400w,
+              https://res.cloudinary.com/atozmachine/image/upload/f_webp,q_85,w_1800,c_fill{{ .image.image_url }} 1800w,
+              https://res.cloudinary.com/atozmachine/image/upload/f_webp,q_85,w_2200,c_fill{{ .image.image_url }} 2200w,
+              https://res.cloudinary.com/atozmachine/image/upload/f_webp,q_85,w_2600,c_fill{{ .image.image_url }} 2600w,
+              https://res.cloudinary.com/atozmachine/image/upload/f_webp,q_85,w_3200,c_fill{{ .image.image_url }} 3200w
+              "
+              type="image/webp">
+          <!-- JPG Fallback -->
+          <img class="hero__image"
+              sizes="100vw"
+              src="https://res.cloudinary.com/atozmachine/image/upload{{ .image.image_url }}"
+              srcset="
+              https://res.cloudinary.com/atozmachine/image/upload/f_jpg,q_85,w_600,c_fill{{ .image.image_url }} 600w,
+              https://res.cloudinary.com/atozmachine/image/upload/f_jpg,q_85,w_1000,c_fill{{ .image.image_url }} 1000w,
+              https://res.cloudinary.com/atozmachine/image/upload/f_jpg,q_85,w_1400,c_fill{{ .image.image_url }} 1400w,
+              https://res.cloudinary.com/atozmachine/image/upload/f_jpg,q_85,w_1800,c_fill{{ .image.image_url }} 1800w,
+              https://res.cloudinary.com/atozmachine/image/upload/f_jpg,q_85,w_2200,c_fill{{ .image.image_url }} 2200w,
+              https://res.cloudinary.com/atozmachine/image/upload/f_jpg,q_85,w_2600,c_fill{{ .image.image_url }} 2600w,
+              https://res.cloudinary.com/atozmachine/image/upload/f_jpg,q_85,w_3200,c_fill{{ .image.image_url }} 3200w
+              "
+              alt="{{ .image.image_alt }}"
+              width="1920"
+              height="1080"
+              loading="eager"
+              decoding="async">
+      </picture>
+  </div>
+</section>

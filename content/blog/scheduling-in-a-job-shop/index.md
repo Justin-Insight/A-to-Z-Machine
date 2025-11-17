@@ -70,4 +70,4 @@ A to Z also keeps the lines of communication open with customers and sometimes c
 
 Read more about our employee-owned company and become a part of A to Z’s precision machining team.
 
-<a class="btn btn-primary" href="/about/culture/">Learn more about A to Z</a>
+<a class="btn btn--primary" href="/about/culture/">Learn more about A to Z</a>

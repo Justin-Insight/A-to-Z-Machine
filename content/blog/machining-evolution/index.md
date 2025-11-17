@@ -54,4 +54,4 @@ As for the industry, a focus on automation, artificial intelligence and data con
 
 With our state-of-the-art CNC equipment and [highly skilled team](/careers/), A to Z Machine is equipped to handle diverse machining requirements. Whether you need prototypes, custom parts or large-scale production and weldments, we have the expertise and resources to meet your expectations.
 
-<a class="btn btn-primary" href="/contact/">Contact us today!</a>
+<a class="btn btn--primary" href="/contact/">Contact us today!</a>

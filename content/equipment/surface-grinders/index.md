@@ -9,6 +9,20 @@ seo:
 hero:
   heading: "Surface Grinders"
   body: "A surface grinder is a machine tool used to provide precision ground surfaces, either to a critical size or for the surface finish."
+hero:
+  image:
+    image_url: /Doosan-horizontal-lathe_xwqovm.jpg
+    image_alt: Doosan horizontal lathe
+  preheading: 
+  heading: Surface Grinders
+  body: >-
+    A surface grinder is a machine tool used to provide precision ground surfaces, either to a critical size or for the surface finish.
+  button:
+    enabled: true
+    button_url: /contact/
+    button_text: Schedule Tour
+    button_color: white
+    open_in_new_tab: false
 ---
 
 - **Browne and Sharpe 1024 Micromaster** \* 12” x 24” Magnetic Chuck \* with DRO

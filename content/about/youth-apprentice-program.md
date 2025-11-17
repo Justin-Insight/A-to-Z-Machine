@@ -7,35 +7,33 @@ seo:
   description:
     Kickstart your manufacturing career with A to Z Machine’s Youth Apprentice Program in Appleton, WI. Gain hands-on experience and earn while you learn. 
   featured_image: /two-a-to-z-machine-employees_zo1bai.jpg
-hero_new:
-  heading: Youth Apprentice Program  
-  subhead: 
+hero:
+  image:
+    image_url: /two-a-to-z-machine-employees_zo1bai.jpg
+    image_alt: Two A to Z Machine employees looking at screen on a CNC Machine
+  preheading:
+  heading: Youth Apprentice Program
   body: >-
     Do you or someone you know want to become part of the next generation of machinists? At A to Z Machine in Appleton, WI, we’re committed to helping you learn valuable skills as you gain experience toward a fulfilling career.  
 
 
     Our **youth apprentice program** is offered to local high school juniors and seniors who want to get a jump start on their careers. This is a paid apprenticeship. After completing the program, several apprentices will decide on different pathways into their careers, including attending secondary education or becoming full-time employees with A to Z Machine. 
-  image:
-    image_url: /two-a-to-z-machine-employees_zo1bai.jpg
-    image_alt: Two A to Z Machine employees looking at screen on a CNC Machine
   button:
     enabled: true
     button_url: /contact/
     button_text: Request Information
     button_color: primary
     open_in_new_tab: false
-university:
+intro:
+  preheading: 
   heading: A to Z University
   body: >-
     Our youth apprentice program is part of A to Z University, a hub for continual learning at our CNC machine shop. A to Z University houses several training plans and paths for all our team members—including youth apprentices. The content is constantly evolving and tailored to the requests of our employees. 
-  image:
-    image_url: /two-young-a-to-z-machine-employees-together_ctglio.jpg
-    image_alt: 
   button:
     enabled: true
     button_url: /uploads/a-to-z-machine-university-brochure.pdf
     button_text: Download Our Brochure
-    button_color: white
+    button_color: primary
     open_in_new_tab: true
 questions_hunter: 
   heading: Q&A with Former Youth Apprentice Hunter Carey
@@ -73,7 +71,7 @@ questions_hunter:
 
         Another great perk is the vested ownership program. Every year, you gain a percentage of ownership in the company, which means you get a free retirement account just by showing up and doing your job. 
   text_column_position: right
-  background_color: white
+  background_color: gray
 questions_scott: 
   heading: Q&A with Former Youth Apprentice Scott Zehner
   body: >-

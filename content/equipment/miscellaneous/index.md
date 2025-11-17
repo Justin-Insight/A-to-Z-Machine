@@ -9,8 +9,19 @@ seo:
   featured_image: 15ton-overhead-crane.jpg
   featured_image_alt: 15 ton overhead crane
 hero:
+  image:
+    image_url: /Doosan-horizontal-lathe_xwqovm.jpg
+    image_alt: Doosan horizontal lathe
+  preheading: 
   heading: Miscellaneous
-  body: Miscellaneous
+  body: >-
+    Miscellaneous
+  button:
+    enabled: true
+    button_url: /contact/
+    button_text: Schedule Tour
+    button_color: white
+    open_in_new_tab: false
 ---
 * Assembly Shop * 150 Ton Gantry Press 6’ X 12.5’ Table
 * 15 Ton Overhead Crane Capacity

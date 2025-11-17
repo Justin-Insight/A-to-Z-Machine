@@ -54,4 +54,4 @@ The success of the YA program is evident, with over 20 percent of the A to Z man
 
 Join our employee-owned company and become a part of A to Z’s precision team, or learn more about the <a href="https://www.youtube.com/watch?v=_H31Xllc_Co" target="_blank" rel="noopener noreferrer">youth apprenticeship program</a> today!    
 
-<a class="btn btn-primary" href="/careers/">Apply now!</a>
+<a class="btn btn--primary" href="/careers/">Apply now!</a>

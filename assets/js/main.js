@@ -4,10 +4,6 @@ const siteHeader = document.querySelector('.site-header');
 const hasSubMenu = document.querySelectorAll(".has-sub-menu");
 const mobileMenu = document.querySelector('.site-header__mobile-nav');
 const hamburger = document.querySelector('.hamburger');
-const searchButton = document.querySelector('.search-toggle');
-const searchModal = document.querySelector('.search-modal');
-const searchIcon = document.querySelector('#search-icon');
-const closeSearchIcon = document.querySelector('#close');
 const videoTrigger = document.querySelector('.video-trigger');
 const secondaryVideoTrigger = document.querySelector('.secondary-video-trigger');
 const closeVideoBtn = document.querySelector('.video-overlay__button');
@@ -97,23 +93,6 @@ function initVideoTrigger () {
 } 
 
 initVideoTrigger()
-
-searchButton.addEventListener('click', event => {
-    console.log(searchModal)
-    if (searchModal.classList.contains('search-open')) {
-        // close the search modal
-        // change closed icon back to the search icon
-        searchModal.classList.remove('search-open')
-        searchIcon.classList.remove('icon-hidden')
-        closeSearchIcon.classList.add('icon-hidden')
-    } else {
-        // open the search modal
-        // change search icon to close icon
-        searchModal.classList.add('search-open')
-        searchIcon.classList.add('icon-hidden')
-        closeSearchIcon.classList.remove('icon-hidden')
-    }
-})
 
 let scrollState = 0;
 

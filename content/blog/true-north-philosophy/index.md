@@ -58,4 +58,4 @@ Since the adoption of True North, A to Z has seen improved productivity, but mor
 
 Learn more about our company and how we live our True North philosophy every day. 
 
-<a class="btn btn-primary" href="/careers/">Apply now!</a>
+<a class="btn btn--primary" href="/careers/">Apply now!</a>

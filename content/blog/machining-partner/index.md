@@ -58,4 +58,4 @@ It speaks to the skill, expertise and team approach that A to Z offers to its cu
 
 Read more about our employee-owned company and become a part of A to Z’s precision machining team. 
 
-<a class="btn btn-primary" href="/careers/">See careers at A to Z</a>
+<a class="btn btn--primary" href="/careers/">See careers at A to Z</a>

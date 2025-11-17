@@ -6,14 +6,14 @@ seo:
   description:
     Get to know the history of A to Z Machine, a CNC machining shop in Appleton, WI, where we collaborate as a team to achieve our True North.
   featured_image: /a-to-z-machine-main-building-exterior_ft4we4.jpg
-hero_new:
-  heading: A to Z Machine History
-  subhead: 
-  body: >-
-    What started as a small operation has grown to become the leading CNC machine shop we are today. From facility expansions to becoming employee-owned, one thing hasn’t changed—our dedication to precision parts and quality from start to finish. 
+hero:
   image:
     image_url: /a-to-z-machine-main-building-exterior_ft4we4.jpg
-    image_alt: 
+    image_alt:
+  preheading:
+  heading: A to Z Machine History
+  body: >-
+    What started as a small operation has grown to become the leading CNC machine shop we are today. From facility expansions to becoming employee-owned, one thing hasn’t changed—our dedication to precision parts and quality from start to finish. 
   button:
     enabled: true
     button_url: /capabilities/

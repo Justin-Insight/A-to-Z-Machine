@@ -62,4 +62,4 @@ Feed rate (the rate at which the cutting tool advances into the workpiece during
 
 Our cutting-edge CNC equipment and exceptionally skilled team are prepared to tackle a wide range of machining needs.
 
-<a class="btn btn-primary" href="/contact/">Reach out today!</a>
+<a class="btn btn--primary" href="/contact/">Reach out today!</a>

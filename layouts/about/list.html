@@ -1,7 +1,12 @@
 {{ define "main" }}
-{{ partial "hero" (dict "Page" . "image" .Params.hero.image.hero_image "alt" .Params.hero.image.hero_image_alt ) }}
-{{ partial "hero-intro-alt" . }}
-<div class="pb-10">
+
+{{ if .Params.hero }}
+  {{ with .Params.hero }}
+    {{ partial "hero-split" . }}
+  {{ end }}
+{{ end }}
+
+<div class="block">
   <div class="wrapper-lg">
     <div class="building-images grid-3">
       {{ range .Params.building_images.images }}
@@ -14,10 +19,11 @@
       <p>{{ .Params.building_block.body | markdownify }}</p>
     </div>
     <div class="text-center pt-4">
-      <a href="{{ .Params.building_block.button.button_url | markdownify }}" class="btn btn-primary">{{ .Params.building_block.button.button_text }}</a>
+      <a href="{{ .Params.building_block.button.button_url | markdownify }}" class="btn btn--primary">{{ .Params.building_block.button.button_text }}</a>
     </div>
   </div>
 </div>
+
 <div class="flex flex-column flex-row-m">
   <div class="w-100 w-50-m image-column video-trigger">
      {{ partial "responsive-image" (dict "Page" . "image" .Params.machinist_block.image.image "alt" .Params.machinist_block.image.image_alt ) }}
@@ -26,7 +32,7 @@
   <div class="w-100 w-50-m text-column bg-gray flex flex-column flex-justify-center flow">
     <h2>{{ .Params.machinist_block.heading | markdownify }}</h2>
     <p>{{ .Params.machinist_block.body }}</p>
-    <button class="btn btn-primary secondary-video-trigger">Watch to learn more</button>
+    <button class="btn btn--primary secondary-video-trigger">Watch to learn more</button>
   </div>
 </div>
 <div class="block">
@@ -45,7 +51,7 @@
   <div class="w-100 w-50-m text-column bg-primary text-white flex flex-column flex-justify-center flow">
     <h2>{{ .Params.quality.heading | markdownify }}</h2>
     {{ .Params.quality.body | markdownify }}
-    <a href="{{ .Params.quality.button.button_url | markdownify }}" class="btn btn-white">{{ .Params.quality.button.button_text }}</a>
+    <a href="{{ .Params.quality.button.button_url | markdownify }}" class="btn btn--white">{{ .Params.quality.button.button_text }}</a>
   </div>
   <div class="w-100 w-50-m image-column image-column--alt">
      {{ partial "responsive-image" (dict "Page" . "image" .Params.quality.image.image "alt" .Params.quality.image.image_alt ) }}

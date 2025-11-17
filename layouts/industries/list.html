@@ -1,7 +1,12 @@
 {{ define "main" }}
-{{ partial "hero" (dict "Page" . "image" .Params.hero.image.hero_image "alt" .Params.hero.image.hero_image_alt ) }}
-{{ partial "hero-intro" . }}
-<div class="pb-10">
+
+{{ if .Params.hero }}
+  {{ with .Params.hero }}
+    {{ partial "hero-split" . }}
+  {{ end }}
+{{ end }}
+
+<div class="block">
     <ul class="wrapper-lg industry-grid grid-3">
         {{ range .Params.industries }}
         <li class="card">
@@ -13,6 +18,7 @@
         {{ end }}
     </ul>
 </div>
+
 <div class="flex flex-column flex-row-m">
   <div class="w-100 w-40-m image-column">
      {{ partial "responsive-image" (dict "Page" . "image" .Params.a_to_z_adapts.image.image "alt" .Params.a_to_z_adapts.image.image_alt ) }}
@@ -25,11 +31,14 @@
       <p>{{ .body }}</p>
       {{ end }}
       {{ if .button }}
-        <a href="{{ .button.button_url }}" class="btn btn-primary">{{ .button.button_text }}</a>
+        <a href="{{ .button.button_url }}" class="btn btn--primary">{{ .button.button_text }}</a>
       {{ end }}
     </div>
   {{ end }}
 </div>
+
 {{ partial "a-to-z-approach" . }}
+
 {{ partial "cta" . }}
+
 {{ end  }}

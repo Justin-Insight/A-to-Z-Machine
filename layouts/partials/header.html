@@ -6,8 +6,7 @@
     <div class="site-header__top-inner wrapper-lg flex flex-justify-end">
       <ul class="site-header__secondary-menu flex flex-center">
         <li><a href="/blog/">Blog</a></li>
-        <li><button type="button" class="search-toggle" aria-label="search-toggle">{{ partialCached "svg-icons/search.svg" . }}{{ partialCached "svg-icons/close.svg" . }}</button></li>
-        <li><a href="/request-a-quote/" class="btn btn-primary--rev">Request a quote</a></li>
+        <li><a href="/request-a-quote/" class="btn btn--secondary">Request a quote</a></li>
       </ul>
     </div>
   </div>
@@ -68,7 +67,7 @@
           {{ end }}
         </ul>
         <ul class="site-header__contact">
-          <li><a href="/request-a-quote/" class="btn btn-primary">Request a quote</a></li>
+          <li><a href="/request-a-quote/" class="btn btn--primary">Request a quote</a></li>
         </ul>
         <ul class="site-header__social">
           {{ range .Site.Data.site_settings.social_media }}
@@ -101,9 +100,6 @@
     </button>
   </div>
 </header>
-<div class="search-modal">
-  <div id="search"></div>
-</div>
 
 {{ define "menu-node" }}
   <li class="nav-list__sub-menu-item list-style-none">

@@ -1,0 +1,11 @@
+.split-hero .w-50-m + .w-50-m {
+    margin-left: 0;
+}
+
+.split-hero .image-column {
+    max-height: none;
+}
+
+.split-hero .image-column--alt::after {
+    background-color: $black;
+}

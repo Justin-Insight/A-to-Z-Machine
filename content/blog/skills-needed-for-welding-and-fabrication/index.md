@@ -48,4 +48,4 @@ Welders may work on projects that take just an hour and a half, or they could be
 
 Join our employee-owned company and become a part of this dynamic team. Currently, the welding & fabricating team works Monday through Friday from 5 a.m. to 5 p.m.
 
-<a class="btn btn-primary" href="/careers/">Apply now!</a>
+<a class="btn btn--primary" href="/careers/">Apply now!</a>

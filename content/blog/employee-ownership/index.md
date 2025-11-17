@@ -40,4 +40,4 @@ The benefits of working here versus for a privately owned company means that you
 
 Join our employee-owned company and become a part of A to Z’s precision team.
 
-<a class="btn btn-primary" href="/careers/">Apply now!</a>
+<a class="btn btn--primary" href="/careers/">Apply now!</a>

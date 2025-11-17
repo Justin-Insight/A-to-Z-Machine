@@ -7,8 +7,19 @@ seo:
   featured_image: puma-3100ly.jpg
   featured_image_alt: Doosan Puma 3100LY CNC live tooling lathe
 hero:
-  heading: "CNC Live Tooling Lathes"
-  body: "Live tooling, as the name implies, is specifically driven by the CNC control and the turret of various spindle and powered sub-spindle configurations on CNC lathes to perform various operations while the workpiece remains in orientation to the main spindle."
+  image:
+    image_url: /Doosan-horizontal-lathe_xwqovm.jpg
+    image_alt: Doosan horizontal lathe
+  preheading: 
+  heading: CNC Live Tooling Lathes
+  body: >-
+    Live tooling, as the name implies, is specifically driven by the CNC control and the turret of various spindle and powered sub-spindle configurations on CNC lathes to perform various operations while the workpiece remains in orientation to the main spindle.
+  button:
+    enabled: true
+    button_url: /contact/
+    button_text: Schedule Tour
+    button_color: white
+    open_in_new_tab: false
 ---
 
 - **Doosan Puma-MX3100** \* 15” Chuck \* 30” Max Turn Diameter \* 39.4” Swing \* 60.6” Center to Center \* 4” Bar Capacity \* Full 5-Axis \* 40 HP Turning Spindle \* 12,000 RPM 30 HP C6 Capto Milling Spindle

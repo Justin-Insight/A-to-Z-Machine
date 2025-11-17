@@ -6,10 +6,18 @@ seo:
   featured_image: /two-men-diligently-working-together-in-machine-shop_l50snr.jpg
 hero:
   image:
-    hero_image: two-men-diligently-working-together-in-machine-shop.jpg
-    hero_image_alt: Two men diligently working together on a machine in A to Z Machine shop
-  heading: "Multi-industry machining experience"
-  body: "At A to Z Machine, we pride ourselves on the ability to adapt and expand to our customers’ needs. No matter your industry, business or how big or small your CNC parts project may be, we have the capability to get the job done. We currently serve the following industries but are always aspiring to grow."
+    image_url: /two-men-diligently-working-together-in-machine-shop_l50snr.jpg
+    image_alt: Two men diligently working together in machine shop
+  preheading: 
+  heading: Multi-industry Machining Experience
+  body: >-
+    At A to Z Machine, we pride ourselves on the ability to adapt and expand to our customers’ needs. No matter your industry, business or how big or small your CNC parts project may be, we have the capability to get the job done. We currently serve the following industries but are always aspiring to grow.
+  button:
+    enabled: true
+    button_url: /request-a-quote/
+    button_text: Request a Free Quote Today
+    button_color: white
+    open_in_new_tab: false
 industries:
   - heading: Agriculture
     image: agriculture.jpg

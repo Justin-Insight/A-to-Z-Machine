@@ -69,4 +69,4 @@ Al agreed: “Everything we do as a team, we’re doing for ourselves. We’re a
 
 Our employee-owned company is always hiring dependable, hardworking people. We offer **superior benefits** and **on-the-job training**.
 
-<a class="btn btn-primary" href="/careers/">Apply now!</a>
+<a class="btn btn--primary" href="/careers/">Apply now!</a>

@@ -1,21 +1,11 @@
 {{ define "main" }}
-<div class="equipment-hero hero"></div>
-{{ $heroClass := lower .Page.Title }}
-<section class="{{ anchorize $heroClass }}-hero-intro">
-  <div class="block w-100">
-    <div class="wrapper-sm flow">
-      {{ partial "breadcrumbs" . }}
-      <h1 class="no-margin text-center">
-        {{ .Params.hero.heading | markdownify }}
-      </h1>
-      <p>{{ .Params.hero.body | markdownify }}</p>
-      <div class="text-center">
-        <a href="/contact/" class="btn btn-primary">Schedule tour</a>
-      </div>
-    </div>
-  </div>
-</section>
-<div class="pb-10">
+{{ if .Params.hero }}
+  {{ with .Params.hero }}
+    {{ partial "hero-split" . }}
+  {{ end }}
+{{ end }}
+
+<div class="block">
     <ul class="wrapper-lg equipment-grid grid-3">
         {{ range .Pages }}
         <li class="card">

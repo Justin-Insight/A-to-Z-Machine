@@ -68,4 +68,4 @@ Sydney said one of the biggest benefits of being a smaller company like A to Z i
 
 Learn more about our company and how A to Z’s team works together on precision parts every day. 
 
-<a class="btn btn-primary" href="/contact/">Contact Us Today!</a>
+<a class="btn btn--primary" href="/contact/">Contact Us Today!</a>

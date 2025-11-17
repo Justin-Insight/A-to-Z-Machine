@@ -58,4 +58,4 @@ A to Z Machine’s True North philosophy is focused on fulfilling the company’
 
 Read more about our employee-owned company and become a part of A to Z’s production machining team.
 
-<a class="btn btn-primary" href="/about/culture/">Learn more about A to Z</a>
+<a class="btn btn--primary" href="/about/culture/">Learn more about A to Z</a>

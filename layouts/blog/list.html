@@ -1,6 +1,11 @@
 {{ define "main" }}
-{{ partial "hero" (dict "Page" . "image" .Params.hero.image.hero_image "alt" .Params.hero.image.hero_image_alt ) }}
-{{ partial "hero-intro-alt" . }}
+
+{{ if .Params.hero }}
+  {{ with .Params.hero }}
+    {{ partial "hero-split" . }}
+  {{ end }}
+{{ end }}
+
 <section class="block">
   <div class="grid-3 wrapper-lg">
     {{ $paginator := .Paginate ( where .Data.Pages "Type" "blog" ) }}

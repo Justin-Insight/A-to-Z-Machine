@@ -7,8 +7,19 @@ seo:
   featured_image: S-23A-machineshot-2.jpg
   featured_image_alt: Hyd-Mech S23A Saw
 hero:
-  heading: "Sawing"
-  body: "Sawing is often used to remove large sections of material without particular concern for tolerances, but modern CNC sawing machines can be used for finishing work as well."
+  image:
+    image_url: /Doosan-horizontal-lathe_xwqovm.jpg
+    image_alt: Doosan horizontal lathe
+  preheading: 
+  heading: Sawing
+  body: >-
+    Sawing is often used to remove large sections of material without particular concern for tolerances, but modern CNC sawing machines can be used for finishing work as well.
+  button:
+    enabled: true
+    button_url: /contact/
+    button_text: Schedule Tour
+    button_color: white
+    open_in_new_tab: false
 ---
 
 - **Hyd-Mech S23A** \* Automatic Shuttle \* Overhead Bundling \* 16” High x 20” Wide Capacity

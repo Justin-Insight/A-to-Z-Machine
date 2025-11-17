@@ -1,15 +1,18 @@
 {{ define "main" }}
-{{ partial "careers-hero" (dict "Page" . "image" .Params.hero.image.hero_image "alt" .Params.hero.image.hero_image_alt "heading" .Params.hero.heading "body" .Params.hero.body ) }}
-<div class="flex flex-column flex-row-m">
-  <div class="w-100 w-50-m image-column">
-     {{ partial "responsive-image" (dict "Page" . "image" .Params.benefits.image.image_src ) }}
-  </div>
-  <div class="w-100 w-50-m text-column bg-gray flex flex-column flex-justify-center flow">
-    <h2>{{ .Params.benefits.heading }}</h2>
-    <p>{{ .Params.benefits.body }}</p>
-  </div>
-</div>
-<div class="block">
+
+{{ if .Params.hero }}
+  {{ with .Params.hero }}
+    {{ partial "hero-split" . }}
+  {{ end }}
+{{ end }}
+
+{{ if .Params.intro }}
+  {{ with .Params.intro }}
+    {{ partial "intro" . }}
+  {{ end }}
+{{ end }}
+
+<div class="block bg-gray">
   <div class="wrapper-lg">
     <div class="benefit-cards">
       {{ with .Params.benefits }}
@@ -54,7 +57,7 @@
   <div class="w-100 w-50-m text-column bg-gray flex flex-column flex-justify-center flow">
     <h2>{{ .Params.apprenticeship.heading }}</h2>
     <p>{{ .Params.apprenticeship.body }}</p>
-    <button class="btn btn-primary secondary-video-trigger">Watch to learn more</button>
+    <button class="btn btn--primary secondary-video-trigger">Watch to learn more</button>
   </div>
 </div>
 <div class="video-overlay">

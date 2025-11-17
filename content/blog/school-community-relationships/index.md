@@ -76,4 +76,4 @@ A to Z has lots of people working in the company who have more than 20 years of 
 
 Learn more about our company and see how A to Z’s team works together on precision parts every day. 
 
-<a class="btn btn-primary" href="/contact/">Contact Us Today!</a>
+<a class="btn btn--primary" href="/contact/">Contact Us Today!</a>

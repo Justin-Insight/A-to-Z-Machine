@@ -57,15 +57,15 @@
         background-color: $black;
       }
 
-      .btn-primary--rev {
+      .btn--secondary {
         color: $primary-color;
       }
 
-      .btn-primary--rev::before {
+      .btn--secondary::before {
         background-color: $white;
       }
 
-      .btn-primary--rev::after {
+      .btn--secondary::after {
         background-color: $primary-color;
         transform: $skew translateX(20px);
       }

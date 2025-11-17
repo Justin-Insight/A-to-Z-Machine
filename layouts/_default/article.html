@@ -19,7 +19,7 @@
           <p class="blog-summary__summary">
             {{ if .Params.summary }}{{ .Params.summary | truncate 90 | safeHTML }}{{ else }}{{ .Summary  | truncate 90 | safeHTML }}{{ end }}
           </p>
-          <span class="btn btn-primary--rev">Read More</span>
+          <span class="btn btn--secondary">Read More</span>
         </div>
       </div>
     </a>

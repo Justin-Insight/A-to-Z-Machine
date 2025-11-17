@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+{{ if .Params.hero }}
+  {{ with .Params.hero }}
+    {{ partial "hero-split" . }}
+  {{ end }}
+{{ end }}
+
+{{ if .Params.intro }}
+  {{ with .Params.intro }}
+    {{ partial "intro" . }}
+  {{ end }}
+{{ end }}
+
+{{ if .Params.capabilities }}
+  {{ with .Params.capabilities }}
+    {{ partial "media-text-angled-rev" . }}
+  {{ end }}
+{{ end }}
+
+{{ if .Params.media_text_block }}
+  {{ with .Params.media_text_block }}
+    {{ partial "media-text" . }}
+  {{ end }}
+{{ end }}
+
+{{ if .Params.industries_served }}
+  <section class="industries-served block bg-black">
+    <div class="wrapper-md flex flex-column flex-row-m">
+        <div class="w-100 w-60-m text-white flow">
+            <h2>{{ .Site.Data.global_partials.industries_served.heading }}</h2>
+            <p>{{ .Site.Data.global_partials.industries_served.body }}</p>
+            {{ .Site.Data.global_partials.industries_served.industries | markdownify }}
+              <div class="multi-button-wrapper flex flex-column flex-row-m flex-justify-around">
+                <a href="{{ .Site.Data.global_partials.industries_served.button1.button_url }}" class="btn btn--secondary">{{ .Site.Data.global_partials.industries_served.button1.button_text }}</a>
+                <a href="{{ .Site.Data.global_partials.industries_served.button2.button_url }}" class="btn btn--secondary">{{ .Site.Data.global_partials.industries_served.button2.button_text }}</a>
+              </div>
+        </div>
+        {{ partial "industries-images" (dict "Page" . "image1" .Params.industries_served.image1.image "image1_alt" .Params.industries_served.image1.image_alt "image2" .Params.industries_served.image2.image "image2_alt" .Params.industries_served.image2.image_alt ) }}
+    </div>
+  </section>
+{{ end }}
+
+{{ partial "capabilities/image-gallery" . }}
+
+{{ with .Params.cta }}
+  {{ partial "cta-new" . }}
+{{ end }}
+
+{{ end }}

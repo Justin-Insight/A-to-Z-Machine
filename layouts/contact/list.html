@@ -1,61 +1,64 @@
 {{ define "main" }}
-{{ partial "hero" (dict "Page" . "image" .Params.hero.image.hero_image "alt" .Params.hero.image.hero_image_alt ) }}
-{{ partial "hero-intro-alt" . }}
-<div class="wrapper-lg">
-  <div class="pb-9">
-    <div class="flex flex-column flex-row-m">
-      <div class="w-100 w-60-m">
-        <div class="contact-form bg-gray">
-          <h2 class="h4 no-margin">Send us a message</h2>
-          <small>Fields marked with an * are required</small>
-          <div class="contact-form__wrapper">
-              <form name="contact" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field" action="/contact/thank-you/">
-                  <div hidden>
-                      <label>
-                        Don’t fill this out if you're human: 
-                        <input name="bot-field" />
-                      </label>
-                  </div>
-                  <div class="visually-hidden">
-                    <label for="subject">New form submission from the atozmachine.com contact form</label>
-                    <input aria-label="subject" name="subject" value="New form submission from the atozmachine.com contact form" />
-                  </div>
-                  <div class="contact-form__form-group flex">
-                      <label for="first_name">First Name*</label>
-                      <input id="first_name" name="first_name" type="text" class="contact-form__form-control" required>
-                  </div>
-                  <div class="contact-form__form-group flex">
-                      <label for="last_name">Last Name*</label>
-                      <input id="last_name" name="last_name" type="text" class="contact-form__form-control" required>
-                  </div>
-                  <div class="contact-form__form-group flex">
-                      <label for="company">Company</label>
-                      <input id="company" name="company" type="text" class="contact-form__form-control">
-                  </div>
-                  <div class="contact-form__form-group flex">
-                      <label for="email">Email*</label>
-                      <input id="email" name="_replyto" type="email" class="contact-form__form-control" required>
-                  </div>
-                  <div class="contact-form__form-group flex">
-                      <label for="phone">Phone*</label>
-                      <input id="phone" name="phone" type="tel" class="contact-form__form-control" required>
-                  </div>
-                  <div class="contact-form__form-group flex">
-                      <label for="message">Message*</label>
-                      <textarea id="message" name="message" class="contact-form__form-control" rows="4" required></textarea>
-                  </div>
-                  <div style="margin-bottom: 1em;" data-netlify-recaptcha="true"></div>
-                  <div class="contact-form__form-group flex">
-                    <label></label>
-                    <button target="_blank" type="submit" class="contact-form__btn btn btn-primary">Send Message</button>
-                  </div>
-              </form>
-          </div>
+
+{{ if .Params.hero }}
+  {{ with .Params.hero }}
+    {{ partial "hero-split" . }}
+  {{ end }}
+{{ end }}
+
+<div class="block">
+  <div class="wrapper-lg flex flex-column flex-row-m">
+    <div class="w-100 w-60-m">
+      <div class="contact-form bg-gray">
+        <h2 class="h4 no-margin">Send us a message</h2>
+        <small>Fields marked with an * are required</small>
+        <div class="contact-form__wrapper">
+            <form name="contact" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field" action="/contact/thank-you/">
+                <div hidden>
+                    <label>
+                      Don’t fill this out if you're human: 
+                      <input name="bot-field" />
+                    </label>
+                </div>
+                <div class="visually-hidden">
+                  <label for="subject">New form submission from the atozmachine.com contact form</label>
+                  <input aria-label="subject" name="subject" value="New form submission from the atozmachine.com contact form" />
+                </div>
+                <div class="contact-form__form-group flex">
+                    <label for="first_name">First Name*</label>
+                    <input id="first_name" name="first_name" type="text" class="contact-form__form-control" required>
+                </div>
+                <div class="contact-form__form-group flex">
+                    <label for="last_name">Last Name*</label>
+                    <input id="last_name" name="last_name" type="text" class="contact-form__form-control" required>
+                </div>
+                <div class="contact-form__form-group flex">
+                    <label for="company">Company</label>
+                    <input id="company" name="company" type="text" class="contact-form__form-control">
+                </div>
+                <div class="contact-form__form-group flex">
+                    <label for="email">Email*</label>
+                    <input id="email" name="_replyto" type="email" class="contact-form__form-control" required>
+                </div>
+                <div class="contact-form__form-group flex">
+                    <label for="phone">Phone*</label>
+                    <input id="phone" name="phone" type="tel" class="contact-form__form-control" required>
+                </div>
+                <div class="contact-form__form-group flex">
+                    <label for="message">Message*</label>
+                    <textarea id="message" name="message" class="contact-form__form-control" rows="4" required></textarea>
+                </div>
+                <div style="margin-bottom: 1em;" data-netlify-recaptcha="true"></div>
+                <div class="contact-form__form-group flex">
+                  <label></label>
+                  <button target="_blank" type="submit" class="contact-form__btn btn btn--primary">Send Message</button>
+                </div>
+            </form>
         </div>
       </div>
-      <div class="w-100 w-40-m">
-        {{ partial "contact-info" . }}
-      </div>
+    </div>
+    <div class="w-100 w-40-m">
+      {{ partial "contact-info" . }}
     </div>
   </div>
 </div>

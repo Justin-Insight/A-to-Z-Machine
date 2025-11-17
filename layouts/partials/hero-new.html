@@ -21,7 +21,7 @@
             <div class="text-center">
                 {{ if .Params.hero_new.button.enabled }}
                     {{ with .Params.hero_new.button }}
-                        <a class="btn btn-{{ .button_color }} {{ if .icon }}flex flex-center gap-xs{{ end }}" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
+                        <a class="btn btn--{{ .button_color }} {{ if .icon }}flex flex-center gap-xs{{ end }}" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
                     {{ end }}
                 {{ end }}
             </div>

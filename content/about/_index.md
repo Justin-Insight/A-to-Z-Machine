@@ -8,15 +8,19 @@ seo:
     Northeast Wisconsin.
   featured_image: /two-a-to-z-machine-employees-looking-at-screen_uomfxj.jpg
 hero:
-  heading: About A to Z Machine
-  subhead: Your complete CNC machining and fabrication source
-  body: "A to Z Machine is a large-scale, full-service machine shop located in
-    Appleton, Wisconsin. We proudly build long-term partnerships and
-    industry-specific manufactured goods with ultimate precision and efficiency.
-    Our sprawling campus includes three buildings: one dedicated to welding and fabrication, one to production machining, and our largest building houses our job shop machinery."
   image:
-    hero_image: two-a-to-z-machine-employees-looking-at-screen.jpg
-    hero_image_alt: Two A to Z Machine employees looking at screen on a CNC Machine
+    image_url: /two-a-to-z-machine-employees-looking-at-screen_uomfxj.jpg
+    image_alt: Two A to Z Machine employees looking at screen on a CNC Machine
+  preheading: About A to Z Machine
+  heading: Your Complete CNC Machining and Fabrication Source
+  body: >-
+    A to Z Machine is a large-scale, full-service machine shop located in Appleton, Wisconsin. We proudly build long-term partnerships and industry-specific manufactured goods with ultimate precision and efficiency. Our sprawling campus includes three buildings: one dedicated to welding and fabrication, one to production machining, and our largest building houses our job shop machinery.
+  button:
+    enabled: false
+    button_url: 
+    button_text:
+    button_color: white
+    open_in_new_tab: false
 building_images:
   images:
     - image: a-to-z-main-building-exterior.jpg
@@ -131,7 +135,7 @@ cta:
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 
-<iframe title="A To Z - Your Valued Partner" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" id="video" src="//www.youtube.com/embed/2ZbO5Vqn1Sw?enablejsapi=1&html5=1" frameborder="0" allowfullscreen></iframe>
+<iframe title="A To Z - Your Valued Partner" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" id="video" src="//www.youtube.com/embed/2ZbO5Vqn1Sw?enablejsapi=1&html5=1" frameborder="0" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
 </div>
 

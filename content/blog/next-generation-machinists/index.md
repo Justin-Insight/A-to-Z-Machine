@@ -53,4 +53,4 @@ In conclusion, inspiring the next generation of machinists requires a multifacet
 
 Our employee-owned company is always hiring dependable, hardworking people. We offer **great benefits** and **on-the-job training** that’s personalized to you.
 
-<a class="btn btn-primary" href="/careers/">Apply now!</a>
+<a class="btn btn--primary" href="/careers/">Apply now!</a>

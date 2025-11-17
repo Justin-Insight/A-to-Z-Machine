@@ -8,8 +8,19 @@ seo:
   featured_image: miller-welder-2.jpg
   featured_image_alt: Blue Miller welder with cables
 hero:
+  image:
+    image_url: /Doosan-horizontal-lathe_xwqovm.jpg
+    image_alt: Doosan horizontal lathe
+  preheading: 
   heading: Welding
-  body: Welding
+  body: >-
+    Welding
+  button:
+    enabled: true
+    button_url: /contact/
+    button_text: Schedule Tour
+    button_color: white
+    open_in_new_tab: false
 ---
 * Shop Certified \* AWS D1.1 \* ASME Section 9 * **Hypotherm Powermax 105** Plasma Cutter*  Weld positioners from 1500 lbs. to 2,000 lbs.
 * MIG Welding:

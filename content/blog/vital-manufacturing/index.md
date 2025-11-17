@@ -43,4 +43,4 @@ Another way A to Z supports vital industries is through growth and expansion eff
 
 Our employee-owned company is always hiring dependable, hardworking people. We offer **superior benefits** and [**on-the-job training**](/blog/work-in-machining/). Together, we can drive innovation, efficiency and reliability across vital industries!
 
-<a class="btn btn-primary" href="/careers/">Apply now!</a>
+<a class="btn btn--primary" href="/careers/">Apply now!</a>

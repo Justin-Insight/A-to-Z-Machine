@@ -1,6 +1,10 @@
 {{ define "main" }}
 
-{{ partial "hero-new" . }}
+{{ if .Params.hero }}
+  {{ with .Params.hero }}
+    {{ partial "hero-split" . }}
+  {{ end }}
+{{ end }}
 
 {{ with .Params.history }}
 <section class="history block{{ if .background_color }} bg-{{ .background_color }}{{ end }}{{ if .css_classes }} {{ .css_classes }}{{ end }}" {{ if .heading }}aria-labelledby="{{ .heading | urlize }}"{{ end }}>

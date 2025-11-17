@@ -1,6 +1,16 @@
 {{ define "main" }}
 
-{{ partial "hero-new" . }}
+{{ if .Params.hero }}
+  {{ with .Params.hero }}
+    {{ partial "hero-split" . }}
+  {{ end }}
+{{ end }}
+
+{{ if .Params.intro }}
+  {{ with .Params.intro }}
+    {{ partial "intro" . }}
+  {{ end }}
+{{ end }}
 
 {{ with .Params.university }}
   {{ partial "media-text-angled" . }}

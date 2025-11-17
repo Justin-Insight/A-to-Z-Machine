@@ -9,10 +9,18 @@ seo:
   featured_image: /machined-metal-parts_wellbx.jpg
 hero:
   image:
-    hero_image: machined-metal-parts.jpg
-    hero_image_alt: large metal parts lined up together on a pallet
-  heading: "Request a quote"
-  body: "Do you have a specific project in mind? We can help you get a head start! Simply complete the form below with your project details and the appropriate person at A to Z Machine will respond with an estimate and plan to get started."
+    image_url: /machined-metal-parts_wellbx.jpg
+    image_alt: Machined metal parts by A to Z Machine
+  preheading: 
+  heading: Request a quote
+  body: >-
+    Do you have a specific project in mind? We can help you get a head start! Simply complete the form below with your project details and the appropriate person at A to Z Machine will respond with an estimate and plan to get started.
+  button:
+    enabled: false
+    button_url: 
+    button_text: 
+    button_color: primary
+    open_in_new_tab: true
 cta:
   cta_image: a-to-z-employee-working-on-cad-drawing-on-computer.jpg
   heading: Create a career <span class="underline-primary">precisely for you</span>

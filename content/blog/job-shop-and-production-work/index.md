@@ -70,4 +70,4 @@ It can take years to build a senior machinist who can work on the more complex p
  
 Join our employee-owned company and become a part of this dynamic team. Currently, our job shop and production shops are running across two shifts.
 
-<a class="btn btn-primary" href="/careers/">Apply now!</a>
+<a class="btn btn--primary" href="/careers/">Apply now!</a>

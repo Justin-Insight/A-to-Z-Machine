@@ -1,7 +1,12 @@
 {{ define "main" }}
+
+{{ if .Params.hero }}
+  {{ with .Params.hero }}
+    {{ partial "hero-split" . }}
+  {{ end }}
+{{ end }}
+
 <div class="equipment-main">
-    <div class="equipment-hero hero"></div>
-    {{ partial "hero-intro-alt" . }}
     <div class="block">
         <div class="wrapper-md flex flex-column flex-row-m">
             <div class="w-100 w-40-m">
@@ -9,7 +14,7 @@
             </div>
             <div class="w-100 w-60-m equipment-list">
                 {{ .Content }}
-                <a href="/request-a-quote/" class="btn btn-primary">Request a quote</a>
+                <a href="/request-a-quote/" class="btn btn--primary">Request a quote</a>
             </div>
         </div>
     </div>

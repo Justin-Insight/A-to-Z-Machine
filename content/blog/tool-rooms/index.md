@@ -59,4 +59,4 @@ Also, both tool rooms and shop floors are fully climate-controlled. “It’s an
 
 Join our employee-owned company and become a part of A to Z’s precision team.   
 
-<a class="btn btn-primary" href="/careers/">Apply now!</a>
+<a class="btn btn--primary" href="/careers/">Apply now!</a>

@@ -42,4 +42,4 @@ With such a large emphasis on quality, A to Z is always striving to be on the cu
 
 Our employee-owned company is ready to help! We proudly manufacture industry-specific goods with the highest quality and efficiency.
 
-<a class="btn btn-primary" href="/contact/">Contact us today!</a>
+<a class="btn btn--primary" href="/contact/">Contact us today!</a>

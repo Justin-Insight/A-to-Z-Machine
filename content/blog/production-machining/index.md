@@ -60,4 +60,4 @@ A to Z’s True North philosophy means the company’s purpose is to be the mach
 
 Read more about our employee-owned company and become a part of A to Z’s production machining team.
 
-<a class="btn btn-primary" href="/about/culture/">Learn more about A to Z</a>
+<a class="btn btn--primary" href="/about/culture/">Learn more about A to Z</a>

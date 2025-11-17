@@ -52,4 +52,4 @@ Giving machinists-in-training experience with the simulator before they operate 
 
 Read more about our employee-owned company and become a part of A to Z’s precision machining team. 
 
-<a class="btn btn-primary" href="/careers/">See careers at A to Z</a>
+<a class="btn btn--primary" href="/careers/">See careers at A to Z</a>

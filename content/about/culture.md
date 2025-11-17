@@ -6,18 +6,29 @@ seo:
   description:
     Discover the culture at A to Z Machine in Appleton, WI, where teamwork, respect and continuous improvement drive everything we do. 
   featured_image: /two-young-machinists-a-to-z-machine-3_mwj7bs.jpg
-hero_new:
-  heading: A to Z Machine Company Culture  
-  subhead: 
-  body: >-
-    At A to Z Machine, our CNC machining company is built on strong values, mutual respect and a shared commitment to being the machining industry’s supplier and employer of choice. To achieve these goals, we strive to create a work environment that values safety, accountability, continuous growth and more. Here’s a glimpse into what makes A to Z a great place to work. 
+hero:
   image:
     image_url: /two-young-machinists-a-to-z-machine-3_mwj7bs.jpg
     image_alt: Two A to Z Machine employees looking at screen on a CNC Machine
+  preheading:
+  heading: A to Z Machine Company Culture  
+  body: >-
+    At A to Z Machine, our CNC machining company is built on strong values, mutual respect and a shared commitment to being the machining industry’s supplier and employer of choice. To achieve these goals, we strive to create a work environment that values safety, accountability, continuous growth and more. Here’s a glimpse into what makes A to Z a great place to work.
   button:
     enabled: true
     button_url: /careers/
     button_text: Explore Careers
+    button_color: primary
+    open_in_new_tab: false
+intro:
+  preheading: 
+  heading: True North Philosophy
+  body: >-
+    Our True North philosophy keeps us aligned with our purpose: to be the machining industry’s supplier and employer of choice. We commit to delivering high-quality service and products, while also being a company that employees are proud to work for. Our focus on quality, accountability and growth drives everything we do.
+  button:
+    enabled: true
+    button_url: /true-north/
+    button_text: Learn more about our True North
     button_color: primary
     open_in_new_tab: false
 quality:
@@ -34,16 +45,6 @@ quality:
     enabled: false
     button_url:
     button_text:
-    button_color: primary
-    open_in_new_tab: false
-true_north_block:
-  heading: True North Philosophy
-  body: >-
-    Our True North philosophy keeps us aligned with our purpose: to be the machining industry’s supplier and employer of choice. We commit to delivering high-quality service and products, while also being a company that employees are proud to work for. Our focus on quality, accountability and growth drives everything we do.
-  button:
-    enabled: true
-    button_url: /true-north/
-    button_text: Learn more about our True North
     button_color: primary
     open_in_new_tab: false
 ted_block:

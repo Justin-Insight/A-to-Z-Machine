@@ -7,10 +7,18 @@ seo:
   featured_image_alt: A woman wearing glasses stands confidently in front of a large machine
 hero:
   image:
-    hero_image: woman-wearing-glasses-stands-confidently-by-large-machine.jpg
-    hero_image_alt: A woman wearing glasses stands confidently in front of a large machine
-  heading: "Full-service machining capabilities"
-  body: "A to Z Machine is an innovative shop. Our expert machinists employ state-of-the-art machinery and the latest technology to uphold the highest tolerances and embrace new challenges from our customers. Decades of experience, flexibility and a constant drive for improvement guarantee machining mastery to the fullest extent … quicker turnaround, higher quality products and stronger relationships."
+    image_url: /woman-wearing-glasses-stands-confidently-by-large-machine_pfe5cg.jpg
+    image_alt: A woman wearing glasses stands confidently in front of a large machine
+  preheading: 
+  heading: Full-service Machining Capabilities
+  body: >-
+    A to Z Machine is an innovative shop. Our expert machinists employ state-of-the-art machinery and the latest technology to uphold the highest tolerances and embrace new challenges from our customers. Decades of experience, flexibility and a constant drive for improvement guarantee machining mastery to the fullest extent … quicker turnaround, higher quality products and stronger relationships.
+  button:
+    enabled: true
+    button_url: /request-a-quote/
+    button_text: Request a Free Quote Today
+    button_color: white
+    open_in_new_tab: false
 cnc_machining:
   heading: CNC Machining
   body: Our CNC machining capabilities are constantly growing. Currently, our machines can handle 1”-200” long materials and load capabilities over 30,000 lbs.

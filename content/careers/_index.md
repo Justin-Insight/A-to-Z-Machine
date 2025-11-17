@@ -9,24 +9,33 @@ seo:
   featured_image_alt: Two A to Z Machine Employees standing in front of fabrication work bench
 hero:
   image:
-    hero_image: a-to-z-machine-fab-welding-group.jpg
-    hero_image_alt: null
+    image_url: /a-to-z-machine-fab-welding-group_tw4j9o.jpg
+    image_alt: A to Z Machine fabrication and welding group
+  preheading: CNC Machining and Fabrication Careers in Appleton, WI
   heading: Build a <span class="underline-primary">solid career</span> at A to Z Machine
-  body: Have you lost your tolerance for old equipment and tooling? Are you tired
+  body: >-
+    Have you lost your tolerance for old equipment and tooling? Are you tired
     of changing schedules and switching from 30-hour to 50-hour weeks? Do you
     want to be an employee owner working with a team towards the same goal? Fuse
     your passions and skills with our innovative shop!
+  button:
+    enabled: true
+    button_url: https://atozmachine.isolvedhire.com/
+    button_text: View Job Openings
+    button_color: primary
+    open_in_new_tab: true
+intro:
+  preheading: 
+  heading: Become an Employee Owner
+  body: >-
+    As a growing and innovative company, we’re always hiring good, hard-working people. A to Z Machine is 100% employee-owned, allowing individuals to contribute to and benefit from the company’s success. In addition to consistent schedules and the newest machinery and tooling, our employees enjoy strong compensation, benefits and employee appreciation programs.
+  button:
+    enabled: true
+    button_url: /true-north/
+    button_text: Learn more about our True North
+    button_color: primary
+    open_in_new_tab: false
 benefits:
-  heading: Become an employee owner
-  body: As a growing and innovative company, we’re always hiring good,
-    hard-working people. A to Z Machine is 100% employee-owned, allowing
-    individuals to contribute to and benefit from the company’s success. In
-    addition to consistent schedules and the newest machinery and tooling, our
-    employees enjoy strong compensation, benefits and employee appreciation
-    programs.
-  image:
-    image_src: two-a-to-z-machine-employees-standing-in-machine-shop.jpg
-    image_alt: Two A to Z machine machinists standing in their machine shop
   benefit:
     - heading: Strong compensation & savings
       body: 7% second shift differential, regular performance/wage reviews,
@@ -101,5 +110,5 @@ apprenticeship:
 ---
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe title="A to Z Machine Youth Apprenticeship Video" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" id="video" src="//www.youtube.com/embed/_H31Xllc_Co?enablejsapi=1&html5=1" frameborder="0" allowfullscreen></iframe>
+  <iframe title="A to Z Machine Youth Apprenticeship Video" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" id="video" src="//www.youtube.com/embed/_H31Xllc_Co?enablejsapi=1&html5=1" frameborder="0" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>

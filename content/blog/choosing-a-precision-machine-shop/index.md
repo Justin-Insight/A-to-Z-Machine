@@ -40,4 +40,4 @@ A to Z also invests in its people, having strong training programs in place for 
 
 Join our employee-owned company and become a part of this dynamic team.
 
-<a class="btn btn-primary" href="/careers/">Apply now!</a>
+<a class="btn btn--primary" href="/careers/">Apply now!</a>

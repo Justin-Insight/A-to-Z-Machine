@@ -9,10 +9,19 @@ seo:
   featured_image: PUMA_4100LB.jpg
   featured_image_alt: Doosan Puma 4100LB CNC Horizontal Lathe
 hero:
+  image:
+    image_url: /Doosan-horizontal-lathe_xwqovm.jpg
+    image_alt: Doosan horizontal lathe
+  preheading: 
   heading: CNC Horizontal Lathes
-  body: CNC Horizontal Lathe machining is performed using horizontally configured
-    lathes. These machines rotate a workpiece cylindrically while tooling shapes
-    the piece by cutting away excess materials.
+  body: >-
+    CNC Horizontal Lathe machining is performed using horizontally configured lathes. These machines rotate a workpiece cylindrically while tooling shapes the piece by cutting away excess materials.
+  button:
+    enabled: true
+    button_url: /contact/
+    button_text: Schedule Tour
+    button_color: white
+    open_in_new_tab: false
 ---
 * **Doosan Puma-700L** \* 32” Chuck \* 10” to 31.5” Steady Rest \* 35” Max Turn Diameter \* 126.0” Center to Center * 60 HP Turning Spindle
 * **Doosan Puma-700XL** \* 32” Chuck \* 6.5” to 25.5” Pass Thru Steady Rest \* 35” Max Turn Diameter \* 200" Center to Center * 60 HP Turning Spindle

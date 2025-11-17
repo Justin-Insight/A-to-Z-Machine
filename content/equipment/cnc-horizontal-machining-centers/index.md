@@ -9,12 +9,19 @@ seo:
   featured_image: OKK-horizontal-machining-centers-2.jpg
   featured_image_alt: null
 hero:
+  image:
+    image_url: /Doosan-horizontal-lathe_xwqovm.jpg
+    image_alt: Doosan horizontal lathe
+  preheading: 
   heading: CNC Horizontal Machining Centers
-  body: Horizontal machining occurs on a Horizontal Machining Center (HMC), which
-    employs a spindle that is parallel to the ground floor. With a horizontally
-    oriented spindle, tools protrude from the side of the tool holder and cut
-    across the side of a workpiece, encouraging chips to fall away from the
-    table.
+  body: >-
+    Horizontal machining occurs on a Horizontal Machining Center (HMC), which employs a spindle that is parallel to the ground floor. With a horizontally oriented spindle, tools protrude from the side of the tool holder and cut across the side of a workpiece, encouraging chips to fall away from the table.
+  button:
+    enabled: true
+    button_url: /contact/
+    button_text: Schedule Tour
+    button_color: white
+    open_in_new_tab: false
 ---
 * **OKK HM-800S** \* 31.5 Pallets \* 2,645 lbs. Table Load Capacity \* Full 4th Axis \* 40 HP \* 12,000 RPM \* Big Plus CAT50 Spindle
 * **OKK HM-6300S** \* 24.8” Pallets \* Full 4th Axis \* 50 HP \* 12,000 RPM * Big Plus CAT50 Spindle

@@ -7,8 +7,19 @@ seo:
   featured_image: Dadson-DS7530-KM-Deep-Hole-Gundrill-43080-2.jpg
   featured_image_alt: Dadson Gun Drill
 hero:
-  heading: "Gun Drilling"
-  body: "Gun Drills (through coolant drills) are straight fluted drills which allow cutting fluid (either compressed air or a suitable liquid) to be injected through the drill's hollow body to the cutting face. They are used for deep drilling. A depth-to-diameter ratio of 300:1 or more is possible."
+  image:
+    image_url: /Doosan-horizontal-lathe_xwqovm.jpg
+    image_alt: Doosan horizontal lathe
+  preheading: 
+  heading: Gun Drilling
+  body: >-
+    Gun Drills (through coolant drills) are straight fluted drills which allow cutting fluid (either compressed air or a suitable liquid) to be injected through the drill's hollow body to the cutting face. They are used for deep drilling. A depth-to-diameter ratio of 300:1 or more is possible.
+  button:
+    enabled: true
+    button_url: /contact/
+    button_text: Schedule Tour
+    button_color: white
+    open_in_new_tab: false
 ---
 
 - **Dadson #DS2120.CM** Gun Drill \* 2.5” Max Diameter \* 120” Z Travel

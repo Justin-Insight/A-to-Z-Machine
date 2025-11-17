@@ -1,6 +1,11 @@
 {{ define "main" }}
-{{ partial "hero" (dict "Page" . "image" .Params.hero.image.hero_image "alt" .Params.hero.image.hero_image_alt ) }}
-{{ partial "hero-intro" . }}
+
+{{ if .Params.hero }}
+  {{ with .Params.hero }}
+    {{ partial "hero-split" . }}
+  {{ end }}
+{{ end }}
+
 <section class="capabilities block bg-gray">
   <div class="wrapper">
     <div class="flex flex-column flex-row-m flex-center-m">
@@ -10,7 +15,7 @@
       <div class="w-100 w-50-m flow">
         <h2>{{ .Params.cnc_machining.heading | markdownify }}</h2>
         <p>{{ .Params.cnc_machining.body | markdownify }}</p>
-        <a href="{{ .Params.cnc_machining.button.button_url }}" class="btn btn-primary">{{ .Params.cnc_machining.button.button_text }}</a>
+        <a href="{{ .Params.cnc_machining.button.button_url }}" class="btn btn--primary">{{ .Params.cnc_machining.button.button_text }}</a>
       </div>
     </div>
     <div class="pt-9 flex flex-column flex-row-m flex-center-m">
@@ -20,7 +25,7 @@
       <div class="w-100 w-50-m flow">
         <h2>{{ .Params.fabrication.heading | markdownify }}</h2>
         <p>{{ .Params.fabrication.body | markdownify }}</p>
-        <a href="{{ .Params.fabrication.button.button_url }}" class="btn btn-primary">{{ .Params.fabrication.button.button_text }}</a>
+        <a href="{{ .Params.fabrication.button.button_url }}" class="btn btn--primary">{{ .Params.fabrication.button.button_text }}</a>
       </div>
     </div>
   </div>
