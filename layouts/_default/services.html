@@ -18,6 +18,10 @@
   {{ end }}
 {{ end }}
 
+{{ if .Params.content_blocks }}
+  {{ partial "content-blocks" . }}
+{{ end }}
+
 {{ if .Params.media_text_block }}
   {{ with .Params.media_text_block }}
     {{ partial "media-text" . }}
@@ -41,7 +45,9 @@
   </section>
 {{ end }}
 
-{{ partial "capabilities/image-gallery" . }}
+{{ if .Params.parts_gallery }}
+  {{ partial "capabilities/image-gallery" . }}
+{{ end }}
 
 {{ with .Params.cta }}
   {{ partial "cta-new" . }}

@@ -36,7 +36,7 @@ capabilities:
   body: >-
     * [Metal Fabrication](/metal-fabrication-appleton-wi/)
     
-    * Welding
+    * [Welding](/welding-appleton-wi/)
 
     * Water Jetting
 

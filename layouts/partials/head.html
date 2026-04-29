@@ -1,6 +1,5 @@
 <head>
     <meta charset="UTF-8">
-    <meta name="referrer" content="no-referrer">
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <title>{{ if .Params.seo.title }}{{ .Params.seo.title | markdownify }}{{ else }}{{ .Title }}{{ end }} | {{ .Site.Title }}</title>
     
@@ -22,18 +21,9 @@
     <meta property="twitter:site" content="@">
     <meta property="twitter:image" content="{{ if .Params.seo.featured_image }}https://res.cloudinary.com/atozmachine/image/upload{{ .Params.seo.featured_image }}{{ end }}">
 
-    {{ with resources.Get "scss/critical.scss" | toCSS | resources.PostCSS | minify }}
+    {{ with resources.Get "scss/main.scss" | css.Sass | css.PostCSS | minify }}
     <style>{{ .Content | safeCSS }}</style>
     {{ end }}
-
-    {{ $scss := resources.Get "scss/main.scss" | toCSS }}
-    {{ $postcss := $scss | resources.PostCSS | minify }}
-    <link rel="preload" href="{{ $postcss.Permalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="{{ $postcss.Permalink }}"></noscript>
-
-    {{ $darkscss := resources.Get "scss/dark.scss" | toCSS }}
-    {{ $postcssdark := $darkscss | resources.PostCSS | minify }}
-    <link rel="stylesheet" href="{{ $postcssdark.Permalink }}" media="(prefers-color-scheme: dark)">
 
     <link rel="preconnect" href="https://www.google-analytics.com">
     
