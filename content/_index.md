@@ -1,7 +1,7 @@
 ---
 title: Home
 seo:
-  title: CNC machine shop in Northeast Wisconsin
+  title: CNC machine shop in Appleton, WI
   description:
     A to Z Machine of Appleton is a leading source for quality CNC and
     precision machining, welding, fabrication and contract manufacturing in
@@ -9,12 +9,20 @@ seo:
   featured_image: /atozmachine-social-preview_mfzxnd.jpg
 hero:
   image:
-    hero_image: employee-inspecting-machined-part.jpg
-    hero_image_alt: null
+    image_url: /employee-inspecting-machined-part_hu_67350ef33be9cf41_fxzfwy.webp
+    image_alt: An A to Z Machine employee welding two large pieces of metal
+  preheading: CNC Machine Shop in Appleton, WI
   heading: Quality from <span class="underline-primary">start to finish</span>
-  body: As a complete machining source, A to Z Machine proudly builds long-term
+  body: >-
+    As a complete machining source, A to Z Machine proudly builds long-term
     partnerships and industry-specific manufactured goods with ultimate
     precision and efficiency.
+  button:
+    enabled: true
+    button_url: /request-a-quote/
+    button_text: Request a Quote
+    button_color: white
+    open_in_new_tab: false
 intro_block:
   heading: The leading CNC machine shop in Northeast Wisconsin
   body: We are an employee-owned team, founded in 1996 by machinists for

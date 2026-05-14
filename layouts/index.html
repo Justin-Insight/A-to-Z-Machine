@@ -1,5 +1,11 @@
 {{ define "main" }}
-{{ partial "home-hero" (dict "Page" . "image" .Params.hero.image.hero_image "alt" .Params.hero.hero_image_alt "heading" .Params.hero.heading "body" .Params.hero.body ) }}
+
+{{ if .Params.hero }}
+  {{ with .Params.hero }}
+    {{ partial "home-hero" . }}
+  {{ end }}
+{{ end }}
+
 <section class="intro flex flex-column flex-row-m">
   <div class="w-100 w-50-m image-column video-trigger">
     {{ partial "responsive-image" (dict "Page" . "image" .Params.intro_block.image.image "alt" .Params.intro_block.image.image_alt ) }}
