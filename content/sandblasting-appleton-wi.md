@@ -188,7 +188,7 @@ content_blocks:
 cta:
   heading: Ready to Keep Your Parts Moving Without Delays?
   body: >-
-    If you’re dealing with rust, coatings or surfaces that aren’t ready for finishing, now is the time to fix it. Our sandblasting services are built for fast turnaround and consistent results. Whether you need standalone surface prep or support as part of a larger manufacturing project, our team can help keep your parts moving from one production stage to the next.
+    If you’re dealing with rust, coatings or surfaces that aren’t ready for finishing, now is the time to fix it. Our sandblasting services are built for a fast turnaround and consistent results. Whether you need standalone surface prep or support as part of a larger manufacturing project, our team can help keep your parts moving from one production stage to the next.
   buttons:
     - enabled: true
       button_url: /request-a-quote/

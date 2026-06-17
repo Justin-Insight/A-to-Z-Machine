@@ -35,7 +35,7 @@ intro:
     When parts don’t come out right the first time, it slows everything down. You lose time fixing edges, dealing with heat distortion or reworking pieces that don’t meet spec. 
 
 
-    With waterjet cutting you get a cold cutting process that keeps your material stable. There’s no heat-affected zone, so parts stay true to your design and are ready for welding, coating or assembly. 
+    With waterjet cutting, you get a cold cutting process that keeps your material stable. There’s no heat-affected zone, so parts stay true to your design and are ready for welding, coating or assembly. 
 
 
     A to Z Machine supports repeat production runs and larger OEM manufacturing programs across multiple industries. Waterjet-cut parts can move directly into machining, fabrication, welding or finishing workflows. This helps simplify coordination and keeps production schedules more predictable. The process works well for materials like steel, stainless steel, aluminum and other production-grade metals. 
@@ -108,7 +108,7 @@ content_blocks:
     preheading:
     heading: Request a Waterjet Cutting Quote
     body: >-
-      If you’re tired of delays, rework or parts that don’t meet your standards, it’s time to switch to a more reliable process. With waterjet cutting you get clean cuts and tight tolerances. 
+      If you’re tired of delays, rework or parts that don’t meet your standards, it’s time to switch to a more reliable process. With waterjet cutting, you get clean cuts and tight tolerances. 
 
 
       A to Z Machine makes it easy to get started. Send your file, get a clear quote and move forward with confidence knowing your parts will be done right. 
