@@ -38,9 +38,9 @@ capabilities:
     
     * [Welding](/welding-appleton-wi/)
 
-    * Water Jetting
+    * [Water Jetting](/waterjet-cutting-appleton-wi/)
 
-    * Sandblasting
+    * [Sandblasting](/sandblasting-appleton-wi/)
 
     * Stress Relieving
   image:
