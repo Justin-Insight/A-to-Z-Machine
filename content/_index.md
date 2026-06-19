@@ -123,6 +123,10 @@ testimonials:
         delivery and quality are outstanding.
       author: Curt Wayne
       job_title: Materials Buyer | Seabee Cylinders
+    - body:
+        Awesome company to work with, they truly embrace the latest and greatest in manufacturing technology!
+      author: Port CNC
+      job_title:
 capabilities_block:
   heading: CNC machining and fabrication capabilities
   body: As an innovative shop with constantly growing capabilities, A to Z

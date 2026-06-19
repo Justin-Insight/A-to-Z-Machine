@@ -6,6 +6,18 @@
     <div class="site-header__top-inner wrapper-lg flex flex-justify-end">
       <ul class="site-header__secondary-menu flex flex-center">
         <li><a href="/blog/">Blog</a></li>
+        <li>
+            <div class="flex flex-center flex-justify-start-md flex-align-center gap-xs">
+              <div class="icon icon-md icon-fill-white">
+                {{ partial "svg-icons/phone.svg" . }}
+              </div>
+              {{ if .Site.Data.site_settings.phone }}
+              <a class="site-header__phone" href="tel:+1{{ .Site.Data.site_settings.phone | replaceRE "[^0-9]" "" }}"><span
+                  class="visually-hidden">Call {{ .Site.Data.site_settings.business_name }} on the phone at </span>{{
+                .Site.Data.site_settings.phone }}</a>
+              {{ end }}
+            </div>
+        </li>
         <li><a href="/request-a-quote/" class="btn btn--secondary">Request a quote</a></li>
       </ul>
     </div>
@@ -67,29 +79,19 @@
           {{ end }}
         </ul>
         <ul class="site-header__contact">
-          <li><a href="/request-a-quote/" class="btn btn--primary">Request a quote</a></li>
-        </ul>
-        <ul class="site-header__social">
-          {{ range .Site.Data.site_settings.social_media }}
-          {{ if .link }}
-          <li class="site-header__social-list-item">
-            <a href="{{ .link }}" class="site-header__social-icon" target="_blank" rel="noopener noreferrer">
-              {{ if eq .title "Facebook" }}
-              {{ partial "svg-icons/facebook.svg" . }}
-              {{ else if eq .title "LinkedIn"}}
-              {{ partial "svg-icons/linkedin.svg" . }}
-              {{ else if eq .title "YouTube"}}
-              {{ partial "svg-icons/youtube.svg" . }}
-              {{ else if eq .title "Instagram"}}
-              {{ partial "svg-icons/instagram.svg" . }}
-              {{ else if eq .title "Twitter"}}
-              {{ partial "svg-icons/twitter.svg" . }}
+          <li>
+            <div class="flex flex-center flex-justify-start-md flex-align-center gap-xs">
+              <div class="icon icon-md icon-fill-white">
+                {{ partial "svg-icons/phone.svg" . }}
+              </div>
+              {{ if .Site.Data.site_settings.phone }}
+              <a style="padding-bottom:0;" class="site-header__phone" href="tel:+1{{ .Site.Data.site_settings.phone | replaceRE "[^0-9]" "" }}"><span
+                  class="visually-hidden">Call {{ .Site.Data.site_settings.business_name }} on the phone at </span>{{
+                .Site.Data.site_settings.phone }}</a>
               {{ end }}
-              <span class="visually-hidden">{{ .title }}</span>
-            </a>
+            </div>
           </li>
-          {{ end }}
-          {{ end }}
+          <li><a href="/request-a-quote/" class="btn btn--primary">Request a quote</a></li>
         </ul>
       </div>
     </div>
