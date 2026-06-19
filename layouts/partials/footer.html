@@ -36,7 +36,7 @@
         <br>
         {{ .Site.Data.site_settings.address.city }}, {{ .Site.Data.site_settings.address.state }} {{ .Site.Data.site_settings.address.zip }}
         <br>
-        <strong>Phone:</strong> <a href="tel:{{ .Site.Data.site_settings.phone }}"> {{ .Site.Data.site_settings.phone }}</a>
+        <strong>Phone:</strong> <a href="tel:+1{{ .Site.Data.site_settings.phone | replaceRE "[^0-9]" "" }}"> {{ .Site.Data.site_settings.phone }}</a>
         <br>
         <strong>Fax:</strong> {{ .Site.Data.site_settings.fax }}
         <img src="/images/mms-top-shop-logo-transparent.png" alt="Modern Machine Shop logo" class="footer-mms-logo">
