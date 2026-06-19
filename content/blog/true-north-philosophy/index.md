@@ -20,9 +20,9 @@ In this month’s blog, Don discusses how and why the company adopted this speci
 
 As company leaders discussed how to best move forward, A to Z’s board of directors was instrumental in bringing options to the table, including the idea of the “True North” guiding philosophy. Then it was up to company leaders to shape the idea, including the company’s purpose, guiding principles and core values. 
 
-Through the brainstorming process, leaders determined that their purpose is to be the machining industry’s supplier and employer of choice. 
+Through the brainstorming process, leaders determined that their purpose is to be the machining industry’s supplier and employer of choice, a standard reflected in A to Z’s [CNC machining services](/capabilities/cnc-machining/) and its commitment to building strong careers.
 
-“They have to go together,” DeWitt said. “There’s no way you’re going to be the supplier of choice if you’re not the employer of choice, and vice-versa.” 
+“They have to go together,” DeWitt said. “There’s no way you’re going to be the supplier of choice if you’re not the employer of choice, and vice-versa.”
 
 From there, leaders adopted a ‘Shingo Model’ journey, “which really clarified for us to how should we be behaving or acting as leaders, and that’s where the guiding principles come into play,” Don said. 
 

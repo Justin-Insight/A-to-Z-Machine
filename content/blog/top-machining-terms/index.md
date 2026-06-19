@@ -10,7 +10,8 @@ categories: ["Articles"]
 
 ![Vertical cnc steel milling with external water coolant treams](vertical-cnc-steel-milling-with-external-water-coolant-streams.jpg)
 
-Whether you're new to precision manufacturing or a seasoned pro, understanding the fundamental terms of machining is crucial. From CNC to tolerance and turning to toolpath, this month’s blog by A to Z Machine in Appleton, WI, explores the machining terminology that powers the world of engineering and manufacturing. A to Z Machine CNC Lathe Machinist **Scott Zehner** shares more.
+Whether you’re new to precision manufacturing or a seasoned pro, understanding the fundamental terms of machining is crucial. From [CNC machining](/capabilities/cnc-machining/) to tolerance and turning to toolpath, this month’s blog by A to Z Machine in Appleton, WI, explores the machining terminology that powers the world of engineering and manufacturing. A to Z Machine CNC Lathe Machinist Scott Zehner shares more.
+
 
 ## What are some basic machining operations?
 

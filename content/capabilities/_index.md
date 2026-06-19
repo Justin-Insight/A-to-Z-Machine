@@ -2,7 +2,7 @@
 title: Capabilities
 seo:
   title: CNC Machining and Fabrication Capabilities
-  description: A to Z Machine of Appleton, Wisconsin provides CNC machining, welding & fabrication & contract manufacturing for food, oil, military, trucking, medical & more.
+  description: Get precision CNC machining, fabrication, welding and contract manufacturing from A to Z Machine in Appleton, WI. Request a quote today!
   featured_image: /woman-wearing-glasses-stands-confidently-by-large-machine_pfe5cg.jpg
   featured_image_alt: A woman wearing glasses stands confidently in front of a large machine
 hero:

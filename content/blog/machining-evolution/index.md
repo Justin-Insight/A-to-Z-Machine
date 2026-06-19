@@ -52,6 +52,6 @@ As for the industry, a focus on automation, artificial intelligence and data con
 
 ## Looking to partner with a leading CNC machine shop?
 
-With our state-of-the-art CNC equipment and [highly skilled team](/careers/), A to Z Machine is equipped to handle diverse machining requirements. Whether you need prototypes, custom parts or large-scale production and weldments, we have the expertise and resources to meet your expectations.
+With our [CNC machining services in Appleton, WI](/capabilities/cnc-machining/), state-of-the-art CNC equipment and highly skilled team, A to Z Machine is equipped to handle diverse machining requirements. Whether you need prototypes, custom parts or large-scale production and weldments, we have the expertise and resources to meet your expectations.
 
 <a class="btn btn--primary" href="/contact/">Contact us today!</a>

@@ -26,7 +26,7 @@ To make the parts, machinists either will work with a piece of raw material or t
 
 “We do a lot of that on the production side,” she said. “On the job shop side, sometimes we’re taking a block of steel, then milling and turning it into the part.”
 
-In either the job shop or the production area, all work is completed on CNC machines. On the job shop side, however, there is a greater variety and size of the type of machines used. 
+In either the job shop or the production area, all work is completed through A to Z’s [CNC machining services](/capabilities/cnc-machining/). On the job shop side, however, there is a greater variety and size of the type of machines used.
 
 Work is fairly evenly divided between both sides. When A to Z started in 1996, it produced mainly job shop type work, but the company has seen a shift to where sales volume is now about half-and-half, Amanda said.
 

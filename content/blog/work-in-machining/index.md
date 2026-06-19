@@ -11,7 +11,7 @@ draft: false
 
 ![CNC machining](cnc-machining.jpg)
 
-If you're looking for a career that offers **stability, growth and an opportunity to work with your hands**, CNC (computer numerical control) machining could be the perfect fit for you. Machinists at A to Z Machine in Appleton, Wisconsin, use precision tools and machinery to create parts and components for a [wide range of industries](https://www.atozmachine.com/industries/), including agriculture, military, material handling, medical and more.
+If you're looking for a career that offers **stability, growth and an opportunity to work with your hands**, [CNC machining](/capabilities/cnc-machining/) could be the perfect fit for you. [Machinists at A to Z Machine in Appleton, Wisconsin](/), use precision tools and machinery to create parts and components for a wide range of industries, including agriculture, military, material handling, medical and more.
 
 A to Z Machine Manufacturing Engineering Manager and IT Manager Marc Manteufel shared that he **enjoys the challenge, problem-solving and creativity** of the work.
 

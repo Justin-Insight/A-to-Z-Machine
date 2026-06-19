@@ -10,7 +10,7 @@ categories: ["Articles"]
 
 ![](a-to-z-machine-machining-simulator.jpg)
 
-One of A to Z Machine’s missions is to be the machining industry’s supplier and employer of choice. That means going beyond what other machine shops can do by acting as a partner and consultant to customers, as well as committing to innovation, growth and development of its team. 
+One of A to Z Machine’s missions is to be the machining industry’s supplier and employer of choice. That means going beyond what other machine shops can do through advanced [CNC machining services](/capabilities/cnc-machining/), customer partnership and a commitment to innovation, growth and team development.
 
 “One of the ways we’re doing that is through our machining simulator,” said **Marc Manteufel**, Manufacturing Engineering Manager and IT Manager. 
 

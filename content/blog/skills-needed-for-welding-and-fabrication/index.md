@@ -10,7 +10,7 @@ categories: ["Articles"]
 
 ![welder working on large metal project](welder-working-on-large-metal-project.jpg)
 
-A to Z Machine in Appleton, Wisconsin, relies on the talent of its welders and fabricators to help complete expert, high-quality projects for its clients. 
+A to Z Machine in Appleton, Wisconsin, relies on the talent of its welders and fabricators to help complete expert, high-quality projects for its clients. Through our [welding services in Appleton, WI](/welding-appleton-wi/), A to Z Machine delivers high-integrity welds built for complex applications, tight tolerances and demanding environments.
 
 “Welding and fabrication is a great field for people who like to work with their hands and are mechanically inclined,” said Tim Miller, fabrication shop manager at A to Z. Miller also taught welding at a technical college and says education is a plus, but that’s only part of what makes a great welding and fabrication team member.
 

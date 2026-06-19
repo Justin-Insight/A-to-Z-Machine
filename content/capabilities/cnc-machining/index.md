@@ -2,7 +2,7 @@
 title: CNC Machining
 layout: services
 seo:
-  title: CNC Machining in Appleton, WI
+  title: CNC Machining Services in Appleton, WI
   description: A to Z Machine, your leading machinists for CNC Machining with high tolerance, prototypes, assemblies, milling & turning services & axis machining in Wisconsin.
   featured_image: /machining_ewgdxk.jpg
   featured_image_alt: machined part
@@ -11,7 +11,7 @@ hero:
     image_url: /machining_ewgdxk.jpg
     image_alt: CNC Machine drilling holes in large metal block
   preheading: 
-  heading: CNC Machining in Appleton, WI
+  heading: CNC Machining Services in Appleton, WI
   body: >-
     As an innovative shop, our CNC machining capabilities are constantly growing. We specialize in CNC machining practices to produce a wide variety of precision machined components from the simplest to most complex parts. Currently, our machines can handle material lengths of 1-200 inches and load capabilities over 30,000 lbs.
   button:

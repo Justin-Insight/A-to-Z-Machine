@@ -26,7 +26,7 @@ A to Z machinists produce parts “from a variety of different materials, includ
 
 The components made by A to Z are used in a wide range of industries, including agriculture, engineering and construction, defense, trucking/transportation, recreational vehicles, marine, oil and gas, and many more. 
 
-A to Z’s production machining center houses 15 machines primarily centered around horizontal and vertical machining equipment. “A to Z can accommodate parts small enough to hold in your hand to much larger components that might be five feet long,”  Rob said. Parts can weigh from about five pounds up to a thousand pounds. 
+A to Z’s [CNC machining services](https://www.atozmachine.com/capabilities/cnc-machining/) are supported by a production machining center with 15 machines primarily centered around horizontal and vertical machining equipment. “A to Z can accommodate parts small enough to hold in your hand to much larger components that might be five feet long,” Rob said. Parts can weigh from about five pounds up to a thousand pounds.
 
 “We have jobs that run on the same machine every day of the year, or we may run a part for two weeks and do a fixture changeover for a different job,” he said. “Our engineering team does a great job of designing fixtures that are easy for our machinists to load and changeover to the next job.”  
 

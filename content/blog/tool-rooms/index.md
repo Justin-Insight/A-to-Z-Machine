@@ -27,7 +27,8 @@ A to Z purchased new equipment, including a coordinate measuring machine (CMM)�
 
 ## The function of a tool room
 
-The staff in the tool rooms support all the CNC machines at A to Z by setting up the necessary cutting tools and gaging for making precision parts for customers, Marc says. Staff assemble various tool components and pieces into the tool assemblies, including a tool holder, retention knob, cutter body and inserts.  
+The staff in the tool rooms support A to Z’s [CNC machining services](/capabilities/cnc-machining/) by setting up the necessary cutting tools and gaging for making precision parts for customers, Marc says. Staff assemble various tool components and pieces into the tool assemblies, including a tool holder, retention knob, cutter body and inserts.
+ 
 
 “We have a digital custom software that we developed for the shop floor to request tool and gauging lists from the tool room,” Marc says. The tool room receives those orders digitally, and the software schedules orders and sends tooling staff a cue to assemble a tool kit and a gauging kit.
 

@@ -8,7 +8,8 @@ date: "2021-01-13"
 categories: ["Articles"]
 ---
 
-A to Z Machine uses advanced RFID and Mazak’s Smooth Tool Technology to increase efficiencies in our workplace.
+A to Z Machine uses advanced RFID and Mazak’s Smooth Tool Technology to increase efficiencies across our [CNC machining services](/capabilities/cnc-machining/) and create a more accurate, organized workflow for our machinists.
+
 
 RFID Technology is a hardware chip located on the cutting tool. Our shop currently has 10 machines using this technology. The RFID chip uses digital data encoded in the tag to store databases about tools. The Smart Tool Technology works with the RFID chip providing the software behind it. The Smart Tool Technology has four main facets being machine design, engineering, support, and CNC technology with smooth technology solutions. This technology transforms information needed about a tool to our machines and computers for easy access to all data.
 

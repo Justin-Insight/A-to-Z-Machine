@@ -10,7 +10,7 @@ categories: ["Articles"]
 
 ![](machinist-operating-cnc-machine.jpg)
 
-As Northeast Wisconsin’s leading precision machine shop, A to Z receives orders from customers who need industry-specific precision parts—sometimes a low mix, high volume order—but more often a high mix, low volume order. 
+As Northeast Wisconsin’s leading precision machine shop, A to Z provides [CNC machining services](/capabilities/cnc-machining/) for customers who need industry-specific precision parts—sometimes a low mix, high volume order—but more often a high mix, low volume order.
 
 That means the team must schedule these jobs precisely to keep the company moving and to keep its customers happy. 
 
