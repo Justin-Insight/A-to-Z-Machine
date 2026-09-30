@@ -8,10 +8,12 @@
 
 <section class="block">
   <div class="grid-3 wrapper-lg">
-    {{ $paginator := .Paginate ( where .Data.Pages "Type" "blog" ) }}
+    {{ $paginator := .Paginate (where .Site.RegularPages "Section" "blog") }}
     {{ range $paginator.Pages }}
-    {{ .Render "article" }}
+        {{ .Render "article" }}
     {{ end }}
+
+
   </div>
   <div class="wrapper-lg">
     {{ partial "blog/custom-pagination.html" . }}

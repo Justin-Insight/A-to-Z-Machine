@@ -16,9 +16,6 @@
         </div>
         <div class="blog-summary__content flow">
           <h3 class="blog-summary__title h4">{{ .Title }}</h3>
-          <p class="blog-summary__summary">
-            {{ if .Params.summary }}{{ .Params.summary | truncate 90 | safeHTML }}{{ else }}{{ .Summary  | truncate 90 | safeHTML }}{{ end }}
-          </p>
           <span class="btn btn--secondary">Read More</span>
         </div>
       </div>

@@ -4,9 +4,8 @@ title = "A to Z Machine"
 enableRobotsTXT = true
 disableAliases = true
 googleAnalytics = "G-0692372BX5"
-# post pagination
-paginate = "9"
-summaryLength = 30
+[pagination]
+pagerSize = 9
 timeout = 200000
 
 #################### default parameters ################################
